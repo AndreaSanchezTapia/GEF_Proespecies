@@ -1,4 +1,4 @@
-# le da API da IUCN e salva em data/UICN_BR.csv
+# lê da API da IUCN e salva em data/UICN_BR.csv
 library(dplyr)
 library(jsonlite)
 token <- readLines("./accessory/token_IUCN")
@@ -10,3 +10,4 @@ UICN_br_data <- fromJSON(get)
 spp <- UICN_br_data$result
 dir.create("data")
 readr::write_csv(spp, "./data/UICN_BR.csv")
+
