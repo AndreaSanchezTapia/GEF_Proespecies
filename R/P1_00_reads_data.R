@@ -2,14 +2,17 @@ library(readxl)
 library(dplyr)
 library(tidyr)
 library(flora)
+#remotes::install_github("liibre/Rocc")
+library(Rocc)
 
 #1. ler todas as fontes de dados----
 ## IUCN_BR_SP
 IUCN_CNCFlora_BR_SP <- read_xlsx("data/DADOS/Flora_EstadoSP_Listas_IUCN_CNCFlora_BR_SP.xlsx")
 names(IUCN_CNCFlora_BR_SP)
-IUCN_CNCFlora_BR_SP_format <- IUCN_CNCFlora_BR_SP %>% unite(col = "Nome cientifico", Gênero, `Epíteto Específico`, remove = F, sep = " ")
-IUCN_CNCFlora_BR_SP_format %>% count(Reino)#only plants
-
+IUCN_CNCFlora_BR_SP %>% count(Reino)#only plants
+IUCN_CNCFlora_BR_SP_format <- IUCN_CNCFlora_BR_SP %>%
+  unite(col = "Nome cientifico", Gênero, `Epíteto Específico`, remove = F, sep = " ")
+IUCN_CNCFlora_BR_SP_format
 ## Sao Paulo
 SP <- read_xlsx("data/DADOS/Flora_Ameacada_SPOficial.xlsx")
 SP_no_auth <- sapply(X = SP$Espécie, FUN = remove.authors)
