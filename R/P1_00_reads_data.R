@@ -36,8 +36,7 @@ IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
   select(any_of(campos_p1), starts_with("cat_ameaca"))
 names(IUCN_CNCFlora_BR_SP)
 # salva ----
-write_csv(IUCN_CNCFlora_BR_SP, "data/dados_formatados/IUCN_CNCFlora_BR_SP_format.csv")
-
+write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
 
 ## 2. le Sao Paulo ----
 SP <- read_xlsx("data/DADOS/Flora_Ameacada_SPOficial.xlsx")
@@ -71,18 +70,15 @@ rocc_check$especie[rocc_check$species_status != "name_w_authors"][i] <- remove.a
 SP$especie <- rocc_check$especie
 # seleciona os nomes
 SP <- SP %>% select(familia, especie_autor, especie, cat_ameaca_sp)
-write_csv(SP, "data/dados_formatados/SP_format.csv")
+write_csv(SP,fs::path(output, "SP_Oficial_format", ext = "csv"))
 #blz
 
 
 ## CR_Lacuna
 CR_Lac <- readxl::read_xlsx("data/DADOS/CR_Lacuna_ProEspecies_Originais_Territorio20.xlsx")
-CR_Lac <- CR_Lac %>% filter(Grupão == "Flora")
-
-#Guarda formatados
-output <- "data/dados_formatados"
-dir.create(output)
-write_csv(IUCN_CNCFlora_BR_SP_format, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
-write_csv(SP,fs::path(output, "SP_Oficial_format", ext = "csv"))
+CR_Lac <- clean_names(CR_Lac)
+CR_Lac <- CR_Lac %>% filter(grupao == "Flora") %>%
+  rename(especie = especie_simplificado,
+         cat_ameaca_CR_lac = categoria)
+names(CR_Lac)
 write_csv(CR_Lac,fs::path(output, "CR_Lac_format", ext = "csv"))
-
