@@ -15,17 +15,15 @@ UICN_BR <- distinct(UICN_BR)
 #Obtivemos a lista de espécies avaliadadas pela UICN usando a API. Em `lubridate::today()`, esta lista continha `r nrow(UICN_BR)` nomes únicos.
 
 # rename para padrao
-output <- "data/dados formatados"
+output <- "data/dados_formatados"
 UICN_BR <- UICN_BR %>% rename(especie = scientific_name,
                    subespecie = subspecies,
                    cat_ameaca_iucn = category)
-write_csv(UICN_BR, file = fs::path(output, "UICN_BR", ext = "csv"))
+write_csv(UICN_BR, file = fs::path(output, "UICN_BR", ext = "csv"), na = "s.i.")
 
 campos_p1
 
-
 # checks with flora
-
 flora_IUCN <- get.taxa(UICN_BR$especie,
                        states = TRUE,
                        suggest.names = T,
@@ -37,11 +35,12 @@ flora_IUCN <- get.taxa(UICN_BR$especie,
                        establishment = T,
                        domain = T,
                        endemism = T)
-readr::write_csv(flora_IUCN, "./data/UICN_BR_flora.csv")
+readr::write_csv(flora_IUCN, file = fs::path(output, "UICN_BR_flora", ext = "csv"), na = "s.i.")
 
 UICN_Flora_SP <- flora_IUCN %>% filter(!is.na(occurrence)) %>%
   filter(str_detect(occurrence, pattern = "SP"))
-readr::write_csv(UICN_Flora_SP, "./data/UICN_SP_flora.csv")
+
+readr::write_csv(UICN_Flora_SP, file = fs::path(output, "UICN_SP_flora", ext = "csv"), na = "s.i.")
 
 #A partir da lista de especies da flora do Brasil, buscamos as espécies que se encontram no estado de São Paulo usando o pacote flora de R. Segundo a Flora do Brasil, das `r nrow(UICN_BR)` espécies avaliadas pela UICN para o Brasil, `r nrow(UICN_FLora_SP)` ocorrem no Estado de São Paulo.
 #kableExtra::kable(UICN_Flora_SP)

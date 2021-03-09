@@ -26,6 +26,7 @@ IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
   rename(cat_ameaca_br_old = br_oficial_publicado_em_portaria_pelo_mma,
          cat_ameaca_cncflora_old = cnc_flora_atual_quando_diferente_da_coluna_anterior,
          cat_ameaca_sp_old = sp)
+IUCN_CNCFlora_BR_SP %>% select(starts_with("cat_ameaca")) %>% count(cat_ameaca_br_old, cat_ameaca_sp_old, cat_ameaca_cncflora_old) %>% View()
 # checa se tem outros clados
 IUCN_CNCFlora_BR_SP %>% count(reino)#only plants
 
@@ -36,7 +37,7 @@ IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
   select(any_of(campos_p1), starts_with("cat_ameaca"))
 names(IUCN_CNCFlora_BR_SP)
 # salva ----
-write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
+write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"), na = "s.i.")
 
 ## 2. le Sao Paulo ----
 SP <- read_xlsx("data/DADOS/Flora_Ameacada_SPOficial.xlsx")
@@ -70,7 +71,7 @@ rocc_check$especie[rocc_check$species_status != "name_w_authors"][i] <- remove.a
 SP$especie <- rocc_check$especie
 # seleciona os nomes
 SP <- SP %>% select(familia, especie_autor, especie, cat_ameaca_sp)
-write_csv(SP,fs::path(output, "SP_Oficial_format", ext = "csv"))
+write_csv(SP,fs::path(output, "SP_Oficial_format", ext = "csv"), na = "s.i.")
 #blz
 
 
@@ -81,4 +82,4 @@ CR_Lac <- CR_Lac %>% filter(grupao == "Flora") %>%
   rename(especie = especie_simplificado,
          cat_ameaca_CR_lac = categoria)
 names(CR_Lac)
-write_csv(CR_Lac,fs::path(output, "CR_Lac_format", ext = "csv"))
+write_csv(CR_Lac,fs::path(output, "CR_Lac_format", ext = "csv"), na = "s.i.")
