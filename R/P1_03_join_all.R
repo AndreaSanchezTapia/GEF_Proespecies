@@ -28,7 +28,7 @@ lista_unificada <- full_join(sima, SP_Oficial) %>%    #3834
   full_join(CR_Lac) %>%            #3834
   left_join(P443) %>% arrange(especie)
 
-write_csv(lista_unificada, "lista_sima_sp_p443_cr_suja.csv")
+write_csv(lista_unificada, "output/02_lista_suja.csv")
 length(unique(lista_unificada$especie))
   full_join(uicn_sp_flora) %>% View()
 mandar
@@ -49,7 +49,7 @@ names(flora_tudo)
 count(flora_tudo, notes)
 count(flora_tudo, threat.status)
 count(flora_tudo, taxon.status)
-readr::write_csv(flora_tudo, file = fs::path(output, "flora_tudo", ext = "csv"), na = "s.i.")
+readr::write_csv(flora_tudo, file = fs::path("output", "03_flora_tudo", ext = "csv"), na = "s.i.")
 
 #juntar com a base unificada e examinar.
 
