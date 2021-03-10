@@ -1,8 +1,6 @@
 library(readr)
 library(dplyr)
-library(stringr)
 library(fs)
-devtools::load_all("../../R_packages/flora/")
 
 # reads IUCN data
 UICN_BR <- read_csv("./data/dados_crus/UICN_BR.csv", guess_max = 10000, col_types = "cccccc")

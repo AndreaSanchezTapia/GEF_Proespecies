@@ -14,19 +14,21 @@ library(janitor)
 campos_p1 <- c("grupo", "familia", "genero", "epiteto_especifico", "especie", "sinonimia", "fonte_sinonimia", "cat_ameaca_iucn", "cat_ameaca_br", "cat_ameaca_cncflora", "cat_ameaca_sp")
 
 # 1. ler IUCN_BR_SP ----
-IUCN_CNCFlora_BR_SP <- read_xlsx("data/DADOS/Flora_EstadoSP_Listas_IUCN_CNCFlora_BR_SP.xlsx")
+IUCN_CNCFlora_BR_SP <- read_xlsx("data/dados_crus/Flora_EstadoSP_Listas_IUCN_CNCFlora_BR_SP.xlsx")
 
 # rename columns ----
 IUCN_CNCFlora_BR_SP <- clean_names(IUCN_CNCFlora_BR_SP)
 names(IUCN_CNCFlora_BR_SP)# tem campos demais
-
+5
 # manter categorias anteriores ----
 #vou revisar so no final
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
   rename(cat_ameaca_br_old = br_oficial_publicado_em_portaria_pelo_mma,
          cat_ameaca_cncflora_old = cnc_flora_atual_quando_diferente_da_coluna_anterior,
          cat_ameaca_sp_old = sp)
-IUCN_CNCFlora_BR_SP %>% select(starts_with("cat_ameaca")) %>% count(cat_ameaca_br_old, cat_ameaca_sp_old, cat_ameaca_cncflora_old) %>% View()
+IUCN_CNCFlora_BR_SP %>%
+  select(starts_with("cat_ameaca")) %>%
+  count(cat_ameaca_br_old, cat_ameaca_sp_old, cat_ameaca_cncflora_old) %>% View()
 # checa se tem outros clados
 IUCN_CNCFlora_BR_SP %>% count(reino)#only plants
 
@@ -40,7 +42,7 @@ names(IUCN_CNCFlora_BR_SP)
 write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"), na = "s.i.")
 
 ## 2. le Sao Paulo ----
-SP <- read_xlsx("data/DADOS/Flora_Ameacada_SPOficial.xlsx")
+SP <- read_xlsx("data/dados_crus/Flora_Ameacada_SPOficial.xlsx")
 SP <- janitor::clean_names(SP)
 SP$familia <- stringr::str_to_sentence(SP$familia)
 SP <- SP %>% rename(especie_autor = especie)
