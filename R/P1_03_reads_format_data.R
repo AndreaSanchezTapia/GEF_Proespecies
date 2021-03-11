@@ -5,7 +5,8 @@ library(tidyr)
 library(flora)
 library(readr)
 #remotes::install_github("liibre/Rocc")
-library(Rocc)
+#library(Rocc)
+devtools::load_all("../../R_packages/Rocc/")
 library(stringr)
 library(textclean)
 library(janitor)
@@ -60,14 +61,19 @@ count(rocc_check, species_status, species_status_2)
 rocc_check <- rocc_check %>%
   mutate(especie = case_when(
   species_status %in% c("subspecies", "variety", "forma") ~ verbatim_species,
+  species_status %in% c("indet") ~ verbatim_species,
   species_status_2 %in% c("possibly_ok") & species_status %in% c("name_w_authors") ~ species_2))
+any(is.na(rocc_check$especie))
 
 # modificar a mao os que faltam
 l <- length(rocc_check$especie[rocc_check$species_status != "name_w_authors"])
 for (i in seq_along(1:l)) {
 rocc_check$especie[rocc_check$species_status != "name_w_authors"][i] <- remove.authors(rocc_check$especie[rocc_check$species_status != "name_w_authors"][i])
 }
+rocc_check$especie[rocc_check$species_status =="indet"] <- check_string(rocc_check$especie[rocc_check$species_status == "indet"])$species
+rocc_check$especie[rocc_check$species_status == "indet"]
 SP$especie_original <- rocc_check$especie
+
 # seleciona os nomes
 SP <- SP %>% select(familia, especie_autor, especie_original, cat_ameaca_sp)
 SP <- SP %>% mutate(fonte = "SP_oficial")
