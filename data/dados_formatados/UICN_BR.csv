@@ -1,4 +1,4 @@
-taxonid,especie,subespecie,rank,subpopulation,cat_ameaca_iucn,fonte
+taxonid,especie_original,subespecie,rank,subpopulation,cat_ameaca_iucn,fonte
 151959295,Abarema adenophora,s.i.,s.i.,s.i.,LC,IUCN
 145688533,Abarema auriculata,s.i.,s.i.,s.i.,LC,IUCN
 22484069,Abarema barbouriana,s.i.,s.i.,s.i.,LC,IUCN

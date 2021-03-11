@@ -14,7 +14,7 @@ UICN_BR <- distinct(UICN_BR)
 
 # rename para padrao
 output <- "data/dados_formatados"
-UICN_BR <- UICN_BR %>% rename(especie = scientific_name,
+UICN_BR <- UICN_BR %>% rename(especie_original = scientific_name,
                    subespecie = subspecies,
                    cat_ameaca_iucn = category) %>%
   mutate(fonte = "IUCN")
