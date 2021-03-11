@@ -35,9 +35,11 @@ cncflora_format_dual %>% filter(!is.na(cat_ameaca_cncflora_0))
 #save
 output <- "data/dados_formatados"
 write_csv(cncflora_format_dual, fs::path(output, "cncflora_format.csv"))
-# checa quais dessas especies estao em sao paulo
 
-cncfloraweb_flora <- get.taxa(cncflora_format$especie,
+
+# checa quais dessas especies estao em sao paulo
+cncflora_flora
+cncflora_flora <- get.taxa(cncflora_format_dual$especie_original,
                            states = TRUE,
                            suggest.names = T,
                            replace.synonyms = T,
@@ -49,31 +51,22 @@ cncfloraweb_flora <- get.taxa(cncflora_format$especie,
                            domain = T,
                            endemism = T)
 #rename
-cncfloraweb_flora$especie <- cncfloraweb_flora$original.search
+cncflora_flora$especie_original <- cncflora_flora$original.search
 #junta
-cncfloraweb_all <- full_join(cncflora_format, cncfloraweb_flora)
-cncfloraweb_all <- distinct(cncfloraweb_all)
+cncflora_all <- full_join(cncflora_format_dual, cncflora_flora) #7518
+cncflora_all <- distinct(cncflora_all)
 
 #only SP
-cncfloraweb_SP <- cncfloraweb_all %>%
+cncflora_SP <- cncflora_all %>%
   filter(!is.na(occurrence)) %>%
   filter(str_detect(occurrence, pattern = "SP"))
-
-# sgundo a pagina do cncflora e a flora do brasil, haveria 2100 especies que
+#2240
+# segundo a pagina do cncflora e a flora do brasil, haveria 2100 especies que
 #ja foram avaliadas pelo cncflora e estao na pagina eles que se encotram no estado de sao paulo
+#segundo o cncflora ate outubro sao 2240! boa.
 
-#temos sinonimos
-cncfloraweb_SP %>% count(taxon.status, notes)
-
-#
-cncfloraweb_SP %>% filter(notes == "replaced synonym")
-cncfloraweb_SP %>% count(threat.status)
-
-# algumas especies mudaram de estatus de conservacao na hora de mudar o nome
-cncflora_shift_status <- cncfloraweb_SP %>%
-  filter(cat_ameaca_cncfloraweb != threat.status)
-write_csv(cncflora_shift_status, "output/04_cncflora_shift_status.csv")
 
 #salva so nome e cat_ameaca
-cncfloraweb_SP %>% select(especie, cat_ameaca_cncfloraweb) %>%
-  write_csv("data/dados_formatados/cncflora_SP_format.csv")
+names(cncflora_SP)
+cncflora_SP <- cncflora_SP %>% select(especie_original, starts_with("cat_ameaca"))
+write_csv(cncflora_SP, "data/dados_formatados/cncflora_SP_format.csv", na = "s.i.")
