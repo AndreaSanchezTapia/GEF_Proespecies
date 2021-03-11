@@ -1,5 +1,6 @@
 #formats cncfloraweb
 library(readxl)
+devtools::load_all("../../R_packages/flora/")
 #cncflora pagina web ler e formatar
 #cncflora_flora <- read_csv("./data/dados_crus/status_cncflora.csv")
 #agora usamos o excel oficial
@@ -8,7 +9,8 @@ cncflora <- read_xlsx("data/dados_crus/Lista de avaliadas CNCFlora até outubro 
 names(cncflora)
 
 #corrige cattleya labiata 0 e 1
-cncflora$Selecionar_ultima_avaliacao[cncflora$`Taxa avaliado` == "Cattleya labiata" & cncflora$Ano == 2013] <- 0
+cncflora$`Taxa avaliado`[cncflora$`Taxa avaliado` == "Cattleya labiata" & cncflora$Ano == 2013]
+cncflora$`Taxa avaliado`[cncflora$`Taxa avaliado` == "Cattleya labiata" & cncflora$Ano == 2018] <- "Cattleya lobata"
 
 cncflora_format <- cncflora %>% rename(
   especie_original = `Taxa avaliado`,
@@ -28,8 +30,9 @@ cncflora_format %>% filter(especie_original %in% reavaliados) %>% count(especie_
 library(tidyr)
 cncflora_format_dual <- pivot_wider(data = cncflora_format,
                                     id_cols = "especie_original",
-                                      names_from = "avaliacao",
-                                    values_from = "cat_ameaca_cncflora", names_prefix = "cat_ameaca_cncflora_")
+                                    names_from = "avaliacao",
+                                    values_from = "cat_ameaca_cncflora",
+                                    names_prefix = "cat_ameaca_cncflora_")
 cncflora_format_dual
 cncflora_format_dual %>% filter(!is.na(cat_ameaca_cncflora_0))
 #save
@@ -70,3 +73,6 @@ cncflora_SP <- cncflora_all %>%
 names(cncflora_SP)
 cncflora_SP <- cncflora_SP %>% select(especie_original, starts_with("cat_ameaca"))
 write_csv(cncflora_SP, "data/dados_formatados/cncflora_SP_format.csv", na = "s.i.")
+
+
+
