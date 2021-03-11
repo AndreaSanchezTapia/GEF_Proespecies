@@ -47,6 +47,7 @@ for (i in seq_along(1:l)) {
 }
 names(P443)
 P443 <- P443 %>% rename(especie_autor = especie)
-P443$especie <- rocc_check$especie
-names(P443)
+P443$especie_original <- rocc_check$especie
+head(P443)
+
 write_csv(P443, "data/dados_formatados/especiesportaria443_format.csv")
