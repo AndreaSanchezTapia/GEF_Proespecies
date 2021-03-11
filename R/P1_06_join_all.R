@@ -4,51 +4,50 @@ library(stringr)
 devtools::load_all("../../R_packages/flora/")#dados de 8 de marco
 #Rocc::update_flora(force_update = T)
 
-#cncflora pagina ler e formatar
-cncflora_flora <- read_csv("./data/dados_crus/status_cncflora.csv")
-cncflora_format <- cncflora_flora %>%
-  rename(especie = search.str,
-         cat_ameaca_cncfloraweb = threat.status) %>%
-  select(cat_ameaca_cncfloraweb, especie)
-output <- "data/dados_formatados"
-write_csv(cncflora_format, fs::path(output, "status_cncflora_format.csv"))
 
 #le tudo formatado
 files <- list.files(output, full.names = T, pattern = "format")
-
+files <- files[-1]
 names_files <- simplify2array(strsplit(basename(files), ".csv"))
 all_files <- purrr::map(files, readr::read_csv, na = "s.i.")
 names(all_files) <- names_files
-
-
-#reads uicn_sp_flora names only
-uicn_sp_flora <- list.files(output, full.names = T, pattern = "names_only")
-uicn_sp_flora <- read_csv(uicn_sp_flora)
-
 names(all_files)
+
+#mirar que columnas hay
 purrr::map(all_files, ~names(.x))
-dados_merge <- purrr::map(all_files, ~select(.x, "especie", starts_with("cat_ameaca")))
+dados_merge <- purrr::map(all_files, ~select(.x, "especie_original", starts_with("cat_ameaca")))
 
-CR_Lac       <- dados_merge$CR_Lac_format
-sima         <- dados_merge$IUCN_CNCFlora_BR_SP_format
-SP_Oficial   <- dados_merge$SP_Oficial_format
-P443         <- dados_merge$especiesportaria443_format
-cncflora_web <- dados_merge$status_cncflora_format
+CR_Lac        <- dados_merge$CR_Lac_format
+sima          <- dados_merge$IUCN_CNCFlora_BR_SP_format
+SP_Oficial    <- dados_merge$SP_Oficial_format
+P443          <- dados_merge$especiesportaria443_format
+#cncflora_web <- dados_merge$status_cncflora_format
+cncflora_SP   <- dados_merge$cncflora_SP_format
+UICN_SP       <- dados_merge$UICN_SP_flora_format
+mpo_SP        <- dados_merge$mpoSP_format
+dup <- function(x) nrow(x) == nrow(distinct(x))
+purrr::map_df(all_files, ~dup(.x)) #ninguna tiene duplicados internos
 
 
-dim(sima)                          #3771
-lista_unificada <- full_join(sima, SP_Oficial) %>%    #3834
-  full_join(CR_Lac) %>%            #3834
-  left_join(P443) %>%
-  left_join(cncflora_web) %>%
-  arrange(especie)
+Lista_parcial <- full_join(sima, SP_Oficial) %>%    #3832
+  full_join(CR_Lac) %>%            #3832
+  full_join(cncflora_SP) %>%     #4810
+  full_join(UICN_SP) %>%
+  left_join(P443) %>%             #4810
+#tocaria chequear que dice fb2020 sobre p443
+    arrange(especie_original) %>%
+  distinct() #pierde cinco, una locura
+Lista_parcial[is.na(Lista_parcial$especie_original),]
+sum(str_detect(Lista_parcial$especie_original, "var."))
+write_csv(Lista_parcial, "output/02_lista_parcial.csv", na = "s.i.")
 
-write_csv(lista_unificada, "output/02_lista_suja.csv", na = "s.i.")
-length(unique(lista_unificada$especie))
-  full_join(uicn_sp_flora) %>% View()
-mandar
-comecar_aqui
-  #compara com a flora do brasil cada dataset
+
+
+
+
+
+
+#compara com a flora do brasil cada dataset
 flora_tudo <- get.taxa(unique(lista_unificada$especie),
                        states = TRUE,
                        suggest.names = T,
