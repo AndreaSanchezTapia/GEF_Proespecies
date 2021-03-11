@@ -32,7 +32,11 @@ IUCN_CNCFlora_BR_SP %>% count(reino)#only plants
 
 # cria coluna especie sera a unica que usaremos ----
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
-  unite(col = "especie_original", genero, epiteto_especifico, remove = F, sep = " ") %>%
+  mutate(var = if_else(!is.na(var), paste("var.", var), var),
+         subsp = if_else(!is.na(subsp), paste("subsp.", subsp), subsp))
+
+IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
+  unite(col = "especie_original", genero, epiteto_especifico, subsp, var, remove = F, sep = " ",  na.rm = T) %>%
   #seleciona campos e as categorias antigas de ameaca
   select(especie_original, any_of(campos_p1), starts_with("cat_ameaca"))
 names(IUCN_CNCFlora_BR_SP)

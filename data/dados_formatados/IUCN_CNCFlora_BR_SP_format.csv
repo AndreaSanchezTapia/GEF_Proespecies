@@ -63,11 +63,11 @@ Pilosocereus aureispinus,Cactaceae,Pilosocereus,aureispinus,s.i.,DD,s.i.,sima
 Pseudoacanthocereus brasiliensis,Cactaceae,Pseudoacanthocereus,brasiliensis,s.i.,DD,s.i.,sima
 Rhipsalis crispata,Cactaceae,Rhipsalis,crispata,s.i.,DD,VU,sima
 Rhipsalis dissimilis,Cactaceae,Rhipsalis,dissimilis,s.i.,DD,EN,sima
-Rhipsalis hileiabaiana,Cactaceae,Rhipsalis,hileiabaiana,s.i.,DD,s.i.,sima
+Rhipsalis hileiabaiana subsp. hileiabaiana,Cactaceae,Rhipsalis,hileiabaiana,s.i.,DD,s.i.,sima
 Rhipsalis sulcata,Cactaceae,Rhipsalis,sulcata,s.i.,DD,s.i.,sima
 Tacinga funalis,Cactaceae,Tacinga,funalis,s.i.,DD,s.i.,sima
 Tacinga inamoena,Cactaceae,Tacinga,inamoena,s.i.,DD,s.i.,sima
-Tacinga saxatilis,Cactaceae,Tacinga,saxatilis,s.i.,DD,s.i.,sima
+Tacinga saxatilis subsp. estevesii,Cactaceae,Tacinga,saxatilis,s.i.,DD,s.i.,sima
 Tacinga werneri,Cactaceae,Tacinga,werneri,s.i.,DD,s.i.,sima
 Belemia fucsioides,Nyctaginaceae,Belemia,fucsioides,s.i.,DD,s.i.,sima
 Elachyptera coriacea,Celastraceae,Elachyptera,coriacea,s.i.,DD,s.i.,sima
@@ -137,7 +137,7 @@ Gustavia longepetiolata,Lecythidaceae,Gustavia,longepetiolata,s.i.,DD,s.i.,sima
 Lecythis barnebyi,Lecythidaceae,Lecythis,barnebyi,s.i.,DD,s.i.,sima
 Abarema acreana,Fabaceae,Abarema,acreana,s.i.,DD,s.i.,sima
 Abarema villifera,Fabaceae,Abarema,villifera,s.i.,DD,s.i.,sima
-Aeschynomene sensitiva,Fabaceae,Aeschynomene,sensitiva,s.i.,DD,s.i.,sima
+Aeschynomene sensitiva var. hispidula,Fabaceae,Aeschynomene,sensitiva,s.i.,DD,s.i.,sima
 Aldina microphylla,Fabaceae,Aldina,microphylla,s.i.,DD,s.i.,sima
 Aldina occidentalis,Fabaceae,Aldina,occidentalis,s.i.,DD,s.i.,sima
 Aldina polyphylla,Fabaceae,Aldina,polyphylla,s.i.,DD,s.i.,sima
@@ -149,7 +149,7 @@ Calliandra jariensis,Fabaceae,Calliandra,jariensis,s.i.,DD,s.i.,sima
 Centrosema jaraguaense,Fabaceae,Centrosema,jaraguaense,s.i.,DD,s.i.,sima
 Centrosema teresae,Fabaceae,Centrosema,teresae,s.i.,DD,s.i.,sima
 Chamaecrista aristata,Fabaceae,Chamaecrista,aristata,s.i.,DD,s.i.,sima
-Chamaecrista brevicalyx,Fabaceae,Chamaecrista,brevicalyx,s.i.,DD,s.i.,sima
+Chamaecrista brevicalyx var. elliptica,Fabaceae,Chamaecrista,brevicalyx,s.i.,DD,s.i.,sima
 Chamaecrista choriophylla,Fabaceae,Chamaecrista,choriophylla,s.i.,DD,s.i.,sima
 Chamaecrista dentata,Fabaceae,Chamaecrista,dentata,s.i.,DD,s.i.,sima
 Chamaecrista strictifolia,Fabaceae,Chamaecrista,strictifolia,s.i.,DD,s.i.,sima
@@ -157,7 +157,7 @@ Chloroleucon extortum,Fabaceae,Chloroleucon,extortum,s.i.,DD,s.i.,sima
 Dahlstedtia castaneifolia,Fabaceae,Dahlstedtia,castaneifolia,s.i.,DD,s.i.,sima
 Dahlstedtia dehiscens,Fabaceae,Dahlstedtia,dehiscens,s.i.,DD,s.i.,sima
 Dalbergia hortensis,Fabaceae,Dalbergia,hortensis,s.i.,DD,s.i.,sima
-Chamissoa acuminata,Amaranthaceae,Chamissoa,acuminata,s.i.,DD,s.i.,sima
+Chamissoa acuminata var. maximilianii,Amaranthaceae,Chamissoa,acuminata,s.i.,DD,s.i.,sima
 Dicymbe heteroxylon,Fabaceae,Dicymbe,heteroxylon,s.i.,DD,s.i.,sima
 Dimorphandra mediocris,Fabaceae,Dimorphandra,mediocris,s.i.,DD,s.i.,sima
 Froelichia interrupta,Amaranthaceae,Froelichia,interrupta,s.i.,DD,s.i.,sima
@@ -341,7 +341,7 @@ Funifera ericiflora,Thymelaeaceae,Funifera,ericiflora,s.i.,DD,s.i.,sima
 Terminalia triflora,Combretaceae,Terminalia,triflora,s.i.,DD,s.i.,sima
 Diplusodon kielmeyeroides,Lythraceae,Diplusodon,kielmeyeroides,s.i.,DD,s.i.,sima
 Diplusodon vidalii,Lythraceae,Diplusodon,vidalii,s.i.,DD,s.i.,sima
-Lafoensia vandelliana,Lythraceae,Lafoensia,vandelliana,s.i.,DD,s.i.,sima
+Lafoensia vandelliana subsp. replicata,Lythraceae,Lafoensia,vandelliana,s.i.,DD,s.i.,sima
 Bellucia riparia,Melastomataceae,Bellucia,riparia,s.i.,DD,s.i.,sima
 Bellucia wurdackiana,Melastomataceae,Bellucia,wurdackiana,s.i.,DD,s.i.,sima
 Cambessedesia glaziovii,Melastomataceae,Cambessedesia,glaziovii,s.i.,DD,s.i.,sima
@@ -377,7 +377,7 @@ Eugenia laxa,Myrtaceae,Eugenia,laxa,s.i.,DD,s.i.,sima
 Eugenia percincta,Myrtaceae,Eugenia,percincta,s.i.,DD,s.i.,sima
 Eugenia serraegrandis,Myrtaceae,Eugenia,serraegrandis,s.i.,DD,s.i.,sima
 Eugenia solimoensis,Myrtaceae,Eugenia,solimoensis,s.i.,DD,s.i.,sima
-Leandra humilis,Melastomataceae,Leandra,humilis,s.i.,DD,s.i.,sima
+Leandra humilis var. glabrata,Melastomataceae,Leandra,humilis,s.i.,DD,s.i.,sima
 Eugenia tenuiflora,Myrtaceae,Eugenia,tenuiflora,s.i.,DD,s.i.,sima
 Myrcia neoestrellensis,Myrtaceae,Myrcia,neoestrellensis,s.i.,DD,s.i.,sima
 Myrcia neorostrata,Myrtaceae,Myrcia,neorostrata,s.i.,DD,s.i.,sima
@@ -399,7 +399,7 @@ Vochysia parviflora,Vochysiaceae,Vochysia,parviflora,s.i.,DD,s.i.,sima
 Vochysia revoluta,Vochysiaceae,Vochysia,revoluta,s.i.,DD,s.i.,sima
 Sloanea dubia,Elaeocarpaceae,Sloanea,dubia,s.i.,DD,s.i.,sima
 Sloanea erismoides,Elaeocarpaceae,Sloanea,erismoides,s.i.,DD,s.i.,sima
-Anomospermum reticulatum,Menispermaceae,Anomospermum,reticulatum,s.i.,DD,s.i.,sima
+Anomospermum reticulatum subsp. nitidum,Menispermaceae,Anomospermum,reticulatum,s.i.,DD,s.i.,sima
 Chondrodendron platiphyllum,Menispermaceae,Chondrodendron,platiphyllum,s.i.,DD,s.i.,sima
 Sciadotenia acutifolia,Menispermaceae,Sciadotenia,acutifolia,s.i.,DD,s.i.,sima
 Ungulipetalum filipendulum,Menispermaceae,Ungulipetalum,filipendulum,s.i.,DD,s.i.,sima
@@ -417,7 +417,7 @@ Ficus ursina,Moraceae,Ficus,ursina,s.i.,DD,s.i.,sima
 Ficus velutina,Moraceae,Ficus,velutina,s.i.,DD,s.i.,sima
 Helicostylis heterotricha,Moraceae,Helicostylis,heterotricha,s.i.,DD,s.i.,sima
 Naucleopsis jamariensis,Moraceae,Naucleopsis,jamariensis,s.i.,DD,s.i.,sima
-Perebea rubra,Moraceae,Perebea,rubra,s.i.,DD,s.i.,sima
+Perebea rubra subsp. glabrifolia,Moraceae,Perebea,rubra,s.i.,DD,s.i.,sima
 Agrimonia parviflora,Rosaceae,Agrimonia,parviflora,s.i.,DD,EX,sima
 Coussapoa floccosa,Urticaceae,Coussapoa,floccosa,s.i.,DD,s.i.,sima
 Pilea hydra,Urticaceae,Pilea,hydra,s.i.,DD,s.i.,sima
@@ -425,7 +425,7 @@ Pilea rhizobola,Urticaceae,Pilea,rhizobola,s.i.,DD,EX,sima
 Struthanthus marginatus,Loranthaceae,Struthanthus,marginatus,s.i.,DD,s.i.,sima
 Struthanthus taubatensis,Loranthaceae,Struthanthus,taubatensis,s.i.,DD,s.i.,sima
 Heisteria amazonica,Olacaceae,Heisteria,amazonica,s.i.,DD,s.i.,sima
-Schinopsis brasiliensis,Anacardiaceae,Schinopsis,brasiliensis,s.i.,DD,s.i.,sima
+Schinopsis brasiliensis var. glabra,Anacardiaceae,Schinopsis,brasiliensis,s.i.,DD,s.i.,sima
 Schinus spinosa ,Anacardiaceae,Schinus,spinosa ,s.i.,DD,s.i.,sima
 Spondias expeditionaria,Anacardiaceae,Spondias,expeditionaria,s.i.,DD,s.i.,sima
 Protium cordatum,Burseraceae,Protium,cordatum,s.i.,DD,s.i.,sima
@@ -463,7 +463,7 @@ Nectandra matogrossensis,Lauraceae,Nectandra,matogrossensis,s.i.,DD,s.i.,sima
 Nectandra spicata,Lauraceae,Nectandra,spicata,s.i.,DD,s.i.,sima
 Nectandra venulosa,Lauraceae,Nectandra,venulosa,s.i.,DD,s.i.,sima
 Nectandra weddellii,Lauraceae,Nectandra,weddellii,s.i.,DD,s.i.,sima
-Aniseia martinicensis,Convolvulaceae,Aniseia,martinicensis,s.i.,DD,s.i.,sima
+Aniseia martinicensis var. ambigua,Convolvulaceae,Aniseia,martinicensis,s.i.,DD,s.i.,sima
 Ocotea ligulata,Lauraceae,Ocotea,ligulata,s.i.,DD,s.i.,sima
 Persea benthamiana,Lauraceae,Persea,benthamiana,s.i.,DD,s.i.,sima
 Persea punctata,Lauraceae,Persea,punctata,s.i.,DD,EN,sima
@@ -527,7 +527,7 @@ Anathallis crebrifolia,Orchidaceae,Anathallis,crebrifolia,s.i.,DD,s.i.,sima
 Camaridium meleagris,Orchidaceae,Camaridium,meleagris,s.i.,DD,s.i.,sima
 Capanemia therezae,Orchidaceae,Capanemia,therezae,s.i.,DD,s.i.,sima
 Chytroglossa paulensis,Orchidaceae,Chytroglossa,paulensis,s.i.,DD,EX,sima
-Comparettia falcata,Orchidaceae,Comparettia,falcata,s.i.,DD,s.i.,sima
+Comparettia falcata var. paulensis,Orchidaceae,Comparettia,falcata,s.i.,DD,s.i.,sima
 Constantia cristinae,Orchidaceae,Constantia,cristinae,s.i.,DD,s.i.,sima
 Constantia microscopica,Orchidaceae,Constantia,microscopica,s.i.,DD,s.i.,sima
 Constantia rupestris,Orchidaceae,Constantia,rupestris,s.i.,DD,s.i.,sima
@@ -632,7 +632,7 @@ Vriesea muelleri,Bromeliaceae,Vriesea,muelleri,s.i.,DD,s.i.,sima
 Vriesea pabstii,Bromeliaceae,Vriesea,pabstii,s.i.,DD,s.i.,sima
 Vriesea parviflora,Bromeliaceae,Vriesea,parviflora,s.i.,DD,s.i.,sima
 Vriesea pereirae,Bromeliaceae,Vriesea,pereirae,s.i.,DD,s.i.,sima
-Vriesea procera,Bromeliaceae,Vriesea,procera,s.i.,DD,s.i.,sima
+Vriesea procera var. debilis,Bromeliaceae,Vriesea,procera,s.i.,DD,s.i.,sima
 Vriesea recurvata,Bromeliaceae,Vriesea,recurvata,s.i.,DD,s.i.,sima
 Vriesea repandostachys,Bromeliaceae,Vriesea,repandostachys,s.i.,DD,s.i.,sima
 Vriesea rhodostachys,Bromeliaceae,Vriesea,rhodostachys,s.i.,DD,s.i.,sima
@@ -658,9 +658,9 @@ Eriocaulon melanolepis,Eriocaulaceae,Eriocaulon,melanolepis,s.i.,DD,s.i.,sima
 Leiothrix gomesii,Eriocaulaceae,Leiothrix,gomesii,s.i.,DD,s.i.,sima
 Leiothrix linearis,Eriocaulaceae,Leiothrix,linearis,s.i.,DD,s.i.,sima
 Leiothrix schlechtendalii,Eriocaulaceae,Leiothrix,schlechtendalii,s.i.,DD,s.i.,sima
-Paepalanthus argenteus,Eriocaulaceae,Paepalanthus,argenteus,s.i.,DD,s.i.,sima
+Paepalanthus argenteus var. elatus,Eriocaulaceae,Paepalanthus,argenteus,s.i.,DD,s.i.,sima
 Paepalanthus bellus,Eriocaulaceae,Paepalanthus,bellus,s.i.,DD,s.i.,sima
-Paepalanthus catharinae,Eriocaulaceae,Paepalanthus,catharinae,s.i.,DD,s.i.,sima
+Paepalanthus catharinae var. hatschbachii,Eriocaulaceae,Paepalanthus,catharinae,s.i.,DD,s.i.,sima
 Paepalanthus crinitus,Eriocaulaceae,Paepalanthus,crinitus,s.i.,DD,s.i.,sima
 Paepalanthus extremensis,Eriocaulaceae,Paepalanthus,extremensis,s.i.,DD,s.i.,sima
 Paepalanthus garimpensis,Eriocaulaceae,Paepalanthus,garimpensis,s.i.,DD,s.i.,sima
@@ -752,7 +752,7 @@ Cordia trichoclada,Boraginaceae,Cordia,trichoclada,s.i.,LC,VU,sima
 Baccharis grandimucronata,Asteraceae,Baccharis,grandimucronata,s.i.,LC,s.i.,sima
 Alternanthera micrantha,Amaranthaceae,Alternanthera,micrantha,s.i.,LC,VU,sima
 Alternanthera paronychioides,Amaranthaceae,Alternanthera,paronychioides,s.i.,LC,EX,sima
-Baccharis megapotamica,Asteraceae,Baccharis,megapotamica,s.i.,LC,s.i.,sima
+Baccharis megapotamica var. weirii,Asteraceae,Baccharis,megapotamica,s.i.,LC,s.i.,sima
 Alternanthera reineckii,Amaranthaceae,Alternanthera,reineckii,s.i.,LC,VU,sima
 Chresta sphaerocephala,Asteraceae,Chresta,sphaerocephala,s.i.,LC,s.i.,sima
 Gomphrena agrestis,Amaranthaceae,Gomphrena,agrestis,s.i.,LC,VU,sima
@@ -828,7 +828,7 @@ Pradosia brevipes,Sapotaceae,Pradosia,brevipes,s.i.,LC,s.i.,sima
 Pradosia lactescens,Sapotaceae,Pradosia,lactescens,s.i.,LC,s.i.,sima
 Ditassa lagoensis,Apocynaceae,Ditassa,lagoensis,s.i.,LC,EX,sima
 Aeschynomene denticulata,Fabaceae,Aeschynomene,denticulata,s.i.,LC,s.i.,sima
-Aeschynomene montevidensis,Fabaceae,Aeschynomene,montevidensis,s.i.,LC,s.i.,sima
+Aeschynomene montevidensis var. microphylla,Fabaceae,Aeschynomene,montevidensis,s.i.,LC,s.i.,sima
 Albizia niopoides,Fabaceae,Albizia,niopoides,s.i.,LC,s.i.,sima
 Centrolobium tomentosum,Fabaceae,Centrolobium,tomentosum,s.i.,LC,s.i.,sima
 Centrosema bracteosum,Fabaceae,Centrosema,bracteosum,s.i.,LC,s.i.,sima
@@ -863,7 +863,7 @@ Psychotria prunifolia,Rubiaceae,Psychotria,prunifolia,s.i.,LC,EN,sima
 Psychotria rhytidocarpa,Rubiaceae,Psychotria,rhytidocarpa,s.i.,LC,VU,sima
 Psychotria tenuifolia,Rubiaceae,Psychotria,tenuifolia,s.i.,LC,EN,sima
 Schizocalyx cuspidatus,Rubiaceae,Schizocalyx,cuspidatus,s.i.,LC,VU,sima
-Senna angulata,Fabaceae,Senna,angulata,s.i.,LC,s.i.,sima
+Senna angulata var. miscadena,Fabaceae,Senna,angulata,s.i.,LC,s.i.,sima
 Stryphnodendron adstringens,Fabaceae,Stryphnodendron,adstringens,s.i.,LC,s.i.,sima
 Swartzia acutifolia,Fabaceae,Swartzia,acutifolia,s.i.,LC,s.i.,sima
 Acanthocladus brasiliensis,Polygalaceae,Acanthocladus,brasiliensis,s.i.,LC,s.i.,sima
@@ -937,7 +937,7 @@ Napeanthus primulifolius,Gesneriaceae,Napeanthus,primulifolius,s.i.,LC,s.i.,sima
 Eriope crassipes,Lamiaceae,Eriope,crassipes,s.i.,LC,s.i.,sima
 Hypericum rigidum,Hypericaceae,Hypericum,rigidum,s.i.,LC,EX,sima
 Vismia martiana,Hypericaceae,Vismia,martiana,s.i.,LC,CR,sima
-Medusantha eriophylla,Lamiaceae,Medusantha,eriophylla,s.i.,LC,s.i.,sima
+Medusantha eriophylla var. coriifolia,Lamiaceae,Medusantha,eriophylla,s.i.,LC,s.i.,sima
 Linum littorale,Linaceae,Linum,littorale,s.i.,LC,EN,sima
 Ocimum nudicaule,Lamiaceae,Ocimum,nudicaule,s.i.,LC,s.i.,sima
 Camarea hirsuta,Malpighiaceae,Camarea,hirsuta,s.i.,LC,EN,sima
@@ -947,7 +947,7 @@ Thryallis brachystachys,Malpighiaceae,Thryallis,brachystachys,s.i.,LC,EX,sima
 Lippia pusilla,Verbenaceae,Lippia,pusilla,s.i.,LC,s.i.,sima
 Passiflora malacophylla,Passifloraceae,Passiflora,malacophylla,s.i.,LC,EX,sima
 Passiflora racemosa,Passifloraceae,Passiflora,racemosa,s.i.,LC,EW,sima
-Verbena hirta,Verbenaceae,Verbena,hirta,s.i.,LC,s.i.,sima
+Verbena hirta var. hirta,Verbenaceae,Verbena,hirta,s.i.,LC,s.i.,sima
 Caryocar brasiliense,Caryocaraceae,Caryocar,brasiliense,s.i.,LC,s.i.,sima
 Erythroxylum anguifugum,Erythroxylaceae,Erythroxylum,anguifugum,s.i.,LC,s.i.,sima
 Erythroxylum passerinum,Erythroxylaceae,Erythroxylum,passerinum,s.i.,LC,s.i.,sima
@@ -1021,7 +1021,7 @@ Trembleya phlogiformis,Melastomataceae,Trembleya,phlogiformis,s.i.,LC,s.i.,sima
 Calyptranthes concinna,Myrtaceae,Calyptranthes,concinna,s.i.,LC,s.i.,sima
 Panopsis rubescens,Proteaceae,Panopsis,rubescens,s.i.,LC,VU,sima
 Campomanesia pubescens,Myrtaceae,Campomanesia,pubescens,s.i.,LC,s.i.,sima
-Campomanesia sessiliflora,Myrtaceae,Campomanesia,sessiliflora,s.i.,LC,s.i.,sima
+Campomanesia sessiliflora var. bullata,Myrtaceae,Campomanesia,sessiliflora,s.i.,LC,s.i.,sima
 Eugenia anomala,Myrtaceae,Eugenia,anomala,s.i.,LC,s.i.,sima
 Eugenia aurata,Myrtaceae,Eugenia,aurata,s.i.,LC,s.i.,sima
 Clematis campestris,Ranunculaceae,Clematis,campestris,s.i.,LC,EW,sima
@@ -1048,7 +1048,7 @@ Paullinia uloptera,Sapindaceae,Paullinia,uloptera,s.i.,LC,VU,sima
 Abuta selloana,Menispermaceae,Abuta,selloana,s.i.,LC,s.i.,sima
 Evolvulus filipes,Convolvulaceae,Evolvulus,filipes,s.i.,LC,EX,sima
 Ipomoea acutisepala,Convolvulaceae,Ipomoea,acutisepala,s.i.,LC,EX,sima
-Anemone decapetala,Ranunculaceae,Anemone,decapetala,s.i.,LC,s.i.,sima
+Anemone decapetala var. foliolosa,Ranunculaceae,Anemone,decapetala,s.i.,LC,s.i.,sima
 Ipomoea sericophylla,Convolvulaceae,Ipomoea,sericophylla,s.i.,LC,EX,sima
 Anemone sellowii,Ranunculaceae,Anemone,sellowii,s.i.,LC,s.i.,sima
 Operculina macrocarpa,Convolvulaceae,Operculina,macrocarpa,s.i.,LC,EW,sima
@@ -1062,7 +1062,7 @@ Anacardium humile,Anacardiaceae,Anacardium,humile,s.i.,LC,s.i.,sima
 Astronium graveolens,Anacardiaceae,Astronium,graveolens,s.i.,LC,s.i.,sima
 Cabomba aquatica,Cabombaceae,Cabomba,aquatica,s.i.,LC,EX,sima
 Aiouea piauhyensis,Lauraceae,Aiouea,piauhyensis,s.i.,LC,EX,sima
-Trichilia lepidota,Meliaceae,Trichilia,lepidota,s.i.,LC,s.i.,sima
+Trichilia lepidota var. schumanniana,Meliaceae,Trichilia,lepidota,s.i.,LC,s.i.,sima
 Aniba heringeri,Lauraceae,Aniba,heringeri,s.i.,LC,EN,sima
 Nectandra cissiflora,Lauraceae,Nectandra,cissiflora,s.i.,LC,VU,sima
 Nectandra hihua,Lauraceae,Nectandra,hihua,s.i.,LC,EN,sima
@@ -1265,7 +1265,7 @@ Alternanthera bahiensis,Amaranthaceae,Alternanthera,bahiensis,s.i.,NA,VU,sima
 Alternanthera flavescens,Amaranthaceae,Alternanthera,flavescens,s.i.,NA,VU,sima
 Alternanthera lanceolata,Amaranthaceae,Alternanthera,lanceolata,s.i.,NA,VU,sima
 Dasycondylus dusenii,Asteraceae,Dasycondylus,dusenii,s.i.,NA,s.i.,sima
-Schlumbergera lutea,Cactaceae,Schlumbergera,lutea,s.i.,NA,VU,sima
+Schlumbergera lutea subsp. bradei,Cactaceae,Schlumbergera,lutea,s.i.,NA,VU,sima
 Portulaca amilis,Portulacaceae,Portulaca,amilis,s.i.,NA,VU,sima
 Holocheilus schulzii,Asteraceae,Holocheilus,schulzii,s.i.,NA,s.i.,sima
 Schaefferia argentinensis,Celastraceae,Schaefferia,argentinensis,s.i.,NA,CR,sima
@@ -1277,7 +1277,7 @@ Viguiera malmei,Asteraceae,Viguiera,malmei,s.i.,NA,s.i.,sima
 Wedelia calycina,Asteraceae,Wedelia,calycina,s.i.,NA,s.i.,sima
 Zexmenia viguerioides,Asteraceae,Zexmenia,viguerioides,s.i.,NA,s.i.,sima
 Varronia sessilifolia,Boraginaceae,Varronia,sessilifolia,s.i.,NA,s.i.,sima
-Portulaca cryptopetala,Portulacaceae,Portulaca,cryptopetala,s.i.,NA,s.i.,sima
+Portulaca cryptopetala var. poellniztiana,Portulacaceae,Portulaca,cryptopetala,s.i.,NA,s.i.,sima
 Begonia biguassuensis,Begoniaceae,Begonia,biguassuensis,s.i.,NA,s.i.,sima
 Begonia diaphones,Begoniaceae,Begonia,diaphones,s.i.,NA,s.i.,sima
 Begonia glabrescens,Begoniaceae,Begonia,glabrescens,s.i.,NA,s.i.,sima
@@ -1287,8 +1287,8 @@ Begonia tibagiensis,Begoniaceae,Begonia,tibagiensis,s.i.,NA,s.i.,sima
 Clavija nutans,Primulaceae,Clavija,nutans,s.i.,NA,s.i.,sima
 Aspidosperma quirandy,Apocynaceae,Aspidosperma,quirandy,s.i.,NA,EN,sima
 Widgrenia corymbosa,Apocynaceae,Widgrenia,corymbosa,s.i.,NA,EX,sima
-Galium hypocarpium,Rubiaceae,Galium,hypocarpium,s.i.,NA,EX,sima
-Galium noxium,Rubiaceae,Galium,noxium,s.i.,NA,EX,sima
+Galium hypocarpium subsp. buxifolium,Rubiaceae,Galium,hypocarpium,s.i.,NA,EX,sima
+Galium noxium subsp. valantioides,Rubiaceae,Galium,noxium,s.i.,NA,EX,sima
 Schnella microstachya,Fabaceae,Schnella,microstachya,s.i.,NA,s.i.,sima
 Polygala hastchbachii,Polygalaceae,Polygala,hastchbachii,s.i.,NA,s.i.,sima
 Coccoloba glaziovii,Polygonaceae,Coccoloba,glaziovii,s.i.,NA,s.i.,sima
@@ -1296,7 +1296,7 @@ Coccoloba paraguariensis,Polygonaceae,Coccoloba,paraguariensis,s.i.,NA,s.i.,sima
 Quillaja lancifolia,Quillajaceae,Quillaja,lancifolia,s.i.,NA,s.i.,sima
 Lepidagathis meridionalis,Acanthaceae,Lepidagathis,meridionalis,s.i.,NA,VU,sima
 Stenandrium mandioccanum,Acanthaceae,Stenandrium,mandioccanum,s.i.,NA,VU,sima
-Spigelia kleinii,Loganiaceae,Spigelia,kleinii,s.i.,NA,s.i.,sima
+Spigelia kleinii var. paranaensis,Loganiaceae,Spigelia,kleinii,s.i.,NA,s.i.,sima
 Nematanthus mattosianus,Gesneriaceae,Nematanthus,mattosianus,s.i.,NA,VU,sima
 Aegiphila capitata,Lamiaceae,Aegiphila,capitata,s.i.,NA,EX,sima
 Chaetoclamys psammina,Acanthaceae,Chaetoclamys,psammina,s.i.,NA,s.i.,sima
@@ -1319,7 +1319,7 @@ Aspicarpa sericea,Malpighiaceae,Aspicarpa,sericea,s.i.,NA,VU,sima
 Salvia uliginosa,Lamiaceae,Salvia,uliginosa,s.i.,NA,s.i.,sima
 Byrsonima cydoniifolia,Malpighiaceae,Byrsonima,cydoniifolia,s.i.,NA,VU,sima
 Byrsonima psilandra,Malpighiaceae,Byrsonima,psilandra,s.i.,NA,EN,sima
-Vitex polygama,Lamiaceae,Vitex,polygama,s.i.,NA,s.i.,sima
+Vitex polygama var. bakeri,Lamiaceae,Vitex,polygama,s.i.,NA,s.i.,sima
 Ibicella lutea,Martyniaceae,Ibicella,lutea,s.i.,NA,s.i.,sima
 Buddleja hatschbachii,Scrophulariaceae,Buddleja,hatschbachii,s.i.,NA,s.i.,sima
 Buddleja oblonga,Scrophulariaceae,Buddleja,oblonga,s.i.,NA,s.i.,sima
@@ -1333,7 +1333,7 @@ Pachira calophylla,Malvaceae,Pachira,calophylla,s.i.,NA,VU,sima
 Microstachys corniculata,Euphorbiaceae,Microstachys,corniculata,s.i.,NA,s.i.,sima
 Sida acrantha,Malvaceae,Sida,acrantha,s.i.,NA,EN,sima
 Buchenavia hoehneana,Combretaceae,Buchenavia,hoehneana,s.i.,NA,VU,sima
-Hypericum cordiforme,Hypericaceae,Hypericum,cordiforme,s.i.,NA,s.i.,sima
+Hypericum cordiforme var. Kleinii,Hypericaceae,Hypericum,cordiforme,s.i.,NA,s.i.,sima
 Behuria parvifolia,Melastomataceae,Behuria,parvifolia,s.i.,NA,VU,sima
 Byrsonima salzmanniana,Malpighiaceae,Byrsonima,salzmanniana,s.i.,NA,s.i.,sima
 Cambessedesia regnelliana,Melastomataceae,Cambessedesia,regnelliana,s.i.,NA,VU,sima
@@ -1380,7 +1380,7 @@ Tibouchina itatiaiae,Melastomataceae,Tibouchina,itatiaiae,s.i.,NA,VU,sima
 Tibouchina minutiflora,Melastomataceae,Tibouchina,minutiflora,s.i.,NA,VU,sima
 Tibouchina serrana,Melastomataceae,Tibouchina,serrana,s.i.,NA,VU,sima
 Tibouchina versicolor,Melastomataceae,Tibouchina,versicolor,s.i.,NA,VU,sima
-Byttneria catalpaefolia,Malvaceae,Byttneria,catalpaefolia,s.i.,NA,s.i.,sima
+Byttneria catalpaefolia subsp. Sidaefolia,Malvaceae,Byttneria,catalpaefolia,s.i.,NA,s.i.,sima
 Calyptranthes brasiliensis,Myrtaceae,Calyptranthes,brasiliensis,s.i.,NA,EX,sima
 Calyptranthes curta,Myrtaceae,Calyptranthes,curta,s.i.,NA,EN,sima
 Calyptranthes dichotoma,Myrtaceae,Calyptranthes,dichotoma,s.i.,NA,EX,sima
@@ -1431,7 +1431,7 @@ Acaena eupatoria,Rosaceae,Acaena,eupatoria,s.i.,NA,VU,sima
 Eugenia oblongata,Myrtaceae,Eugenia,oblongata,s.i.,NA,s.i.,sima
 Heisteria perianthomega,Olacaceae,Heisteria,perianthomega,s.i.,NA,EX,sima
 Myrcia tenuivenosa,Myrtaceae,Myrcia,tenuivenosa,s.i.,NA,s.i.,sima
-Evolvulus elegans,Convolvulaceae,Evolvulus,elegans,s.i.,NA,EX,sima
+Evolvulus elegans subsp. confertifolius,Convolvulaceae,Evolvulus,elegans,s.i.,NA,EX,sima
 Ipomoea aprica,Convolvulaceae,Ipomoea,aprica,s.i.,NA,VU,sima
 Ipomoea pinifolia,Convolvulaceae,Ipomoea,pinifolia,s.i.,NA,EX,sima
 Jacquemontia glabrescens,Convolvulaceae,Jacquemontia,glabrescens,s.i.,NA,EX,sima
@@ -1446,7 +1446,7 @@ Ocotea inhauba,Lauraceae,Ocotea,inhauba,s.i.,NA,EX,sima
 Ocotea virgultosa,Lauraceae,Ocotea,virgultosa,s.i.,NA,EN,sima
 Mollinedia salicifolia,Monimiaceae,Mollinedia,salicifolia,s.i.,NA,VU,sima
 Mollinedia schottiana,Monimiaceae,Mollinedia,schottiana,s.i.,NA,EX,sima
-Schwenckia grandiflora,Solanaceae,Schwenckia,grandiflora,s.i.,NA,s.i.,sima
+Schwenckia grandiflora var. hatschbachiana,Solanaceae,Schwenckia,grandiflora,s.i.,NA,s.i.,sima
 Anthurium ameliae,Araceae,Anthurium,ameliae,s.i.,NA,VU,sima
 Anthurium bocainense,Araceae,Anthurium,bocainense,s.i.,NA,VU,sima
 Annona neosalicifolia,Annonaceae,Annona,neosalicifolia,s.i.,NA,s.i.,sima
@@ -1508,7 +1508,7 @@ Wittrockia gigantea,Bromeliaceae,Wittrockia,gigantea,s.i.,NA,VU,sima
 Bulbostylis major,Cyperaceae,Bulbostylis,major,s.i.,NA,s.i.,sima
 Cyperus friburgensis,Cyperaceae,Cyperus,friburgensis,s.i.,NA,s.i.,sima
 Rhynchospora corymbosa,Cyperaceae,Rhynchospora,corymbosa,s.i.,NA,s.i.,sima
-Paepalanthus melaleucus,Eriocaulaceae,Paepalanthus,melaleucus,s.i.,NA,s.i.,sima
+Paepalanthus melaleucus var. epilosus,Eriocaulaceae,Paepalanthus,melaleucus,s.i.,NA,s.i.,sima
 Aristida circinalis,Poaceae,Aristida,circinalis,s.i.,NA,EN,sima
 Aristida ekmaniana,Poaceae,Aristida,ekmaniana,s.i.,NA,EX,sima
 Aristida filifolia,Poaceae,Aristida,filifolia,s.i.,NA,EN,sima
@@ -1553,7 +1553,7 @@ Polypogon chilensis,Poaceae,Polypogon,chilensis,s.i.,NA,CR,sima
 Polypogon imberbis,Poaceae,Polypogon,imberbis,s.i.,NA,EN,sima
 Reimarochloa acuta,Poaceae,Reimarochloa,acuta,s.i.,NA,CR,sima
 Schizachyrium tenerum,Poaceae,Schizachyrium,tenerum,s.i.,NA,EN,sima
-Setaria parviflora,Poaceae,Setaria,parviflora,s.i.,NA,EX,sima
+Setaria parviflora var. pilosissima,Poaceae,Setaria,parviflora,s.i.,NA,EX,sima
 Steinchisma spathellosum,Poaceae,Steinchisma,spathellosum,s.i.,NA,EX,sima
 Trichanthecium distichophyllum,Poaceae,Trichanthecium,distichophyllum,s.i.,NA,EN,sima
 Zizaniopsis microstachya,Poaceae,Zizaniopsis,microstachya,s.i.,NA,EX,sima
@@ -1570,7 +1570,7 @@ Casearia sylvestris,Salicaceae,Casearia,sylvestris,s.i.,NE,s.i.,sima
 Solanum violifolium,Solanaceae,Solanum,violifolium,s.i.,NE,s.i.,sima
 Bulbophyllum meridense,Orchidaceae,Bulbophyllum,meridense,s.i.,NE,s.i.,sima
 Eleocharis radicans,Cyperaceae,Eleocharis,radicans,s.i.,NE,s.i.,sima
-Syngonanthus caulescens,Eriocaulaceae,Syngonanthus,caulescens,s.i.,NE,s.i.,sima
+Syngonanthus caulescens var. epapillosus,Eriocaulaceae,Syngonanthus,caulescens,s.i.,NE,s.i.,sima
 Calea polycephala,Asteraceae,Calea,polycephala,s.i.,NT,VU,sima
 Polygala pumila,Polygalaceae,Polygala,pumila,s.i.,NT,EX,sima
 Leandra salicina,Melastomataceae,Leandra,salicina,s.i.,NT,VU,sima
@@ -2361,11 +2361,11 @@ Rudgea corymbulosa,Rubiaceae,Rudgea,corymbulosa,EN,s.i.,EN,sima
 Rudgea crassifolia,Rubiaceae,Rudgea,crassifolia,VU,s.i.,s.i.,sima
 Rudgea erythrocarpa,Rubiaceae,Rudgea,erythrocarpa,EN,s.i.,s.i.,sima
 Rudgea insignis,Rubiaceae,Rudgea,insignis,VU,s.i.,s.i.,sima
-Rudgea jasminoides,Rubiaceae,Rudgea,jasminoides,VU,s.i.,VU,sima
+Rudgea jasminoides subsp. nervosa,Rubiaceae,Rudgea,jasminoides,VU,s.i.,VU,sima
 Rudgea macrophylla,Rubiaceae,Rudgea,macrophylla,EN,s.i.,s.i.,sima
 Rudgea pachyphylla,Rubiaceae,Rudgea,pachyphylla,EN,s.i.,EX,sima
-Rudgea parquioides,Rubiaceae,Rudgea,parquioides,CR,s.i.,EX,sima
-Rudgea parquioides,Rubiaceae,Rudgea,parquioides,EN,s.i.,EN,sima
+Rudgea parquioides subsp. caprifolium,Rubiaceae,Rudgea,parquioides,CR,s.i.,EX,sima
+Rudgea parquioides subsp. hirsutissima,Rubiaceae,Rudgea,parquioides,EN,s.i.,EN,sima
 Rudgea parvifolia,Rubiaceae,Rudgea,parvifolia,VU,s.i.,s.i.,sima
 Rudgea sessilis,Rubiaceae,Rudgea,sessilis,EN,s.i.,s.i.,sima
 Rudgea umbrosa,Rubiaceae,Rudgea,umbrosa,VU,s.i.,s.i.,sima
