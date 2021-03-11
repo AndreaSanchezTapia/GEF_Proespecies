@@ -19,25 +19,23 @@ IUCN_CNCFlora_BR_SP <- read_xlsx("data/dados_crus/Flora_EstadoSP_Listas_IUCN_CNC
 # rename columns ----
 IUCN_CNCFlora_BR_SP <- clean_names(IUCN_CNCFlora_BR_SP)
 names(IUCN_CNCFlora_BR_SP)# tem campos demais
-5
+
 # manter categorias anteriores ----
 #vou revisar so no final
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
-  rename(cat_ameaca_br_old = br_oficial_publicado_em_portaria_pelo_mma,
-         cat_ameaca_cncflora_old = cnc_flora_atual_quando_diferente_da_coluna_anterior,
-         cat_ameaca_sp_old = sp)
-IUCN_CNCFlora_BR_SP %>%
-  select(starts_with("cat_ameaca")) %>%
-  count(cat_ameaca_br_old, cat_ameaca_sp_old, cat_ameaca_cncflora_old) %>% View()
+  rename(cat_ameaca_br_sima = br_oficial_publicado_em_portaria_pelo_mma,
+         cat_ameaca_cncflora_sima = cnc_flora_atual_quando_diferente_da_coluna_anterior,
+         cat_ameaca_sp_sima = sp)
 # checa se tem outros clados
 IUCN_CNCFlora_BR_SP %>% count(reino)#only plants
 
 # cria coluna especie sera a unica que usaremos ----
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
-  unite(col = "especie", genero, epiteto_especifico, remove = F, sep = " ") %>%
+  unite(col = "especie_original", genero, epiteto_especifico, remove = F, sep = " ") %>%
   #seleciona campos e as categorias antigas de ameaca
-  select(any_of(campos_p1), starts_with("cat_ameaca"))
+  select(especie_original, any_of(campos_p1), starts_with("cat_ameaca"))
 names(IUCN_CNCFlora_BR_SP)
+IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% mutate(fonte = "sima")
 # salva ----
 write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"), na = "s.i.")
 
@@ -58,7 +56,6 @@ rocc_check <- janitor::clean_names(rocc_check)
 names(rocc_check)
 count(rocc_check, species_status, species_status_2)
 
-rocc_check %>% filter(species_status != "name_w_authors") %>% View()
 #usa verbatim
 rocc_check <- rocc_check %>%
   mutate(especie = case_when(
@@ -70,18 +67,20 @@ l <- length(rocc_check$especie[rocc_check$species_status != "name_w_authors"])
 for (i in seq_along(1:l)) {
 rocc_check$especie[rocc_check$species_status != "name_w_authors"][i] <- remove.authors(rocc_check$especie[rocc_check$species_status != "name_w_authors"][i])
 }
-SP$especie <- rocc_check$especie
+SP$especie_original <- rocc_check$especie
 # seleciona os nomes
-SP <- SP %>% select(familia, especie_autor, especie, cat_ameaca_sp)
+SP <- SP %>% select(familia, especie_autor, especie_original, cat_ameaca_sp)
+SP <- SP %>% mutate(fonte = "SP_oficial")
 write_csv(SP,fs::path(output, "SP_Oficial_format", ext = "csv"), na = "s.i.")
 #blz
 
 
 ## CR_Lacuna
-CR_Lac <- readxl::read_xlsx("data/DADOS/CR_Lacuna_ProEspecies_Originais_Territorio20.xlsx")
+CR_Lac <- readxl::read_xlsx("data/dados_crus/CR_Lacuna_ProEspecies_Originais_Territorio20.xlsx")
 CR_Lac <- clean_names(CR_Lac)
 CR_Lac <- CR_Lac %>% filter(grupao == "Flora") %>%
-  rename(especie = especie_simplificado,
-         cat_ameaca_CR_lac = categoria)
+  rename(especie_original = especie_simplificado,
+         cat_ameaca_CR_lac = categoria) %>%
+  mutate(fonte = "CR_Lac")
 names(CR_Lac)
 write_csv(CR_Lac,fs::path(output, "CR_Lac_format", ext = "csv"), na = "s.i.")

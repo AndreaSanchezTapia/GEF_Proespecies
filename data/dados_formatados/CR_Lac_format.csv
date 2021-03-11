@@ -1,13 +1,13 @@
-grupao,grupo,familia,especie,cat_ameaca_CR_lac
-Flora,Angiospermas,Begoniaceae,Begonia piresiana,CR
-Flora,Angiospermas,Melastomataceae,Bertolonia angustifolia,CR
-Flora,Angiospermas,Melastomataceae,Bertolonia hoehneana,CR
-Flora,Angiospermas,Chrysobalanaceae,Couepia meridionalis,CR
-Flora,Angiospermas,Orchidaceae,Dryadella auriculigera,CR
-Flora,Angiospermas,Orchidaceae,Habenaria brachyplectron,CR
-Flora,Angiospermas,Myrtaceae,Marlierea skortzoviana,CR
-Flora,Angiospermas,Poaceae,Merostachys caucaiana,CR
-Flora,Angiospermas,Poaceae,Merostachys scandens,CR
-Flora,Angiospermas,Orchidaceae,Octomeria wilsoniana,CR
-Flora,Angiospermas,Piperaceae,Peperomia guarujana,CR
-Flora,Angiospermas,Solanaceae,Solanum spissifolium,CR
+grupao,grupo,familia,especie_original,cat_ameaca_CR_lac,fonte
+Flora,Angiospermas,Begoniaceae,Begonia piresiana,CR,CR_Lac
+Flora,Angiospermas,Melastomataceae,Bertolonia angustifolia,CR,CR_Lac
+Flora,Angiospermas,Melastomataceae,Bertolonia hoehneana,CR,CR_Lac
+Flora,Angiospermas,Chrysobalanaceae,Couepia meridionalis,CR,CR_Lac
+Flora,Angiospermas,Orchidaceae,Dryadella auriculigera,CR,CR_Lac
+Flora,Angiospermas,Orchidaceae,Habenaria brachyplectron,CR,CR_Lac
+Flora,Angiospermas,Myrtaceae,Marlierea skortzoviana,CR,CR_Lac
+Flora,Angiospermas,Poaceae,Merostachys caucaiana,CR,CR_Lac
+Flora,Angiospermas,Poaceae,Merostachys scandens,CR,CR_Lac
+Flora,Angiospermas,Orchidaceae,Octomeria wilsoniana,CR,CR_Lac
+Flora,Angiospermas,Piperaceae,Peperomia guarujana,CR,CR_Lac
+Flora,Angiospermas,Solanaceae,Solanum spissifolium,CR,CR_Lac
