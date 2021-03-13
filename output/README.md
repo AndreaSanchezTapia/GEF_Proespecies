@@ -13,6 +13,12 @@
 ## Atualizar cat_ameaca
 
 
+|           | UICN_UK  | brasil   | cncflora | estadoSP |  munSP   |
+|-----------| -------- | -------- | -------- | -------- | -------- |
+| Base      |          |          |          |          |          |
+| Sinonimos |          |          |          |          |          |
+
+
 
 ## Erros e detalhes que têm que ser verificados
 
