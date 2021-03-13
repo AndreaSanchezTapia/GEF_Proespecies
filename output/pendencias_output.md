@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/a1llZOqCTw6DEZoUCJ1q2g/badge)](https://hackmd.io/a1llZOqCTw6DEZoUCJ1q2g)
 
 
 ## Colunas que devem ser criadas 
