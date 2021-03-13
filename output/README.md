@@ -4,6 +4,15 @@
 ## Colunas que devem ser criadas 
 
 - [ ] Grupo
+- [ ] Tira autores
+- [ ] Split especie em gênero e epiteto
+- [ ] Sinonimia: nome correto quando sinonimo
+- [ ] Fonte_sinonimia: FB quando FB, checar os problemas abaixo
+
+
+## Atualizar cat_ameaca
+
+
 
 ## Erros e detalhes que têm que ser verificados
 
