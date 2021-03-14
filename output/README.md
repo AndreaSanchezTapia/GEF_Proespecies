@@ -1,13 +1,16 @@
 [![hackmd-github-sync-badge](https://hackmd.io/a1llZOqCTw6DEZoUCJ1q2g/badge)](https://hackmd.io/a1llZOqCTw6DEZoUCJ1q2g)
 
 
-## Colunas que devem ser criadas 
+## Pendências
 
-- [x] Grupo
-- [ ] Tira autores
-- [ ] Split especie em gênero e epiteto
+- [x] coluna Grupo
+- [x] Cria coluna fonte em todas as bases
+- [x] Cria a coluna fontes para evitar linhas duplicadas: em quais das listas está a espécie
+- [x] Tira autores dos nomes
+- [x] Split espécie em gênero e epiteto
 - [ ] Sinonimia: nome correto quando sinonimo
 - [ ] Fonte_sinonimia: FB quando FB, checar os problemas abaixo
+
 
 
 ## Atualizar cat_ameaca
@@ -24,7 +27,7 @@
 
 1. Nomes que a Flora do Brasil não acha: arquivos `output/05_not_found_by_FB.csv`
 1. Nomes que a Flora do Brasil acha mas ainda considera sinônimos: arquivos `output/05_sinonimos_segundo_FB2020.csv`
-1. Nomes que a Flora do Brasil acha e corrige mas detecta no Estado de SP
+1. Nomes que a Flora do Brasil acha e corrige mas não detecta no Estado de SP
 
 
 ## Erros pontuais nas bases de dados
@@ -39,7 +42,7 @@
 - [x] _Stenandrium diphyllum_ duplicado, duplo LC por cncflora
 
 ### Estado SP
-- [ ] _Vismia martiana_ duplicada em Estado SP, com critérios conflitantes (CR, EN), famílias diferentes
+- [x] _Vismia martiana_ duplicada em Estado SP, com critérios conflitantes (CR, EN), famílias diferentes
 
 # Patricia checando
 Aeschynomene montevidensis var. microphylla- a especie foi avaliada como LC pelo cncflora em 2012.
