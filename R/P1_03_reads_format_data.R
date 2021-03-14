@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyr)
 library(flora)
 library(readr)
+#remotes::install_github("liibre/Rocc")
 library(Rocc)
 library(stringr)
 library(textclean)
@@ -17,7 +18,7 @@ IUCN_CNCFlora_BR_SP <- read_xlsx("data/dados_crus/Flora_EstadoSP_Listas_IUCN_CNC
 
 # rename columns ----
 IUCN_CNCFlora_BR_SP <- clean_names(IUCN_CNCFlora_BR_SP)
-names(IUCN_CNCFlora_BR_SP)# tem campos demais
+names(IUCN_CNCFlora_BR_SP)
 
 # manter categorias anteriores ----
 #vou revisar so no final
@@ -40,6 +41,9 @@ IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
 
 names(IUCN_CNCFlora_BR_SP)
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% mutate(fonte = "sima")
+sp_espacios <- trimws(IUCN_CNCFlora_BR_SP$especie_original, whitespace = "[ \\t\\r\\n\U00A0]")
+sp_espacios <- gsub("\\t|\\r|\\n|\U00A0", " ", sp_espacios)
+IUCN_CNCFlora_BR_SP$especie_original <- sp_espacios
 # salva ----
 write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
 
@@ -56,37 +60,22 @@ rocc_check1 <- check_string(SP$especie_autor) #com autor
 rocc_check2 <- check_string(rocc_check1$species)
 rocc_check <- cbind(rocc_check1, rocc_check2)
 rocc_check <- janitor::clean_names(rocc_check)
-
-names(rocc_check)
-count(rocc_check, species_status, species_status_2)
-
-#usa verbatim
-rocc_check <- rocc_check %>%
-  mutate(especie = case_when(
-  species_status %in% c("subspecies", "variety", "forma") ~ verbatim_species,
-  species_status %in% c("indet") ~ verbatim_species,
-  species_status_2 %in% c("possibly_ok") & species_status %in% c("name_w_authors") ~ species_2))
-any(is.na(rocc_check$especie))
-
-# modificar a mao os que faltam
-l <- length(rocc_check$especie[rocc_check$species_status != "name_w_authors"])
-for (i in seq_along(1:l)) {
-rocc_check$especie[rocc_check$species_status != "name_w_authors"][i] <- remove.authors(rocc_check$especie[rocc_check$species_status != "name_w_authors"][i])
-}
-rocc_check$especie[rocc_check$species_status == "indet"] <- check_string(rocc_check$especie[rocc_check$species_status == "indet"])$species
-rocc_check$especie[rocc_check$species_status == "indet"]
-SP$especie_original <- rocc_check$especie
+SP$especie_original <- unlist(rocc_check$species_2)
 
 # seleciona os nomes
-SP <- SP %>% select(especie_autor, especie_original, cat_ameaca_sp)
+SP <- SP %>% select(familia, especie_autor, especie_original, cat_ameaca_sp)
 SP <- SP %>% mutate(fonte = "SP_oficial")
 distinct(SP)
 output <- "data/dados_formatados"
 write_csv(SP, fs::path(output, "SP_Oficial_format", ext = "csv"))
-
+#checa espacios a posteriori
+SP <- read_csv(fs::path(output, "SP_Oficial_format", ext = "csv"))
 
 ## CR_Lacuna
 CR_Lac <- readxl::read_xlsx("data/dados_crus/CR_Lacuna_ProEspecies_Originais_Territorio20.xlsx")
+sp_espacios <- trimws(CR_Lac$especie_original, whitespace = "[ \\t\\r\\n\U00A0]")
+sp_espacios <- gsub("\\t|\\r|\\n|\U00A0", " ", sp_espacios)
+CR_Lac$especie_original <- sp_espacios
 CR_Lac <- clean_names(CR_Lac)
 CR_Lac <- CR_Lac %>% filter(grupao == "Flora") %>%
   rename(especie_original = especie_simplificado,

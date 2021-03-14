@@ -1058,6 +1058,7 @@ Angiospermas,Lamiaceae,Aegiphila mediterranea,Aegiphila mediterranea Vell.,Aegip
 Angiospermas,Lamiaceae,Aegiphila obducta,Aegiphila obducta Vell.,Aegiphila,obducta,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,8116,NA,accepted,Aegiphila obducta,NA,NA,Aegiphila obducta,BR-ES|BR-MG|BR-PR|BR-RJ|BR-RS|BR-SC|BR-SP,correct
 Angiospermas,Lamiaceae,Aegiphila verticillata,Aegiphila verticillata Vell.,Aegiphila,verticillata,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,8120,NA,accepted,Aegiphila verticillata,NA,NA,Aegiphila verticillata,BR-AL|BR-AM|BR-AP|BR-BA|BR-CE|BR-DF|BR-ES|BR-GO|BR-MA|BR-MG|BR-MS|BR-MT|BR-PA|BR-PB|BR-PE|BR-PI|BR-PR|BR-RJ|BR-RO|BR-SC|BR-SE|BR-SP|BR-TO,correct
 Angiospermas,Lamiaceae,Aegiphila vitelliniflora,Aegiphila vitelliniflora Walp.,Aegiphila,vitelliniflora,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,8121,NA,accepted,Aegiphila vitelliniflora,NA,NA,Aegiphila vitelliniflora,BR-AC|BR-AL|BR-AM|BR-AP|BR-BA|BR-CE|BR-ES|BR-GO|BR-MA|BR-MG|BR-MS|BR-MT|BR-PA|BR-PE|BR-PR|BR-RJ|BR-RN|BR-RO|BR-RR|BR-SP,correct
+Angiospermas,Lamiaceae,Cunila incana,Cunila incana Benth.,Cunila,incana,species,NA,NA,EN,NA,NA,NA,NA,NA,NA,NA,sima,8130,NA,accepted,Cunila incana,NA,NA,Cunila incana,BR-PR|BR-RS,correct
 Angiospermas,Lamiaceae,Cunila incana,Cunila incana Benth.,Cunila,incana,species,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,8130,NA,accepted,Cunila incana,NA,NA,Cunila incana,BR-PR|BR-RS,correct
 Angiospermas,Lamiaceae,Eriope crassipes,Eriope crassipes Benth.,Eriope,crassipes,species,NA,NA,LC,NA,NA,NA,LC,NA,NA,NA,sima-cncflora_web,8140,NA,accepted,Eriope crassipes,LC,NA,Eriope crassipes,BR-DF|BR-GO|BR-MT|BR-SP,correct
 Angiospermas,Lamiaceae,Eriope blanchetii,Eriope blanchetii (Benth.) Harley,Eriope,blanchetii,species,NA,VU,NA,NA,NA,NA,NA,NA,NA,VU,sima-Portaria 443/2014,8142,NA,accepted,Eriope blanchetii,VU,NA,Eriope blanchetii,BR-BA|BR-SE,correct
@@ -1579,6 +1580,7 @@ Angiospermas,Myrtaceae,Campomanesia schlechtendaliana,Campomanesia schlechtendal
 Angiospermas,Myrtaceae,Campomanesia sessiliflora,Campomanesia sessiliflora (O.Berg) Mattos,Campomanesia,sessiliflora,species,NA,NA,NA,NA,NA,NA,LC,NA,NA,NA,cncflora_web,10331,NA,accepted,Campomanesia sessiliflora,LC,NA,Campomanesia sessiliflora,BR-BA|BR-ES|BR-GO|BR-MG|BR-MS|BR-MT|BR-PR|BR-SP,correct
 Angiospermas,Myrtaceae,Campomanesia simulans,Campomanesia simulans M.L.Kawas.,Campomanesia,simulans,species,NA,NA,NA,NA,NA,NA,NT,NT,NA,NA,cncflora_ckan-UICN_API,10332,NA,accepted,Campomanesia simulans,NA,NA,Campomanesia simulans,BR-MG|BR-SP,correct
 Angiospermas,Myrtaceae,Campomanesia xanthocarpa,Campomanesia xanthocarpa (Mart.) O.Berg,Campomanesia,xanthocarpa,species,NA,NA,NA,NA,NA,NA,LC,NA,NA,NA,cncflora_web,10335,NA,accepted,Campomanesia xanthocarpa,LC,NA,Campomanesia xanthocarpa,BR-ES|BR-MG|BR-PR|BR-RJ|BR-RS|BR-SC|BR-SP,correct
+Angiospermas,Myrtaceae,Curitiba prismatica,Curitiba prismatica (D.Legrand) Salywon & Landrum,Curitiba,prismatica,species,NA,NA,VU,NA,NA,NA,NA,NA,NA,NA,sima,10337,NA,accepted,Curitiba prismatica,NA,NA,Curitiba prismatica,BR-PR|BR-SC,correct
 Angiospermas,Myrtaceae,Calycorectes acutatus,Eugenia acutata Miq.,Eugenia,acutata,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,10339,NA,accepted,Eugenia acutata,NA,replaced synonym,Calycorectes acutatus,BR-DF|BR-GO|BR-MG|BR-PR|BR-RJ|BR-SP,correct
 Angiospermas,Myrtaceae,Eugenia acutata,Eugenia acutata Miq.,Eugenia,acutata,species,NA,NA,NA,NA,NA,NA,LC,NA,NA,NA,cncflora_ckan,10339,NA,accepted,Eugenia acutata,NA,NA,Eugenia acutata,BR-DF|BR-GO|BR-MG|BR-PR|BR-RJ|BR-SP,correct
 Angiospermas,Myrtaceae,Eugenia bacopari,Eugenia bacopari D.Legrand,Eugenia,bacopari,species,NA,NA,NA,NA,NA,NA,LC,LC,NA,NA,cncflora_ckan-UICN_API,10348,NA,accepted,Eugenia bacopari,NA,NA,Eugenia bacopari,BR-PR|BR-RS|BR-SC|BR-SP,correct
@@ -2129,6 +2131,7 @@ Angiospermas,Phytolaccaceae,Seguieria langsdorffii,Seguieria langsdorffii Moq.,S
 Angiospermas,Phytolaccaceae,Trichostigma octandrum,Trichostigma octandrum (L.) H.Walter,Trichostigma,octandrum,species,NA,NA,LC,NA,NA,NA,NA,NA,NA,NA,sima,12589,NA,accepted,Trichostigma octandrum,LC,NA,Trichostigma octandrum,BR-AC|BR-AM|BR-BA|BR-PR|BR-SC,correct
 Angiospermas,Picramniaceae,Picramnia ciliata,Picramnia ciliata Mart.,Picramnia,ciliata,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,12593,NA,accepted,Picramnia ciliata,NA,NA,Picramnia ciliata,BR-BA|BR-ES|BR-MG|BR-RJ|BR-SP,correct
 Angiospermas,Picramniaceae,Picramnia coccinea,Picramnia coccinea W.W.Thomas,Picramnia,coccinea,species,NA,EN,NA,NA,NA,NA,NA,NA,NA,EN,sima-Portaria 443/2014,12594,NA,accepted,Picramnia coccinea,EN,NA,Picramnia coccinea,BR-BA,correct
+Angiospermas,Picramniaceae,Picramnia excelsa,Picramnia excelsa Kuhlm. ex Pirani,Picramnia,excelsa,species,NA,NA,VU,NA,NA,NA,NA,NA,NA,NA,sima,12596,NA,accepted,Picramnia excelsa,NA,NA,Picramnia excelsa,BR-PR|BR-SC,correct
 Angiospermas,Picramniaceae,Picramnia gardneri,Picramnia gardneri Planch.,Picramnia,gardneri,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,12597,NA,accepted,Picramnia gardneri,NA,NA,Picramnia gardneri,BR-AL|BR-ES|BR-MG|BR-PE|BR-RJ|BR-SP,correct
 Angiospermas,Picramniaceae,Picramnia glazioviana,Picramnia glazioviana Engl.,Picramnia,glazioviana,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,12598,NA,accepted,Picramnia glazioviana,NA,NA,Picramnia glazioviana,BR-AL|BR-BA|BR-ES|BR-MG|BR-PE|BR-RJ|BR-SE|BR-SP,correct
 Angiospermas,Picramniaceae,Picramnia parvifolia,Picramnia parvifolia Engl.,Picramnia,parvifolia,species,NA,NA,NA,NA,NA,NA,LC,NA,NA,NA,cncflora_web,12600,NA,accepted,Picramnia parvifolia,LC,NA,Picramnia parvifolia,BR-MG|BR-PR|BR-RS|BR-SC|BR-SP,correct
@@ -5149,6 +5152,7 @@ Angiospermas,Anacardiaceae,Schinopsis balansae,Schinopsis balansae Engl.,Schinop
 Angiospermas,Ericaceae,Gaylussacia retivenia,Gaylussacia retivenia Sleumer,Gaylussacia,retivenia,species,NA,CR,NA,NA,NA,NA,NA,NA,NA,CR,sima-Portaria 443/2014,115535,NA,accepted,Gaylussacia retivenia,CR,NA,Gaylussacia retivenia,BR-RJ,correct
 Angiospermas,Anacardiaceae,Schinus engleri,Schinus engleri F.A.Barkley,Schinus,engleri,species,NA,NA,NA,NA,NA,NA,NT,DD,NA,NA,cncflora_web-UICN_API,115540,NA,accepted,Schinus engleri,NT,NA,Schinus engleri,BR-MG|BR-PR|BR-RS|BR-SC|BR-SP,correct
 Samambaias,Dryopteridaceae,Ctenitis fenestralis,Ctenitis fenestralis (C.Chr.) Copel.,Ctenitis,fenestralis,species,NA,NA,DD,NA,NA,NA,DD,NA,NA,NA,sima-cncflora_web,115589,NA,accepted,Ctenitis fenestralis,DD,NA,Ctenitis fenestralis,BR-RJ|BR-RN|BR-RO|BR-SC|BR-SP,correct
+Angiospermas,Anacardiaceae,Schinus spinosa,Schinus spinosa Engl.,Schinus,spinosa,species,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,115597,NA,accepted,Schinus spinosa,NA,NA,Schinus spinosa,BR-PR|BR-RS|BR-SC,correct
 Angiospermas,Symplocaceae,Symplocos oblongifolia,Symplocos oblongifolia Casar.,Symplocos,oblongifolia,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,115607,NA,accepted,Symplocos oblongifolia,NA,NA,Symplocos oblongifolia,BR-AL|BR-BA|BR-CE|BR-DF|BR-GO|BR-MG|BR-PI|BR-PR|BR-RJ|BR-SP,correct
 Samambaias,Marsileaceae,Pilularia americana,Pilularia americana A.Braun,Pilularia,americana,species,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,115618,NA,accepted,Pilularia americana,DD,NA,Pilularia americana,BR-RS,correct
 Angiospermas,Asteraceae,Senecio crassiflorus,Senecio crassiflorus (Poir.) DC.,Senecio,crassiflorus,species,NA,NA,NT,NA,NA,NA,NA,NA,NA,NA,sima,115754,NA,accepted,Senecio crassiflorus,NT,NA,Senecio crassiflorus,BR-RS|BR-SC,correct
@@ -5447,6 +5451,7 @@ Angiospermas,Malvaceae,Callianthe latipetala,Callianthe latipetala (G.L.Esteves 
 Angiospermas,Malvaceae,Callianthe rufinerva,Callianthe rufinerva (A.St.-Hil.) Donnel,Callianthe,rufinerva,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,134844,NA,accepted,Callianthe rufinerva,NA,NA,Callianthe rufinerva,BR-AL|BR-BA|BR-DF|BR-ES|BR-MG|BR-PR|BR-RJ|BR-SC|BR-SP,correct
 Angiospermas,Lamiaceae,Physominthe vitifolia,Physominthe vitifolia (Pohl ex Benth.) Harley & J.F.B.Pastore,Physominthe,vitifolia,species,NA,NA,NA,NA,NA,NA,NA,LC,NA,NA,UICN_API,134851,NA,accepted,Physominthe vitifolia,NA,NA,Physominthe vitifolia,BR-BA|BR-GO|BR-MG|BR-SP,correct
 Angiospermas,Malvaceae,Callianthe monteiroi,Callianthe monteiroi (Krapov.) Donnell,Callianthe,monteiroi,species,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,134874,NA,accepted,Callianthe monteiroi,DD,NA,Callianthe monteiroi,BR-MG,correct
+Angiospermas,Arecaceae,Butia exilata,Butia exilata Deble & Marchiori,Butia,exilata,species,NA,NA,CR,NA,NA,NA,NA,NA,NA,NA,sima,135105,NA,accepted,Butia exilata,NA,NA,Butia exilata,BR-RS,correct
 Angiospermas,Asteraceae,Baccharis aracatubensis,Baccharis aracatubensis Malag.,Baccharis,aracatubensis,species,NA,EN,NA,NA,NA,NA,NA,NA,NA,EN,sima-Portaria 443/2014,135167,NA,accepted,Baccharis aracatubensis,EN,NA,Baccharis aracatubensis,BR-PR|BR-SC,correct
 Angiospermas,Lythraceae,Cuphea hatschbachii,Cuphea hatschbachii Lourteig,Cuphea,hatschbachii,species,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,135242,NA,accepted,Cuphea hatschbachii,NA,NA,Cuphea hatschbachii,BR-PR,correct
 Angiospermas,Fabaceae,Dahlstedtia dehiscens,Dahlstedtia dehiscens M.J Silva & A.M.G. Azevedo,Dahlstedtia,dehiscens,species,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,135540,NA,accepted,Dahlstedtia dehiscens,NA,NA,Dahlstedtia dehiscens,BR-MS,correct
@@ -5900,11 +5905,8 @@ NA,NA,Begonia glabrescens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,N
 NA,NA,Begonia klydophylla,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Begonia klydophylla,NA,NA
 NA,NA,Begonia succulenta,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Begonia succulenta,NA,NA
 NA,NA,Begonia tibagiensis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Begonia tibagiensis,NA,NA
-NA,NA,Butia exilata ,NA,NA,NA,NA,NA,NA,CR,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NA,Cedrela angustifolia,NA,NA,NA,NA,NA,EN,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Cedrela angustifolia,NA,NA
 NA,NA,Chaetoclamys psammina,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Chaetoclamys psammina,NA,NA
-NA,NA,Cunila incana ,NA,NA,NA,NA,NA,NA,EN,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,NA,Curitiba prismatica ,NA,NA,NA,NA,NA,NA,VU,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NA,Dyckia commixta,NA,NA,NA,NA,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Dyckia commixta,NA,NA
 NA,NA,Dyckia julianae,NA,NA,NA,NA,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Dyckia julianae,NA,NA
 NA,NA,Echinodorus rhombifolia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Echinodorus rhombifolia,NA,NA
@@ -5924,11 +5926,9 @@ NA,NA,Paepalanthus melaleucus var. epilosus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 NA,NA,Parodia schumanniana,NA,NA,NA,NA,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Parodia schumanniana,NA,NA
 NA,NA,Peperomia cooperi,NA,NA,NA,NA,NA,NA,DD,EX,EX,NA,NA,NA,NA,NA,sima-SP_oficial,NA,NA,NA,NA,NA,not found,Peperomia cooperi,NA,NA
 NA,NA,Peperomia sessilifolia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Peperomia sessilifolia,NA,NA
-NA,NA,Picramnia excelsa ,NA,NA,NA,NA,NA,NA,VU,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NA,Poikilacanthus guillesii,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Poikilacanthus guillesii,NA,NA
 NA,NA,Portulaca cryptopetala var. poellniztiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Portulaca cryptopetala var. poellniztiana,NA,NA
 NA,NA,Rhipsalis hileiabaiana subsp. hileiabaiana,NA,NA,NA,NA,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Rhipsalis hileiabaiana subsp. hileiabaiana,NA,NA
-NA,NA,Schinus spinosa ,NA,NA,NA,NA,NA,NA,DD,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NA,Schwenckia grandiflora var. hatschbachiana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Schwenckia grandiflora var. hatschbachiana,NA,NA
 NA,NA,Spananthe Jacq.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,EX,NA,mpoSP,NA,NA,NA,NA,NA,not found,Spananthe Jacq.,NA,NA
 NA,NA,Syngonanthus caulescens var. epapillosus,NA,NA,NA,NA,NA,NA,NE,NA,NA,NA,NA,NA,NA,NA,sima,NA,NA,NA,NA,NA,not found,Syngonanthus caulescens var. epapillosus,NA,NA

@@ -846,7 +846,7 @@ Burmannia flava,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Bursera simaruba,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Butia capitata,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Butia eriospatha,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Butia exilata ,sima,NA,CR,NA,NA,NA,NA,NA,NA,NA
+Butia exilata,sima,NA,CR,NA,NA,NA,NA,NA,NA,NA
 Butia leiospatha,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Butia leptospatha,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Butia microspadix,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
@@ -1472,8 +1472,8 @@ Ctenium brevispicatum,sima-SP_oficial-cncflora_web,NA,LC,CR,CR,NA,LC,NA,NA,NA
 Ctenium cirrhosum,SP_oficial-cncflora_web-mpoSP,NA,NA,NA,EN,NA,DD,NA,EN,NA
 Ctenium cirrosum,sima,NA,DD,EN,NA,NA,NA,NA,NA,NA
 Culcita coniifolia,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
+Cunila incana,sima,NA,EN,NA,NA,NA,NA,NA,NA,NA
 Cunila incana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cunila incana ,sima,NA,EN,NA,NA,NA,NA,NA,NA,NA
 Cupania bracteosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cupania castaneaefolia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Cupania concolor,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,VU,NA,VU,VU,NA,NT,NA,NA,VU
@@ -1502,7 +1502,7 @@ Cuphea rubro-virens,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Cuphea teleandra,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Cuphea urbaniana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Curculigo scorzonerifolia,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Curitiba prismatica ,sima,NA,VU,NA,NA,NA,NA,NA,NA,NA
+Curitiba prismatica,sima,NA,VU,NA,NA,NA,NA,NA,NA,NA
 Curtia,mpoSP,NA,NA,NA,NA,NA,NA,NA,CR,NA
 Curtia tenuifolia,sima-SP_oficial-cncflora_web,NA,LC,CR,CR,NA,LC,NA,NA,NA
 Cuscuta obtusiflora,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
@@ -4350,7 +4350,7 @@ Physalis angulata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Physominthe vitifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Picramnia ciliata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Picramnia coccinea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Picramnia excelsa ,sima,NA,VU,NA,NA,NA,NA,NA,NA,NA
+Picramnia excelsa,sima,NA,VU,NA,NA,NA,NA,NA,NA,NA
 Picramnia gardneri,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Picramnia glazioviana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Picramnia parvifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4934,7 +4934,7 @@ Schinopsis balansae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Schinopsis brasiliensis var. glabra,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schinus engleri,cncflora_web-UICN_API,NA,NA,NA,NA,NA,NT,DD,NA,NA
 Schinus ramboi,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
-Schinus spinosa ,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
+Schinus spinosa,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schizachyrium scabriflorum,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Schizachyrium scabrifolium,mpoSP,NA,NA,NA,NA,NA,NA,NA,EX,NA
 Schizachyrium tenerum,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
