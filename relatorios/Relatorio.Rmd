@@ -1,0 +1,38 @@
+---
+title: "Consultoria especializada para elaboração e revisão de listas de espécies da flora de ocorrência regional (estado de São Paulo) no âmbito do Projeto GEF Pró-Espécies: Estratégia Nacional para a Conservação de Espécies Ameaçadas."
+subtitle: "Produto 1"
+author:  IPT Soluções Ambientais
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(tinytex.verbose = TRUE)
+```
+
+
+## Introdução
+## Material e métodos
+
+### Fontes de dados
+
+As seguintes fontes de dados foram analisadas:
+
+ + Base de Dados Unificada de Espécies da Flora Ameaçada de Extinção produzida para o Território 19 do Projeto Pró-Espécies (tabela SIMA/SP)
+ + Lista Nacional Oficial de Espécies da Flora Brasileira Ameaçadas de Extinção (Portaria 443/2014), disponível em https://dados.gov.br/dataset/portaria_443
++  Lista de Espécies Ameaçadas Oficial do Estado de São Paulo
++ Espécies Criticamente em Perigo sem qualquer ação de conservação (chamadas Espécies __CR Lacuna__), constantes na lista produzida pelo Ministério do Meio Ambiente (MMA) para fins do Projeto Pró-Espécies
++ Lista de Espécies avaliadas pela União Internacional de Conservação da Natureza (UICN) para o Brasil, disponível em https://www.iucnredlist.org/
++ Banco de Dados do Centro Nacional de Conservação da Flora, CNCFLora, extraída da página http://cncflora.jbrj.gov.br/portal/pt-br/listavermelha/, dia 10/03/2021. Dados mais atualizados foram pedidos ao CNCFlora diretamente. 
+
+A base de dados da Flora do Brasil 2020 foi atualizada dia 08/03/2021 e a partir dela foram feitas todas as validações taxonômicas e a validação geográfica inicial.  
+
+## Passo a passo
+
+
+1. Obtivemos a lista de espécies avaliadas pela UICN. Em `lubridate::today()`, esta lista continha `r nrow(UICN_BR)` nomes únicos.
+
+
+
+
+
