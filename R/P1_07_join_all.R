@@ -1,6 +1,7 @@
 library(readr)
 library(dplyr)
 library(stringr)
+remotes::install_github("andreasancheztapia/flora")
 library(flora)#dados de 8 de marco
 
 
@@ -24,7 +25,6 @@ dados_merge <- purrr::map(all_files,
 CR_Lac        <- dados_merge$CR_Lac_format
 sima          <- dados_merge$IUCN_CNCFlora_BR_SP_format
 SP_Oficial    <- dados_merge$SP_Oficial_format %>% distinct()
-
 P443          <- dados_merge$especiesportaria443_format
 cncflora_SP   <- dados_merge$cncflora_SP_format
 UICN_SP       <- dados_merge$UICN_SP_flora_format
