@@ -74,22 +74,22 @@ flora_drop <- get.taxa(unique(Lista_parcial$especie_original),
 names(flora_drop)
 flora_tudo2 <- left_join(flora_tudo, flora_drop)
 names(flora_tudo2)
-readr::write_csv(flora_tudo,
+readr::write_csv(flora_tudo2,
                  file = fs::path("output", "03_flora_tudo", ext = "csv"))
 #juntar com a base unificada e examinar.
-
+flora_tudo <- flora_tudo2
 
 #cria especie_original para juntar
 flora_tudo$especie_original <- flora_tudo$original.search
 dim(Lista_parcial)
 names(flora_tudo)
 
-Lista_all <- left_join(Lista_parcial, flora_tudo)
-readr::write_csv(Lista_all, file = fs::path("output", "04_tudo_sem formato", ext = "csv"), na = "s.i.")
+Lista_all <- left_join(Lista_parcial, flora_tudo) %>%
+  distinct()
+readr::write_csv(Lista_all,
+                 file = fs::path("output", "04_tudo_sem formato", ext = "csv"))
 
-#ainda ha duplicados nas fontes originais de dados. vismia martiana em sp oficial e stenandrum diphyllum em sima
+#agora só tem duplicados devido às fontes. vismia martiana em sp oficial e stenandrum diphyllum em sima
 dupl <- which(duplicated(Lista_all$especie_original))
 sp <- Lista_all$especie_original[dupl]
-filter(Lista_all, especie_original %in% sp)
-filter(sima, especie_original %in% sp)
-filter(SP_Oficial, especie_original %in% sp)
+
