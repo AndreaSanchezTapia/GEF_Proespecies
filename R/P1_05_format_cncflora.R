@@ -16,9 +16,9 @@ cncflora_out$taxa_avaliado[cncflora_out$taxa_avaliado == "Cattleya labiata" & cn
 
 cncflora_format_out <- cncflora_out %>% rename(
   especie_original = taxa_avaliado,
-  cat_ameaca_cncflora = categoria,
+  cat_ameaca_out = categoria,
   avaliacao = selecionar_ultima_avaliacao
-) %>% select(especie_original, cat_ameaca_cncflora, avaliacao, fonte) %>%
+) %>% select(especie_original, cat_ameaca_out, avaliacao, fonte) %>%
   distinct()
 
 cncflora_format_out <- cncflora_format_out %>%
@@ -36,10 +36,11 @@ cncflora_web <- janitor::clean_names(cncflora_web) %>%
   mutate(fonte = "cncflora_web")
 cncflora_wformat <- cncflora_web %>% rename(
   especie_original = search_str,
-  cat_ameaca_cncflora = threat_status) %>%
-  select(especie_original, cat_ameaca_cncflora, fonte) %>%
+  cat_ameaca_web = threat_status) %>%
+  select(especie_original, cat_ameaca_web, fonte) %>%
+  filter(!is.na(especie_original)) %>%
   distinct()
-summary(cncflora_wformat)
+cncflora_wformat
 #save
 output <- "data/dados_formatados"
 write_csv(cncflora_wformat, fs::path(output, "cncflora_web_format.csv"))
@@ -54,8 +55,8 @@ names(cncflora_ckan)
 cncflora_format <- cncflora_ckan %>%
   rename(
   especie_original = especie_sem_autor,
-  cat_ameaca_cncflora = categoria) %>%
-  select(especie_original, cat_ameaca_cncflora, fonte) %>%
+  cat_ameaca_ckan = categoria) %>%
+  select(especie_original, cat_ameaca_ckan, fonte) %>%
   distinct()
 
 #save
@@ -63,13 +64,24 @@ output <- "data/dados_formatados"
 write_csv(cncflora_format, fs::path(output, "cncflora_ckan_format.csv"))
 
 #junta e ve tudo cncflora ----
-cncflora <- bind_rows(cncflora_format, cncflora_format_out) %>% bind_rows(cncflora_wformat) %>%
+cncflora <- bind_rows(cncflora_format, cncflora_wformat) %>%
   group_by(especie_original) %>%
   arrange(especie_original) %>%
   mutate(fontes = paste(fonte, collapse = "|")) %>%
-  mutate(cats = paste(cat_ameaca_cncflora, collapse = "|")) %>% select(-cat_ameaca_cncflora, -fonte) %>%
+  #mutate(cats = paste(cat_ameaca_cncflora, collapse = "|")) %>%
+  mutate(cat_ameaca_cncflora =
+           case_when(
+             is.na(cat_ameaca_ckan) & !is.na(cat_ameaca_web) ~ cat_ameaca_web,
+             is.na(cat_ameaca_web) & !is.na(cat_ameaca_ckan) ~ cat_ameaca_ckan,
+             !is.na(cat_ameaca_web) & !is.na(cat_ameaca_ckan) ~ cat_ameaca_ckan
+                     )) %>%
+  select(-cat_ameaca_ckan, -cat_ameaca_web, -fonte) %>%
+  rename(fonte = fontes) %>%
+  arrange(especie_original) %>%
   distinct() %>%
   ungroup()
+View(cncflora)
+nrow(cncflora_wformat) +  nrow(cncflora_format)
 
 # checa quais dessas especies estao em sao paulo
 cncflora_flora <- get.taxa(cncflora$especie_original,
