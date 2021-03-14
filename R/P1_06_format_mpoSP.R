@@ -10,6 +10,7 @@ mpoSP_format <- mpoSP %>%
   rename(
     especie_original = nome_cientifico_sem_autor,
     especie_autor = nome_cientifico_completo,
-    cat_ameaca_mpoSP = categoria_do_risco_de_exticao)
+    cat_ameaca_mpoSP = categoria_do_risco_de_exticao) %>%
+  mutate(fonte = "mpoSP")
 mpoSP_format
 write_csv(mpoSP_format, "data/dados_formatados/mpoSP_format.csv")
