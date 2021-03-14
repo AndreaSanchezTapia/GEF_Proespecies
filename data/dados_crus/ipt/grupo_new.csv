@@ -157,7 +157,6 @@ Justicia brasiliana Roth,Angiospermas
 Justicia genuflexa Nees & Mart.,Angiospermas
 Justicia kleinii Wassh. & L.B.Sm.,Angiospermas
 Justicia lythroides (Pohl ex Nees) V.A.W.Graham,Angiospermas
-Justicia meyeniana (Nees) Lindau,Angiospermas
 Justicia polita (Nees) Profice,Angiospermas
 Justicia pygmaea Lindau,Angiospermas
 Justicia scheidweileri V.A.W.Graham,Angiospermas
@@ -205,6 +204,7 @@ Pfaffia gnaphaloides (L.f.) Mart.,Angiospermas
 Crinum americanum L.,Angiospermas
 Griffinia colatinensis Ravenna,Angiospermas
 Griffinia espiritensis Ravenna,Angiospermas
+Griffinia hyacinthina (Ker Gawl.) Ker Gawl.,Angiospermas
 Griffinia intermedia Lindl.,Angiospermas
 Griffinia parviflora Ker Gawl.,Angiospermas
 Griffinia paubrasilica Ravenna,Angiospermas
@@ -222,6 +222,7 @@ Astronium graveolens Jacq.,Angiospermas
 Lithraea molleoides (Vell.) Engl.,Angiospermas
 Schinopsis brasiliensis Engl.,Angiospermas
 Spondias mombin L.,Angiospermas
+Spondias venulosa (Mart. ex Engl.) Engl.,Angiospermas
 Tapirira guianensis Aubl.,Angiospermas
 Tapirira obtusa (Benth.) J.D.Mitch.,Angiospermas
 Asclepias aequicornu E.Fourn.,Angiospermas
@@ -299,7 +300,6 @@ Ilex microdonta Reissek,Angiospermas
 Ilex paraguariensis A.St.-Hil.,Angiospermas
 Ilex pseudobuxus Reissek,Angiospermas
 Ilex taubertiana Loes.,Angiospermas
-Ilex theezans Mart. ex Reissek,Angiospermas
 Anthurium ameliae Nadruz & Cath.,Angiospermas
 Anthurium bocainense Cath. & Nadruz,Angiospermas
 Anthurium fontellanus Nadruz & Leoni,Angiospermas
@@ -338,11 +338,9 @@ Dendropanax monogynus (Vell.) Seem.,Angiospermas
 Dendropanax nebulosus Fiaschi & Jung-Mend.,Angiospermas
 Hydrocotyle bonariensis Lam.,Angiospermas
 Hydrocotyle exigua (Urb.) Malme,Angiospermas
-Hydrocotyle itatiaiensis Brade,Angiospermas
 Hydrocotyle langsdorffii DC.,Angiospermas
 Hydrocotyle pusilla A.Rich.,Angiospermas
 Hydrocotyle ranunculoides L.f.,Angiospermas
-Hydrocotyle ulei H.Wolff,Angiospermas
 Oreopanax capitatus (Jacq.) Decne. & Planch.,Angiospermas
 Oreopanax fulvus Marchal,Angiospermas
 Baccharis brevifolia DC.,Angiospermas
@@ -365,7 +363,6 @@ Inulopsis scaposa (DC.) O.Hoffm.,Angiospermas
 Mikania additicia B.L.Rob.,Angiospermas
 Mikania biformis DC.,Angiospermas
 Mikania bradei B.L.Rob.,Angiospermas
-Mikania casarettoi B.L.Rob.,Angiospermas
 Mikania chlorolepis Baker,Angiospermas
 Mikania clematidifolia Dusén,Angiospermas
 Mikania decumbens Malme,Angiospermas
@@ -384,7 +381,6 @@ Mikania smaragdina Dusén ex Malme,Angiospermas
 Mikania stenomeres B.L.Rob.,Angiospermas
 Mikania trinervis Hook. & Arn.,Angiospermas
 Mikania ulei Hieron.,Angiospermas
-Mikania vauthieriana Baker,Angiospermas
 Mikania viminea DC.,Angiospermas
 Mikania warmingii Sch.Bip.,Angiospermas
 Mikania hemisphaerica Sch.Bip. ex Baker,Angiospermas
@@ -449,7 +445,6 @@ Begonia piresiana Handro,Angiospermas
 Begonia pluvialis L.B.Sm. ex S.F.Sm. & Wassh.,Angiospermas
 Begonia polygonifolia A.DC.,Angiospermas
 Begonia radicans Vell.,Angiospermas
-Begonia reniformis Dryand.,Angiospermas
 Begonia ruschii L.Kollmann,Angiospermas
 Begonia salesopolensis S.J.Gomes da Silva & Mamede,Angiospermas
 Begonia santoslimae Brade,Angiospermas
@@ -508,6 +503,7 @@ Alcantarea benzingii Leme,Angiospermas
 Alcantarea farneyi (Martinelli & A.F.Costa) J.R.Grant,Angiospermas
 Alcantarea geniculata (Wawra) J.R.Grant,Angiospermas
 Alcantarea glaziouana (Leme) J.R.Grant,Angiospermas
+Alcantarea imperialis (Carrière) Harms,Angiospermas
 Alcantarea nahoumii (Leme) J.R.Grant,Angiospermas
 Alcantarea nevaresii (Leme) J.R.Grant,Angiospermas
 Alcantarea vinicolor (E.Pereira & Reitz) J.R.Grant,Angiospermas
@@ -544,6 +540,7 @@ Cryptanthus grazielae H.Luther,Angiospermas
 Cryptanthus lutherianus I.Ramírez,Angiospermas
 Cryptanthus maritimus L.B.Sm.,Angiospermas
 Cryptanthus minarum L.B.Sm.,Angiospermas
+Cryptanthus zonatus (Vis.) Vis.,Angiospermas
 Dyckia agudensis Irgang & Sobral,Angiospermas
 Dyckia brevifolia Baker,Angiospermas
 Dyckia choristaminea Mez,Angiospermas
@@ -629,6 +626,7 @@ Orthophytum grossiorum Leme & C.C.Paula,Angiospermas
 Orthophytum magalhaesii L.B.Sm.,Angiospermas
 Orthophytum zanonii Leme,Angiospermas
 Pitcairnia albiflos Herb.,Angiospermas
+Pitcairnia burlemarxii R.Braga & Sucre,Angiospermas
 Pitcairnia decidua L.B.Sm.,Angiospermas
 Pitcairnia encholirioides L.B.Sm.,Angiospermas
 Pitcairnia glaziovii Baker,Angiospermas
@@ -670,7 +668,6 @@ Tillandsia toropiensis Rauh,Angiospermas
 Tillandsia tricholepis Baker,Angiospermas
 Tillandsia usneoides (L.) L.,Angiospermas
 Tillandsia xiphioides Ker Gawl.,Angiospermas
-Vriesea agostiniana E.Pereira,Angiospermas
 Vriesea altimontana E.Pereira & Martinelli,Angiospermas
 Vriesea altomacaensis A.F.Costa,Angiospermas
 Vriesea amethystina E.Morren,Angiospermas
@@ -875,6 +872,7 @@ Scleria microcarpa Nees ex Kunth,Angiospermas
 Scleria mitis P.J.Bergius,Angiospermas
 Scleria panicoides Kunth,Angiospermas
 Scleria plusiophylla Steud.,Angiospermas
+Scleria reticularis Michx.,Angiospermas
 Scleria scabra Willd.,Angiospermas
 Scleria secans (L.) Urb.,Angiospermas
 Scleria virgata (Nees) Steud.,Angiospermas
@@ -908,7 +906,6 @@ Agarista chlorantha (Cham.) G.Don,Angiospermas
 Agarista niederleinii (Sleumer) Judd,Angiospermas
 Agarista nummularia (Cham. & Schltdl.) G.Don,Angiospermas
 Agarista oleifolia (Cham.) G.Don,Angiospermas
-Agarista pulchella Cham. ex G.Don,Angiospermas
 Agarista pulchra (Cham. & Schltdl.) G.Don,Angiospermas
 Gaultheria eriophylla (Pers.) Sleumer ex Burtt,Angiospermas
 Gaultheria sleumeriana Kin.-Gouv.,Angiospermas
@@ -971,7 +968,6 @@ Napeanthus primulifolius (Raddi) Sandwith,Angiospermas
 Nematanthus crassifolius (Schott) Wiehler,Angiospermas
 Nematanthus fornix (Vell.) Chautems,Angiospermas
 Nematanthus mattosianus (Handro) H.E.Moore,Angiospermas
-Nematanthus mirabilis (Handro) Chautems,Angiospermas
 Nematanthus monanthos (Vell.) Chautems,Angiospermas
 Nematanthus sericeus (Hanst.) Chautems,Angiospermas
 Nematanthus strigillosus (Mart.) H.E.Moore,Angiospermas
@@ -1088,9 +1084,13 @@ Mezilaurus navalium (Allemão) Taub. ex Mez,Angiospermas
 Nectandra barbellata Coe-Teix.,Angiospermas
 Nectandra cissiflora Nees,Angiospermas
 Nectandra debilis Mez,Angiospermas
+Nectandra grandiflora Nees & Mart,Angiospermas
 Nectandra lanceolata Nees,Angiospermas
+Nectandra leucantha Nees & Mart.,Angiospermas
 Nectandra megapotamica (Spreng.) Mez,Angiospermas
 Nectandra membranacea (Sw.) Griseb.,Angiospermas
+Nectandra nitidula Nees & Mart.,Angiospermas
+Nectandra oppositifolia Nees & Mart.,Angiospermas
 Nectandra psammophila Nees,Angiospermas
 Nectandra puberula (Schott) Nees,Angiospermas
 Nectandra reticulata (Ruiz & Pav.) Mez,Angiospermas
@@ -1203,7 +1203,6 @@ Strychnos trinervis (Vell.) Mart.,Angiospermas
 Struthanthus flexicaulis (Mart.) Mart.,Angiospermas
 Struthanthus marginatus (Desr.) G.Don,Angiospermas
 Struthanthus taubatensis Eichler,Angiospermas
-Struthanthus uraguensis (Hook. & Arn.) G.Don,Angiospermas
 Tripodanthus acutifolius (Ruiz & Pav.) Tiegh.,Angiospermas
 Cuphea arenarioides A.St.-Hil.,Angiospermas
 Cuphea glaziovii Koehne,Angiospermas
@@ -1244,6 +1243,7 @@ Heteropterys bahiensis Nied.,Angiospermas
 Heteropterys bicolor A.Juss.,Angiospermas
 Heteropterys bullata Amorim,Angiospermas
 Heteropterys capixaba Amorim,Angiospermas
+Heteropterys conformis W.R.Anderson,Angiospermas
 Heteropterys crinigera Griseb.,Angiospermas
 Heteropterys fragilis Amorim,Angiospermas
 Heteropterys megaptera A.Juss.,Angiospermas
@@ -1251,6 +1251,7 @@ Heteropterys oberdanii Amorim,Angiospermas
 Heteropterys occhionii Amorim,Angiospermas
 Heteropterys patens (Griseb.) A.Juss.,Angiospermas
 Heteropterys pauciflora (A.Juss.) A.Juss.,Angiospermas
+Heteropterys sanctorum W.R.Anderson,Angiospermas
 Heteropterys ternstroemiifolia A.Juss.,Angiospermas
 Heteropterys thyrsoidea (Griseb.) A.Juss.,Angiospermas
 Hiraea bullata W.R.Anderson,Angiospermas
@@ -1344,8 +1345,6 @@ Leandra catharinensis Cogn.,Angiospermas
 Leandra clidemioides (Naudin) Wurdack,Angiospermas
 Leandra echinata Cogn.,Angiospermas
 Leandra eichleri Cogn.,Angiospermas
-Leandra eriocalyx Cogn.,Angiospermas
-Leandra glabrata (Bunbury) Cogn.,Angiospermas
 Leandra hatschbachii Brade,Angiospermas
 Leandra hermogenesii Baumgratz & D`El Rei Souza,Angiospermas
 Leandra humilis (Cogn.) Wurdack,Angiospermas
@@ -1484,7 +1483,6 @@ Clarisia racemosa Ruiz & Pav.,Angiospermas
 Dorstenia arifolia Lam.,Angiospermas
 Dorstenia cayapia Vell.,Angiospermas
 Dorstenia conceptionis Carauta,Angiospermas
-Ficus cestrifolia Schott ex Spreng.,Angiospermas
 Ficus lagoensis C.C.Berg & Carauta,Angiospermas
 Ficus trigona L.f.,Angiospermas
 Ficus adhatodifolia Schott in Spreng.,Angiospermas
@@ -1535,7 +1533,6 @@ Campomanesia schlechtendaliana (O.Berg) Nied.,Angiospermas
 Campomanesia sessiliflora (O.Berg) Mattos,Angiospermas
 Campomanesia simulans M.L.Kawas.,Angiospermas
 Campomanesia xanthocarpa (Mart.) O.Berg,Angiospermas
-Curitiba prismatica (D.Legrand) Salywon & Landrum,Angiospermas
 Eugenia acutata Miq.,Angiospermas
 Eugenia bacopari D.Legrand,Angiospermas
 Eugenia bahiensis DC.,Angiospermas
@@ -1614,6 +1611,7 @@ Eugenia sclerocalyx D.Legrand,Angiospermas
 Eugenia sonderiana O.Berg,Angiospermas
 Eugenia speciosa Cambess.,Angiospermas
 Eugenia sphenoides O.Berg,Angiospermas
+Eugenia sphenophylla O.Berg,Angiospermas
 Eugenia squamiflora Mattos,Angiospermas
 Eugenia stigmatosa DC.,Angiospermas
 Eugenia subavenia O.Berg,Angiospermas
@@ -1727,7 +1725,6 @@ Plinia sebastianopolitana G.M.Barroso,Angiospermas
 Plinia subavenia Sobral,Angiospermas
 Psidium amplexicaule Pers.,Angiospermas
 Psidium australe Cambess.,Angiospermas
-Psidium cattleyanum Sabine,Angiospermas
 Psidium firmum O.Berg,Angiospermas
 Psidium grandifolium Mart. ex DC.,Angiospermas
 Psidium guineense Sw.,Angiospermas
@@ -1861,6 +1858,7 @@ Cyrtopodium palmifrons Rchb.f. & Warm.,Angiospermas
 Cyrtopodium brandonianum Barb.Rodr.,Angiospermas
 Cyrtopodium gigas (Vell.) Hoehne,Angiospermas
 Cyrtopodium parviflorum Lindl.,Angiospermas
+Dichaea anchorifera Cogn.,Angiospermas
 Dichaea mosenii Cogn.,Angiospermas
 Dryadella auriculigera (Rchb.f.) Luer,Angiospermas
 Dryadella gomes-ferreirae (Pabst) Luer,Angiospermas
@@ -2000,6 +1998,7 @@ Vanilla chamissonis Klotzsch,Angiospermas
 Vanilla dubia Hoehne,Angiospermas
 Vanilla edwallii Hoehne,Angiospermas
 Vanilla organensis Rolfe,Angiospermas
+Warczewiczella wailesiana (Lindl.) Rchb.f. ex É.Morren,Angiospermas
 Warmingia eugenii Rchb.f.,Angiospermas
 Warrea warreana (Lodd. ex Lindl.) C.Schweinf.,Angiospermas
 Wullschlaegelia aphylla (Sw.) Rchb.f.,Angiospermas
@@ -2065,7 +2064,6 @@ Seguieria langsdorffii Moq.,Angiospermas
 Trichostigma octandrum (L.) H.Walter,Angiospermas
 Picramnia ciliata Mart.,Angiospermas
 Picramnia coccinea W.W.Thomas,Angiospermas
-Picramnia excelsa Kuhlm. ex Pirani,Angiospermas
 Picramnia gardneri Planch.,Angiospermas
 Picramnia glazioviana Engl.,Angiospermas
 Picramnia parvifolia Engl.,Angiospermas
@@ -2093,7 +2091,6 @@ Peperomia mandioccana Miq.,Angiospermas
 Peperomia mosenii Dahlst.,Angiospermas
 Peperomia nitida Dahlst.,Angiospermas
 Peperomia oreophila Henschen,Angiospermas
-Peperomia papillispica C.DC.,Angiospermas
 Peperomia pellucida (L.) Kunth,Angiospermas
 Peperomia pseudoestrellensis C.DC.,Angiospermas
 Peperomia psilostachya C.DC.,Angiospermas
@@ -2132,7 +2129,6 @@ Piper laevicarpum Yunck.,Angiospermas
 Piper lanceolatum Ruiz & Pav.,Angiospermas
 Piper loefgrenii Yunck.,Angiospermas
 Piper macedoi Yunck.,Angiospermas
-Piper morisonianum C.DC.,Angiospermas
 Piper oblancifolium Yunck.,Angiospermas
 Piper obliquum Ruiz & Pav.,Angiospermas
 Piper piritubanum Yunck.,Angiospermas
@@ -2270,6 +2266,7 @@ Raddia distichophylla (Schrad. ex Nees) Chase,Angiospermas
 Raddiella esenbeckii (Steud.) C.E.Calderón & Soderstr.,Angiospermas
 Reitzia smithii Swallen,Angiospermas
 Saccharum villosum Steud.,Angiospermas
+Schizachyrium scabriflorum (Rupr. ex Hack.) A.Camus,Angiospermas
 Schizachyrium tenerum Nees,Angiospermas
 Setaria parviflora (Poir.) Kerguélen,Angiospermas
 Setaria paucifolia (Morong) Lindm.,Angiospermas
@@ -2332,6 +2329,7 @@ Bradea anomala Brade,Angiospermas
 Bradea bicornuta Brade,Angiospermas
 Bradea kuhlmannii Brade,Angiospermas
 Bradea montana Brade,Angiospermas
+Carapichea ipecacuanha (Brot.) L. Andersson,Angiospermas
 Chiococca alba (L.) Hitchc.,Angiospermas
 Chomelia brasiliana A.Rich.,Angiospermas
 Chomelia obtusa Cham. & Schltdl.,Angiospermas
@@ -2501,6 +2499,7 @@ Pradosia lactescens (Vell.) Radlk.,Angiospermas
 Schlegelia parviflora (Oerst.) Monach.,Angiospermas
 Buddleja hatschbachii E.M.Norman & L.B.Sm.,Angiospermas
 Buddleja oblonga Benth.,Angiospermas
+Buddleja speciosissima Taub.,Angiospermas
 Castela tweedii Planch.,Angiospermas
 Siparuna bifida (Poepp. & Endl.) A.DC.,Angiospermas
 Siparuna brasiliensis (Spreng.) A.DC.,Angiospermas
@@ -2633,7 +2632,6 @@ Bouchea fluminensis (Vell.) Moldenke,Angiospermas
 Citharexylum solanaceum Cham.,Angiospermas
 Duranta erecta L.,Angiospermas
 Lantana canescens Kunth,Angiospermas
-Lippia lasiocalycina Cham.,Angiospermas
 Lippia pumila Cham.,Angiospermas
 Lippia pusilla T.Silva & Salimena,Angiospermas
 Verbena caniuensis Moldenke,Angiospermas
@@ -2884,6 +2882,7 @@ Mimosa niomarlei Afr.Fern.,Angiospermas
 Piptadenia adiantoides (Spreng.) J.F.Macbr.,Angiospermas
 Pseudopiptadenia warmingii (Benth.) G.P.Lewis & M.P.Lima,Angiospermas
 Senna angulata var. miscadena (Vogel) H.S.Irwin & Barneby,Angiospermas
+Sesbania virgata (Cav.) Poir.,Angiospermas
 Stryphnodendron adstringens (Mart.) Coville,Angiospermas
 Swartzia langsdorffii Raddi,Angiospermas
 Zollernia glabra (Spreng.) Yakovlev,Angiospermas
@@ -2903,6 +2902,8 @@ Byrsonima variabilis A.Juss.,Angiospermas
 Byrsonima verbascifolia (L.) DC.,Angiospermas
 Camarea affinis A.St.-Hil.,Angiospermas
 Camarea elongata Mamede,Angiospermas
+Heteropterys aliciae W.R.Anderson,Angiospermas
+Heteropterys eglandulosa A.Juss.,Angiospermas
 Heteropterys nervosa A.Juss.,Angiospermas
 Janusia schwannioides W.R.Anderson,Angiospermas
 Peixotoa adenopoda C.E.Anderson,Angiospermas
@@ -3187,7 +3188,6 @@ Bulbostylis distichoides Lye,Angiospermas
 Cyperus giganteus Vahl,Angiospermas
 Drosera graomogolensis T.Silva,Angiospermas
 Erythroxylum tortuosum Mart.,Angiospermas
-Acalypha amblyodonta (Müll.Arg.) Müll.Arg.,Angiospermas
 Actinostemon klotzschii (Didr.) Pax,Angiospermas
 Astraea lobata (L.) Klotzsch,Angiospermas
 Cnidoscolus oligandrus (Müll.Arg.) Pax,Angiospermas
@@ -3228,7 +3228,6 @@ Myrcia obovata (O.Berg) Nied.,Angiospermas
 Myrcia vestita DC.,Angiospermas
 Ouratea hatschbachii K.Yamam.,Angiospermas
 Adamantinia miltonioides van den Berg & C.N.Gonç.,Angiospermas
-Epistephium sclerophyllum Lindl.,Angiospermas
 Hapalorchis lineatus (Lindl.) Schltr.,Angiospermas
 Ternstroemia alnifolia Wawra,Angiospermas
 Peperomia subrubrispica C.DC.,Angiospermas
@@ -3297,6 +3296,7 @@ Baccharis elliptica Gardner,Angiospermas
 Campuloclinium riedelii (Baker) R.M.King & H.Rob.,Angiospermas
 Chresta souzae H.Rob.,Angiospermas
 Chresta sphaerocephala DC.,Angiospermas
+Chromolaena arrayana (Gardner) R.M.King & H.Robinson,Angiospermas
 Chromolaena costatipes (B.L.Rob.) R.M.King & H.Robinson,Angiospermas
 Critonia morifolia (Mill.) R.M.King & H.Rob.,Angiospermas
 Dasyanthina serrata (Less.) H.Rob.,Angiospermas
@@ -3395,8 +3395,10 @@ Encholirium vogelii Rauh,Angiospermas
 Vriesea diamantinensis Leme,Angiospermas
 Bauhinia marginata (Bong.) Steud.,Angiospermas
 Bauhinia pentandra (Bong.) D.Dietr.,Angiospermas
+"Chamaecrista anamariae Conc., L.P. Queiroz & G.P. Lewis",Angiospermas
 Chamaecrista aristata (Benth.) H.S.Irwin & Barneby,Angiospermas
 Chamaecrista brevicalyx var. elliptica (H.S.Irwin & Barneby) H.S.Irwin & Barneby,Angiospermas
+"Chamaecrista catolesensis Conc., L.P. Queiroz & G.P. Lewis",Angiospermas
 Chamaecrista choriophylla (Vogel) H.S.Irwin & Barneby,Angiospermas
 Chamaecrista dentata (Vogel) H.S.Irwin & Barneby,Angiospermas
 Chamaecrista fodinarum H.S.Irwin & Barneby,Angiospermas
@@ -3586,6 +3588,7 @@ Peixotoa cipoana C.E.Anderson,Angiospermas
 Peixotoa psilophylla C.E.Anderson,Angiospermas
 Stigmaphyllon macedoanum C.E.Anderson,Angiospermas
 Pavonia biflora Fryxell,Angiospermas
+Pavonia lanata R.E.Fries,Angiospermas
 Cambessedesia atropurpurea A.B.Martins,Angiospermas
 Cambessedesia glaziovii Cogn. ex A.B.Martins,Angiospermas
 Cambessedesia pityrophylla (Mart. ex DC.) A.B.Martins,Angiospermas
@@ -4092,7 +4095,6 @@ Didymopanax morototoni (Aubl.) Decne. & Planch.,Angiospermas
 Didymopanax vinosus (Cham. & Schltdl.) Marchal,Angiospermas
 Butia leiospatha (Barb.Rodr.) Becc.,Angiospermas
 Syagrus mendanhensis Glassman,Angiospermas
-Syagrus weddelliana (H.Wendl.) Becc.,Angiospermas
 Trithrinax acanthocoma Drude,Angiospermas
 Racinaea domingosmartinis (Rauh) J.R.Grant,Angiospermas
 Sincoraea amoena Ule,Angiospermas
@@ -4113,7 +4115,6 @@ Myrceugenia acutata D.Legrand,Angiospermas
 Myrcia eugenioides Cambess.,Angiospermas
 Myrcia retusa (O.Berg) Nied.,Angiospermas
 Myrcia strigipes Mart.,Angiospermas
-Cattleya acuensis (Fowlie) Van den Berg,Angiospermas
 Cattleya alaorii (Brieger & Bicalho) van den Berg,Angiospermas
 Cattleya briegeri (Blumensch. ex Pabst) van den Berg & M.W.Chase,Angiospermas
 Cattleya caulescens (Lindl.) Van den Berg,Angiospermas
@@ -4122,6 +4123,7 @@ Cattleya crispa Lindl.,Angiospermas
 Cattleya endsfeldzii (Pabst) Van den Berg,Angiospermas
 Cattleya ghillanyi (Pabst) Van den Berg,Angiospermas
 Cattleya gloedeniana (Hoehne) Van den Berg,Angiospermas
+Cattleya grandis (Lindl.) A.A.Chadwick,Angiospermas
 Cattleya harpophylla (Rchb.f.) Van den Berg,Angiospermas
 Cattleya hoehnei Van den Berg,Angiospermas
 Cattleya jongheana (Rchb.f.) Van den Berg,Angiospermas
@@ -4134,6 +4136,7 @@ Cattleya perrinii Lindl.,Angiospermas
 Cattleya pumila Hook.,Angiospermas
 Cattleya pygmaea (Pabst) Van den Berg,Angiospermas
 Cattleya sincorana (Schltr.) Van den Berg,Angiospermas
+Cattleya tenebrosa (Gower) A.A.Chadwick,Angiospermas
 Cattleya virens (Lindl.) Van den Berg,Angiospermas
 Cattleya wittigiana (Barb.Rodr.) van den Berg,Angiospermas
 Cattleya xanthina (Lindl.) Van den Berg,Angiospermas
@@ -4391,7 +4394,6 @@ Elaphoglossum macahense (Fée) Rosenst.,Samambaias
 Elaphoglossum nigrescens (Hook.) T.Moore ex Diels,Samambaias
 Elaphoglossum pachydermum (Fée) T.Moore,Samambaias
 Elaphoglossum paulistanum Rosenst.,Samambaias
-Elaphoglossum rigidum (Aubl.) Urb.,Samambaias
 Elaphoglossum scolopendrifolium (Raddi) J.Sm.,Samambaias
 Elaphoglossum strictum (Raddi) T.Moore,Samambaias
 Elaphoglossum tectum (Humb. & Bonpl. ex Willd.) T.Moore,Samambaias
@@ -4491,6 +4493,7 @@ Metzgeria liebmanniana Lindenb. & Gottsche,Bri
 Metzgeria psilocraspeda Schiffn.,Bri
 Metzgeria subaneura Schiffn.,Bri
 Jensenia difformis (Nees) Grolle,Bri
+Pallavicinia lyellii (Hook.) S.F. Gray,Bri
 Noteroclada confluens (Hook. f. & Taylor ) Spruce,Bri
 Asterella venosa (Lehm. & Lindenb.) A.Evans,Bri
 Marchantia berteroana Lehm. & Lindenb.,Bri
@@ -4523,7 +4526,6 @@ Inga praegnans T.D.Penn.,Angiospermas
 Inga schinifolia Benth.,Angiospermas
 Inga sellowiana Benth.,Angiospermas
 Mimosa balduinii Burkart,Angiospermas
-Mimosa bocainae Barneby,Angiospermas
 Mimosa catharinensis Burkart,Angiospermas
 Mimosa involucrata Benth.,Angiospermas
 Mimosa myuros Barneby,Angiospermas
@@ -4606,6 +4608,7 @@ Petunia exserta Stehmann,Angiospermas
 Peperomia riparia Yunck.,Angiospermas
 Miconia capixaba R.Goldenb.,Angiospermas
 Aspicarpa sericea Griseb.,Angiospermas
+Stigmaphyllon matogrossense C.E.Anderson,Angiospermas
 Crassula peduncularis (Sm.) Meigen,Angiospermas
 Mourera weddelliana Tul.,Angiospermas
 Eryngium corallinum Mathias & Constance,Angiospermas
@@ -4697,10 +4700,13 @@ Cambessedesia striatella (Naudin) A.B. Martins,Angiospermas
 Cambessedesia regnelliana Cogn.,Angiospermas
 Trifolium argentinense Speg.,Angiospermas
 Vicia pampicola Burkart,Angiospermas
+Nectandra angustifolia (Schrad.) Nees & Mart.,Angiospermas
 Nectandra impressa Mez,Angiospermas
+Nectandra japurensis Nees & C.Mart.,Angiospermas
 Chrysolaena dusenii (Malme) Dematt.,Angiospermas
 Chrysolaena nicolackii H.Rob.,Angiospermas
 Lessingianthus adenophyllus (Mart. ex DC.) H.Rob.,Angiospermas
+Lessingianthus constrictus (Matzenb. & Mafiol.) Dematt.,Angiospermas
 Cambessedesia hilariana (Kunth) DC.,Angiospermas
 Lessingianthus reitzianus (Cabrera) H.Rob.,Angiospermas
 Bromidium hygrometricum (Nees) Nees & Meyen,Angiospermas
@@ -4859,6 +4865,7 @@ Unonopsis riedeliana R.E.Fr.,Angiospermas
 Xylopia aromatica (Lam.) Mart.,Angiospermas
 Xylopia brasiliensis Spreng.,Angiospermas
 Xylopia emarginata Mart.,Angiospermas
+Xylopia langsdorffiana A.St.-Hil.,Angiospermas
 Apteria aphylla (Nutt.) Barnhart ex Small,Angiospermas
 Burmannia aprica (Malme) Jonker,Angiospermas
 Burmannia australis Malme,Angiospermas
@@ -4995,6 +5002,7 @@ Calea serrata Less.,Angiospermas
 Chromolaena elliptica (Hook. & Arn.) R.M.King & H.Rob.,Angiospermas
 Chromolaena latisquamulosa (Hieron.) R.M.King & H.Rob.,Angiospermas
 Chromolaena rhinanthacea (DC.) R.M.King & H.Rob.,Angiospermas
+Astronium urundeuva (M.Allemão) Engl.,Angiospermas
 Mollinedia longicuspidata Perkins,Angiospermas
 Diplusodon orbicularis Koehne,Angiospermas
 Diplusodon vidalii Lourteig,Angiospermas
@@ -5009,7 +5017,6 @@ Schinopsis balansae Engl.,Angiospermas
 Gaylussacia retivenia Sleumer,Angiospermas
 Schinus engleri F.A.Barkley,Angiospermas
 Ctenitis fenestralis (C.Chr.) Copel.,Samambaias
-Schinus spinosa Engl.,Angiospermas
 Symplocos oblongifolia Casar.,Angiospermas
 Pilularia americana A.Braun,Samambaias
 Senecio crassiflorus (Poir.) DC.,Angiospermas
@@ -5071,11 +5078,9 @@ Handroanthus arianeae (A.H.Gentry) S.Grose,Angiospermas
 Handroanthus botelhensis (A.H.Gentry) S.Grose,Angiospermas
 Handroanthus bureavii (Sandwith) S.Grose,Angiospermas
 Handroanthus riodocensis (A.H.Gentry) S.Grose,Angiospermas
-Handroanthus serratifolius (Vahl) S.Grose,Angiospermas
 Handroanthus spongiosus (Rizzini) S.Grose,Angiospermas
 Anathallis colnagoi (Pabst) F.Barros & L.Guimarães,Angiospermas
 Aspilia silphioides (Hook. & Arn.) Benth. & Hook.,Angiospermas
-Marcgravia comosa C.Presl,Angiospermas
 Nitella flexilis (L.) C.Agardh,Algas
 Aosa uleana (Urb. & Gilg) Weigend,Angiospermas
 Aosa parviflora (Schrad. ex DC.) Weigend,Angiospermas
@@ -5091,7 +5096,6 @@ Verbena hirta Spreng. var. hirta,Angiospermas
 Diploon cuspidatum (Hoehne) Cronquist,Angiospermas
 Aristida laevis (Nees) Kunth,Angiospermas
 Aniseia martinicensis var. ambigua Hallier f.,Angiospermas
-Vriesea taritubensis E.Pereira & I.A.Penna var. taritubensis,Angiospermas
 Acrocomia emensis (Toledo) Lorenzi,Angiospermas
 Bredemeyera hebeclada (DC.) J.F.B.Pastore,Angiospermas
 Symplocos pustulosa Aranha,Angiospermas
@@ -5126,6 +5130,7 @@ Lysimachia barbata (P. Taylor) U. Manns & Anderb.,Angiospermas
 Lysimachia buxifolia Molina,Angiospermas
 Passiflora porophylla Vell.,Angiospermas
 "Chascolytrum brasilense (Nees) L. Essi, Longhi-Wagner & Souza-Chies",Angiospermas
+"Chascolytrum bulbosum (Parodi) L.Essi, Longhi-Wagner & Souza-Chies",Angiospermas
 "Chascolytrum itatiaiae (Ekman) L. Essi, Longhi-Wagner & Souza-Chies",Angiospermas
 "Chascolytrum juergensii (Hack.) L. Essi, Souza-Chies & Longhi-Wagner",Angiospermas
 "Chascolytrum parodianum (Roseng., Arrill. & Izag.) Matthei",Angiospermas
@@ -5251,7 +5256,6 @@ Oocephalus piranii (Harley) Harley & J.F.B.Pastore,Angiospermas
 Bipinnula penicillata (Rchb.f.) Cisternas & Salazar,Angiospermas
 Medusantha eriophylla var. coriifolia (Benth.) Harley & J.F.B.Pastore,Angiospermas
 Senecio grandis Gardner,Angiospermas
-Mikania pteropoda DC.,Angiospermas
 Meniscium angustifolium Willd.,Samambaias
 Meniscium macrophyllum Kunze,Samambaias
 Schnella grazielae (Vaz) Wunderlin,Angiospermas
@@ -5271,7 +5275,6 @@ Callianthe latipetala (G.L.Esteves & Krapov.) Donnell,Angiospermas
 Callianthe rufinerva (A.St.-Hil.) Donnel,Angiospermas
 Physominthe vitifolia (Pohl ex Benth.) Harley & J.F.B.Pastore,Angiospermas
 Callianthe monteiroi (Krapov.) Donnell,Angiospermas
-Butia exilata Deble & Marchiori,Angiospermas
 Baccharis aracatubensis Malag.,Angiospermas
 Cuphea hatschbachii Lourteig,Angiospermas
 Dahlstedtia dehiscens M.J Silva & A.M.G. Azevedo,Angiospermas
@@ -5283,6 +5286,7 @@ Jamesonia biardii (Fée) Christenh.,Samambaias
 Jamesonia cheilanthoides (Sw.) Christenh.,Samambaias
 Jamesonia rufescens (Fée) Christenh.,Samambaias
 Jamesonia insignis (Mett.) Christenh.,Samambaias
+Leptospron adenanthum (G.Mey.) A.Delgado,Angiospermas
 Pleroma guartelaense F. S. Mey & R. Goldenb.,Angiospermas
 Capanemia therezae Barb.Rodr.,Angiospermas
 Ancistrotropis firmula (Mart. ex Benth.) A. Delgado,Angiospermas
@@ -5415,7 +5419,6 @@ Monteverdia basidentata (Reissek) Biral,Angiospermas
 Monteverdia brasiliensis (Mart.) Biral,Angiospermas
 Monteverdia cestrifolia (Reissek) Biral,Angiospermas
 Monteverdia comocladiiformis (Reissek) Biral,Angiospermas
-Monteverdia dasyclada (Mart.) Biral,Angiospermas
 Eumachia cymuligera (Müll. Arg.) C.M. Taylor & Razafim.,Angiospermas
 Monteverdia floribunda (Reissek) Biral,Angiospermas
 Monteverdia glaucescens (Reissek) Biral,Angiospermas
@@ -5432,6 +5435,7 @@ Orthochilus ruwenzoriensis (Rendle) Bytebier,Angiospermas
 Monteverdia radlkoferiana (Loes.) Biral,Angiospermas
 Monteverdia quadrangulata (Schrad.) Biral,Angiospermas
 Conchocarpus coeruleus (A.St.-Hil.)Bruniera & Groppo,Angiospermas
+Conchocarpus ruber (A.St.Hil.) Bruniera & Groppo,Angiospermas
 Protium occhionii Rizzini,Angiospermas
 Lytoneuron crenulans (Fée) Yesilyurt,Samambaias
 Lytoneuron itatiaiense (Fée) Yesilyurt,Samambaias
@@ -5441,7 +5445,9 @@ Monteverdia littoralis (R.M. Carvalho-Okano) Biral,Angiospermas
 Byttneria catalpifolia subsp. sidifolia (A.St.-Hil.) Cristóbal,Angiospermas
 Microdesmia rigida (Benth.) Sothers & Prance,Angiospermas
 Myrcia ubatubana Mazine & Sobral,Angiospermas
+Myrcia eugeniopsoides (D.Legrand & Kausel) Mazine,Angiospermas
 Myrcia multipunctata Mazine,Angiospermas
+Myrcia vellozoi Mazine,Angiospermas
 Myrcia reitzii (D.Legrand) Mazine,Angiospermas
 "Morilloa furlanii (Fontella) Fontella, Goes & S.A.Cáceres",Angiospermas
 "Morilloa piranii (Fontella) Fontella, Goes & S.A.Cáceres",Angiospermas
@@ -5485,6 +5491,8 @@ Pleroma itatiaiae (Wawra) P.J.F.Guim. & Michelang.,Angiospermas
 Pleroma kleinii (Wurdack) P.J.F.Guim. & Michelang.,Angiospermas
 Didymopanax calvus (Cham.) Decne. & Planch.,Angiospermas
 Spiranthera speciosa (Ducke) L.A.Brito & Pirani,Angiospermas
+Leptobalanus gardneri (Hook.f.) Sothers & Prance,Angiospermas
+Leptobalanus octandrus (Hoffmanns. ex Roem. & Schult.) Sothers & Prance,Angiospermas
 Karawata depressa (L.B.Sm.) J.R.Maciel & G.Sousa,Angiospermas
 Karawata gustavoi  (J.A.Siqueira & Leme) J.R.Maciel & G.Sousa,Angiospermas
 Hymenopus miltonii (Prance) Sothers & Prance,Angiospermas
@@ -5573,6 +5581,7 @@ Myrcia glomerata (Cambess.) G.P.Burton & E.Lucas,Angiospermas
 Myrcia loranthifolia (DC.) G.P.Burton & E.Lucas,Angiospermas
 Huberia insignis (Cham.) Bochorny & R.Goldenb.,Angiospermas
 Huberia minutifolia Bochorny & R.Goldenb.,Angiospermas
+Brasilochloa sampaiana (Hitchc.) R.P.Oliveira,Angiospermas
 "Ctenodon brasilianus (Poir.) D.B.O.S.Cardoso, P.L.R.Moraes & H.C.Lima",Angiospermas
 "Ctenodon brevipes (Benth.) D.B.O.S.Cardoso, P.L.R.Moraes & H.C.Lima",Angiospermas
 Nissolia vincentina (Ker Gawl.) T.M.Moura & Fort.-Perez,Angiospermas
@@ -5582,6 +5591,7 @@ Campomanesia schlechtendaliana (O.Berg) Nied. var. schlechtendaliana,Angiosperma
 Myrcia neosericea (Morais & Sobral) Faria & Proença,Angiospermas
 Eugenia neophaea Sobral & Mazine,Angiospermas
 Eugenia subglomerata (Kuntze) Sobral,Angiospermas
+Palicourea prunifolia (Kunth) Borhidi,Angiospermas
 "Ctenodon lacabuendianus (Brandão) D.B.O.S.Cardoso, Filardi & H.C.Lima",Angiospermas
 "Ctenodon marginatus (Benth.) D.B.O.S.Cardoso, P.L.R.Moraes & H.C.Lima",Angiospermas
 "Ctenodon racemosus (Vogel) D.B.O.S.Cardoso, Filardi & H.C.Lima",Angiospermas
@@ -5598,49 +5608,6 @@ Peperomia unduavina C.DC.,Angiospermas
 Campomanesia sessiliflora (O.Berg) Mattos var. sessiliflora,Angiospermas
 Campomanesia sessiliflora var. bullata (Barb.Rodr.) Landrum,Angiospermas
 Lapaea harleyi (B.L. Turner) Scatigna,Angiospermas
-Griffinia hyacinthina (Ker Gawl.) Ker Gawl.,Angiospermas
-Spondias venulosa (Mart. ex Engl.) Engl.,Angiospermas
-Alcantarea imperialis (Carrière) Harms,Angiospermas
-Cryptanthus zonatus (Vis.) Vis.,Angiospermas
-Pitcairnia burlemarxii R.Braga & Sucre,Angiospermas
-Scleria reticularis Michx.,Angiospermas
-Nectandra grandiflora Nees & Mart,Angiospermas
-Nectandra leucantha Nees & Mart.,Angiospermas
-Nectandra nitidula Nees & Mart.,Angiospermas
-Nectandra oppositifolia Nees & Mart.,Angiospermas
-Heteropterys conformis W.R.Anderson,Angiospermas
-Heteropterys sanctorum W.R.Anderson,Angiospermas
-Eugenia sphenophylla O.Berg,Angiospermas
-Dichaea anchorifera Cogn.,Angiospermas
-Warczewiczella wailesiana (Lindl.) Rchb.f. ex É.Morren,Angiospermas
-Schizachyrium scabriflorum (Rupr. ex Hack.) A.Camus,Angiospermas
-Carapichea ipecacuanha (Brot.) L. Andersson,Angiospermas
-Buddleja speciosissima Taub.,Angiospermas
-Sesbania virgata (Cav.) Poir.,Angiospermas
-Heteropterys aliciae W.R.Anderson,Angiospermas
-Heteropterys eglandulosa A.Juss.,Angiospermas
-Chromolaena arrayana (Gardner) R.M.King & H.Robinson,Angiospermas
-"Chamaecrista anamariae Conc., L.P. Queiroz & G.P. Lewis",Angiospermas
-"Chamaecrista catolesensis Conc., L.P. Queiroz & G.P. Lewis",Angiospermas
-Pavonia lanata R.E.Fries,Angiospermas
-Cattleya grandis (Lindl.) A.A.Chadwick,Angiospermas
-Cattleya tenebrosa (Gower) A.A.Chadwick,Angiospermas
-Pallavicinia lyellii (Hook.) S.F. Gray,Bri
-Stigmaphyllon matogrossense C.E.Anderson,Angiospermas
-Nectandra angustifolia (Schrad.) Nees & Mart.,Angiospermas
-Nectandra japurensis Nees & C.Mart.,Angiospermas
-Lessingianthus constrictus (Matzenb. & Mafiol.) Dematt.,Angiospermas
-Xylopia langsdorffiana A.St.-Hil.,Angiospermas
-Astronium urundeuva (M.Allemão) Engl.,Angiospermas
-"Chascolytrum bulbosum (Parodi) L.Essi, Longhi-Wagner & Souza-Chies",Angiospermas
-Leptospron adenanthum (G.Mey.) A.Delgado,Angiospermas
-Conchocarpus ruber (A.St.Hil.) Bruniera & Groppo,Angiospermas
-Myrcia eugeniopsoides (D.Legrand & Kausel) Mazine,Angiospermas
-Myrcia vellozoi Mazine,Angiospermas
-Leptobalanus gardneri (Hook.f.) Sothers & Prance,Angiospermas
-Leptobalanus octandrus (Hoffmanns. ex Roem. & Schult.) Sothers & Prance,Angiospermas
-Brasilochloa sampaiana (Hitchc.) R.P.Oliveira,Angiospermas
-Palicourea prunifolia (Kunth) Borhidi,Angiospermas
 "Lychnocephalus humillimus (Sch.Bip.) Loeuille, Semir & Pirani",Angiospermas
 "Lychnocephalus mellobarretoi (G.M. Barroso) Loeuille, Semir & Pirani",Angiospermas
 "Lychnocephalus sellovii (Sch.Bip.) Loeuille, Semir & Pirani",Angiospermas
