@@ -10,6 +10,12 @@
 - [x] Split espécie em gênero e epiteto
 - [ ] Sinonimia: nome correto quando sinonimo
 - [ ] Fonte_sinonimia: FB quando FB, checar os problemas abaixo
+- [ ] Configar colunas do Anexo 1 conforme ordem contida na Carta convite
+- [ ] Julgar espécies a serem excluídas
+- [ ] ~~Formular Anexo 2 espécies excluídas~~
+- [ ] Inserir dados no relatório textual
+- [ ] Enviar para revisão e formatação (Haroldo e Paulo em 14-03).
+
 
 
 
