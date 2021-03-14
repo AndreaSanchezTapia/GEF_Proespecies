@@ -1,8 +1,8 @@
 library(tidyverse)
 library(readr)
 # checks with flora
-output <- "data/dados_formatados"
-UICN_BR <- read_csv("data/dados_formatados/UICN_BR.csv", na = "s.i.", guess_max = 10000)
+output <- "data/dados_formatados/uicn/"
+UICN_BR <- read_csv(fs::path(output, "UICN_BR.csv"), guess_max = 10000)
 # flora_IUCN <- get.taxa(UICN_BR$especie_original,
 #                        states = TRUE,
 #                        suggest.names = T,
@@ -15,7 +15,9 @@ UICN_BR <- read_csv("data/dados_formatados/UICN_BR.csv", na = "s.i.", guess_max 
 #                        domain = T,
 #                        endemism = T)
 #readr::write_csv(flora_IUCN, file = fs::path(output, "UICN_BR_flora", ext = "csv"), na = "s.i.")
-flora_IUCN <- readr::read_csv(file = fs::path(output, "UICN_BR_flora", ext = "csv"), na = "s.i.", guess_max = 10000)
+flora_IUCN <-
+  readr::read_csv(file = fs::path(output, "UICN_BR_flora", ext = "csv"),
+                  na = "s.i.", guess_max = 10000)
 
 #rename binomio
 flora_IUCN$especie_original <- flora_IUCN$original.search

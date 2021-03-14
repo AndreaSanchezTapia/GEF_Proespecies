@@ -86,8 +86,8 @@ cncflora_format <- cncflora %>%
              !is.na(cncflora_web) & !is.na(cncflora_ckan) ~ "cncflora_ckan")) %>%
   select(-cncflora_ckan, -cncflora_web)
 
-write_csv(cncflora_format, "data/dados_formatados/cncflora_format.csv")
-
+write_csv(cncflora_format, "data/dados_formatados/cncflora/cncflora_format.csv")
+cncflora_format <- read_csv("data/dados_formatados/cncflora/cncflora_format.csv")
 # checa quais dessas especies estao em sao paulo
 cncflora_flora <- get.taxa(cncflora_format$especie_original,
                            states = TRUE,
@@ -123,7 +123,7 @@ cncflora_SP <- cncflora_SP %>%
   select(especie_original,
          starts_with("cat_ameaca"),
          fonte)
-write_csv(cncflora_SP, "data/dados_formatados/cncflora_SP_format.csv", na = "s.i.")
+write_csv(cncflora_SP, "data/dados_formatados/cncflora_SP_format.csv")
 
 
 

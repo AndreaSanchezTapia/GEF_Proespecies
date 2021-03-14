@@ -4,9 +4,7 @@ library(dplyr)
 library(tidyr)
 library(flora)
 library(readr)
-#remotes::install_github("liibre/Rocc")
-#library(Rocc)
-devtools::load_all("../../R_packages/Rocc/")
+library(Rocc)
 library(stringr)
 library(textclean)
 library(janitor)
@@ -39,10 +37,11 @@ IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
   unite(col = "especie_original", genero, epiteto_especifico, subsp, var, remove = F, sep = " ",  na.rm = T) %>%
   #seleciona campos e as categorias antigas de ameaca
   select(especie_original, any_of(campos_p1), starts_with("cat_ameaca"))
+
 names(IUCN_CNCFlora_BR_SP)
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% mutate(fonte = "sima")
 # salva ----
-write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"), na = "s.i.")
+write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
 
 ## 2. le Sao Paulo ----
 SP <- read_xlsx("data/dados_crus/Flora_Ameacada_SPOficial.xlsx")
@@ -74,15 +73,16 @@ l <- length(rocc_check$especie[rocc_check$species_status != "name_w_authors"])
 for (i in seq_along(1:l)) {
 rocc_check$especie[rocc_check$species_status != "name_w_authors"][i] <- remove.authors(rocc_check$especie[rocc_check$species_status != "name_w_authors"][i])
 }
-rocc_check$especie[rocc_check$species_status =="indet"] <- check_string(rocc_check$especie[rocc_check$species_status == "indet"])$species
+rocc_check$especie[rocc_check$species_status == "indet"] <- check_string(rocc_check$especie[rocc_check$species_status == "indet"])$species
 rocc_check$especie[rocc_check$species_status == "indet"]
 SP$especie_original <- rocc_check$especie
 
 # seleciona os nomes
-SP <- SP %>% select(familia, especie_autor, especie_original, cat_ameaca_sp)
+SP <- SP %>% select(especie_autor, especie_original, cat_ameaca_sp)
 SP <- SP %>% mutate(fonte = "SP_oficial")
-write_csv(SP,fs::path(output, "SP_Oficial_format", ext = "csv"), na = "s.i.")
-#blz
+distinct(SP)
+output <- "data/dados_formatados"
+write_csv(SP, fs::path(output, "SP_Oficial_format", ext = "csv"))
 
 
 ## CR_Lacuna
@@ -93,4 +93,4 @@ CR_Lac <- CR_Lac %>% filter(grupao == "Flora") %>%
          cat_ameaca_CR_lac = categoria) %>%
   mutate(fonte = "CR_Lac")
 names(CR_Lac)
-write_csv(CR_Lac,fs::path(output, "CR_Lac_format", ext = "csv"), na = "s.i.")
+write_csv(CR_Lac,fs::path(output, "CR_Lac_format", ext = "csv"))
