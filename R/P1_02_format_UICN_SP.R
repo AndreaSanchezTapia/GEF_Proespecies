@@ -25,11 +25,15 @@ UICN_BR_flora <- full_join(UICN_BR, flora_IUCN)
 # filtra para ocorrencias em SP de acordo com Flora 2020
 UICN_Flora_SP <- UICN_BR_flora %>%
   filter(!is.na(occurrence)) %>%
-  filter(str_detect(occurrence, pattern = "SP"))
+  filter(str_detect(occurrence,
+                    pattern = "SP")) %>%
+  mutate(fonte = "UICN_API")
 
-UICN_Flora_SP <- UICN_Flora_SP %>% select(especie_original, starts_with("cat_ameaca"))
+UICN_Flora_SP <- UICN_Flora_SP %>%
+  select(especie_original, starts_with("cat_ameaca"), fonte)
 
-readr::write_csv(UICN_Flora_SP, file = fs::path(output, "UICN_SP_flora_format", ext = "csv"), na = "s.i.")
+readr::write_csv(UICN_Flora_SP,
+                 file = fs::path(output, "UICN_SP_flora_format", ext = "csv"))
 
-#A partir da lista de especies da flora do Brasil, buscamos as espécies que se encontram no estado de São Paulo usando o pacote flora de R. Segundo a Flora do Brasil, das `r nrow(UICN_BR)` espécies avaliadas pela UICN para o Brasil, `r nrow(UICN_FLora_SP)` ocorrem no Estado de São Paulo.
+# A partir da lista de especies da flora do Brasil, buscamos as espécies que se encontram no estado de São Paulo usando o pacote flora de R. Segundo a Flora do Brasil, das `r nrow(UICN_BR)` espécies avaliadas pela UICN para o Brasil, `r nrow(UICN_FLora_SP)` ocorrem no Estado de São Paulo.
 #kableExtra::kable(UICN_Flora_SP)
