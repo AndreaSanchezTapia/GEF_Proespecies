@@ -8,25 +8,31 @@
 - [x] Cria a coluna fontes para evitar linhas duplicadas: em quais das listas está a espécie
 - [x] Tira autores dos nomes
 - [x] Split espécie em gênero e epiteto
-- [ ] Sinonimia: nome correto quando sinonimo
-- [ ] Fonte_sinonimia: FB quando FB, checar os problemas abaixo
-- [ ] Configar colunas do Anexo 1 conforme ordem contida na Carta convite
+- [x] Sinonimia: nome correto quando sinonimo
+- [x] Fonte_sinonimia: FB quando FB, checar os problemas abaixo
+- [x] Configurar colunas do Anexo 1 conforme ordem contida na Carta convite
 - [ ] Julgar espécies a serem excluídas
 - [ ] ~~Formular Anexo 2 espécies excluídas~~
 - [ ] Inserir dados no relatório textual
 - [ ] Enviar para revisão e formatação (Haroldo e Paulo em 14-03).
 
+#campos
+- [x] grupo (Algas, Angiospermas, Gimnospermas, Samambaias e Licófitas)
+- [x] familia
+- [x] genero
+- [x] epiteto_especifico
+- [x] PERGUNTA: TEMOS 20 SUBESPECIES E 27 VARIEDADES @patriciarosa2021 o que fazer com epitetos infra - R. incluir novas colunas
+- [x] especie (posso só juntar genero e epiteto) - R. sim. Em casos de nível infraespecífico far-se-á necessário incluir var. epíteto.
+- [x] Elegível para PAT 20 (apta ou inapta). NAO INDIQUEI INAPTA, apenas apta, porque ainda não sabemos. 
+- [x] ~~Motivo (presente ou ausente. Se ausente: ausente-não ocorre no BR; ausente-não ocorre SP; ausente-nome não resolvido; ausente-hibrido; ausente- nome desconhecido; sinônimo de espécie não avaliada)~~ **perfeito isto pode ir no campo notas, de preenchimento livre** Juntei todas elas em uma nota só, isso atende ao Anexo 1. preenchimento livre. 
 
-
-
-## Atualizar cat_ameaca
-
-
-|           | UICN_UK  | brasil   | cncflora | estadoSP |  munSP   |
-|-----------| -------- | -------- | -------- | -------- | -------- |
-| Base      |          |          |          |          |          |
-| Sinonimos |          |          |          |          |          |
-
+- [x] sinonimia
+- [x] fonte_sinonimia
+- [x] cat_ameaca_iucn
+- [x] cat_ameaca_br (Pergunta - br é a portaria 443?) ast: cat_ameaca_br de sima é a portaria, sim. eu comparo essa coluna com a portaria.
+- [x] cat_ameaca_cncflora
+- [x] cat_ameaca_sp
+- [x] cat_ameaca_mun_sp
 
 
 ## Erros e detalhes que têm que ser verificados
