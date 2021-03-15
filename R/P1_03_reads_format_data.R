@@ -14,11 +14,16 @@ library(janitor)
 campos_p1 <- c("grupo", "familia", "genero", "epiteto_especifico", "especie", "sinonimia", "fonte_sinonimia", "cat_ameaca_iucn", "cat_ameaca_br", "cat_ameaca_cncflora", "cat_ameaca_sp")
 
 # 1. ler IUCN_BR_SP ----
-IUCN_CNCFlora_BR_SP <- read_xlsx("data/dados_crus/Flora_EstadoSP_Listas_IUCN_CNCFlora_BR_SP.xlsx")
+IUCN_CNCFlora_BR_SP <- read_xlsx("data/dados_crus/Flora_EstadoSP_Listas_IUCN_CNCFlora_BR_SP.xlsx") %>%
+  distinct()
 
 # rename columns ----
 IUCN_CNCFlora_BR_SP <- clean_names(IUCN_CNCFlora_BR_SP)
 names(IUCN_CNCFlora_BR_SP)
+check_ws <- function(x) {
+  x <- trimws(x, whitespace = "[ \\t\\r\\n\U00A0]")
+  x <- gsub("\\t|\\r|\\n|\U00A0", " ", x)
+}
 
 # manter categorias anteriores ----
 #vou revisar so no final
@@ -41,9 +46,10 @@ IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
 
 names(IUCN_CNCFlora_BR_SP)
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% mutate(fonte = "sima")
-sp_espacios <- trimws(IUCN_CNCFlora_BR_SP$especie_original, whitespace = "[ \\t\\r\\n\U00A0]")
-sp_espacios <- gsub("\\t|\\r|\\n|\U00A0", " ", sp_espacios)
+
+
 IUCN_CNCFlora_BR_SP$especie_original <- sp_espacios
+IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% distinct()
 # salva ----
 write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
 

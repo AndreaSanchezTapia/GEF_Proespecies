@@ -1,6 +1,6 @@
 especie_original,familia,genero,epiteto_especifico,cat_ameaca_br_sima,cat_ameaca_cncflora_sima,cat_ameaca_sp_sima,fonte
 Mimosa strobiliflora,Fabaceae,Mimosa,strobiliflora,NA,CR,NA,sima
-Butia exilata,Arecaceae,Butia,exilata ,NA,CR,NA,sima
+Butia exilata,Arecaceae,Butia,exilata,NA,CR,NA,sima
 Butia pubispatha,Arecaceae,Butia,pubispatha,NA,CR,NA,sima
 Erythrophyllastrum andinum,Pottiaceae,Erythrophyllastrum,andinum,NA,DD,NA,sima
 Metzgeria subaneura,Metzgeriaceae,Metzgeria,subaneura,NA,DD,NA,sima
@@ -426,7 +426,7 @@ Struthanthus marginatus,Loranthaceae,Struthanthus,marginatus,NA,DD,NA,sima
 Struthanthus taubatensis,Loranthaceae,Struthanthus,taubatensis,NA,DD,NA,sima
 Heisteria amazonica,Olacaceae,Heisteria,amazonica,NA,DD,NA,sima
 Schinopsis brasiliensis var. glabra,Anacardiaceae,Schinopsis,brasiliensis,NA,DD,NA,sima
-Schinus spinosa,Anacardiaceae,Schinus,spinosa ,NA,DD,NA,sima
+Schinus spinosa,Anacardiaceae,Schinus,spinosa,NA,DD,NA,sima
 Spondias expeditionaria,Anacardiaceae,Spondias,expeditionaria,NA,DD,NA,sima
 Protium cordatum,Burseraceae,Protium,cordatum,NA,DD,NA,sima
 Guarea anomala,Meliaceae,Guarea,anomala,NA,DD,NA,sima
@@ -706,7 +706,7 @@ Dendrophorbium paranense,Asteraceae,Dendrophorbium,paranense,EN,EN,NA,sima
 Lessingianthu adenophyllus,Asteraceae,Lessingianthu,adenophyllus,EN,EN,NA,sima
 Justicia polita,Acanthaceae,Justicia,polita,EN,EN,NA,sima
 Eriocnema acaulis,Melastomataceae,Eriocnema,acaulis,VU,EN,NA,sima
-Cunila incana,Lamiaceae,Cunila,incana ,NA,EN,NA,sima
+Cunila incana,Lamiaceae,Cunila,incana,NA,EN,NA,sima
 Apium prostratum,Apiaceae,Apium,prostratum,NA,LC,VU,sima
 Escallonia chlorophylla,Escalloniaceae,Escallonia,chlorophylla,NA,LC,CR,sima
 Eryngium sanguisorba,Apiaceae,Eryngium,sanguisorba,NA,LC,EX,sima
@@ -1655,8 +1655,8 @@ Vriesea sparsiflora,Bromeliaceae,Vriesea,sparsiflora,NA,NT,EX,sima
 Machaerina ensifolia,Cyperaceae,Machaerina,ensifolia,NA,NT,NA,sima
 Goeppertia aemula,Marantaceae,Goeppertia,aemula,NA,NT,VU,sima
 Justicia ramulosa,Acanthaceae,Justicia,ramulosa,VU,VU,NA,sima
-Curitiba prismatica,Myrtaceae,Curitiba,prismatica ,NA,VU,NA,sima
-Picramnia excelsa,Picramniaceae,Picramnia,excelsa ,NA,VU,NA,sima
+Curitiba prismatica,Myrtaceae,Curitiba,prismatica,NA,VU,NA,sima
+Picramnia excelsa,Picramniaceae,Picramnia,excelsa,NA,VU,NA,sima
 Trithrinax acanthocoma,Arecaceae,Trithrinax,acanthocoma,NA,VU,NA,sima
 Pringleella subulata,Bruchiaceae,Pringleella,subulata,EN,NA,NA,sima
 Atractylocarpus brasiliensis,Dicranaceae,Atractylocarpus,brasiliensis,EN,NA,NA,sima
