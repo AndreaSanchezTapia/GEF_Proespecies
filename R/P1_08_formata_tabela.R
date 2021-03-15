@@ -75,7 +75,7 @@ lista <- lista %>%
 names(lista)
 campos_p1
 #seleciona campos
-lista %>%
+lista_anotada <- lista %>%
     select(grupo, familia, especie_original, sinonimia, fonte_sinonimia,
                  especie, genero, epiteto_especifico, taxon_rank, epiteto_infraespecifico, starts_with("nota"))
-write_csv(lista, "07_lista_anotada")
+write_csv(lista_anotada, "output/07_lista_anotada.csv")
