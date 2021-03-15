@@ -11,6 +11,168 @@ options(tinytex.verbose = TRUE)
 ```
 
 
+Apresentamos o Produto 1 da presente consultoria especializada para elaboração e revisão de listas de espécies da flora de ocorrência regional (estado de São Paulo) no âmbito do Projeto “GEF Pró-Espécies: Estratégia Nacional para a Conservação de Espécies Ameaçadas” e anexos. O Produto 1 é composto por: uma planilha no formato csv (Produto 1- Lista de espécies) que apresenta os dados das espécies e por este relatório que descreve os métodos e principais resultados encontrados.
+
+# 1 - Reunião de kick-off
+
+A reunião de inicialização do projeto foi realizada no dia quatro de março de 2021 no formato virtual e contou com a presença das equipes técnicas das instituições envolvidas: WWF-Brasil, Secretaria de Infraestrutura e Meio Ambiente, Fundação Parque Zoológico de São Paulo e Fundação para a Conservação e a Produção Florestal do Estado de São Paulo e da IPF Gestão Ambiental e Florestal Ltda. Nesta reunião foram discutidas e repassadas pela equipe técnica do estado de São Paulo os dados iniciais para a realização da consultoria que haviam sido previamente solicitados pela IPF Soluções Gestão Ambiental e Florestal Ltda, tais como: Base de Dados Unificada de Espécies da Flora Ameaçada de Extinção produzida para o Território 19 do Projeto Pró-Espécies para o estado de São Paulo (Base SIMA-SP), arquivos vetoriais (_shapefile_) do Território Alvo 20, endereço eletrônico para acesso às informações sobre Unidades de Conservação do estado entre outras informações, ainda foi acordado que a nomenclatura botânica das espécies alvo e atualizações terá por referência as monografias da Flora do Brasil 2020. A pendência deixada em aberto foi a base de dados CNCFlora/JBRJ que foi repassada de forma parcial no dia dez de março. Ficou acordado que o atraso por parte do CNCFlora/JBRJ irá gerar a revisão pontual deste Produto 1- Lista de espécies durante a produção do Produto 2, sendo a aprovação do Produto 1 por parte da equipe técnica do estado de São Paulo e WWF Brasil independente da referida revisão.  
+
+#  2 - Métodos para a produção do Produto 1
+
+O Produto 1 foi realizado entre os dias 05 de março e 15 de março de 2021 pela equipe técnica da IPF Soluções Gestão Ambiental e Florestal Ltda. 
+Os dados foram trabalhados utilizando o ambiente de programação estatística R e LibreOffice com scripts próprios e reprodutíveis. Abaixo segue os métodos para a obtenção do Produto 1- Lista de espécies.
+
+## Fontes de dados
+
+As seguintes fontes de dados foram analisadas:
+
++ Base de Dados Unificada de Espécies da Flora Ameaçada de Extinção produzida para o Território 19 do Projeto Pró-Espécies (tabela SIMA/SP). Esta tabela contém colunas correspondentes a quatro fontes de categoria de ameaça: 
+o Centro Nacional de Conservação da Flora, CNCFLora (até janeiro 2020) e 
+a Lista Oficial de Espécies Ameaçadas do Estado de São Paulo, 
+a Lista de Espécies Criticamente em Perigo sem qualquer ação de conservação (CR Lacuna), constantes na lista produzida pelo Ministério do Meio Ambiente (MMA) para fins do Projeto Pró-Espécies e presentes no estado de São Paulo.
++ Lista de Espécies Ameaçadas Oficial do Estado de São Paulo (SP-Oficial)
++ Espécies Criticamente em Perigo sem qualquer ação de conservação (CR Lacuna), constantes na lista produzida pelo Ministério do Meio Ambiente (MMA) para fins do Projeto Pró-Espécies
++ Lista de Espécies avaliadas pela União Internacional de Conservação da Natureza (UICN) para o Brasil, disponível em https://www.iucnredlist.org/, acessada dia 11/03/2021
++ Banco de Dados do Centro Nacional de Conservação da Flora, CNCFLora, extraído da página web http://cncflora.jbrj.gov.br/portal/pt-br/listavermelha/ dia 10/03/2021 e atualizados utilizando as revisões mais recentes disponíveis publicamente.
++ Finalmente, para validação geográfica preliminar e para a validação taxonômica dos nomes presentes em todas as bases de dados, foi utilizada a base de dados da Flora do Brasil 2020, versão de dia  05/03/2021 e a partir dela foram feitas todas as validações taxonômicas e a validação geográfica inicial. 
+
+O objetivo do presente trabalho foi padronizar todas as bases de dados para poder obter a versão mais recente da categoria de ameaça de cada nome em cada uma das instâncias (UICN, Portaria 443, CNCFLora, Estado de São Paulo, Município de São Paulo, CR_Lac)
+
+## Padronização, limpeza de dados e verificação inicial de cada fonte de dados
+A continuação, apresentamos os métodos de análise que foram utilizados em cada uma das planilhas independentemente, antes de sua junção na planilha final apresentada no Anexo 1.
+
+<!--Foi assim: 
+SIMA. padronizacao, remocao de duplicados (anotando discrepancias).
+CRLac. padronizacao, remocao de duplicados (anotando discrepancias)
+Estado SP padronizacao, remocao de duplicados (anotando discrepancias)
+MpoSP padronizacao, remocao de duplicados (anotando discrepancias)
+UICN: obtencao de UICN geral desde a API, filtragem pela presença no estado de sao paulo pela FB2020
+CNCFLora: obtencao dos dados da pagina web, obtencao dos dados mais recentes disponiveis no site (CKAN) pdronizacao e juncao de bases, filtragem pela presença no estado de sao paulo pela FB2020
+Juncao de todos os nomes, mesmo que eles nao estivessem presentes na base do SIMA, criado uma coluna fontes onde consta em quais das fontes acima citadas os nomes foram citados. remocao de duplicados. neste ponto temos uma coluna antiga e uma coluna “nova” para cada caso
+ cat_ameaca_uicn_sima deve ser comparada com cat_ameaca_uicn
+ cat_ameaca_br_sima deve ser comparada com cat_ameaca_br
+cat_ameaca_cncflora_sima deve ser comparada com cat_ameaca_cncflora
+cat_ameaca_sp_sima deve ser comparada com cat_ameaca_sp
+cat_amaca_mpo_SP (municipio) é acrescentada, nao comparada, a gente checa se traz novos nomes
+Revisão taxonomica da lista completa perante a FB2020 (para fazer só uma vez) daí: revisao de ortografia, sinonimos, nomes nao encontrados, nomes com taxonomia duvidosa, correcao pelo nome correto. 
+Revisão manual de nomes nao encontrados na FB2020. 
+Anotamos quais destes nomes nao sao reconhecidos como presentes no estado de SP pela FB2020 porque precisamos ter uma nocao do qe pode sair ou nao. DOS 5933 NOMES 2355 nao ocorreriam no Estado de São Paulo segundo a Flora do Brasil! deixando a lista em 3578 que ocorrem sim. Uma checagem geografica posterior vai confirmar isto, a partir de ddos de herbario.
+Apresentamos a lista ainda com o nome original, incorreto, na primeira coluna para indicar o destino desse nome. -->
+
+```{r, echo = F, warning=F, message=F}
+library(readr)
+library(dplyr)
+library(stringr)
+tudo <- read_csv("output/07_lista_anotada.csv", guess_max = 6000)
+
+sima <- filter(tudo, str_detect(fontes, "sima")) %>% distinct()
+SP <- filter(tudo, str_detect(fontes, "SP_oficial")) %>% distinct()
+cncflora <- filter(tudo, str_detect(fontes, "cncflora")) %>% distinct()
+portaria <- filter(tudo, str_detect(fontes, "Portaria")) %>% distinct()
+uicn <- filter(tudo, str_detect(fontes, "API")) %>% distinct()
+mpoSP <- filter(tudo, str_detect(fontes, "mpoSP")) %>% distinct()
+CRLAC <- filter(tudo, str_detect(fontes, "CR_Lac")) %>% distinct()
+```
+
+Os seguintes passos foram executados para obter a planilha SIMA formatada: 
++ Padronização da formatação dos nomes da base de dados SIMA-SP, disponibilizados em formato avulso, em colunas diferentes (genero, epiteto específico etc.)
++ Remoção de duplicados e anotação de discrepâncias: 
+
+A Base de dados SIMA-SP contém `r length(unique(sima$especie_original))` nomes únicos de espécies vegetais que ocorrem em qualquer uma das categorias de ameaça. Dentre elas, `r sum(!is.na(sima$cat_ameaca_br_sima))` estão classificadas em alguma categoria de risco segundo a Portaria MMA 443/2014, `r sum(!is.na(sima$cat_ameaca_cncflora_sima))` possuem alguma categoria de risco pelo CNCFlora e `r sum(!is.na(sima$cat_ameaca_sp_sima))` foram classificadas pelo Estado de São Paulo. 
+
+
+## Lista de espécies ameaçadas da Portaria MMA 443/2014
++ Obtenção da lista de espécies ameaçadas da Portaria MMA 443/2014. Link: https://dados.gov.br/dataset/portaria_443 e padronização de formatos para cruzamento de dados
++ Lista de espécies ameaçadas da Portaria MMA 443/2014 que apresentam ocorrência no estado de São Paulo segundo os autores de monografias da Flora do Brasil 2020
+
++ Espécies da flora do estado de São Paulo que estão contempladas pela Segunda revisão da lista oficial das espécies da flora ameaçadas de extinção no Estado de São Paulo/Resolução n. 57 de 05 de junho de 2016 (Resolução 57/2016) e respectivas categorias de avaliação do estado de conservação.Link: https://www.infraestruturameioambiente.sp.gov.br/institutodebotanica/wp-content/uploads/sites/235/2016/06/Resolucao-SMA-057-05_2016.pdf.
+
+A Base de dados SIMA-SP contém XXX nomes de espécies vegetais que ocorrem no estado de São Paulo e que estão sinalizadas como presentes na Resolução n. 57 de 05 de junho de 2016. A lista de espécies da Resolução 57/2016 foi cedida pela equipe técnica de São Paulo (contratante). Com a finalidade de revisão, foram realizados os seguintes passos:
++ Padronização da formatação dos nomes da Base de dados SIMA-SP;
++ Padronização e cruzamento dos dados da base Resolução 57/2016.
++ Checagem da presença das espécies (sinônimos e nomes aceitos e corretos) e respectivas categorias de avaliação do risco de extinção da Base SIMA-SP e contempladas na Resolução 57/2016.
++ Limpeza de dados e formatação conjunta de nomes contidos nas diferentes bases de dados: remoção de autores, criação de strings de busca no formato Gênero-epíteto-var/subsp.-epítetos infraespecíficos. Detecção de nomes duplicados e remoção quando possível.
++ Lista de espécies ameaçadas de extinção da Resolução 57/2016 que apresentam ocorrência no estado de São Paulo segundo os autores de monografias da Flora do Brasil 2020 e respectiva inclusão.
+
+
+### Espécies da flora do estado de São Paulo e ameaçadas de extinção contidas no Inventário da Biodiversidade do Município de São Paulo seguido das respectivas categorias de avaliação do estado de conservação.
+
+Inventário da Biodiversidade do Município de São Paulo
+Para a inclusão dos dados do Inventário da Biodiversidade do Município de São Paulo. Foram seguidos os seguintes procedimentos para a inclusão:
+Obtenção da lista de 185 espécies de Flora nativa do município de São Paulo ameaçadas de extinção no Estado de São Paulo pela Resolução SMA nº 57 de 05/06/2016. Link: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/
+pubbiodiversidademunsp2016.pdf
+Dados padronizados da lista de espécies da Resolução 57/2016 obtidos no item b.
+Limpeza de dados e formatação conjunta de nomes contidos nas diferentes bases de dados: remoção de autores, criação de strings de busca no formato Gênero-epíteto-var/subsp.-epítetos infraespecíficos. Detecção de nomes duplicados e remoção quando possível.
+Inclusão de campo de coluna e de espéccies na planilha do Produto 1- Lista de espécies.
+
+Espécies da flora do estado de São Paulo que foram avaliadas quanto ao risco de extinção (todas as categorias de avaliação) pelo CNCFlora/JBRJ. 
+
+CNCFlora
+Foi realizada a revisão da lista da base de dados SIMA-SP  (dados obtidos até janeiro 2020) com base em dados disponíveis publicamente nos repositórios e site do CNCFlora/JBRJ, incluindo a lista que foi indicada para uso pela equipe técnica de São Paulo (contratante). Com a finalidade de revisão, foram realizados os seguintes passos:
+Obtenção da lista de espécies da Portaria 443/2014 atualizada conforme descrição do item a deste relatório. Links: https://ckan.jbrj.gov.br/dataset/portaria_443.
+Lista de todas as espécies avaliadas e disponíveis no site do CNCFlora/JBRJ. Link: http://cncflora.jbrj.gov.br/portal.
+Obtenção da lista de espécies Avaliação do risco de extinção de árvores nativas do Brasil (2018 - junho 2020). Link: https://ckan.jbrj.gov.br/dataset/avaliacao-2018-junho2020.
+Obtenção do IPT Flora do Brasil 2020 (Brazilian Flora Checklist - Lista de Espécies da Flora do Brasil Version 393.277) do dia 12/03/2021. Link: http://ipt.jbrj.gov.br/jbrj/resource?r=lista_especies_flora_brasil&v=393.277.
+Conferência dos nomes científicos de plantas contidas na lista de espécies Avaliação do risco de extinção de árvores nativas do Brasil (2018 - junho 2020)/CNCFlora/JBRJ conforme estado de classificação taxonômica segundo o referido IPT da Flora do Brasil 2020 (apontados nomes da lista que estejam desatualizados e quaisquer incongruências encontradas). 
+Obtenção de nomes atuais e corretos para táxons da lista de espécies das bases CNCFlora/JBRJ.
+Revisão de categorias de avaliação de espécies da Base de dados SIMA-SP e inclusão de novas espécies da flora ameaçada de extinção avaliadas pelo CNCFlora/JBRJ até junho de 2020. 
+
+Espécies da flora do estado de São Paulo que são avaliadas como Criticamente em Perigo de extinção sem qualquer ação de conservação (chamadas Espécies CR Lacuna) produzida pelo Ministério do Meio Ambiente (MMA) para fins do Projeto Pró-Espécies.   
+
+A lista de espécies CR Lacuna foi fornecida pela equipe técnica do estado de São Paulo na reunião de inicialização. Esta Base de dados SIMA-SP contém 12 espécies consideradas CR Lacuna. A revisão dos dados foi realizada conforme os seguintes passos:
+Foi realizada a revisão taxonômica dos nomes científicos segundo a Flora do Brasil 2020;
+Checagem da presença das 12 espécies CR Lacuna e da categoria Criticamente em Perigo de extinção na lista da Base de dados SIMA-SP e na lista da Portaria MMA 443/2014;
+Foram revisados registros de coleta das 12 espécies para confirmar a presença no estado de São Paulo nas bases de dados do Herbário Virtual Reflora (http://reflora.jbrj.gov.br/reflora/herbarioVirtual) e CRIA-Specieslink (http://www.splink.org.br/).
+
+Espécies da flora do estado de São Paulo que são avaliadas (todas as categorias) e presentes na base de dados da União Internacional de Conservação da Natureza - IUCN sigla na língua inglesa. 
+
+A Base de dados SIMA-SP contém XXX nomes de espécies vegetais que foram avaliadas pela IUCN e ocorrem no estado de São Paulo (dados obtidos até janeiro 2020). Foi realizada uma revisão da lista de nomes e categorias do risco de extinção da Base de dados SIMA-SP e a inclusão de novas espécies avaliadas e presentes na IUCN. Foram realizados os seguintes passos:
+Solicitação de acesso a  API da Base de dados da União Internacional de Conservação da Natureza (IUCN) e recebimento da chave de acesso (token). Este permitiu a obtenção da lista de espécies avaliadas para o Brasil em qualquer categoria de avaliação do estado de conservação (Ex, EW, RE, CR, EN,  VU, LR/cd (lower risk – conservation dependent), NT (ou LR/nt) e DD). Link: https://apiv3.iucnredlist.org/.
+Conferência do estado taxonômico das espécies ingressantes de plantas avaliadas e contida na base de dados da IUCN e com registros no estado de São Paulo segundo IPT Flora do Brasil 2020.
+Revisão dos dados de categoria de avaliação da Base de dados SIMA-SP.
+Inclusão de novas espécies avaliadas e respectivas categorias de avaliação do estado de conservação e presentes na IUCN na lista em produção. 
+
+Espécies da flora do estado de São Paulo que são avaliadas (todas as categorias) - Anexo 1 - com nomes científicos atualizados, dados taxonômicos incluídos e obtenção de dados extras. 
+
+A Base de dados SIMA-SP contém XXX nomes de espécies vegetais que ocorrem no estado de São Paulo e foram incluídas XXX espécies. Todas as espécies necessitam de atualização nomenclatural  e foram relacionadas com os dados da Flora do Brasil 2020 mais atuais. A partir desta última foram obtidos demais dados taxonômicos e dados extras que auxiliarão na produção do PAT São Paulo - Território 20. Foram percorridos os seguintes passos:
+Conferência dos nomes científicos de plantas contidas na lista em produção (Anexo 1) conforme estado de classificação taxonômica segundo o referido IPT da Flora do Brasil 2020 (apontados nomes da lista que estejam desatualizados e quaisquer incongruências encontradas).
+Obtenção de dados de: grupo, família, gênero, epíteto específico, espécie, fonte da sinonímia e dados extras conforme IPT Flora do Brasil 2020. 
+Inclusão de campos extras: id Flora do Brasil 2020,    notas taxonômicas, forma de vida, habitat, tipo de vegetação, nome vernacular, origem, domínio fitogeográfico e endemismo no Brasil provenientes da Flora do Brasil 2020.  
+
+Exclusão de espécies revisadas da Base de dados SIMA-SP que não ocorrem no Brasil ou no estado de São Paulo conforme Flora do Brasil 2020. 
+
+O relacionamento e atualização da presença de espécies de plantas contidas na Base SIMA-SP com os dados atualizados da Flora do Brasil 2020 apontou para espécies que não ocorrem no Brasil e/ou não apresentam registros de ocorrência confirmados por taxonomistas da Flora do Brasil para o estado de São Paulo. 
+
+3 - Resultados do Produto 1
+
+Produto 1- Lista de espécies - Lista compilada e sistematizada de espécies da Flora ameaçada, quase ameaçada ou com dados insuficientes quanto ao risco de extinção em escala mundial, nacional e estadual, com ocorrência no estado de São Paulo.
+
+A planilha em anexo, chamada Produto 1- Lista de espécies contém todos os nomes originais as espécies nas linhas e os dados são apresentados em colunas. Para consulta faz-se necessário realizar alguns filtros e há uma planilha de metadados que auxilia na compreensão do significado das colunas. 
+A Base de dados SIMA-SP continha XXX espécies, com a revisão das espécies presentes nas listas de espécies ameaçadas Portaria MMA 443/2014, Resolução 57/2016, Inventário do município de São Paulo e adicionadas espécies avaliadas quanto ao risco de extinção pelo CNCFlora/JBRJ e IUCN, alcançou-se XXXX espécies avaliadas (Ex, EW, RE, CR, EN,  VU, LR/cd (lower risk – conservation dependent), NT (ou LR/nt) e DD) e que ocorrem no estado de São Paulo conforme Flora do Brasil 2020. 
+Das XXX espécies da Base de dados SIMA-SP, XXX atualmente são consideradas sinônimos de outras espécies segundo as monografias atualizadas da Flora do Brasil 2020 e nomes aceitos e corretos XXXX espécies, confira em Produto 1 - Lista de espécies - colunas XXX.
+A Base de dados SIMA-SP apresentou XXX espécies no total, destas XXX estão protegidas pela Portaria MMA 443/2014. A lista revisada e atualizada apresenta XXX espécies que são ameaçadas de extinção e contempladas pela Portaria 443/2014 e que ocorrem no estado de São Paulo. Foram retiradas XXX espécies e incluídas XXX espécies. Produto 1 - Lista de espécies - coluna XXX.
+A Base de dados SIMA-SP aponta XXX espécies protegidas pela Resolução 57/2016. A lista revisada e atualizada apresenta XXX espécies que são ameaçadas de extinção e contempladas pela Resolução 57/2016 e que ocorrem no estado de São Paulo. Foram retiradas XXX espécies e incluídas XXX espécies em relação à Base de dados SIMA-SP original. Produto 1 - Lista de espécies - coluna XXX
+O Inventário da Biodiversidade do Município de São Paulo publicado em 2016 pela Secretaria Municipal do Verde e do Meio Ambiente – SVMA (Diário Oficial da Cidade de São Paulo - Ano 61/Número 241/Dia 24 de dezembro de 2016) listou 4.768 espécies vegetais, dentre as quais 185 estão ameaçadas de extinção no Estado de São Paulo pela Resolução SMA nº 57 de 05/06/2016. Foi realizada a inclusão de um campo-coluna para demonstrar o presente dado. O Anexo 1 contém 184 espécies ameaçadas de extinção para o município de São Paulo e os resultados estão apontados no (Produto 1 - Lista de espécies - coluna XXX). Um táxon foi excluído porque se encontra em nível de gênero: Spananthe Jacq.. A exclusão ocorreu por configurar um erro de habilitação de táxon para avaliação do risco de extinção, visto que, conforme regras da IUCN, são permitidas a avaliação do estado de conservação de táxons em nível de espécie ou infra-específicos (IUCN, 2001; 2019). 
+A Base de Dados SIMA-SP apresentou XXX espécies que estavam sinalizadas como avaliadas pelo CNCFlora/JBRJ até janeiro de 2020. Devido à atualização de nomes de espécies que seguiu a Flora do Brasil 2020 e da revisão dos dados da Portaria MMA 443/2014 (Métodos item a) verificou-se a necessidade de revisar os dados provindos da Base SIMA-SP para a presença no CNCFlora/JBRJ. Foi possível constatar um problema de formulação na Base de Dados SIMA-SP, pois 308 espécies estavam inaptas porque não continham dados de categoria do risco de extinção para qualquer lista (Portaria 443/2014, CNCFlora/JBRJ, IUCN, Resolução 57/2016). 
+Somado aos novos dados produzidos entre 2018 a junho de 2020, obteve-se XXX espécies que foram avaliadas pelo CNCFlora/JBRJ. Produto 1 - Lista de espécies - coluna XXX. O atraso no repasse dos dados pelo CNCFlora/JBRJ irá gerar a revisão deste campo tão logo que recebido ou disponibilizado uma nova lista de espécies avaliadas até janeiro de 2021. Esta ação ocorrerá simultaneamente a execução do Produto 2. 
+Todas as 12 espécies da flora do estado de São Paulo contempladas no conceito de CR Lacuna já estavam presentes na Base de Dados SIMA-SP e também estão avaliadas como Criticamente em perigo de extinção pela Portaria 443/2014. Os registros de coleta confirmam a presença das populações das 12 espécies no estado de São Paulo. Produto 1 - Lista de espécies - coluna XXX.
+Segundo a base de dados da IUCN, no Brasil ocorrem XXX espécies que tiveram seu estado de conservação avaliado, dentre estas XXX são espécies da flora e XXX ocorrem no estado de São Paulo. Foram acrescidas XXX espécies a Base de dados SIMA-SP.  dentre estas duas espécies de algas Nitella flexilis (L.) C.Agardh e Nitella oligospira A.Braun - Charophyceae, que foram avaliadas pela IUCN na categoria de Menor Preocupação. Todas as espécies e respectivas categorias de avaliação estão no Produto 1 - Lista de espécies - coluna XXX.
+Após atualizações de nomes e inclusão de novas espécies avaliadas, o Produto 1- Lista de espécies contém: XXX espécies, destas XXX são nomes aceitos e corretos e XXX são sinônimos de outras espécies. Confira em Produto 1 - Lista de espécies - colunas XXX. Foram adicionadas informações obtidos demais dados do ranqueamento taxonômico, tais como grupo, família, 
+Dados extras à Carta Convite sobre a biologia, distribuição, ecologia e nomes vernaculares para cada espécie. Estes poderão ser úteis para processos de licenciamento, fiscalização e ações de conservação às espécies, bem como são importante para a Oficina de Elaboração do Plano de Ação Territorial - PAT Território 20.
+Produto 1 - Lista de espécies - coluna XXX é um crucial para a leitura da planilha, pois ela delimita quais espécies estão aptas e aquelas que estão inaptas. O sistema de filtros será essencial para selecionar as espécies corretas desta lista. Foram consideradas inaptas XXX espécies apresentadas na Base de dados SIMA-SP porque não ocorrem no estado de São Paulo ou não ocorrem no Brasil conforme dados da Flora do Brasil 2020. Por exemplo, a espécie Amburana acreana (Ducke) A.C.Sm. (Fabaceae) que consta na lista do CNCFlora/JBRJ e na Portaria MMA 443/2014 como Vulnerável à extinção. A espécie ocorre nos estados: Acre, Amazonas, Espírito Santo, Rio de Janeiro e Rondônia (Seleme, 2020). Outros casos são de espécies que não ocorrem no Brasil segundo dados da Flora do Brasil, como podemos exemplificar através da espécie: Athyrium filix-femina (L.) Roth (Athyriaceae) (Mynssen, 2020). Para conhecer o motivo da exclusão será necessário filtrar Produto 1 - Lista de espécies - coluna XXX.
+
+4 - Considerações Finais
+
+A revisão completa da Base de Dados SIMA-SP e de todas as demais fontes de dados representou o maior investimento de tempo e a maior dificuldade foi percebida na padronização e formatação dos dados, isto foi vencido com a aplicação de medidas técnico-criativas para a obtenção de dados comparáveis. O Produto 1- Lista de espécies, a foi informativa porque corrigiu equívocos contidos, atualizou nomenclatura botânica, adicionaram-se espécies da base de dados CNCFlora/JBRJ até julho de 2020, foram acrescidas espécies avaliadas e presentes na Lista Global da IUCN e também contém dados biológicos e ecológicos para as espécies, os quais poderão colaborar na preparação dos dados para a Oficina do PAT São Paulo - Território 20. Todos os dados presentes no Produto 1- Lista de espécies foram revisados de forma reprodutível, garantindo juntamente a padronização e rastreio das informações.  
+Importante salientar desde já que as espécies consideradas sinônimos necessitam ter seus dados atualizados e reavaliados conforme Regras de Avaliação do risco de extinção (IUCN, 2012, 2019). Ao mesmo tempo, avaliações realizadas antes de 2001, requerem reavaliações seguindo o sistema 3.1 de Avaliação do risco de extinção (IUCN, 2012), pois foram avaliadas no Sistema de Critérios e Categorias versão anterior (por ex. espécies com categoria LR). Ainda a organização internacional recomenda a reavaliação após passados mais de anos da última avaliação.
+A base de dados do Produto 1- Lista de espécies está consistente e poderá ser utilizada em diversas consultas de órgãos ambientais do estado, sendo de grande relevância para ações de conservação. A partir desta lista, iniciar-se-á o Produto 2, com o recorte do territorial (Território 20) repassado na reunião de iniciação pela equipe técnica do estado de São Paulo. 
+
+
+
+
+
+
+
 ## Introdução
 ## Material e métodos
 
@@ -30,9 +192,35 @@ A base de dados da Flora do Brasil 2020 foi atualizada dia 08/03/2021 e a partir
 ## Passo a passo
 
 
-1. Obtivemos a lista de espécies avaliadas pela UICN. Em `lubridate::today()`, esta lista continha `r nrow(UICN_BR)` nomes únicos.
+1. Obtivemos a lista de espécies avaliadas pela UICN. Em `lubridate::today()`, esta lista continha ` nrow(UICN_BR)` nomes únicos.
 
 
 
+## Referências bibliográficas
+
+Brazil Flora Group (2021): Brazilian Flora 2020 project - Projeto Flora do Brasil 2020. v393.274. Instituto de Pesquisas Jardim Botanico do Rio de Janeiro. Dataset/Checklist. doi:10.15468/1mtkaw. Disponível em: http://ipt.jbrj.gov.br/jbrj/resource?r=lista_especies_flora_brasil&v=393.277. Acesso em: 08 de março de 2021.
+
+CNCFlora, 2020. Avaliação do risco de extinção de árvores nativas do Brasil (2018 - junho 2020). Disponível em: https://ckan.jbrj.gov.br/dataset/avaliacao-do-risco-de-extincao-de-arvore-nativas-do-brasil-2018-junho-2020. Acesso em 10 de março de 2020.
+
+CNCFlora, 2021. Lista Vermelha - web. Diponível em: http://cncflora.jbrj.gov.br/portal/pt-br/listavermelha. Acesso em: 05 de março de 2021.
+
+International Union for Conservation of Nature IUCN, 2001. IUCN Red List Categories and Criteria: Version 3.1. IUCN Species Survival Commission. IUCN, Gland, Switzerland and Cambridge, U.K.
+
+International Union for Conservation of Nature - IUCN, 2012. Threats Classification Scheme (Version 3.2) Disponível em: https://www.iucnredlist.org/resources/threat-classification-scheme). Acesso em: 01 março 2021. 
+
+International Union for Conservation of Nature - IUCN, 2019. IUCN Standards and Petitions Committee. 2019. Guidelines for Using the IUCN Red List Categories and Criteria. Version 14. Prepared by the Standards and Petitions Committee. Disponível em: http://www.iucnredlist.org/documents/RedListGuidelines.pdf. Acesso em: 01 março 2021.
+
+International Union for Conservation of Nature - IUCN, 2020. IUCN Red List of Threatened Species. Version 2020-3. Disponível em: www.iucnredlist.org. Acesso em: 06 de março de 2021.
+
+Ministério do Meio Ambiente – MMA, 2014. Portaria n. 443, de 17 de dezembro de 2014. Diário Oficial da União, 18/12/2014, Seção 1, p. 110-121. Disponível em: http://cncflora.jbrj.gov.br/portal/static/pdf/portaria_mma_443_2014.pdf. Acesso em: 05 de março de 2021.
+
+Mynssen, C.M. 2020. Athyriaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro.Disponível em: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB92308. Acesso em: 14 de março de 2021.
+Secretaria de Estado do Meio Ambiente do estado de São Paulo, 2016. Resolução SMA Nº 057, de 05 de junho de 2016. Segunda revisão da lista oficial das espécies da flora ameaçadas de extinção no Estado de São Paulo. DOE de 30-06-2016 Seção I pág. 55/57. Disponível em: https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-57-2016.pdf. Acesso em: 28 de fevereiro de 2021.
+
+Prefeitura do Município de São Paulo, 2016. Inventário da Biodiversidade do Município de São Paulo. Diário Oficial da Cidade de São Paulo - Ano 61/Número 241/Dia 24 de dezembro de 2016. Disponível em: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/pubbiodiversidademunsp2016.pdf. Acesso em: 28 de fevereiro de 2021.
+
+Seleme, E.P. 2020. Amburana in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Disponível em: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB22780. Acesso em: 14 de março de 2021.
+
+Secretaria de Estado do Meio Ambiente do estado de São Paulo, 2016. Resolução SMA Nº 057, de 05 de junho de 2016. Segunda revisão da lista oficial das espécies da flora ameaçadas de extinção no Estado de São Paulo. DOE de 30-06-2016 Seção I pág. 55/57. Disponível em: https://cetesb.sp.gov.br/licenciamentoambiental/wp-content/uploads/sites/32/2019/05/Resolu%C3%A7%C3%A3o-SMA-n%C2%BA-57-2016.pdf. Acesso em: 28 de fevereiro de 2021.
 
 
