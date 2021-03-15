@@ -12,7 +12,7 @@ Abutilon costicalyx,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Abutilon nigricans,sima-SP_oficial-cncflora_web-Portaria 443/2014,CR,NA,CR,CR,NA,CR,NA,NA,CR
 Abutilon venosum,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Acacia riparia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Acaena eupatoria,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Acaena eupatoria,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Acalypha fragilis,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,CR*,CR,NA,NA
 Acalypha macrostachya,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Acalypha villosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -125,10 +125,10 @@ Aechmea triangularis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Aechmea vanhoutteana,sima-cncflora_web-Portaria 443/2014,VU,NA,NA,NA,NA,VU,NA,NA,VU
 Aechmea werdermannii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Aechmea winkleri,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Aechmea wittmackiana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Aegiphila australis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Aechmea wittmackiana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Aegiphila australis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Aegiphila brachiata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Aegiphila capitata,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Aegiphila capitata,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Aegiphila duckei,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Aegiphila fluminensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Aegiphila integrifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -203,10 +203,10 @@ Aldama aspilioides,sima-SP_oficial,NA,DD,VU,VU,NA,NA,NA,NA,NA
 Aldama corumbensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Aldama filifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Aldama goyazii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Aldama grandiflora,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Aldama grandiflora,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Aldama linearifolia,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Aldama paranensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Aldama pilosa,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Aldama pilosa,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Aldama santacatarinensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Aldama vernonioides,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Aldina microphylla,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -229,7 +229,7 @@ Allophylus membranifolius,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Allophylus puberulus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Allophylus racemosus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Allophylus semidentatus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Almeidea caerulea,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Almeidea caerulea,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Almeidea coerulea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Alophia coerulea,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Aloysia hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -244,20 +244,20 @@ Alstroemeria apertiflora,sima-SP_oficial-cncflora_web,NA,LC,EN,EN,NA,LC,NA,NA,NA
 Alstroemeria brasiliensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Alstroemeria capixaba,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Alstroemeria caryophyllaea,sima-SP_oficial-mpoSP-Portaria 443/2014,EN,NA,EW,EW,NA,NA,NA,EW,EN
-Alstroemeria foliosa,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Alstroemeria foliosa,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Alstroemeria inodora,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Alstroemeria malmeana,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Alstroemeria orchidioides,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Alstroemeria penduliflora,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Alstroemeria plantaginea,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Alstroemeria plantaginea,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Alstroemeria variegata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Alternanthera aquatica,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Alternanthera bahiensis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Alternanthera aquatica,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Alternanthera bahiensis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Alternanthera decurrens,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
-Alternanthera flavescens,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Alternanthera flavescens,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Alternanthera hirtula,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Alternanthera januarensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Alternanthera lanceolata,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Alternanthera lanceolata,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Alternanthera malmeana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Alternanthera micrantha,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Alternanthera paronychioides,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
@@ -287,11 +287,11 @@ Anathallis bleyensis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Anathallis colnagoi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Anathallis crebrifolia,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Anathallis gehrtii,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
-Anathallis gerthatschbachii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Anathallis gerthatschbachii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Anathallis guimaraensii,UICN_API,NA,NA,NA,NA,NA,NA,VU,NA,NA
 Anathallis kautskyi,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Anathallis montipelladensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Anathallis obovata,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Anathallis obovata,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Anathallis pabstii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Anathallis radialis,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Anathallis tigridens,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -352,7 +352,7 @@ Annona malmeana,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Annona maritima,sima-cncflora_web-UICN_API-Portaria 443/2014,VU,NA,NA,NA,NA,VU,LC,NA,VU
 Annona montana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Annona monticola,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Annona neosalicifolia,sima-UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
+Annona neosalicifolia,sima-UICN_API,NA,NE,NA,NA,NA,NA,LC,NA,NA
 Annona neosericea,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Annona nutans,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Annona parviflora,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -367,8 +367,8 @@ Anomospermum reticulatum subsp. nitidum,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,N
 Anteremanthus hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Anthaenantiopsis fiebrigii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Anthodon decussatum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Anthurium ameliae,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Anthurium bocainense,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Anthurium ameliae,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Anthurium bocainense,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Anthurium fontellanum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Anthurium fontellanus,cncflora_web,NA,NA,NA,NA,NA,DD,NA,NA,NA
 Anthurium jureianum,sima-cncflora_web-Portaria 443/2014,VU,NA,NA,NA,NA,VU,NA,NA,VU
@@ -406,15 +406,15 @@ Aralia warmingiana,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Araucaria angustifolia,sima-cncflora_web-UICN_API-mpoSP-Portaria 443/2014,EN,NA,NA,NA,NA,EN,CR,EN,EN
 Ardisia guianensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Aristida brasiliensis,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
-Aristida circinalis,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Aristida circinalis,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Aristida constricta,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Aristida ekmaniana,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Aristida filifolia,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Aristida ekmaniana,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Aristida filifolia,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Aristida laevis,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
-Aristida macrophylla,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
+Aristida macrophylla,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
 Aristida oligospira,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Aristida sanctae-luciae,sima-SP_oficial-cncflora_web,NA,DD,EX,EX,NA,DD,NA,NA,NA
-Aristida subaequans,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Aristida subaequans,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Aristolochia curviflora,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Aristolochia cymbifera,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,VU,VU,NA,LC,NA,VU,NA
 Aristolochia hypoglauca,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -437,7 +437,7 @@ Asclepias langsdorffii,sima-cncflora_web,NA,LC,EX,NA,NA,LC,NA,NA,NA
 Asclepias langsdorfii,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Asclepias mellodora,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Aspasia lunata,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Aspicarpa sericea,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Aspicarpa sericea,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Aspidogyne commelinoides,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Aspidogyne kuczynskii,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Aspidosperma album,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -454,7 +454,7 @@ Aspidosperma nobile,sima-SP_oficial,NA,LC,CR,CR,NA,NA,NA,NA,NA
 Aspidosperma polyneuron,sima-cncflora_web-UICN_API,NA,NT,NA,NA,NA,NT,EN,NA,NA
 Aspidosperma pyricollum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Aspidosperma quebracho-blanco,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Aspidosperma quirandy,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Aspidosperma quirandy,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Aspidosperma ramiflorum,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
 Aspidosperma riedelii,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EN,EN,NA,LC,NA,EN,NA
 Aspidosperma sandwithianum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -499,11 +499,11 @@ Asplundia brachypus,sima,VU,NA,NA,NA,NA,NA,NA,NA,NA
 Asplundia polymera,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Asplundia polymera subsp. reitzii,cncflora_web-Portaria 443/2014,NA,NA,NA,NA,NA,VU,NA,NA,VU
 Asterella venosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Asterostigma colubrinum,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Asterostigma colubrinum,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Asterostigma cubense,sima-SP_oficial-cncflora_web,NA,DD,VU,VU,NA,DD,NA,NA,NA
 Asterostigma lividum,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Asterostigma lombardii,sima-SP_oficial,NA,LC,VU,VU,NA,NA,NA,NA,NA
-Asterostigma tweedianum,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Asterostigma tweedianum,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Astraea cincta,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Astraea lobata,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Astrocaryum aculeatissimum,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LR/lc,NA,NA
@@ -623,16 +623,16 @@ Begonia altamiroi,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia apparicioi,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia bahiensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia besleriifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Begonia biguassuensis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Begonia biguassuensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Begonia brevilobata,sima-SP_oficial-cncflora_web,NA,DD,EX,EX,NA,DD,NA,NA,NA
 Begonia coccinea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia crispula,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Begonia curtii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Begonia dentatiloba,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Begonia diaphones,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Begonia diaphones,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Begonia espiritosantensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia fruticosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Begonia glabrescens,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Begonia glabrescens,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Begonia handroi,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Begonia herbacea,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Begonia hirtella,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -644,7 +644,7 @@ Begonia integerrima,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Begonia itaguassuensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia itatinensis,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Begonia jureiensis,sima-cncflora_web-Portaria 443/2014,CR,NA,NA,NA,NA,CR,NA,NA,CR
-Begonia klydophylla,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Begonia klydophylla,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Begonia kuhlmannii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia larorum,sima-SP_oficial-cncflora_web-Portaria 443/2014,CR,NA,EX,EX,NA,CR,NA,NA,CR
 Begonia obscura,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -663,9 +663,9 @@ Begonia santoslimae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia scharffii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Begonia smilacina,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Begonia stenolepis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Begonia succulenta,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Begonia succulenta,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Begonia sylvatica,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Begonia tibagiensis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Begonia tibagiensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Begonia toledoana,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Begonia undulata,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Begonia valdensium,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -673,9 +673,9 @@ Begonia velloziana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Begonia venosa,sima-cncflora_web-Portaria 443/2014,CR,NA,NA,NA,NA,CR,NA,NA,CR
 Begonia vicina,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Behuria insignis,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,NT,NT,NA,NA
-Behuria parvifolia,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Behuria parvifolia,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Beilschmiedia emarginata,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Beilschmiedia fluminensis,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,EN,EN,NA,NA
+Beilschmiedia fluminensis,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,EN,EN,NA,NA
 Beilschmiedia rigida,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Belemia fucsioides,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Bellucia riparia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -786,10 +786,10 @@ Briza brasiliensis,cncflora_web,NA,NA,NA,NA,NA,EN,NA,NA,NA
 Briza itatiaiae,cncflora_web,NA,NA,NA,NA,NA,EN,NA,NA,NA
 Bromelia balansae,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Bromelia braunii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Bromelia interior,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Bromelia interior,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Bromelia macedoi,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Bromeliophila natans,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
-Bromidium hygrometricum,sima-SP_oficial,NA,NA,CR,CR,NA,NA,NA,NA,NA
+Bromidium hygrometricum,sima-SP_oficial,NA,NE,CR,CR,NA,NA,NA,NA,NA
 Bromidium ramboi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Brosimum glaziovii,sima-SP_oficial-cncflora_web-UICN_API-mpoSP,NA,LC,VU,VU,NA,LC,EN,VU,NA
 Brosimum guianense,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -799,9 +799,9 @@ Brunfelsia pauciflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Brunfelsia uniflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Bryopteris diffusa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Bryopteris filicina,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Buchenavia hoehneana,sima-SP_oficial-cncflora_ckan,NA,NA,VU,VU,NA,NT,NA,NA,NA
+Buchenavia hoehneana,sima-SP_oficial-cncflora_ckan,NA,NE,VU,VU,NA,NT,NA,NA,NA
 Buchenavia iguaratensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Buchenavia kleinii,sima-cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
+Buchenavia kleinii,sima-cncflora_web,NA,NE,NA,NA,NA,LC,NA,NA,NA
 Buchenavia pabstii,cncflora_web,NA,NA,NA,NA,NA,VU,NA,NA,NA
 Buchenavia parvifolia,sima,VU,NA,VU,NA,NA,NA,NA,NA,NA
 Buchenavia parvifolia subsp. rabelloana,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
@@ -810,8 +810,8 @@ Buchnera amethystina,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Buchnera integrifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Buchnera juncea,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Buchnera longifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Buddleja hatschbachii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Buddleja oblonga,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Buddleja hatschbachii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
+Buddleja oblonga,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Buddleja speciosissima,cncflora_web-Portaria 443/2014,NA,NA,NA,NA,NA,VU,NA,NA,EN
 Bulbophyllum arianeae,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Bulbophyllum boudetianum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -829,7 +829,7 @@ Bulbostylis capillaris,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Bulbostylis distichoides,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Bulbostylis fendleri,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Bulbostylis loefgrenii,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Bulbostylis major,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bulbostylis major,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Bulbostylis nesiotis,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Bulbostylis smithii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Bunchosia glandulifera,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -839,7 +839,7 @@ Bunchosia maritima,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Bunchosia pallescens,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Bunchosia pernambucana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Burmannia aprica,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
-Burmannia australis,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Burmannia australis,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Burmannia bicolor,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Burmannia damazii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Burmannia flava,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
@@ -861,7 +861,7 @@ Byrsonima brachybotrya,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,V
 Byrsonima cipoensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Byrsonima coccolobifolia,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
 Byrsonima crassifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Byrsonima cydoniifolia,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,LC,LC,NA,NA
+Byrsonima cydoniifolia,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,LC,LC,NA,NA
 Byrsonima euryphylla,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Byrsonima fonsecae,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Byrsonima guilleminiana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -874,13 +874,13 @@ Byrsonima myricifolia,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Byrsonima onishiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Byrsonima pachyphylla,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Byrsonima perseifolia,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Byrsonima psilandra,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Byrsonima psilandra,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Byrsonima rigida,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Byrsonima salzmanniana,sima-cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
+Byrsonima salzmanniana,sima-cncflora_ckan,NA,NE,NA,NA,NA,LC,NA,NA,NA
 Byrsonima sericea,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Byrsonima variabilis,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Byrsonima verbascifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Byttneria catalpaefolia subsp. Sidaefolia,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Byttneria catalpaefolia subsp. Sidaefolia,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Byttneria catalpifolia subsp. sidaefolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Byttneria implacabilis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Byttneria oblongata,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
@@ -927,34 +927,34 @@ Callisthene castellanosii,cncflora_ckan,NA,NA,NA,NA,NA,"NT, quase chegando à VU
 Callisthene fasciculata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Callisthene inundata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Callisthene minor,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Callitriche terrestris,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
+Callitriche terrestris,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
 Calophyllum brasiliense,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Calycolpus legrandii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Calycorectes acutatus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Calyculogygas uruguayensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Calyptraemalva catharinensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Calyptranthes brasiliensis,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Calyptranthes brasiliensis,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Calyptranthes concinna,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Calyptranthes curta,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
-Calyptranthes dichotoma,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Calyptranthes curta,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
+Calyptranthes dichotoma,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Calyptranthes dryadica,sima-SP_oficial-cncflora_web-mpoSP,NA,DD,VU,VU,NA,DD,NA,VU,NA
 Calyptranthes fusiformis,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Calyptranthes glazioviana,cncflora_ckan,NA,NA,NA,NA,NA,EN,NA,NA,NA
-Calyptranthes grammica,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Calyptranthes grammica,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Calyptranthes grandiflora,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Calyptranthes grandifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Calyptranthes hatschbachii,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
-Calyptranthes maritima,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Calyptranthes maritima,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Calyptranthes obovata,sima-SP_oficial-cncflora_ckan,EN,NA,EX,EX,NA,LC,NA,NA,NA
 Calyptranthes obversa,cncflora_ckan,NA,NA,NA,NA,NA,CR,NA,NA,NA
 Calyptranthes pileata,sima-cncflora_ckan-Portaria 443/2014,VU,NA,NA,NA,NA,VU,NA,NA,VU
 Calyptranthes restingae,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Calyptranthes rubella,sima-cncflora_ckan,NA,NT,NA,NA,NA,NT,NA,NA,NA
 Calyptranthes rufa,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Calyptranthes serrana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Calyptranthes solitaria,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Calyptranthes serrana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Calyptranthes solitaria,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Calyptranthes strigipes,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Calyptranthes ubatubana,sima-SP_oficial-cncflora_ckan,NA,NA,VU,VU,NA,VU,NA,NA,NA
+Calyptranthes ubatubana,sima-SP_oficial-cncflora_ckan,NA,NE,VU,VU,NA,VU,NA,NA,NA
 Calyptranthes widgreniana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Camarea affinis,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Camarea elongata,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -971,11 +971,11 @@ Cambessedesia gracilis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cambessedesia hermogenesii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cambessedesia hilariana,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Cambessedesia pityrophylla,sima-SP_oficial,EN,NA,VU,VU,NA,NA,NA,NA,NA
-Cambessedesia regnelliana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Cambessedesia regnelliana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Cambessedesia striatella,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Cambessedesia weddellii,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Cambessedesia wurdackii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Campomanesia aurea,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Campomanesia aurea,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Campomanesia espiritosantensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Campomanesia eugenioides,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Campomanesia guazumifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -1128,9 +1128,9 @@ Cestrum strigilatum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cestrum subpulverulentum,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Cestrum tubulosum,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Chaetocalyx scandens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Chaetoclamys psammina,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Chaetostoma glaziovii,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Chamaecostus subsessilis,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Chaetoclamys psammina,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
+Chaetostoma glaziovii,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Chamaecostus subsessilis,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Chamaecrista anamariae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Chamaecrista aristata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Chamaecrista atroglandulosa,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
@@ -1160,7 +1160,7 @@ Chaptalia hermogenis,sima-cncflora_web-Portaria 443/2014,CR,NA,NA,NA,NA,CR,NA,NA
 Chascolytrum brasiliense,sima-mpoSP-Portaria 443/2014,EN,NA,CR,NA,NA,NA,NA,CR,EN
 Chascolytrum bulbosum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Chascolytrum itatiaiae,sima-Portaria 443/2014,EN,NA,CR,NA,NA,NA,NA,NA,EN
-Chascolytrum juergensii,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Chascolytrum juergensii,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Chascolytrum parodianum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Chascolytrum scabrum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Chascolytum brasiliense,SP_oficial,NA,NA,NA,CR,NA,NA,NA,NA,NA
@@ -1193,7 +1193,7 @@ Chomelia randioides,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
 Chondrodendron platiphyllum,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Chresta souzae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Chresta sphaerocephala,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Christensonella ferdinandiana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Christensonella ferdinandiana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Christensonella pumila,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Christiana macrodon,cncflora_ckan,NA,NA,NA,NA,NA,EN,NA,NA,NA
 Chromolaena angusticeps,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -1224,7 +1224,7 @@ Chrysophyllum subspinosum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Chrysophyllum superbum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Chrysophyllum viride,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,NT,LR/nt,NA,NA
 Chusquea acuminata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Chusquea anelythra,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Chusquea anelythra,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Chusquea attenuata,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Chusquea baculifera,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Chusquea bambusoides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -1266,8 +1266,8 @@ Citronella gongonha,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cladium mariscus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Clarisia ilicifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Clarisia racemosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Clavija nutans,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Clavija spinosa,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Clavija nutans,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
+Clavija spinosa,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Cleistes aphylla,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cleistes exilis,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Cleistes gracilis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -1281,7 +1281,7 @@ Clematis campestris,sima-SP_oficial-cncflora_web,NA,LC,EW,EW,NA,LC,NA,NA,NA
 Clethra scabra,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Clidemia capitellata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Clidemia dentata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Clidemia sericea,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Clidemia sericea,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Cliococca selaginoides,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Clitoria densiflora,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Clitoria epetiolata,sima,NA,NT,NA,NA,NA,NA,NA,NA,NA
@@ -1295,9 +1295,9 @@ Cnidoscolus monsanto,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Cnidoscolus oligandrus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cnidoscolus urens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Coccoloba declinata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Coccoloba glaziovii,sima-UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
+Coccoloba glaziovii,sima-UICN_API,NA,NE,NA,NA,NA,NA,LC,NA,NA
 Coccoloba mollis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Coccoloba paraguariensis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Coccoloba paraguariensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Coccoloba striata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Coccoloba warmingii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cochlospermum regium,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
@@ -1309,7 +1309,7 @@ Codonorchis canisioi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Coelorachis aurita,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Coffea arabica,UICN_API,NA,NA,NA,NA,NA,NA,EN,NA,NA
 Cohniella jonesiana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Colanthelia cingulata,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Colanthelia cingulata,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Colanthelia macrostachya,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Coleocephalocereus buxbaumianus,sima,VU,NA,NA,NA,NA,NA,NA,NA,NA
 Coleocephalocereus fluminensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -1398,7 +1398,7 @@ Coutarea hexandra,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cranichis candida,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Crassula peduncularis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Cratylia intermedia,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
-Crinum americanum,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Crinum americanum,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Critonia morifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Critoniopsis quinqueflora,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Crocanthemum brasiliensis,sima,EN,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1406,7 +1406,7 @@ Crotalaria lanceolata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Crotalaria micans,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Crotalaria otoptera,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,VU,VU,NA,LC,NA,VU,NA
 Crotalaria subdecurrens,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
-Croton aberrans,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Croton aberrans,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Croton alchorneicarpus,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Croton celtidifolius,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Croton compressus,sima-SP_oficial-cncflora_web,NA,LC,EN,EN,NA,LC,NA,NA,NA
@@ -1415,7 +1415,7 @@ Croton glechomifolius,sima-SP_oficial-cncflora_web,NA,DD,CR,CR,NA,DD,NA,NA,NA
 Croton gracilipes,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Croton hemiargyreus,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
 Croton hirtus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Croton ichthygaster,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Croton ichthygaster,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Croton leptobothryus,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
 Croton leptobotryus,sima-cncflora_web-Portaria 443/2014,VU,NA,VU,NA,NA,VU,NA,NA,VU
 Croton luetzelburgii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -1428,7 +1428,7 @@ Croton salutaris,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Croton serratifolius,sima-SP_oficial-cncflora_web,NA,LC,CR,CR,NA,LC,NA,NA,NA
 Croton sphaerogynus,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Croton tricolor,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Croton urucurana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Croton urucurana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Croton vulnerarius,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Crumenaria choretroides,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Crumenaria polygaloides,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
@@ -1458,9 +1458,9 @@ Cryptanthus scaposus,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cryptanthus whitmanii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Cryptanthus zonatus,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Cryptocarya aschersoniana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Cryptocarya botelhensis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Cryptocarya botelhensis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Cryptocarya mandioccana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Cryptocarya micrantha,sima-SP_oficial-cncflora_ckan-UICN_API-mpoSP,NA,NA,VU,VU,NA,LC,LC,VU,NA
+Cryptocarya micrantha,sima-SP_oficial-cncflora_ckan-UICN_API-mpoSP,NA,NE,VU,VU,NA,LC,LC,VU,NA
 Cryptocarya moschata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cryptocarya saligna,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cryptochloa capillata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -1473,7 +1473,7 @@ Ctenium cirrhosum,SP_oficial-cncflora_web-mpoSP,NA,NA,NA,EN,NA,DD,NA,EN,NA
 Ctenium cirrosum,sima,NA,DD,EN,NA,NA,NA,NA,NA,NA
 Culcita coniifolia,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Cunila incana,sima,NA,EN,NA,NA,NA,NA,NA,NA,NA
-Cunila incana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cunila incana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Cupania bracteosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cupania castaneaefolia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Cupania concolor,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,VU,NA,VU,VU,NA,NT,NA,NA,VU
@@ -1492,7 +1492,7 @@ Cuphea bahiensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cuphea cipoensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cuphea cuiabensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cuphea glaziovii,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
-Cuphea hatschbachii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cuphea hatschbachii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Cuphea linarioides,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Cuphea lindmaniana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Cuphea lutescens,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
@@ -1500,7 +1500,7 @@ Cuphea melvilla,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
 Cuphea repens,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Cuphea rubro-virens,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Cuphea teleandra,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Cuphea urbaniana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cuphea urbaniana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Curculigo scorzonerifolia,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Curitiba prismatica,sima,NA,VU,NA,NA,NA,NA,NA,NA,NA
 Curtia tenuifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,CR,CR,NA,LC,NA,CR,NA
@@ -1539,7 +1539,7 @@ Cyperus distans,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cyperus drummondii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cyperus eragrostis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cyperus flavescens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Cyperus friburgensis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cyperus friburgensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Cyperus giganteus,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Cyperus haspan,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Cyperus hortensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -1595,7 +1595,7 @@ Daphnopsis racemosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Daphnopsis schwackeana,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Daphnopsis utilis,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Dasyanthina serrata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Dasycondylus dusenii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dasycondylus dusenii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Dasycondylus resinosus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Dasyphyllum lanceolatum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Dasyphyllum spinescens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -1676,7 +1676,7 @@ Dioscorea kunthiana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Dioscorea loefgrenii,sima-SP_oficial-Portaria 443/2014,VU,NA,VU,VU,NA,NA,NA,NA,VU
 Dioscorea mantiqueirensis,sima-SP_oficial-Portaria 443/2014,CR,NA,EX,EX,NA,NA,NA,NA,CR
 Dioscorea mollis,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
-Dioscorea perdicum,sima,NA,NA,VU,NA,NA,NA,NA,NA,NA
+Dioscorea perdicum,sima,NA,NE,VU,NA,NA,NA,NA,NA,NA
 Dioscorea plantaginifolia,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
 Dioscorea pseudomacrocapsa,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Dioscorea rumicoides,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
@@ -1822,7 +1822,7 @@ Echinochloa polystachya,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Echinochloa walteri,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Echinocoryne echinocephala,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Echinodorus paniculatus,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
-Echinodorus rhombifolia,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Echinodorus rhombifolia,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Echinopsis calochlora,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Echinopsis oxygona,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eclipta prostrata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -1868,7 +1868,7 @@ Eleusine tristachya,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Elleanthus linifolius,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eltroplectris calcarata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eltroplectris kuhlmanniana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Eltroplectris schlechteriana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Eltroplectris schlechteriana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Elvasia capixaba,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Elvasia kollmannii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Encholirium biflorum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
@@ -1886,7 +1886,7 @@ Encyclia argentinensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Encyclia bragancae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Encyclia fowliei,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Endlicheria paniculata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Enhydra sessilis,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Enhydra sessilis,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Enterolobium contortisiliquum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Enterolobium gummiferum,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Enydra anagallis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -1901,7 +1901,7 @@ Epidendrum cristatum,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Epidendrum dendrobioides,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Epidendrum ecostatum,sima-SP_oficial-Portaria 443/2014,VU,NA,NA,VU,NA,NA,NA,NA,VU
 Epidendrum filicaule,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
-Epidendrum geniculatum,sima-SP_oficial-cncflora_web,NA,NA,VU,VU,NA,NT,NA,NA,NA
+Epidendrum geniculatum,sima-SP_oficial-cncflora_web,NA,NE,VU,VU,NA,NT,NA,NA,NA
 Epidendrum henschenii,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Epidendrum hololeucum,SP_oficial-cncflora_web,NA,NA,NA,VU,NA,NT,NA,NA,NA
 Epidendrum infaustum,SP_oficial-cncflora_web,NA,NA,NA,EX,NA,DD,NA,NA,NA
@@ -1934,7 +1934,7 @@ Eremanthus seidelii,cncflora_web,NA,NA,NA,NA,NA,VU,NA,NA,NA
 Eremocaulon setosum,UICN_API,NA,NA,NA,NA,NA,NA,VU,NA,NA
 Eriocaulon cinereum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eriocaulon melanolepis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Eriochloa distachya,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Eriochloa distachya,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Eriochrysis filiformis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eriocnema acaulis,sima-Portaria 443/2014,VU,EN,NA,NA,NA,NA,NA,NA,EN
 Eriope anamariae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -1984,7 +1984,7 @@ Erythroxylum catharinense,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,E
 Erythroxylum citrifolium,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Erythroxylum coelophlebium,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Erythroxylum compressum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Erythroxylum cuneifolium,sima,NA,NA,EX,NA,NA,NA,NA,NA,NA
+Erythroxylum cuneifolium,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
 Erythroxylum cuspidifolium,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Erythroxylum cyclophyllum,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Erythroxylum daphnites,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -2035,17 +2035,17 @@ Eugenia beaurepairiana,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Eugenia bimarginata,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Eugenia blanda,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia brasiliensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Eugenia brunneopubescens,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Eugenia brunneopubescens,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Eugenia brunoi,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Eugenia bunchosiifolia,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Eugenia burkartiana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia candolleana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia capitulifera,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Eugenia catharinensis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Eugenia catharinensis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Eugenia cerasiflora,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia cereja,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia chlorophylla,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Eugenia cinerascens,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,EX,EX,NA,CR,CR,NA,NA
+Eugenia cinerascens,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,EX,EX,NA,CR,CR,NA,NA
 Eugenia copacabanensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia cyclophylla,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia dipetala,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -2063,7 +2063,7 @@ Eugenia fusca,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia gracillima,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Eugenia hamiltonii,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Eugenia handroana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Eugenia handroi,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,LC,LC,NA,NA
+Eugenia handroi,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,LC,LC,NA,NA
 Eugenia hermesiana,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,CR,NA,CR,CR,NA,CR,CR,NA,CR
 Eugenia hiemalis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia imaruiensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -2073,33 +2073,33 @@ Eugenia itacarensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia joenssonii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Eugenia kleinii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia klotzschiana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Eugenia lambertiana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Eugenia lambertiana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Eugenia laxa,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Eugenia leonorae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia leptoclada,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Eugenia longibracteata,sima-SP_oficial-cncflora_ckan,NA,NA,VU,VU,NA,DD,NA,NA,NA
+Eugenia longibracteata,sima-SP_oficial-cncflora_ckan,NA,NE,VU,VU,NA,DD,NA,NA,NA
 Eugenia longipetiolata,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
-Eugenia macahensis,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,EN,EN,NA,NA
+Eugenia macahensis,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,EN,EN,NA,NA
 Eugenia macrobracteolata,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,EN,NA,EN,EN,NA,EN,EN,NA,EN
 Eugenia malacantha,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,EN,NA,EN,EN,NA,VU,NA,NA,EN
 Eugenia mansoi,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia mattosii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia melanogyna,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia microcarpa,UICN_API,NA,NA,NA,NA,NA,NA,VU,NA,NA
-Eugenia modesta,sima-SP_oficial-UICN_API,NA,NA,VU,VU,NA,NA,LC,NA,NA
+Eugenia modesta,sima-SP_oficial-UICN_API,NA,NE,VU,VU,NA,NA,LC,NA,NA
 Eugenia monosperma,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Eugenia mosenii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia multicostata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia myrcianthes,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia myrciariifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia neoglomerata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Eugenia neophaea,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Eugenia neophaea,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Eugenia neosericea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia neosilvestris,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Eugenia neotristis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia neoverrucosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia nutans,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
-Eugenia oblongata,sima-UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
+Eugenia oblongata,sima-UICN_API,NA,NE,NA,NA,NA,NA,LC,NA,NA
 Eugenia oxyoentophylla,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Eugenia pachyclada,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia pantagensis,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,VU,VU,NA,NA
@@ -2110,7 +2110,7 @@ Eugenia piloesis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia pisiformis,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Eugenia pithecocephala,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,CR,CR,NA,NA
 Eugenia platysema,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Eugenia plicata,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Eugenia plicata,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Eugenia pluriflora,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia prasina,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,VU,NA,NA
 Eugenia pruinosa,sima-SP_oficial-cncflora_ckan-mpoSP-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,EN,EN
@@ -2124,19 +2124,19 @@ Eugenia reitziana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Eugenia repanda,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia rotundicosta,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Eugenia sclerocalyx,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Eugenia sellowiana,sima,NA,NA,EX,NA,NA,NA,NA,NA,NA
+Eugenia sellowiana,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
 Eugenia serraegrandis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Eugenia solimoensis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Eugenia sonderiana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia speciosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Eugenia sphenoides,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Eugenia sphenoides,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Eugenia sphenophylla,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Eugenia squamiflora,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,DD,DD,NA,NA
 Eugenia stephanii,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Eugenia stigmatosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia subavenia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia subterminalis,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Eugenia subundulata,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Eugenia subundulata,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Eugenia sulcata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia supraaxillaris,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Eugenia tenuiflora,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -2144,7 +2144,7 @@ Eugenia umbrosa,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Eugenia vattimoana,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Eugenia verticillata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eugenia villaenovae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Eugenia zuccarinii,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,LC,LC,NA,NA
+Eugenia zuccarinii,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,LC,LC,NA,NA
 Eulophia ruwenzoriensis,SP_oficial-cncflora_web,NA,NA,NA,EN,NA,DD,NA,NA,NA
 Eumachia cymuligera,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Eupatorium lineatum,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
@@ -2171,7 +2171,7 @@ Evolvulus aurigenius,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Evolvulus barbatus,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Evolvulus chrysotrichos,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Evolvulus cressoides,sima-SP_oficial-cncflora_web,NA,NT,EN,EN,NA,NT,NA,NA,NA
-Evolvulus elegans subsp. confertifolius,sima,NA,NA,EX,NA,NA,NA,NA,NA,NA
+Evolvulus elegans subsp. confertifolius,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
 Evolvulus elegans var. confertifolius,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Evolvulus filipes,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Evolvulus fuscus,sima-SP_oficial-cncflora_web,NA,NT,EN,EN,NA,NT,NA,NA,NA
@@ -2273,9 +2273,9 @@ Galipea jasminiflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Galium diphyllum,sima-SP_oficial-cncflora_web-Portaria 443/2014,CR,NA,EX,EX,NA,CR,NA,NA,CR
 Galium equisetoides,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Galium humile,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
-Galium hypocarpium subsp. buxifolium,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Galium hypocarpium subsp. buxifolium,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Galium nigroramosum,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
-Galium noxium subsp. valantioides,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Galium noxium subsp. valantioides,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Galium rubidiflorum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Galium shepherdii,sima-SP_oficial-cncflora_web-Portaria 443/2014,CR,NA,CR,CR,NA,CR,NA,NA,CR
 Gallesia integrifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -2299,7 +2299,7 @@ Gaylussacia pruinosa,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Gaylussacia retivenia,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Gaylussacia rhododendron,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Gaylussacia setosa,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Gelasine caldensis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gelasine caldensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Genipa americana,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Genipa infundibuliformis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Genipa spruceana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -2312,7 +2312,7 @@ Geonoma gamiova,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Geonoma schottiana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Glaziophyton mirabile,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Gleasonia macrocalyx,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Glechon ciliata,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Glechon ciliata,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Gleditsia amorphoides,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Glinus radiatus,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Gliricidia sepium,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -2329,23 +2329,23 @@ Goeppertia widgrenii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Goeppertia wiotiana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Goeppertia zebrina,sima-SP_oficial-mpoSP,NA,LC,VU,VU,NA,NA,NA,VU,NA
 Gomesa barbata,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
-Gomesa ciliata,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Gomesa ciliata,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Gomesa concolor,sima-SP_oficial,NA,LC,EN,EN,NA,NA,NA,NA,NA
 Gomesa cruciata,sima-SP_oficial,NA,LC,VU,VU,NA,NA,NA,NA,NA
 Gomesa cuneata,sima-SP_oficial,CR,NA,VU,VU,NA,NA,NA,NA,NA
 Gomesa doeringii,cncflora_web,NA,NA,NA,NA,NA,DD,NA,NA,NA
 Gomesa glaziovii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Gomesa gomezoides,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Gomesa jucunda,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Gomesa jucunda,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Gomesa laxiflora,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Gomesa lietzei,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Gomesa pectoralis,sima-SP_oficial,CR,NA,CR,CR,NA,NA,NA,NA,NA
-Gomesa praetexta,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Gomesa praetexta,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Gomesa sarcodes,sima,NA,NT,NA,NA,NA,NA,NA,NA,NA
 Gomesa sessilis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Gomesa uniflora,sima,CR,NA,NA,NA,NA,NA,NA,NA,NA
 Gomesa varicosa,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
-Gomesa welteri,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Gomesa welteri,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Gomphrena agrestis,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Gomphrena centrota,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Gomphrena duriuscula,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -2371,7 +2371,7 @@ Gouania inornata,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,E
 Gouania ulmifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
 Govenia utriculata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Goyazia petraea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Graffenrieda weddellii,sima-SP_oficial-UICN_API,NA,NA,EN,EN,NA,NA,LC,NA,NA
+Graffenrieda weddellii,sima-SP_oficial-UICN_API,NA,NE,EN,EN,NA,NA,LC,NA,NA
 Grammitis fluminensis,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Grandiphyllum divaricatum,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Grandiphyllum hians,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,VU,VU
@@ -2500,7 +2500,7 @@ Hatschbachiella tweedieana,sima,NA,LC,EN,NA,NA,NA,NA,NA,NA
 Hebanthe pulverulenta,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hedychium coronarium,UICN_API,NA,NA,NA,NA,NA,NA,DD,NA,NA
 Heisteria amazonica,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Heisteria perianthomega,sima-SP_oficial-UICN_API-mpoSP,NA,NA,EX,EX,NA,NA,LC,EX,NA
+Heisteria perianthomega,sima-SP_oficial-UICN_API-mpoSP,NA,NE,EX,EX,NA,NA,LC,EX,NA
 Heisteria silvianii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Heladena multiflora,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Helanthium bolivianum,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
@@ -2515,18 +2515,18 @@ Hemipogon piranii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Hemiscola diffusa,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Henriettea glabra,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Henriettea gomesii,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
-Henriettea saldanhae,sima,NA,NA,VU,NA,NA,NA,NA,NA,NA
+Henriettea saldanhae,sima,NA,NE,VU,NA,NA,NA,NA,NA,NA
 Henriettea saldanhaei,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
 Herbstia brasiliana,sima-SP_oficial-cncflora_web-mpoSP,NA,DD,EX,EX,NA,DD,NA,EX,NA
 Herissantia nemoralis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Heteranthera reniformis,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Heteranthera reniformis,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Heteranthera zosterifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,VU,VU,NA,LC,NA,VU,NA
 Heterocoma albida,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Heterocondylus amphidyctius,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Heterocondylus lysimachioides,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,EX,EX,NA,VU,NA,NA,VU
 Heterocondylus pumilus,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Heteropsis flexuosa,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Heteropsis oblongifolia,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Heteropsis oblongifolia,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Heteropterys admirabilis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Heteropterys aliciae,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Heteropterys bahiensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
@@ -2556,16 +2556,16 @@ Heterotaxis valenzuelana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hibiscus bifurcatus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hibiscus diversifolius,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
 Hibiscus furcellatus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Hibiscus linearis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Hibiscus linearis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Hibiscus sororius,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Hibiscus urticifolius,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Hibiscus urticifolius,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Hillia parasitica,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hillia ulei,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Himatanthus obovatus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Hindsia glabra,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hindsia ibitipocensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Hippeastrum angustifolium,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,VU,NA,EW,EW,NA,VU,NA,EW,VU
-Hippeastrum blossfeldiae,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Hippeastrum blossfeldiae,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Hippeastrum brasilianum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hippeastrum breviflorum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hippeastrum goianum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -2608,12 +2608,12 @@ Hohenbergia augusta,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hohenbergia castellanosii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hohenbergia correia-araujoi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Hohenbergia littoralis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Hohenbergia ridleyi,sima,NA,NA,VU,NA,NA,NA,NA,NA,NA
+Hohenbergia ridleyi,sima,NA,NE,VU,NA,NA,NA,NA,NA,NA
 Holocalyx balansae,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Holocheilus hieracioides,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Holocheilus monocephalus,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Holocheilus pinnatifidus,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Holocheilus schulzii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Holocheilus schulzii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Holochilus brasiliensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Homalolepis cuneata,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Homalolepis glabra,sima,VU,NA,EX,NA,NA,NA,NA,NA,NA
@@ -2621,7 +2621,7 @@ Homalolepis insignis,sima-cncflora_ckan-UICN_API,EN,NA,EN,NA,NA,EN,EN,NA,NA
 Homalolepis salubris,sima,CR,NA,EX,NA,NA,NA,NA,NA,NA
 Homalopetalum hypoleptum,sima-SP_oficial-cncflora_web,NA,DD,EX,EX,NA,DD,NA,NA,NA
 Homolepis aturensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Homolepis villaricensis,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Homolepis villaricensis,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Hornschuchia alba,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Hornschuchia cauliflora,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hornschuchia obliqua,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -2664,7 +2664,7 @@ Hymenaea altissima,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Hymenaea courbaril,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
 Hymenaea martiana,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Hymenaea parvifolia,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Hymenanchne condensata,sima-SP_oficial,NA,NA,CR,CR,NA,NA,NA,NA,NA
+Hymenanchne condensata,sima-SP_oficial,NA,NE,CR,CR,NA,NA,NA,NA,NA
 Hymenolobium excelsum,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Hymenolobium janeirense,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hymenophyllum fragile,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -2678,7 +2678,7 @@ Hypenia micrantha,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hypenia subrosea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hypericum caprifoliatum,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Hypericum carinatum,sima,NA,NT,NA,NA,NA,NA,NA,NA,NA
-Hypericum cordiforme var. Kleinii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Hypericum cordiforme var. Kleinii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Hypericum mutilum,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,VU,VU
 Hypericum piriai,sima-SP_oficial-cncflora_web-mpoSP,NA,NT,EX,EX,NA,NT,NA,EX,NA
 Hypericum rigidum,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
@@ -2702,24 +2702,24 @@ Hyptis frondosa,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Hyptis hamatidens,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Hyptis imbricatiformis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hyptis lagenaria,sima-SP_oficial-cncflora_web,NA,LC,EN,EN,NA,LC,NA,NA,NA
-Hyptis lavandulacea,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Hyptis lobata,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Hyptis lavandulacea,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Hyptis lobata,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Hyptis lutescens,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hyptis pachyphylla,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Hyptis paludosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Hyptis penaeoides,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hyptis rhypidiophylla,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Hyptis riparia,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Hyptis riparia,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Hyptis tenuifolia,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Hyptis tetracephala,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Hyptis tricephala,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Hyptis uliginosa,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Hyptis uliginosa,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Hysterionica pinnatiloba,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Hysterionica pinnatisecta,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Ianthopappus corymbosus,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Ibicella lutea,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ibicella lutea,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Ichnanthus bambusiflorus,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EN,EN,NA,LC,NA,EN,NA
-Ichnanthus lancifolius,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Ichnanthus lancifolius,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Ichthyothere elliptica,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Ichthyothere integrifolia,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Idiothamnus pseudorgyalis,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
@@ -2785,7 +2785,7 @@ Inulopsis camporum,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Inulopsis scaposa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ionopsis utricularioides,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Ipomoea acutisepala,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
-Ipomoea aprica,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Ipomoea aprica,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Ipomoea argentea,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Ipomoea campestris,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Ipomoea carajasensis,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -2796,7 +2796,7 @@ Ipomoea fimbriosepala,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ipomoea grandifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ipomoea hirsutissima,sima-SP_oficial-cncflora_web,NA,DD,EX,EX,NA,DD,NA,NA,NA
 Ipomoea macedoi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Ipomoea pinifolia,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Ipomoea pinifolia,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Ipomoea ramosissima,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ipomoea rubens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ipomoea sericophylla,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
@@ -2837,9 +2837,9 @@ Jacaranda subalpina,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Jacaratia spinosa,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Jacquemontia acrocephala,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Jacquemontia cephalantha,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Jacquemontia glabrescens,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Jacquemontia glabrescens,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Jacquemontia revoluta,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Jacquemontia sphaerocephala,sima,NA,NA,EX,NA,NA,NA,NA,NA,NA
+Jacquemontia sphaerocephala,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
 Jacqueshuberia quinquangulata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Jacquiniella globosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Jamesonia biardii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -2922,51 +2922,51 @@ Lavoisiera pulchella,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Lavoisiera quinquenervis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Lavoisiera rigida,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Lavoisiera sampaioana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Lavoisiera serrulata,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Lavoisiera serrulata,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Leandra acutiflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Leandra amplexicaulis,sima-UICN_API,NA,NA,VU,NA,NA,NA,LC,NA,NA
+Leandra amplexicaulis,sima-UICN_API,NA,NE,VU,NA,NA,NA,LC,NA,NA
 Leandra barbinervis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Leandra brackenridgei,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,NT,NT,NA,NA
-Leandra calvescens,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra calvescens,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra catharinensis,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Leandra clidemioides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Leandra coriacea,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Leandra dispar,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra coriacea,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Leandra dispar,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra echinata,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Leandra eichleri,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra eichleri,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Leandra hermogenesii,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra hermogenesii,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra humilis var. glabrata,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Leandra involucrata,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
-Leandra itatiaiae,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Leandra lancifolia,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,EN,EN,NA,LC,LC,NA,NA
-Leandra lapae,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
-Leandra limbata,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
+Leandra itatiaiae,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Leandra lancifolia,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,EN,EN,NA,LC,LC,NA,NA
+Leandra lapae,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
+Leandra limbata,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
 Leandra linearifolia,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
 Leandra longistyla,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
-Leandra mattosii,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Leandra mattosii,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Leandra melastomoides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Leandra multiplinervis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Leandra neglecta,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Leandra pallida,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra neglecta,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Leandra pallida,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra parvifolia,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
-Leandra paulina,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra paulina,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra pauloensis,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Leandra pilonensis,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Leandra purpureo-villosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Leandra quinquedentata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Leandra quinquenodis,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Leandra quinquenodis,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Leandra regnellii,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
-Leandra riedeliana,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Leandra riedeliana,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Leandra salicina,sima,NA,NT,VU,NA,NA,NA,NA,NA,NA
-Leandra sparsisetulosa,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Leandra strigilliflora,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Leandra tristis,sima-SP_oficial-cncflora_ckan,NA,NA,EN,EN,NA,DD,NA,NA,NA
-Leandra uliginosa,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Leandra umbellata,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,EN,EN,NA,LC,LC,NA,NA
+Leandra sparsisetulosa,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Leandra strigilliflora,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Leandra tristis,sima-SP_oficial-cncflora_ckan,NA,NE,EN,EN,NA,DD,NA,NA,NA
+Leandra uliginosa,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Leandra umbellata,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,EN,EN,NA,LC,LC,NA,NA
 Leandra variabilis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Leandra vesiculosa,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
-Leandra viridiflava,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Leandra vesiculosa,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
+Leandra viridiflava,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Leandra xantholasia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Lecosia oppositifolia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Lecythis barnebyi,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -2987,7 +2987,7 @@ Lemna aequinoctialis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Lemna valdiviana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Lepanthopsis densiflora,sima-SP_oficial-cncflora_web,NA,DD,EX,EX,NA,DD,NA,NA,NA
 Lepanthopsis floripecten,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,VU,VU,NA,LC,NA,VU,NA
-Lepidagathis meridionalis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Lepidagathis meridionalis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Lepidaploa almasensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Lepidaploa aurea,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Lepidaploa chamissonis,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
@@ -3066,7 +3066,7 @@ Lippia duartei,cncflora_web,NA,NA,NA,NA,NA,CR,NA,NA,NA
 Lippia elliptica,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Lippia insignis,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Lippia morii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Lippia nana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lippia nana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Lippia pumila,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Lippia pusilla,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Lippia rhodocnemis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -3090,7 +3090,7 @@ Lonchocarpus nitidus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Lophanthera lactescens,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Lophiaris schwambachiae,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Lophophytum leandri,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Lophophytum pyramidale,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lophophytum pyramidale,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Loudetia flammida,sima-SP_oficial-cncflora_web,NA,LC,CR,CR,NA,LC,NA,NA,NA
 Ludwigia anastomosans,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Ludwigia leptocarpa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3115,7 +3115,7 @@ Lupinus prouvensalanus,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Luxemburgia angustifolia,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Luxemburgia corymbosa,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Luxemburgia flexuosa,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Luziola bahiensis,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Luziola bahiensis,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Luziola brasiliensis,sima-cncflora_web-Portaria 443/2014,VU,NA,NA,NA,NA,VU,NA,NA,VU
 Lychnophora albertinioides,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Lychnophora blanchetii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -3269,7 +3269,7 @@ Marsdenia fontellana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Marsdenia otoniensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Marsdenia queirozii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Martianthus sancti-gabrielii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Mascagnia divaricata,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Mascagnia divaricata,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Masdevallia discoidea,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Matayba cristae,cncflora_ckan,NA,NA,NA,NA,NA,VU,NA,NA,NA
 Matayba elaeagnoides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3284,14 +3284,14 @@ Matelea glaziovii,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,VU,NA,VU,
 Matelea hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Matelea marcoassisii,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Matelea santosii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Mauritia flexuosa,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Mauritia flexuosa,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Maytenus acanthophylla,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Maytenus aquifolia,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Maytenus basidentata,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Maytenus brasiliensis,SP_oficial-cncflora_web,NA,NA,NA,CR,NA,LC,NA,NA,NA
 Maytenus floribunda,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Maytenus glaucescens,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Maytenus ilicifolia,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Maytenus ilicifolia,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Maytenus quadrangulata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Maytenus robusta,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Maytenus rupestris,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -3325,14 +3325,14 @@ Meriania claussenii,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Merianthera burlemarxii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Merianthera pulchra,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Merostachys abadiana,sima-SP_oficial-cncflora_web-Portaria 443/2014,CR,NA,CR,CR,NA,CR,NA,NA,CR
-Merostachys bradei,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Merostachys brevigluma,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Merostachys bradei,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Merostachys brevigluma,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Merostachys burmanii,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,EN,EN
 Merostachys caucaiana,sima-SP_oficial-CR_Lac-cncflora_web-Portaria 443/2014,CR,NA,CR,CR,CR,CR,NA,NA,CR
-Merostachys fistulosa,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Merostachys kleinii,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Merostachys fistulosa,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Merostachys kleinii,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Merostachys neesii,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
-Merostachys polyantha,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Merostachys polyantha,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Merostachys scandens,sima-SP_oficial-CR_Lac-cncflora_web-mpoSP-Portaria 443/2014,CR,NA,CR,CR,CR,CR,NA,CR,CR
 Merostachys skvortzovii,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EN,EN,NA,LC,NA,EN,NA
 Merremia repens,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -3387,7 +3387,7 @@ Miconia hyemalis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Miconia ibaguensis,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Miconia inconspicua,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Miconia johnwurdackiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Miconia jucunda,sima-UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
+Miconia jucunda,sima-UICN_API,NA,NE,NA,NA,NA,NA,LC,NA,NA
 Miconia kollmannii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Miconia lagunensis,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
 Miconia latecrenata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3396,7 +3396,7 @@ Miconia leucocarpa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Miconia ligustroides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Miconia longicuspis,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Miconia lymanii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Miconia macrothyrsa,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Miconia macrothyrsa,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Miconia mendoncae,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Miconia michelangeliana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Miconia minutiflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3413,16 +3413,16 @@ Miconia ramboi,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Miconia robusta,sima,NA,LC,EN,NA,NA,NA,NA,NA,NA
 Miconia robustissima,SP_oficial-cncflora_web,NA,NA,NA,EN,NA,LC,NA,NA,NA
 Miconia rubiginosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Miconia sclerophylla,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Miconia sclerophylla,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Miconia sellowiana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Miconia serrulata,sima-SP_oficial-UICN_API,NA,NA,VU,VU,NA,NA,LC,NA,NA
+Miconia serrulata,sima-SP_oficial-UICN_API,NA,NE,VU,VU,NA,NA,LC,NA,NA
 Miconia setosociliata,sima-cncflora_ckan-UICN_API-Portaria 443/2014,VU,NA,NA,NA,NA,NT,NT,NA,VU
-Miconia shepherdii,sima-SP_oficial-cncflora_ckan,NA,NA,EN,EN,NA,LC,NA,NA,NA
+Miconia shepherdii,sima-SP_oficial-cncflora_ckan,NA,NE,EN,EN,NA,LC,NA,NA,NA
 Miconia stenostachya,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Miconia suberosa,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Miconia tentaculifera,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,NT,NT,NA,NA
+Miconia tentaculifera,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,NT,NT,NA,NA
 Miconia trianae,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Miconia urophylla,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,LC,LC,NA,NA
+Miconia urophylla,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,LC,LC,NA,NA
 Miconia valtheri,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Miconia warmingiana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Miconia weddellii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -3450,7 +3450,7 @@ Microlicia juniperina,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Microlicia macedoi,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Microlicia melanostagma,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Microlicia microphylla,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Microlicia myrtifolia,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Microlicia myrtifolia,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Microlicia myrtoidea,sima-SP_oficial-cncflora_web,NA,NT,VU,VU,NA,NT,NA,NA,NA
 Microlicia obtusifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Microlicia psammophila,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -3460,7 +3460,7 @@ Micropholis emarginata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Micropholis grandiflora,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Micropholis retusa,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Micropholis splendens,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Microstachys corniculata,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Microstachys corniculata,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Microtea bahiensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Microtea maypurensis,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Microtea papilosa,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -3471,7 +3471,7 @@ Mikania alvimii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Mikania anethifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Mikania argyreiae,sima-cncflora_web-Portaria 443/2014,VU,NA,NA,NA,NA,VU,NA,NA,VU
 Mikania biformis,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
-Mikania bradei,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Mikania bradei,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Mikania capricorni,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Mikania chlorolepis,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Mikania cipoensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -3499,7 +3499,7 @@ Mikania pinnatiloba,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Mikania premnifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Mikania rufescens,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Mikania smaragdina,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
-Mikania stenomeres,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Mikania stenomeres,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Mikania ternata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Mikania trinervis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Mikania ulei,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -3598,8 +3598,8 @@ Mollinedia oligantha,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Mollinedia oligotricha,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
 Mollinedia ovata,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Mollinedia pachysandra,SP_oficial-cncflora_web,NA,NA,NA,VU,NA,LC,NA,NA,NA
-Mollinedia salicifolia,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Mollinedia schottiana,sima-UICN_API,NA,NA,EX,NA,NA,NA,LC,NA,NA
+Mollinedia salicifolia,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Mollinedia schottiana,sima-UICN_API,NA,NE,EX,NA,NA,NA,LC,NA,NA
 Mollinedia triflora,sima-UICN_API,NA,DD,NA,NA,NA,NA,LC,NA,NA
 Mollinedia uleana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Mollinedia widgrenii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3648,7 +3648,7 @@ Myrceugenia bracteosa,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,E
 Myrceugenia brevipedicellata,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,EN,NA,EN,EN,NA,EN,VU,NA,EN
 Myrceugenia campestris,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,VU,NA,NA
 Myrceugenia cucullata,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Myrceugenia euosma,sima-SP_oficial-cncflora_ckan,NA,NA,EX,EX,NA,LC,NA,NA,NA
+Myrceugenia euosma,sima-SP_oficial-cncflora_ckan,NA,NE,EX,EX,NA,LC,NA,NA,NA
 Myrceugenia foveolata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Myrceugenia franciscensis,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,EN,NA,EN,EN,NA,VU,VU,NA,EN
 Myrceugenia gertii,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,EN,NA,EN,EN,NA,EN,EN,NA,EN
@@ -3672,19 +3672,19 @@ Myrcia aethusa,UICN_API,NA,NA,NA,NA,NA,NA,VU,NA,NA
 Myrcia almasensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Myrcia amazonica,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia anacardiifolia,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Myrcia anomala,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Myrcia anomala,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Myrcia bella,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia bicarinata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Myrcia bicolor,sima-SP_oficial-UICN_API-mpoSP,NA,NA,EN,EN,NA,NA,VU,EN,NA
-Myrcia cionei,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Myrcia bicolor,sima-SP_oficial-UICN_API-mpoSP,NA,NE,EN,EN,NA,NA,VU,EN,NA
+Myrcia cionei,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Myrcia coelosepala,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Myrcia congestiflora,sima-SP_oficial-cncflora_ckan,NA,NA,VU,VU,NA,VU,NA,NA,NA
+Myrcia congestiflora,sima-SP_oficial-cncflora_ckan,NA,NE,VU,VU,NA,VU,NA,NA,NA
 Myrcia cordiifolia,sima-SP_oficial,NA,LC,EX,EX,NA,NA,NA,NA,NA
 Myrcia costeira,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia diaphana,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,VU,NA,VU,VU,NA,NT,VU,NA,VU
 Myrcia dichrophylla,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,VU,NA,NA
 Myrcia dryadica,UICN_API,NA,NA,NA,NA,NA,NA,VU,NA,NA
-Myrcia eriocalyx,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Myrcia eriocalyx,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Myrcia eriopus,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,VU,VU,NA,LC,NA,VU,NA
 Myrcia eugeniopsoides,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia excoriata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3695,7 +3695,7 @@ Myrcia gilsoniana,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Myrcia glabra,UICN_API,NA,NA,NA,NA,NA,NA,NT,NA,NA
 Myrcia grammica,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia grandiflora,UICN_API,NA,NA,NA,NA,NA,NA,VU,NA,NA
-Myrcia guarujana,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Myrcia guarujana,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Myrcia guianensis,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
 Myrcia hebepetala,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia heringii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -3711,7 +3711,7 @@ Myrcia lineata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Myrcia lonchophylla,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia macrocarpa,UICN_API,NA,NA,NA,NA,NA,NA,DD,NA,NA
 Myrcia magnifolia,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Myrcia montana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Myrcia montana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Myrcia multiflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia multipunctata,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia neobrasiliensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3725,7 +3725,7 @@ Myrcia neorostrata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Myrcia neosuaveolens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia oblongata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia obovata,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Myrcia oligantha,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Myrcia oligantha,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Myrcia ovata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia palustris,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia plusiantha,sima-cncflora_web-UICN_API,NT,NA,NA,NA,NA,NT,LC,NA,NA
@@ -3740,21 +3740,21 @@ Myrcia rufipes,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia rupicola,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Myrcia skortzoviana,UICN_API,NA,NA,NA,NA,NA,NA,EN,NA,NA
 Myrcia splendens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Myrcia stictophylla,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,VU,VU,NA,CR,EN,NA,NA
+Myrcia stictophylla,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,VU,VU,NA,CR,EN,NA,NA
 Myrcia strigipes,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia subalpestris,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia subcordata,sima-UICN_API,NA,LC,NA,NA,NA,NA,LC,NA,NA
-Myrcia tenuivenosa,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Myrcia tenuivenosa,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Myrcia thomasii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Myrcia tijucensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia tomentosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Myrcia ubatubana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Myrcia ubatubana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Myrcia uberavensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Myrcia variabilis,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Myrcia vellozoi,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Myrcia venulosa,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Myrcia vestita,sima-SP_oficial-UICN_API,NA,NA,EN,EN,NA,NA,LC,NA,NA
-Myrcia vittoriana,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Myrcia vestita,sima-SP_oficial-UICN_API,NA,NE,EN,EN,NA,NA,LC,NA,NA
+Myrcia vittoriana,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Myrcianthes pungens,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,EN,NA,NA
 Myrciaria cuspidata,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,VU,NA,NA
 Myrciaria delicatula,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3783,8 +3783,8 @@ Najas conferta,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Najas guadalupensis,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Najas marina,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Napeanthus primulifolius,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Nassella neesiana,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Nassella sellowiana,sima-SP_oficial,NA,NA,CR,CR,NA,NA,NA,NA,NA
+Nassella neesiana,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Nassella sellowiana,sima-SP_oficial,NA,NE,CR,CR,NA,NA,NA,NA,NA
 Nasturtium officinale,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Naucleopsis jamariensis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Neblinaea promontoriorum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -3816,7 +3816,7 @@ Nectandra weddellii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Neea verticillata,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Nematanthus crassifolius,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Nematanthus fornix,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Nematanthus mattosianus,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Nematanthus mattosianus,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Nematanthus monanthos,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Nematanthus sericeus,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Nematanthus strigillosus,sima-SP_oficial,NA,NT,EX,EX,NA,NA,NA,NA,NA
@@ -3855,13 +3855,13 @@ Neoregelia inexspectata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Neoregelia laevis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Neoregelia leprosa,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Neoregelia lilliputiana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Neoregelia maculata,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Neoregelia maculata,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Neoregelia menescalii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Neoregelia nivea,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Neoregelia nivea,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Neoregelia oligantha,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Neoregelia paulistana,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
 Neoregelia pernambucana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Neoregelia pontualii,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Neoregelia pontualii,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Neoregelia ruschii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Neoregelia sanguinea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Neoregelia sarmentosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -3875,7 +3875,7 @@ Nidularium atalaiaense,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Nidularium azureum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Nidularium bocainense,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,VU,VU,NA,EN,NA,NA,EN
 Nidularium campos-portoi,SP_oficial,NA,NA,NA,VU,NA,NA,NA,NA,NA
-Nidularium camposportoi,sima,NA,NA,VU,NA,NA,NA,NA,NA,NA
+Nidularium camposportoi,sima,NA,NE,VU,NA,NA,NA,NA,NA,NA
 Nidularium corallinum,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Nidularium ferrugineum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Nidularium itatiaiae,sima-SP_oficial-Portaria 443/2014,EN,NA,EX,EX,NA,NA,NA,NA,EN
@@ -3885,7 +3885,7 @@ Nidularium mangaratibense,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Nidularium marigoi,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Nidularium minutum,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Nidularium organense,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Nidularium rolfianum,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Nidularium rolfianum,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Nidularium rosulatum,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Nidularium serratum,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Nidularium utriculosum,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -3894,7 +3894,7 @@ Nierembergia pinifolia,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Nitella flexilis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Nitella oligospira,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Nohawilliamsia pirarense,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
-Nohawilliamsia pirarensis,sima,NA,NA,EX,NA,NA,NA,NA,NA,NA
+Nohawilliamsia pirarensis,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
 Noteroclada confluens,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Nothochilus coccineus,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Noticastrum hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -3918,7 +3918,7 @@ Ocotea confertiflora,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Ocotea corymbosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea cryptocarpa,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Ocotea curucutuensis,cncflora_ckan,NA,NA,NA,NA,NA,NT,NA,NA,NA
-Ocotea daphnifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,NA,VU,VU,NA,LC,NA,VU,NA
+Ocotea daphnifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,NE,VU,VU,NA,LC,NA,VU,NA
 Ocotea diospyrifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea dispersa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea divaricata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -3929,7 +3929,7 @@ Ocotea frondosa,sima-SP_oficial-cncflora_ckan-mpoSP,NA,NT,VU,VU,NA,LC,NA,VU,NA
 Ocotea glauca,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea glaziovii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea indecora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Ocotea inhauba,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,EX,EX,NA,DD,DD,NA,NA
+Ocotea inhauba,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,EX,EX,NA,DD,DD,NA,NA
 Ocotea lanata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea lancifolia,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Ocotea laxa,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
@@ -3956,7 +3956,7 @@ Ocotea vaccinioides,SP_oficial-cncflora_web-mpoSP,NA,NA,NA,VU,NA,LC,NA,VU,NA
 Ocotea velloziana,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ocotea velutina,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocotea venulosa,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Ocotea virgultosa,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Ocotea virgultosa,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Octomeria alexandri,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Octomeria chamaeleptotes,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Octomeria decumbens,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
@@ -3966,9 +3966,9 @@ Octomeria geraensis,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,EX,EX,N
 Octomeria hatschbachii,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,EX,EX,NA,VU,NA,NA,VU
 Octomeria hoehnei,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Octomeria lichenicola,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
-Octomeria palmyrabellae,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Octomeria palmyrabellae,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Octomeria praestans,sima-SP_oficial-cncflora_web,NA,NT,EX,EX,NA,NT,NA,NA,NA
-Octomeria recchiana,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Octomeria recchiana,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Octomeria rotundiglossa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Octomeria truncicola,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Octomeria warmingii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4005,7 +4005,7 @@ Orthophytum magalhaesii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Orthophytum zanonii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Orthosia itatiaiensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ossaea angustifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Ossaea australis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ossaea australis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Ossaea warmingiana,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Ottelia brasiliensis,sima-cncflora_web,NA,NT,NA,NA,NA,NT,NA,NA,NA
 Ottonia sampaioi,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
@@ -4064,7 +4064,7 @@ Pabstiella garayi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Pabstiella lingua,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Pabstiella ruschii,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Pachira aquatica,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Pachira calophylla,sima-SP_oficial-cncflora_ckan,NA,NA,VU,VU,NA,EN,NA,NA,NA
+Pachira calophylla,sima-SP_oficial-cncflora_ckan,NA,NE,VU,VU,NA,EN,NA,NA,NA
 Pachira endecaphylla,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Pachystachys dubiosa,sima,EN,NA,NA,NA,NA,NA,NA,NA,NA
 Pachystroma longifolium,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -4079,7 +4079,7 @@ Paepalanthus grao-mogolensis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Paepalanthus hydra,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Paepalanthus langsdorffii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Paepalanthus lepidus,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Paepalanthus melaleucus var. epilosus,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Paepalanthus melaleucus var. epilosus,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Paepalanthus uncinatus,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Paepalanthus xiphophyllus,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Pagamea harleyi,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -4100,7 +4100,7 @@ Panicum gouinii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Panicum hylaeicum,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Panicum millegrana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Panicum pedersenii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Panicum peladoense,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Panicum peladoense,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Panicum repens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Panopsis multiflora,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Panopsis rubescens,sima-SP_oficial-cncflora_web-UICN_API,NA,LC,VU,VU,NA,LC,LC,NA,NA
@@ -4137,31 +4137,31 @@ Parodia oxycostata,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Parodia rechensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Parodia schumanniana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Parodia scopa,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Paspalum acuminatum,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
-Paspalum arundinellum,sima-SP_oficial-mpoSP,NA,NA,CR,CR,NA,NA,NA,CR,NA
-Paspalum cinerascens,sima-SP_oficial,NA,NA,CR,CR,NA,NA,NA,NA,NA
-Paspalum compressifolium,sima-SP_oficial,NA,NA,CR,CR,NA,NA,NA,NA,NA
-Paspalum dedeccae,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Paspalum acuminatum,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
+Paspalum arundinellum,sima-SP_oficial-mpoSP,NA,NE,CR,CR,NA,NA,NA,CR,NA
+Paspalum cinerascens,sima-SP_oficial,NA,NE,CR,CR,NA,NA,NA,NA,NA
+Paspalum compressifolium,sima-SP_oficial,NA,NE,CR,CR,NA,NA,NA,NA,NA
+Paspalum dedeccae,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Paspalum densum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Paspalum distichum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Paspalum erianthoides,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
-Paspalum erianthum,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
-Paspalum exaltatum,sima-SP_oficial,NA,NA,CR,CR,NA,NA,NA,NA,NA
-Paspalum falcatum,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
-Paspalum flaccidum,sima-SP_oficial-mpoSP,NA,NA,CR,CR,NA,NA,NA,CR,NA
-Paspalum foliiforme,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
-Paspalum geminiflorum,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Paspalum glaucescens,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
-Paspalum ionanthum,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
-Paspalum macranthecium,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Paspalum erianthoides,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
+Paspalum erianthum,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
+Paspalum exaltatum,sima-SP_oficial,NA,NE,CR,CR,NA,NA,NA,NA,NA
+Paspalum falcatum,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
+Paspalum flaccidum,sima-SP_oficial-mpoSP,NA,NE,CR,CR,NA,NA,NA,CR,NA
+Paspalum foliiforme,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
+Paspalum geminiflorum,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Paspalum glaucescens,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
+Paspalum ionanthum,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
+Paspalum macranthecium,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Paspalum maculosum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Paspalum plenum,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Paspalum plenum,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Paspalum rawitscheri,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Paspalum repandum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Paspalum repens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Paspalum riparium,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Paspalum stellatum,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
-Paspalum usterii,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
+Paspalum stellatum,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
+Paspalum usterii,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
 Paspalum vaginatum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Passiflora actinia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Passiflora amethystina,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4187,7 +4187,7 @@ Paullinia uloptera,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Pausandra morisiana,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Pavonia almasana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Pavonia alnifolia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Pavonia belophylla,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pavonia belophylla,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Pavonia biflora,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Pavonia distinguenda,sima-SP_oficial-cncflora_web,NA,LC,VU,VU,NA,LC,NA,NA,NA
 Pavonia garckeana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4261,7 +4261,7 @@ Peperomia rostulatiformis,sima-SP_oficial-mpoSP-Portaria 443/2014,EN,NA,EX,EX,NA
 Peperomia rufispica,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Peperomia schwackei,sima-SP_oficial-cncflora_web,NA,LC,EN,EN,NA,LC,NA,NA,NA
 Peperomia serpens,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Peperomia sessilifolia,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Peperomia sessilifolia,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Peperomia suboppositifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Peperomia subrubrispica,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Peperomia trinervis,sima-SP_oficial-cncflora_web,NA,LC,EN,EN,NA,LC,NA,NA,NA
@@ -4309,10 +4309,10 @@ Pfaffia minarum,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Phanera microstachya,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Pharus latifolius,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Phaseolus lunatus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Philodendron bipennifolium,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Philodendron bipennifolium,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Philodendron fragile,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Philodendron missionum,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
-Philodendron simonianum,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Philodendron simonianum,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Philodendron spiritus-sancti,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Philodendron vargealtense,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Philyra brasiliensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -4433,7 +4433,7 @@ Piptadenia macradenia,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Piptadenia micracantha,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Piptadenia paniculata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Piptocarpha axillaris,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Piptocarpha brasiliana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Piptocarpha brasiliana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Piptocarpha densifolia,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Piptocarpha longipedunculata,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
 Piptocarpha macropoda,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -4479,7 +4479,7 @@ Pleopeltis alborufula,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Pleopeltis monoides,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Pleopeltis trindadensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Pleradenophora membranifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Pleroma guartelaensis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Pleroma guartelaensis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Pleroma mutabile,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Pleurostachys pilulifera,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Pleurothallis carinifera,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -4495,7 +4495,7 @@ Plinia hatschbachii,sima-SP_oficial-Portaria 443/2014,EN,NA,EN,EN,NA,NA,NA,NA,EN
 Plinia ilhensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Plinia muricata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Plinia phitrantha,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,NT,NT,NA,NA
-Plinia pseudodichasiantha,sima-SP_oficial-cncflora_ckan-mpoSP,NA,NA,VU,VU,NA,LC,NA,VU,NA
+Plinia pseudodichasiantha,sima-SP_oficial-cncflora_ckan-mpoSP,NA,NE,VU,VU,NA,LC,NA,VU,NA
 Plinia rara,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Plinia renatiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Plinia rivularis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -4517,7 +4517,7 @@ Podostemum saldanhanum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Podostemum weddellianum,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Poecilanthe parviflora,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,DD,NA,NA
 Pogoniopsis schenckii,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
-Poikilacanthus guillesii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Poikilacanthus guillesii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Poiretia angustifolia,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Poiretia latifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Polybotrya speciosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4525,7 +4525,7 @@ Polygala bevilacquai,cncflora_web,NA,NA,NA,NA,NA,CR,NA,NA,NA
 Polygala brasiliensis,sima-SP_oficial-cncflora_web,NA,LC,EN,EN,NA,LC,NA,NA,NA
 Polygala franchetii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Polygala galioides,sima-SP_oficial-mpoSP,NA,LC,EX,EX,NA,NA,NA,EX,NA
-Polygala hastchbachii,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Polygala hastchbachii,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Polygala molluginifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
 Polygala moquiniana,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Polygala nudicaulis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4536,8 +4536,8 @@ Polygala selaginoides,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Polygala stephaniana,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Polygala tamariscea,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,EX,EX,NA,VU,NA,NA,VU
 Polygonum punctatum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Polypogon chilensis,sima-SP_oficial-mpoSP,NA,NA,CR,CR,NA,NA,NA,CR,NA
-Polypogon imberbis,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Polypogon chilensis,sima-SP_oficial-mpoSP,NA,NE,CR,CR,NA,NA,NA,CR,NA
+Polypogon imberbis,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Polystachya rupicola,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Polystichum bradei,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Polytaenium feei,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
@@ -4551,8 +4551,8 @@ Portea fosteriana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Portea grandiflora,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Portea kermesina,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Portea nana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Portulaca amilis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Portulaca cryptopetala var. poellniztiana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Portulaca amilis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Portulaca cryptopetala var. poellniztiana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Portulaca halimoides,sima-SP_oficial-mpoSP,NA,LC,EX,EX,NA,NA,NA,EX,NA
 Portulaca hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Posoqueria acutifolia,sima-cncflora_ckan,NA,DD,NA,NA,NA,DD,NA,NA,NA
@@ -4734,7 +4734,7 @@ Quiina glaziovii,sima-cncflora_ckan,NA,DD,VU,NA,NA,LC,NA,NA,NA
 Quiina magallano-gomesii,SP_oficial-cncflora_web-mpoSP,NA,NA,NA,VU,NA,DD,NA,VU,NA
 Quiina piresii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Quillaja brasiliensis,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
-Quillaja lancifolia,sima-cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
+Quillaja lancifolia,sima-cncflora_ckan,NA,NE,NA,NA,NA,LC,NA,NA,NA
 Racinaea aerisincola,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Racinaea domingosmartinis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Racinaea spiculosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4750,13 +4750,13 @@ Ravenia pseudalterna,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Recordia reitzii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Recordoxylon stenopetalum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Regnellidium diphyllum,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Reimarochloa acuta,sima-SP_oficial-mpoSP,NA,NA,CR,CR,NA,NA,NA,CR,NA
+Reimarochloa acuta,sima-SP_oficial-mpoSP,NA,NE,CR,CR,NA,NA,NA,CR,NA
 Reissekia smilacina,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
 Reitzia smithii,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,EX,EX,NA,VU,NA,NA,VU
 Renealmia brasiliensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Renealmia petasites,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Retrophyllum piresii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Rhabdocaulon gracile,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Rhabdocaulon gracile,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Rhamnidium elaeocarpum,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Rhamnidium glabrum,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Rhamnus sphaerosperma var. pubescens,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -4787,7 +4787,7 @@ Rhipsalis sulcata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Rhipsalis teres,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Rhipsalis trigona,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Rhizophora mangle,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Rhodospatha oblongata,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Rhodospatha oblongata,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Rhodostemonodaphne capixabensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Rhodostemonodaphne macrocalyx,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Rhodostemonodaphne parvifolia,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
@@ -4799,7 +4799,7 @@ Rhynchosia minima,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Rhynchosia reticulata,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EX,EX,NA,LC,NA,EX,NA
 Rhynchosida physocalyx,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Rhynchospora biflora,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Rhynchospora corymbosa,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Rhynchospora corymbosa,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Rhynchospora enmanuelis,cncflora_web,NA,NA,NA,NA,NA,EN,NA,NA,NA
 Rhynchospora eximia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Rhynchospora holoschoenoides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -4893,18 +4893,18 @@ Salacia grandifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Salacia mosenii,sima-SP_oficial-cncflora_web-Portaria 443/2014,CR,NA,CR,CR,NA,CR,NA,NA,CR
 Salix humboldtiana,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Salvertia convallariodora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Salvia campos-portoi,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Salvia lachnostachys,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
-Salvia uliginosa,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Salvia campos-portoi,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Salvia lachnostachys,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
+Salvia uliginosa,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Sapindus saponaria,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Sapium sellowianum,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Saranthe composita,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Sarcaulus inflexus,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Sarcaulus vestitus,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
-Sarcoglottis acaulis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sarcoglottis acaulis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Sarcoglottis alexandri,sima-cncflora_web-Portaria 443/2014,EN,NA,EX,NA,NA,EN,NA,NA,EN
 Sarcoglottis alexandrii,SP_oficial,NA,NA,NA,EX,NA,NA,NA,NA,NA
-Sarcoglottis uliginosa,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Sarcoglottis uliginosa,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Saundersia mirabilis,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,EN,EN
 Saundersia paniculata,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Sauroglossum elatum,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -4913,7 +4913,7 @@ Sauvagesia erecta,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Sauvagesia nitida,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Savia dictyocarpa,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Scaevola plumieri,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Schaefferia argentinensis,sima-SP_oficial-UICN_API,NA,NA,CR,CR,NA,NA,LC,NA,NA
+Schaefferia argentinensis,sima-SP_oficial-UICN_API,NA,NE,CR,CR,NA,NA,LC,NA,NA
 Schaueria litoralis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schaueria lophura,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Schaueria paranaensis,sima,EN,NA,NA,NA,NA,NA,NA,NA,NA
@@ -4935,26 +4935,26 @@ Schinus ramboi,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,EN,EN,NA,NA
 Schinus spinosa,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schizachyrium scabriflorum,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Schizachyrium scabrifolium,mpoSP,NA,NA,NA,NA,NA,NA,NA,EX,NA
-Schizachyrium tenerum,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Schizachyrium tenerum,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Schizaea elegans,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Schizocalyx cuspidatus,sima-SP_oficial-UICN_API,NA,LC,VU,VU,NA,NA,LC,NA,NA
 Schizolobium parahyba,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Schlechtendalia luzulifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Schlegelia parviflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Schlumbergera kautskyi,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Schlumbergera lutea subsp. bradei,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Schlumbergera lutea subsp. bradei,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Schlumbergera microsphaerica,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Schlumbergera opuntioides,sima-SP_oficial-cncflora_web-UICN_API-Portaria 443/2014,VU,NA,VU,VU,NA,VU,VU,NA,VU
 Schlumbergera orssichiana,UICN_API,NA,NA,NA,NA,NA,NA,EN,NA,NA
 Schlumbergera rosea,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schlumbergera truncata,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,VU,NA,NA
 Schnella grazielae,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Schnella microstachya,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Schnella microstachya,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Schnella smilacina,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schomburgkia gloriosa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Schultesia aptera,sima-SP_oficial-mpoSP,NA,LC,CR,CR,NA,NA,NA,CR,NA
 Schwenckia curviflora,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
-Schwenckia grandiflora var. hatschbachiana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Schwenckia grandiflora var. hatschbachiana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Schwenckia lateriflora,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Schwenckia nova-veneciana,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Sciadotenia acutifolia,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -5002,7 +5002,7 @@ Senecio caparaoensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Senecio crassiflorus,sima,NA,NT,NA,NA,NA,NA,NA,NA,NA
 Senecio gertii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Senecio graciellae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Senecio grandis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Senecio grandis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Senecio hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Senecio heteroschizus,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Senecio langei,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,EX,EX,NA,VU,NA,NA,VU
@@ -5042,12 +5042,12 @@ Sesbania virgata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Sessea brasiliensis,cncflora_web-UICN_API,NA,NA,NA,NA,NA,NT,DD,NA,NA
 Sessea regnellii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Setaria parviflora,UICN_API-mpoSP,NA,NA,NA,NA,NA,NA,LC,EX,NA
-Setaria parviflora var. pilosissima,sima-SP_oficial-cncflora_web-Portaria 443/2014,NA,NA,EX,EX,NA,CR,NA,NA,CR
+Setaria parviflora var. pilosissima,sima-SP_oficial-cncflora_web-Portaria 443/2014,NA,NE,EX,EX,NA,CR,NA,NA,CR
 Setaria paucifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Setaria sphacelata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Setaria stolonifera,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Setaria tenacissima,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,CR,CR,NA,LC,NA,CR,NA
-Sida acrantha,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Sida acrantha,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Siderasis fuscata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Sideroxylon obtusifolium,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Simaba glabra,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,NA,EX,NA,VU,NA,NA,VU
@@ -5097,8 +5097,8 @@ Siparuna bifida,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Siparuna brasiliensis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Siparuna guianensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Siparuna reginae,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Siphanthera cordata,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
-Siphanthera dawsonii,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Siphanthera cordata,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
+Siphanthera dawsonii,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Siphocampylus lycioides,sima-SP_oficial-cncflora_web,NA,NT,EN,EN,NA,NT,NA,NA,NA
 Siphoneugena crassifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Siphoneugena densiflora,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -5116,7 +5116,7 @@ Sloanea garckeana,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Sloanea guianensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Sloanea hirsuta,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Sloanea obtusifolia,sima-SP_oficial-cncflora_ckan-mpoSP-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,EN,EN
-Sloanea petalata,sima-SP_oficial-cncflora_ckan,NA,NA,EN,EN,NA,CR,NA,NA,NA
+Sloanea petalata,sima-SP_oficial-cncflora_ckan,NA,NE,EN,EN,NA,CR,NA,NA,NA
 Smallanthus araucariophilus,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Smallanthus connatus,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Smallanthus riograndensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -5195,7 +5195,7 @@ Spigelia amplexicaulis,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EW,E
 Spigelia cipoensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Spigelia flava,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Spigelia hatschbachii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Spigelia kleinii var. paranaensis,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Spigelia kleinii var. paranaensis,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Spigelia kuhlmannii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Spigelia lundiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Spigelia reitzii,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
@@ -5221,17 +5221,17 @@ Staurogyne itatiaiae,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,
 Staurogyne vauthieriana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Staurogyne veronicifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Staurogyne warmingiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Steinchisma spathellosum,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
+Steinchisma spathellosum,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
 Stelis itatiayae,UICN_API,NA,NA,NA,NA,NA,NA,NT,NA,NA
 Stelis ruprechtiana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Stemodia foliosa,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Stemodia foliosa,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Stemodia harleyi,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Stemodia hyptoides,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Stenachaenium macrocephalum,sima-cncflora_web-Portaria 443/2014,CR,NA,NA,NA,NA,CR,NA,NA,CR
 Stenandrium diphyllum,sima-SP_oficial-cncflora_web,NA,LC,EX,EX,NA,LC,NA,NA,NA
 Stenandrium diphyllum,sima-SP_oficial-cncflora_web,NA,LC,NA,EX,NA,LC,NA,NA,NA
 Stenandrium hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Stenandrium mandioccanum,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Stenandrium mandioccanum,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Stenandrium stenophyllum,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Stenocephalum monticola,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Stenogrammitis limula,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
@@ -5346,7 +5346,7 @@ Syagrus ruschiana,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Symphyopappus casarettoi,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Symphyopappus lymansmithii,cncflora_ckan,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Symphyopappus uncinatus,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Symplocos atlantica,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Symplocos atlantica,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Symplocos corymboclados,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Symplocos estrellensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Symplocos falcata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -5362,7 +5362,7 @@ Symplocos platyphylla,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Symplocos pustulosa,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Symplocos revoluta,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Symplocos rhamnifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Symplocos rizzinii,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NA,EX,EX,NA,CR*,CR,NA,NA
+Symplocos rizzinii,sima-SP_oficial-cncflora_ckan-UICN_API,NA,NE,EX,EX,NA,CR*,CR,NA,NA
 Symplocos tenuifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Symplocos tetrandra,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Symplocos uniflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -5398,7 +5398,7 @@ Talisia douradensis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Talisia subalbens,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Tapirira guianensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Tapirira obtusa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Tarenaya diffusa,sima,NA,NA,EX,NA,NA,NA,NA,NA,NA
+Tarenaya diffusa,sima,NA,NE,EX,NA,NA,NA,NA,NA,NA
 Tassadia obovata,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tecoma stans,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Temnadenia violacea,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
@@ -5450,7 +5450,7 @@ Tibouchina apparicioi,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Tibouchina bergiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Tibouchina boudetii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Tibouchina castellensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Tibouchina cinerea,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Tibouchina cinerea,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Tibouchina clavata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Tibouchina dubia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tibouchina dusenii,sima,NA,NT,NA,NA,NA,NA,NA,NA,NA
@@ -5458,20 +5458,20 @@ Tibouchina eichleri,sima-SP_oficial-cncflora_web,NA,DD,EX,EX,NA,DD,NA,NA,NA
 Tibouchina estrellensis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Tibouchina frigidula,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tibouchina gardneriana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Tibouchina herincquiana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Tibouchina itatiaiae,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Tibouchina herincquiana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Tibouchina itatiaiae,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Tibouchina kleinii,sima,NA,NT,NA,NA,NA,NA,NA,NA,NA
-Tibouchina minutiflora,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Tibouchina minutiflora,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Tibouchina quartzophila,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Tibouchina regnellii,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Tibouchina reitzii,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Tibouchina riedeliana,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,NA,EN
 Tibouchina schenckii,sima-SP_oficial-cncflora_web,NA,NT,EX,EX,NA,NT,NA,NA,NA
 Tibouchina sellowiana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Tibouchina serrana,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Tibouchina serrana,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Tibouchina trichopoda,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tibouchina urvilleana,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Tibouchina versicolor,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Tibouchina versicolor,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Tillandsia aeranthos,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tillandsia afonsoana,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Tillandsia araujei,sima-SP_oficial-Portaria 443/2014,EN,NA,VU,VU,NA,NA,NA,NA,EN
@@ -5489,11 +5489,11 @@ Tillandsia lorentziana,sima,NA,LC,NA,NA,NA,NA,NA,NA,NA
 Tillandsia mallemontii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tillandsia montana,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Tillandsia neglecta,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Tillandsia polystachia,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Tillandsia polystachia,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Tillandsia pseudomontana,UICN_API,NA,NA,NA,NA,NA,NA,EN,NA,NA
 Tillandsia reclinata,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Tillandsia recurvifolia,sima-SP_oficial-cncflora_web,NA,DD,VU,VU,NA,DD,NA,NA,NA
-Tillandsia spiculosa,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tillandsia spiculosa,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Tillandsia sprengeliana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Tillandsia streptocarpa,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Tillandsia sucrei,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
@@ -5523,7 +5523,7 @@ Trembleya hatschbachii,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Trembleya parviflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Trembleya phlogiformis,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Trembleya pityoides,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Trichanthecium distichophyllum,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Trichanthecium distichophyllum,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Trichanthecium parvifolium,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Trichilia blanchetii,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Trichilia casaretti,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,VU,NA,NA
@@ -5568,7 +5568,7 @@ Trimezia exillima,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Trimezia fistulosa,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Trimezia fistulosa var. longifolia,cncflora_web-Portaria 443/2014,NA,NA,NA,NA,NA,CR,NA,NA,CR
 Trimezia plicatifolia,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Trimezia rotundata,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Trimezia rotundata,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Triplaris americana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Tripodanthus acutifolius,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Tripogandra warmingiana,cncflora_web,NA,NA,NA,NA,NA,VU,NA,NA,NA
@@ -5601,7 +5601,7 @@ Urena lobata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Urera baccifera,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Urera caracasana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Urera nitida,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Urospatha edwallii,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Urospatha edwallii,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Urvillea glabra,sima-SP_oficial-cncflora_web-Portaria 443/2014,VU,NA,VU,VU,NA,VU,NA,NA,VU
 Utricularia amethystina,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Utricularia biovularioides,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
@@ -5618,7 +5618,7 @@ Utricularia nelumbifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Utricularia neottioides,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Utricularia nervosa,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Utricularia nigrescens,sima-SP_oficial-cncflora_web-UICN_API-mpoSP,NA,LC,EN,EN,NA,LC,LC,EN,NA
-Utricularia olivacea,sima-SP_oficial-UICN_API,NA,NA,VU,VU,NA,NA,LC,NA,NA
+Utricularia olivacea,sima-SP_oficial-UICN_API,NA,NE,VU,VU,NA,NA,LC,NA,NA
 Utricularia praelonga,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Utricularia pubescens,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Utricularia pusilla,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -5646,7 +5646,7 @@ Vanilla edwallii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Vanilla organensis,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Vantanea compacta,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Varronia polycephala,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Varronia sessilifolia,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Varronia sessilifolia,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Vassobia breviflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Vatairea heteroptera,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Vellozia alata,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -5681,7 +5681,7 @@ Vernonanthura lindbergii,cncflora_web,NA,NA,NA,NA,NA,DD,NA,NA,NA
 Vernonanthura mucronulata,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Vernonanthura petiolaris,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Veronica peregrina,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Veyretia rupicola,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Veyretia rupicola,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Vicia pampicola,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Vicia tephrosioides,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vigna adenantha,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
@@ -5689,7 +5689,7 @@ Vigna firmula,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Vigna longifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Vigna luteola,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Viguiera hispida,cncflora_web,NA,NA,NA,NA,NA,VU,NA,NA,NA
-Viguiera malmei,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Viguiera malmei,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Viola cerasifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Viola gracillima,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,EN,NA,EX,EX,NA,EN,NA,EX,EN
 Viola subdimidiata,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,EN,EN,NA,LC,NA,EN,NA
@@ -5709,7 +5709,7 @@ Vitex krukovii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vitex megapotamica,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Vitex mexiae,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Vitex polygama,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Vitex polygama var. bakeri,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Vitex polygama var. bakeri,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Vitex sellowiana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Vittetia bishopii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vochysia angelica,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
@@ -5791,7 +5791,7 @@ Vriesea platzmannii,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,VU,VU,NA,LC,NA,VU,N
 Vriesea procera var. debilis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea racinae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Vriesea recurvata,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Vriesea regnellii,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Vriesea regnellii,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Vriesea repandostachys,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea rhodostachys,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea rodigasiana,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -5805,11 +5805,11 @@ Vriesea schwackeana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea seideliana,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea sparsiflora,sima-SP_oficial-cncflora_web,NA,NT,EX,EX,NA,NT,NA,NA,NA
 Vriesea sucrei,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Vriesea taritubensis,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Vriesea taritubensis,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Vriesea thyrsoidea,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea triangularis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea vidalii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Vriesea vulpinoidea,sima-SP_oficial-mpoSP,NA,NA,VU,VU,NA,NA,NA,VU,NA
+Vriesea vulpinoidea,sima-SP_oficial-mpoSP,NA,NE,VU,VU,NA,NA,NA,VU,NA
 Vriesea warmingii,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Vriesea wawranea,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Vriesea weberi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
@@ -5817,8 +5817,8 @@ Waltheria communis,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Warczewiczella candida,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Warczewiczella wailesiana,sima-SP_oficial-cncflora_web,NA,DD,EN,EN,NA,DD,NA,NA,NA
 Warmingia eugenii,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Warrea warreana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Wedelia calycina,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Warrea warreana,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
+Wedelia calycina,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Wedelia macedoi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Wedelia puberula,sima-SP_oficial,NA,LC,EN,EN,NA,NA,NA,NA,NA
 Weinmannia discolor,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
@@ -5826,12 +5826,12 @@ Weinmannia humilis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Weinmannia organensis,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Weinmannia paulliniifolia,cncflora_ckan,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Wettinia drudei,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
-Widgrenia corymbosa,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
+Widgrenia corymbosa,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
 Williamodendron cinnamomeum,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Wittrockia gigantea,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
+Wittrockia gigantea,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
 Wittrockia superba,sima-cncflora_web-Portaria 443/2014,EN,NA,NA,NA,NA,EN,NA,NA,EN
-Wolffia arrhiza,sima-SP_oficial-UICN_API,NA,NA,VU,VU,NA,NA,LC,NA,NA
-Wolffia brasiliensis,sima-SP_oficial-UICN_API,NA,NA,VU,VU,NA,NA,LC,NA,NA
+Wolffia arrhiza,sima-SP_oficial-UICN_API,NA,NE,VU,VU,NA,NA,LC,NA,NA
+Wolffia brasiliensis,sima-SP_oficial-UICN_API,NA,NE,VU,VU,NA,NA,LC,NA,NA
 Wolffiella oblonga,sima-cncflora_web,NA,DD,NA,NA,NA,DD,NA,NA,NA
 Worsleya procera,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Wullschlaegelia aphylla,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
@@ -5839,11 +5839,11 @@ Wunderlichia azulensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Wunderlichia cruelsiana,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Wunderlichia mirabilis,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Wunderlichia senae,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Xanthosoma blandum,sima-SP_oficial,NA,NA,VU,VU,NA,NA,NA,NA,NA
-Xanthosoma pentaphyllum,sima-SP_oficial-mpoSP,NA,NA,EX,EX,NA,NA,NA,EX,NA
-Xanthosoma riedelianum,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Xanthosoma blandum,sima-SP_oficial,NA,NE,VU,VU,NA,NA,NA,NA,NA
+Xanthosoma pentaphyllum,sima-SP_oficial-mpoSP,NA,NE,EX,EX,NA,NA,NA,EX,NA
+Xanthosoma riedelianum,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Xanthosoma striatipes,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
-Xanthosoma syngoniifolium,sima-SP_oficial,NA,NA,EW,EW,NA,NA,NA,NA,NA
+Xanthosoma syngoniifolium,sima-SP_oficial,NA,NE,EW,EW,NA,NA,NA,NA,NA
 Ximenia americana,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Xylobium colleyi,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Xylopia aromatica,sima-cncflora_web-UICN_API,NA,LC,NA,NA,NA,LC,LC,NA,NA
@@ -5863,11 +5863,11 @@ Xyris blepharophylla,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Xyris brevifolia,sima-SP_oficial-cncflora_web,NA,DD,VU,VU,NA,DD,NA,NA,NA
 Xyris caparaoensis,sima,NA,DD,NA,NA,NA,NA,NA,NA,NA
 Xyris capensis,sima-SP_oficial-cncflora_web-UICN_API,NA,LC,EX,EX,NA,LC,LC,NA,NA
-Xyris cervii,sima-SP_oficial,NA,NA,EN,EN,NA,NA,NA,NA,NA
+Xyris cervii,sima-SP_oficial,NA,NE,EN,EN,NA,NA,NA,NA,NA
 Xyris cipoensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
 Xyris coutensis,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Xyris dardanoi,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
-Xyris fallax,sima-SP_oficial-mpoSP,NA,NA,EN,EN,NA,NA,NA,EN,NA
+Xyris fallax,sima-SP_oficial-mpoSP,NA,NE,EN,EN,NA,NA,NA,EN,NA
 Xyris fibrosa,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Xyris fusca,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Xyris hatschbachii,sima-cncflora_web-Portaria 443/2014,CR,NA,NA,NA,NA,CR,NA,NA,CR
@@ -5907,11 +5907,11 @@ Zephyranthes brasiliensis,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Zephyranthes candida,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Zephyranthes capivarina,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
 Zephyranthes paranaensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Zexmenia viguerioides,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Zexmenia viguerioides,sima,NA,NE,NA,NA,NA,NA,NA,NA,NA
 Zeyheria montana,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Zeyheria tuberculosa,sima-SP_oficial-cncflora_ckan-UICN_API-mpoSP-Portaria 443/2014,VU,NA,VU,VU,NA,NT,VU,VU,VU
 Zizaniopsis bonariensis,sima-Portaria 443/2014,EN,NA,NA,NA,NA,NA,NA,NA,EN
-Zizaniopsis microstachya,sima-SP_oficial,NA,NA,EX,EX,NA,NA,NA,NA,NA
+Zizaniopsis microstachya,sima-SP_oficial,NA,NE,EX,EX,NA,NA,NA,NA,NA
 Zollernia glabra,cncflora_web-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
 Zollernia ilicifolia,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Zollernia magnifica,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU

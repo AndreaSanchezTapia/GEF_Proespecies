@@ -24,13 +24,22 @@ check_ws <- function(x) {
   x <- trimws(x, whitespace = "[ \\t\\r\\n\U00A0]")
   x <- gsub("\\t|\\r|\\n|\U00A0", " ", x)
 }
-
+IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
+  mutate_all(.funs = check_ws)
 # manter categorias anteriores ----
 #vou revisar so no final
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>%
   rename(cat_ameaca_br_sima = br_oficial_publicado_em_portaria_pelo_mma,
          cat_ameaca_cncflora_sima = cnc_flora_atual_quando_diferente_da_coluna_anterior,
          cat_ameaca_sp_sima = sp)
+unique(IUCN_CNCFlora_BR_SP$cat_ameaca_br_sima)
+unique(IUCN_CNCFlora_BR_SP$cat_ameaca_cncflora_sima)
+unique(IUCN_CNCFlora_BR_SP$cat_ameaca_sp_sima)
+
+#substitui NA por NE
+
+IUCN_CNCFlora_BR_SP$cat_ameaca_cncflora_sima[IUCN_CNCFlora_BR_SP$cat_ameaca_cncflora_sima == "NA"] <- "NE"
+count(IUCN_CNCFlora_BR_SP,cat_ameaca_cncflora_sima)
 # checa se tem outros clados
 IUCN_CNCFlora_BR_SP %>% count(reino)#only plants
 
@@ -48,9 +57,9 @@ names(IUCN_CNCFlora_BR_SP)
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% mutate(fonte = "sima")
 
 
-IUCN_CNCFlora_BR_SP$especie_original <- sp_espacios
 IUCN_CNCFlora_BR_SP <- IUCN_CNCFlora_BR_SP %>% distinct()
 # salva ----
+output <- "data/dados_formatados"
 write_csv(IUCN_CNCFlora_BR_SP, fs::path(output, "IUCN_CNCFlora_BR_SP_format", ext = "csv"))
 
 ## 2. le Sao Paulo ----

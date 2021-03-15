@@ -25,24 +25,24 @@ tudo <- tudo %>%
          starts_with("cat_ameaca"),
          fontes)
 
-spprofile <- vroom::vroom("~/Library/Caches/R/finch/973412d572e928704ba483659033d9cae2e56489/taxon.txt")
-grupo <- spprofile %>%
-  select(id, taxonID, scientificName, higherClassification) %>%
-  separate(higherClassification, into = LETTERS, remove = F) %>%
-  select(id, taxonID, scientificName, higherClassification, A, B) %>%
-  janitor::clean_names() %>%
-  rename(grupo = b)
+#spprofile <- vroom::vroom("~/Library/Caches/R/finch/973412d572e928704ba483659033d9cae2e56489/taxon.txt")
+# grupo <- spprofile %>%
+#   select(id, taxonID, scientificName, higherClassification) %>%
+#   separate(higherClassification, into = LETTERS, remove = F) %>%
+#   select(id, taxonID, scientificName, higherClassification, A, B) %>%
+#   janitor::clean_names() %>%
+#   rename(grupo = b)
 
-wgrupo <- grupo %>%
-  select(scientific_name, grupo) %>%
-  filter(scientific_name %in% tudo$scientific_name)
-write_csv(wgrupo, "data/dados_crus/ipt/grupo_new.csv")
-
-grupo1 <- vroom::vroom("data/dados_crus/ipt/grupo.csv")
-grupo2 <- vroom::vroom("data/dados_crus/ipt/grupo_new.csv")
-grupo <- full_join(grupo1, grupo2)
-write_csv(grupo, "data/dados_crus/ipt/grupo.csv")
-
+# wgrupo <- grupo %>%
+#   select(scientific_name, grupo) %>%
+#   filter(scientific_name %in% tudo$scientific_name)
+# write_csv(wgrupo, "data/dados_crus/ipt/grupo_new.csv")
+#
+# grupo1 <- vroom::vroom("data/dados_crus/ipt/grupo.csv")
+# grupo2 <- vroom::vroom("data/dados_crus/ipt/grupo_new.csv")
+# grupo <- full_join(grupo1, grupo2)
+# write_csv(grupo, "data/dados_crus/ipt/grupo.csv")
+grupo <- read_csv("data/dados_crus/ipt/grupo_total.csv")
 unique(grupo$grupo)
 grupo$grupo[grupo$grupo == "Bri"] <- "Briófitas"
 wgrupo <- grupo %>%

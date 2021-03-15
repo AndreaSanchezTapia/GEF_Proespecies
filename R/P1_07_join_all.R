@@ -2,7 +2,7 @@ library(readr)
 library(dplyr)
 library(stringr)
 remotes::install_github("andreasancheztapia/flora")
-library(flora)#dados de 8 de marco
+library(flora)
 
 
 #le tudo formatado
@@ -30,6 +30,12 @@ cncflora_SP   <- dados_merge$cncflora_SP_format
 UICN_SP       <- dados_merge$UICN_SP_flora_format
 mpo_SP        <- dados_merge$mpoSP_format
 dup <- function(x) nrow(x) == nrow(distinct(x))
+names(sima)
+count(sima,
+      cat_ameaca_br_sima,
+      cat_ameaca_cncflora_sima,
+      cat_ameaca_sp_sima
+      ) %>% View()
 purrr::map_df(dados_merge, ~dup(.x)) #SP_oficial tiene duplicados internos
 
 
@@ -47,42 +53,42 @@ write_csv(Lista_parcial, "output/02_lista_parcial.csv")
 
 
 #compara com a flora do brasil cada dataset
-flora_tudo <- get.taxa(unique(Lista_parcial$especie_original),
-                       states = TRUE,
-                       suggest.names = T,
-                       replace.synonyms = T,
-                       life.form = F,
-                       habitat = F,
-                       vegetation.type = F,
-                       vernacular = F,
-                       establishment = F,
-                       domain = F,
-                       endemism = F)
-names(flora_tudo)
-flora_drop <- get.taxa(unique(Lista_parcial$especie_original),
-                       states = TRUE,
-                       suggest.names = T,
-                       drop = "authorship",
-                       replace.synonyms = T,
-                       life.form = F,
-                       habitat = F,
-                       vegetation.type = F,
-                       vernacular = F,
-                       establishment = F,
-                       domain = F,
-                       endemism = F)
-names(flora_drop)
-flora_tudo2 <- left_join(flora_tudo, flora_drop)
-names(flora_tudo2)
-readr::write_csv(flora_tudo2,
-                 file = fs::path("output", "03_flora_tudo", ext = "csv"))
+# flora_tudo <- get.taxa(unique(Lista_parcial$especie_original),
+#                        states = TRUE,
+#                        suggest.names = T,
+#                        replace.synonyms = T,
+#                        life.form = F,
+#                        habitat = F,
+#                        vegetation.type = F,
+#                        vernacular = F,
+#                        establishment = F,
+#                        domain = F,
+#                        endemism = F)
+# names(flora_tudo)
+# flora_drop <- get.taxa(unique(Lista_parcial$especie_original),
+#                        states = TRUE,
+#                        suggest.names = T,
+#                        drop = "authorship",
+#                        replace.synonyms = T,
+#                        life.form = F,
+#                        habitat = F,
+#                        vegetation.type = F,
+#                        vernacular = F,
+#                        establishment = F,
+#                        domain = F,
+#                        endemism = F)
+# names(flora_drop)
+# flora_tudo2 <- left_join(flora_tudo, flora_drop)
+# names(flora_tudo2)
+# readr::write_csv(flora_tudo2,
+#                  file = fs::path("output", "03_flora_tudo", ext = "csv"))
+#
+
 #juntar com a base unificada e examinar.
-flora_tudo <- flora_tudo2
+flora_tudo <- readr::read_csv(file = fs::path("output", "03_flora_tudo", ext = "csv"))
 
 #cria especie_original para juntar
 flora_tudo$especie_original <- flora_tudo$original.search
-dim(Lista_parcial)
-names(flora_tudo)
 
 Lista_all <- left_join(Lista_parcial, flora_tudo) %>%
   distinct()
