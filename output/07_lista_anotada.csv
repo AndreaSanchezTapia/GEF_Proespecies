@@ -242,7 +242,7 @@ Angiospermas,Apocynaceae,Aspidosperma spruceanum,,,Aspidosperma spruceanum,Aspid
 Angiospermas,Apocynaceae,Aspidosperma subincanum,,,Aspidosperma subincanum,Aspidosperma,subincanum,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Apocynaceae,Barjonia erecta,,,Barjonia erecta,Barjonia,erecta,species,,,,,,,,,,LC,,,,LC,,,,sima-cncflora_web,apta
 Angiospermas,Apocynaceae,Blepharodon bicuspidatum,,,Blepharodon bicuspidatum,Blepharodon,bicuspidatum,species,,,,,,,,,,LC,,,,LC,,,,sima-cncflora_web,apta
-Angiospermas,Apocynaceae,Ditassa arianeae,,,Ditassa arianeae,Ditassa,arianeae,species,,,,,,,Nome ainda precisa ser checado,"Nome ainda é sinônimo, checar",EN,,,,,,,,EN,sima-Portaria 443/2014,
+Angiospermas,Apocynaceae,Ditassa arianeae,,,Ditassa arianeae,Ditassa,arianeae,species,,,,,,,Taxonomia incerta,"Nome ainda é sinônimo, checar",EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Apocynaceae,Ditassa fontellae,É sinônimo de Ditassa bicolor,FB2020,Ditassa bicolor,Ditassa,bicolor,species,,,,,Nome original era sinônimo,,,,,,,,,,DD,,,UICN_API,apta
 Angiospermas,Apocynaceae,Ditassa laevis,,,Ditassa laevis,Ditassa,laevis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Apocynaceae,Ditassa leonii,,,Ditassa leonii,Ditassa,leonii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,VU,,,,,,,,VU,sima-Portaria 443/2014,
@@ -268,7 +268,7 @@ Angiospermas,Apocynaceae,Matelea bahiensis,,,Matelea bahiensis,Matelea,bahiensis
 Angiospermas,Apocynaceae,Matelea glaziovii,,,Matelea glaziovii,Matelea,glaziovii,species,,,,,,,,,VU,,VU,VU,,VU,,VU,VU,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,apta
 Angiospermas,Apocynaceae,Matelea hatschbachii,,,Matelea hatschbachii,Matelea,hatschbachii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Apocynaceae,Matelea marcoassisii,,,Matelea marcoassisii,Matelea,marcoassisii,species,,,,,,,,,VU,,VU,VU,,VU,,,VU,sima-SP_oficial-cncflora_web-Portaria 443/2014,apta
-Angiospermas,Apocynaceae,Matelea santosii,,,Matelea santosii,Matelea,santosii,species,,,,,,,Nome ainda precisa ser checado,"Nome ainda é sinônimo, checar",EN,,,,,,,,EN,sima-Portaria 443/2014,
+Angiospermas,Apocynaceae,Matelea santosii,,,Matelea santosii,Matelea,santosii,species,,,,,,,Taxonomia incerta,"Nome ainda é sinônimo, checar",EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Apocynaceae,Minaria acerosa,,,Minaria acerosa,Minaria,acerosa,species,,,,,,,,,,LC,,,,LC,,,,sima-cncflora_web,apta
 Angiospermas,Apocynaceae,Minaria abortiva,É sinônimo de Minaria cordata,FB2020,Minaria cordata,Minaria,cordata,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,,DD,,,,,,,,sima,
 Angiospermas,Apocynaceae,Minaria monocoronata,,,Minaria monocoronata,Minaria,monocoronata,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,CR,,,,,,,,CR,sima-Portaria 443/2014,
@@ -458,7 +458,7 @@ Angiospermas,Begoniaceae,Begonia sylvatica,,,Begonia sylvatica,Begonia,sylvatica
 Angiospermas,Begoniaceae,Begonia toledoana,,,Begonia toledoana,Begonia,toledoana,species,,,,,,,,,EN,,,,,EN,,,EN,sima-cncflora_web-Portaria 443/2014,apta
 Angiospermas,Begoniaceae,Begonia undulata,,,Begonia undulata,Begonia,undulata,species,,,,,,,,,EN,,EX,EX,,EN,,,EN,sima-SP_oficial-cncflora_web-Portaria 443/2014,apta
 Angiospermas,Begoniaceae,Begonia valdensium,,,Begonia valdensium,Begonia,valdensium,species,,,,,,,,,,,,,,LC,,,,cncflora_web,apta
-Angiospermas,Begoniaceae,Begonia velloziana,,,Begonia depauperata Schott,Begonia,velloziana,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Begoniaceae,Begonia velloziana,,,Begonia velloziana,Begonia,velloziana,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Begoniaceae,Begonia venosa,,,Begonia venosa,Begonia,venosa,species,,,,,,,,,CR,,,,,CR,,,CR,sima-cncflora_web-Portaria 443/2014,apta
 Angiospermas,Begoniaceae,Begonia vicina,,,Begonia vicina,Begonia,vicina,species,,,,,,,,,EN,,,,,EN,,,EN,sima-cncflora_web-Portaria 443/2014,apta
 Angiospermas,Bixaceae,Bixa arborea,,,Bixa arborea,Bixa,arborea,species,,,,,,,,,,,,,,LC,LC,,,cncflora_web-UICN_API,apta
@@ -1211,7 +1211,7 @@ Angiospermas,Loasaceae,Blumenbachia eichleri,,,Blumenbachia eichleri,Blumenbachi
 Angiospermas,Loasaceae,Blumenbachia scabra,,,Blumenbachia scabra,Blumenbachia,scabra,species,,,,,,,,,,LC,EN,EN,,LC,,,,sima-SP_oficial-cncflora_web,apta
 Angiospermas,Loganiaceae,Spigelia amplexicaulis,,,Spigelia amplexicaulis,Spigelia,amplexicaulis,species,,,,,,,,,EN,,EW,EW,,EN,,,EN,sima-SP_oficial-cncflora_web-Portaria 443/2014,apta
 Angiospermas,Loganiaceae,Spigelia hatschbachii,É sinônimo de Spigelia kleinii,FB2020,Spigelia kleinii,Spigelia,kleinii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,,DD,,,,,,,,sima,
-Angiospermas,Loganiaceae,Spigelia kleinii var. paranaensis,,,Spigelia kleinii var. paranaensis,Spigelia,kleinii,variety,paranaensis,,,,,,Nome ainda precisa ser checado,"Nome ainda é sinônimo, checar",,,,,,,,,,sima,
+Angiospermas,Loganiaceae,Spigelia kleinii var. paranaensis,,,Spigelia kleinii var. paranaensis,Spigelia,kleinii,variety,paranaensis,,,,,,Taxonomia incerta,"Nome ainda é sinônimo, checar",,,,,,,,,,sima,
 Angiospermas,Loganiaceae,Spigelia lundiana,,,Spigelia lundiana,Spigelia,lundiana,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Loganiaceae,Spigelia vestita,,,Spigelia vestita,Spigelia,vestita,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Loganiaceae,Strychnos bicolor,,,Strychnos bicolor,Strychnos,bicolor,species,,,,,,,,,,,,,,LC,,,,cncflora_web,apta
@@ -3373,7 +3373,7 @@ Angiospermas,Asteraceae,Aspilia eglerii,,,Aspilia eglerii,Aspilia,eglerii,specie
 Angiospermas,Asteraceae,Aspilia espinhacensis,,,Aspilia espinhacensis,Aspilia,espinhacensis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Asteraceae,Aspilia floribunda,,,Aspilia floribunda,Aspilia,floribunda,species,,,,,,,,,,LC,EN,EN,,LC,,,,sima-SP_oficial-cncflora_web,apta
 Angiospermas,Asteraceae,Aspilia jugata,,,Aspilia jugata,Aspilia,jugata,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,CR,,,,,,,,CR,sima-Portaria 443/2014,
-Angiospermas,Asteraceae,Aspilia ovalifolia,É sinônimo de Aspilia ovalifolia (DC.) Baker,FB2020,Aspilia ovalifolia (DC.) Baker,Aspilia,ovatifolia,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,CR,,,,,,,,CR,sima-Portaria 443/2014,
+Angiospermas,Asteraceae,Aspilia ovalifolia,É sinônimo de Aspilia ovatifolia,FB2020,Aspilia ovatifolia,Aspilia,ovatifolia,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,CR,,,,,,,,CR,sima-Portaria 443/2014,
 Angiospermas,Asteraceae,Aspilia pereirae,,,Aspilia pereirae,Aspilia,pereirae,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Asteraceae,Aspilia pohlii,,,Aspilia pohlii,Aspilia,pohlii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Asteraceae,Aspilia prostrata,,,Aspilia prostrata,Aspilia,prostrata,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
@@ -3605,7 +3605,7 @@ Angiospermas,Fabaceae,Swartzia acutifolia,,,Swartzia acutifolia,Swartzia,acutifo
 Angiospermas,Fabaceae,Swartzia flaemingii,,,Swartzia flaemingii,Swartzia,flaemingii,species,,,,,,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Fabaceae,Sweetia fruticosa,,,Sweetia fruticosa,Sweetia,fruticosa,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Fabaceae,Zollernia ilicifolia,,,Zollernia ilicifolia,Zollernia,ilicifolia,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
-Angiospermas,Fabaceae,Zornia acauensis,,,Zornia acauensis,Zornia,acauensis,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Fabaceae,Zornia acauensis,,,Zornia acauensis,Zornia,acauensis,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Fabaceae,Zornia mitziana,,,Zornia mitziana,Zornia,mitziana,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Fabaceae,Zornia pardina,,,Zornia pardina,Zornia,pardina,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Salicaceae,Casearia rupestris,,,Casearia rupestris,Casearia,rupestris,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
@@ -4075,7 +4075,7 @@ Angiospermas,Orchidaceae,Habenaria santensis,,,Habenaria santensis,Habenaria,san
 Angiospermas,Orchidaceae,Houlletia brocklehurstiana,,,Houlletia brocklehurstiana,Houlletia,brocklehurstiana,species,,,,,,,,,EN,,EN,EN,,EN,,,EN,sima-SP_oficial-cncflora_web-Portaria 443/2014,apta
 Angiospermas,Orchidaceae,Laelia gloriosa,,,Laelia gloriosa,Laelia,gloriosa,species,,,,,,,,,,LC,,,,,,,,sima,apta
 Angiospermas,Orchidaceae,Schomburgkia gloriosa,É sinônimo de Laelia gloriosa,FB2020,Laelia gloriosa,Laelia,gloriosa,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
-Angiospermas,Orchidaceae,Macradenia paulensis,,,Macradenia paulensis,Macradenia,paulensis,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Orchidaceae,Macradenia paulensis,,,Macradenia paulensis,Macradenia,paulensis,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Orchidaceae,Malaxis cogniauxiana,,,Malaxis cogniauxiana,Malaxis,cogniauxiana,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,NT,EX,EX,,,,,,sima-SP_oficial,
 Angiospermas,Orchidaceae,Brasiliorchis phoenicanthera,É sinônimo de Maxillaria phoenicanthera,FB2020,Maxillaria phoenicanthera,Maxillaria,phoenicanthera,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Orchidaceae,Christensonella pumila,É sinônimo de Maxillaria pumila,FB2020,Maxillaria pumila,Maxillaria,pumila,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
@@ -4171,7 +4171,7 @@ Angiospermas,Velloziaceae,Barbacenia pungens,,,Barbacenia pungens,Barbacenia,pun
 Angiospermas,Velloziaceae,Barbacenia rodriguesii,,,Barbacenia rodriguesii,Barbacenia,rodriguesii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Velloziaceae,Barbacenia spiralis,,,Barbacenia spiralis,Barbacenia,spiralis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Verbenaceae,Aloysia polygalifolia,,,Aloysia polygalifolia,Aloysia,polygalifolia,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,LC,,,,,,,,sima,
-Angiospermas,Verbenaceae,Citharexylum obtusifolium,,,Citharexylum obtusifolium,Citharexylum,obtusifolium,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,EN,,,,,,,,EN,sima-Portaria 443/2014,
+Angiospermas,Verbenaceae,Citharexylum obtusifolium,,,Citharexylum obtusifolium,Citharexylum,obtusifolium,species,,,,Nome original mal escrito,,,Taxonomia incerta,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Verbenaceae,Duranta vestita,,,Duranta vestita,Duranta,vestita,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Xyridaceae,Xyris anceps,,,Xyris anceps,Xyris,anceps,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Xyridaceae,Xyris augusto-coburgii,,,Xyris augusto-coburgii,Xyris,augusto-coburgii,species,,,,,,,,,,LC,EN,EN,,LC,,EN,,sima-SP_oficial-cncflora_web-mpoSP,apta
@@ -4200,7 +4200,7 @@ Angiospermas,Araliaceae,Schefflera glaziovii,É sinônimo de Didymopanax glaziov
 Angiospermas,Araliaceae,Schefflera macrocarpa,É sinônimo de Didymopanax macrocarpus,FB2020,Didymopanax macrocarpus,Didymopanax,macrocarpus,species,,,,,Nome original era sinônimo,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Araliaceae,Schefflera morototoni,É sinônimo de Didymopanax morototoni,FB2020,Didymopanax morototoni,Didymopanax,morototoni,species,,,,,Nome original era sinônimo,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Araliaceae,Schefflera vinosa,É sinônimo de Didymopanax vinosus,FB2020,Didymopanax vinosus,Didymopanax,vinosus,species,,,,,Nome original era sinônimo,,,,,,,,,,LC,,,UICN_API,apta
-Angiospermas,Arecaceae,Butia leiospatha,,,Butia leiospatha,Butia,leiospatha,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Arecaceae,Butia leiospatha,,,Butia leiospatha,Butia,leiospatha,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Arecaceae,Syagrus mendanhensis,,,Syagrus mendanhensis,Syagrus,mendanhensis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,CR,,,,,,,,CR,sima-Portaria 443/2014,
 Angiospermas,Arecaceae,Trithrinax acanthocoma,,,Trithrinax acanthocoma,Trithrinax,acanthocoma,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,VU,,,,,,,,sima,
 Angiospermas,Bromeliaceae,Racinaea domingosmartinis,,,Racinaea domingosmartinis,Racinaea,domingosmartinis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
@@ -4342,7 +4342,7 @@ Angiospermas,Primulaceae,Ctenardisia speciosa,,,Ctenardisia speciosa,Ctenardisia
 Angiospermas,Ochnaceae,Elvasia capixaba,,,Elvasia capixaba,Elvasia,capixaba,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Ochnaceae,Elvasia kollmannii,,,Elvasia kollmannii,Elvasia,kollmannii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Erythropalaceae,Heisteria amazonica,,,Heisteria amazonica,Heisteria,amazonica,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
-Angiospermas,Orchidaceae,Bulbophyllum boudetianum,É sinônimo de Bulbophyllum boudetianum Fraga,FB2020,Bulbophyllum boudetianum Fraga,Bulbophyllum,boudetiana,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
+Angiospermas,Orchidaceae,Bulbophyllum boudetianum,É sinônimo de Bulbophyllum boudetiana,FB2020,Bulbophyllum boudetiana,Bulbophyllum,boudetiana,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Rutaceae,Ravenia pseudalterna,,,Ravenia pseudalterna,Ravenia,pseudalterna,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Malvaceae,Sterculia albidiflora,,,Sterculia albidiflora,Sterculia,albidiflora,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Malvaceae,Sterculia rigidifolia,,,Sterculia rigidifolia,Sterculia,rigidifolia,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
@@ -4463,7 +4463,7 @@ Angiospermas,Poaceae,Paspalum ionanthum,,,Paspalum ionanthum,Paspalum,ionanthum,
 Angiospermas,Quiinaceae,Touroulia amazonica,,,Touroulia amazonica,Touroulia,amazonica,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Rubiaceae,Palicourea racemosa,,,Palicourea racemosa,Palicourea,racemosa,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
 Angiospermas,Rubiaceae,Psychotria racemosa,É sinônimo de Palicourea racemosa,FB2020,Palicourea racemosa,Palicourea,racemosa,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
-Angiospermas,Sapindaceae,Cupania olivacea,,,Cupania olivacea,Cupania,olivacea,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Sapindaceae,Cupania olivacea,,,Cupania olivacea,Cupania,olivacea,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Sapindaceae,Talisia douradensis,,,Talisia douradensis,Talisia,douradensis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Theaceae,Laplacea fructicosa,,,Laplacea fruticosa,Laplacea,fruticosa,species,,,,Nome original mal escrito,,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Theaceae,Laplacea fruticosa,,,Laplacea fruticosa,Laplacea,fruticosa,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
@@ -4939,7 +4939,7 @@ Angiospermas,Asteraceae,Cololobus longiangustatus,,,Cololobus longiangustatus,Co
 Angiospermas,Asteraceae,Stenocephalum monticola,,,Stenocephalum monticola,Stenocephalum,monticola,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Monimiaceae,Mollinedia eugeniifolia,,,Mollinedia eugeniifolia,Mollinedia,eugeniifolia,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Asteraceae,Chronopappus bifrons,,,Chronopappus bifrons,Chronopappus,bifrons,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,VU,,,,,,,,VU,sima-Portaria 443/2014,
-Angiospermas,Fabaceae,Discolobium psoraleifolium,,,Discolobium psoraleifolium,Discolobium,psoraleifolium,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Fabaceae,Discolobium psoraleifolium,,,Discolobium psoraleifolium,Discolobium,psoraleifolium,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Asteraceae,Lepidaploa gnaphalioides,,,Lepidaploa gnaphalioides,Lepidaploa,gnaphalioides,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Asteraceae,Lepidaploa luetzelburgii,,,Lepidaploa luetzelburgii,Lepidaploa,luetzelburgii,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Acanthaceae,Justicia bullata,,,Justicia bullata,Justicia,bullata,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
@@ -5319,7 +5319,7 @@ Angiospermas,Apocynaceae,Minaria harleyi,,,Minaria harleyi,Minaria,harleyi,speci
 Angiospermas,Apocynaceae,Minaria volubilis,,,Minaria volubilis,Minaria,volubilis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
 Angiospermas,Apocynaceae,Macroditassa adnata,É sinônimo de Peplonia adnata,FB2020,Peplonia adnata,Peplonia,adnata,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Apocynaceae,Peplonia adnata,,,Peplonia adnata,Peplonia,adnata,species,,,,,,,,,,LC,,,,,,,,sima,apta
-Angiospermas,Apocynaceae,Ditassa lagoensis,,,Peplonia lagoensis (E. Fourn.) Matozinhos,Ditassa,lagoensis,species,,,,,,,Nome ainda precisa ser checado,"Nome ainda é sinônimo, checar",,LC,EX,EX,,,,EX,,sima-SP_oficial-mpoSP,
+Angiospermas,Apocynaceae,Ditassa lagoensis,,,Ditassa lagoensis,Ditassa,lagoensis,species,,,,,,,Taxonomia incerta,"Nome ainda é sinônimo, checar",,LC,EX,EX,,,,EX,,sima-SP_oficial-mpoSP,
 Angiospermas,Sapotaceae,Pouteria ciliata,,,Pouteria ciliata,Pouteria,ciliata,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Asteraceae,Piptolepis monticola,,,Piptolepis monticola,Piptolepis,monticola,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Moraceae,Ficus crocata,,,Ficus crocata,Ficus,crocata,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
@@ -5464,9 +5464,9 @@ Samambaias,Pteridaceae,Jamesonia rufescens,,,Jamesonia rufescens,Jamesonia,rufes
 Samambaias,Pteridaceae,Eriosorus insignis,É sinônimo de Jamesonia insignis,FB2020,Jamesonia insignis,Jamesonia,insignis,species,,,,,Nome original era sinônimo,,,,,,,,,EN,,,,cncflora_web,apta
 Samambaias,Pteridaceae,Jamesonia insignis,,,Jamesonia insignis,Jamesonia,insignis,species,,,,,,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,apta
 Angiospermas,Melastomataceae,Pleroma guartelaensis,,,Pleroma guartelaense,Pleroma,guartelaense,species,,,,Nome original mal escrito,,,,,,,VU,VU,,,,,,sima-SP_oficial,apta
-Angiospermas,Orchidaceae,Capanemia fluminensis,É sinônimo de Capanemia thereziae Barb.Rodr.,FB2020,Capanemia thereziae Barb.Rodr.,Capanemia,therezae,species,,,,,Nome original era sinônimo,,,,,,,,,DD,,,,cncflora_web,apta
-Angiospermas,Orchidaceae,Capanemia therezae,,,Capanemia thereziae Barb.Rodr.,Capanemia,therezae,species,,,,,,,,,,DD,,,,,,,,sima,apta
-Angiospermas,Orchidaceae,Capanemia thereziae,É sinônimo de Capanemia thereziae Barb.Rodr.,FB2020,Capanemia thereziae Barb.Rodr.,Capanemia,therezae,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
+Angiospermas,Orchidaceae,Capanemia fluminensis,É sinônimo de Capanemia therezae,FB2020,Capanemia therezae,Capanemia,therezae,species,,,,,Nome original era sinônimo,,,,,,,,,DD,,,,cncflora_web,apta
+Angiospermas,Orchidaceae,Capanemia therezae,,,Capanemia therezae,Capanemia,therezae,species,,,,,,,,,,DD,,,,,,,,sima,apta
+Angiospermas,Orchidaceae,Capanemia thereziae,É sinônimo de Capanemia therezae,FB2020,Capanemia therezae,Capanemia,therezae,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Fabaceae,Ancistrotropis firmula,,,Ancistrotropis firmula,Ancistrotropis,firmula,species,,,,,,,,,,LC,VU,VU,,,,,,sima-SP_oficial,apta
 Angiospermas,Fabaceae,Vigna firmula,É sinônimo de Ancistrotropis firmula,FB2020,Ancistrotropis firmula,Ancistrotropis,firmula,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Plantaginaceae,Veronica peregrina,,,Veronica peregrina,Veronica,peregrina,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
@@ -5495,7 +5495,7 @@ Angiospermas,Bignoniaceae,Handroanthus diamantinensis,,,Handroanthus diamantinen
 Angiospermas,Bignoniaceae,Handroanthus parviflorus,,,Handroanthus parviflorus,Handroanthus,parviflorus,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Malpighiaceae,Hiraea macrophylla,,,Hiraea macrophylla,Hiraea,macrophylla,species,,,,,,,,,EN,,,,,,,,,sima,apta
 Angiospermas,Malpighiaceae,Hiraea wiedeana,É sinônimo de Hiraea macrophylla,FB2020,Hiraea macrophylla,Hiraea,macrophylla,species,,,,,Nome original era sinônimo,,,,EN,,,,,EN,,,EN,sima-cncflora_web-Portaria 443/2014,apta
-Angiospermas,Orchidaceae,Camaridium meleagris,,,Camaridium meleagris,Camaridium,meleagris,species,,,,,,,Nome ainda precisa ser checado,"Nome ainda é sinônimo, checar",,DD,,,,,,,,sima,
+Angiospermas,Orchidaceae,Camaridium meleagris,,,Camaridium meleagris,Camaridium,meleagris,species,,,,,,,Taxonomia incerta,"Nome ainda é sinônimo, checar",,DD,,,,,,,,sima,
 Angiospermas,Verbenaceae,Lantana ramboi,,,Lantana ramboi,Lantana,ramboi,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Solanaceae,Solanum verticillatum,,,Solanum verticillatum,Solanum,verticillatum,species,,,,,,,,,,,,,,LC,,,,cncflora_ckan,apta
 Angiospermas,Myrtaceae,Eugenia dipetala,,,Eugenia dipetala,Eugenia,dipetala,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
@@ -5528,12 +5528,12 @@ Angiospermas,Acanthaceae,Schaueria virginea,É sinônimo de Schaueria litoralis,
 Angiospermas,Convolvulaceae,Jacquemontia glabrescens,,,Jacquemontia glabrescens,Jacquemontia,glabrescens,species,,,,,,,,,,,EX,EX,,,,,,sima-SP_oficial,apta
 Angiospermas,Myrtaceae,Myrcia cionei,,,Myrcia cionei,Myrcia,cionei,species,,,,,,,,,,,VU,VU,,,,,,sima-SP_oficial,apta
 Angiospermas,Cannabaceae,Celtis chichape,,,Celtis chichape,Celtis,chichape,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
-Angiospermas,Melastomataceae,Microlicia cardiophora,,,Microlicia cardiophora,Microlicia,cardiophora,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Melastomataceae,Microlicia cardiophora,,,Microlicia cardiophora,Microlicia,cardiophora,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Sapindaceae,Matayba leucodictya,,,Matayba leucodictya,Matayba,leucodictya,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Angiospermas,Quiinaceae,Quiina glaziovii,,,Quiina glaziovii,Quiina,glaziovii,species,,,,,,,,,,DD,VU,,,LC,,,,sima-cncflora_ckan,apta
 Angiospermas,Quiinaceae,Quiina magallano-gomesii,É sinônimo de Quiina glaziovii,FB2020,Quiina glaziovii,Quiina,glaziovii,species,,,,,Nome original era sinônimo,,,,,,,VU,,DD,,VU,,SP_oficial-cncflora_web-mpoSP,apta
 Angiospermas,Rhamnaceae,Rhamnus sphaerosperma var. pubescens,É sinônimo de Frangula polymorpha,FB2020,Frangula polymorpha,Frangula,polymorpha,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
-Angiospermas,Melastomataceae,Microlicia myrtifolia,,,Microlicia myrtifolia,Microlicia,myrtifolia,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,,,,,,,,,sima,
+Angiospermas,Melastomataceae,Microlicia myrtifolia,,,Microlicia myrtifolia,Microlicia,myrtifolia,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,,,,,,,,,sima,
 Angiospermas,Anacardiaceae,Spondias expeditionaria,,,Spondias expeditionaria,Spondias,expeditionaria,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,,,,,,DD,,,,,,,,sima,
 Samambaias,Blechnaceae,Blechnum andinum,É sinônimo de Austroblechnum andinum,FB2020,Austroblechnum andinum,Austroblechnum,andinum,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,CR,,,,,,,,CR,sima-Portaria 443/2014,
 Samambaias,Blechnaceae,Blechnum organense,É sinônimo de Austroblechnum organense,FB2020,Austroblechnum organense,Austroblechnum,organense,species,,,,,Nome original era sinônimo,,,,,,,,,NT,,,,cncflora_web,apta
@@ -5777,7 +5777,7 @@ Angiospermas,Orchidaceae,Gomesa cruciata,É sinônimo de Gomesa bicornuta,FB2020
 Angiospermas,Melastomataceae,Tibouchina herincquiana,É sinônimo de Chaetogastra herincquiana,FB2020,Chaetogastra herincquiana,Chaetogastra,herincquiana,species,,,,,Nome original era sinônimo,,,,,,VU,VU,,,,,,sima-SP_oficial,apta
 Angiospermas,Melastomataceae,Tibouchina versicolor,É sinônimo de Chaetogastra versicolor,FB2020,Chaetogastra versicolor,Chaetogastra,versicolor,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,,,VU,VU,,,,,,sima-SP_oficial,
 Angiospermas,Fabaceae,Bauhinia variegata,,,Bauhinia variegata,Bauhinia,variegata,species,,,,,,,,,,,,,,,LC,,,UICN_API,apta
-Angiospermas,Bromeliaceae,Dyckia polycladus,,,Dyckia polyclada L.B.Sm.,Dyckia,polycladus,species,,,,Nome original mal escrito,,,Nome ainda precisa ser checado,,,DD,,,,,,,,sima,
+Angiospermas,Bromeliaceae,Dyckia polycladus,,,Dyckia polycladus,Dyckia,polycladus,species,,,,Nome original mal escrito,,,Taxonomia incerta,,,DD,,,,,,,,sima,
 Angiospermas,Bromeliaceae,Disteganthus calatheoides,É sinônimo de Disteganthus basilateralis,FB2020,Disteganthus basilateralis,Disteganthus,basilateralis,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,,DD,,,,,,,,sima,
 Angiospermas,Rubiaceae,Psychotria longipes,É sinônimo de Palicourea sessilis,FB2020,Palicourea sessilis,Palicourea,sessilis,species,,,,,Nome original era sinônimo,,,,,,,,,LC,,,,cncflora_web,apta
 Angiospermas,Asteraceae,Eremanthus leucodendron,É sinônimo de Lychnophorella leucodendron,FB2020,Lychnophorella leucodendron,Lychnophorella,leucodendron,species,,,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,,Nome original era sinônimo,,,,EN,,,,,,,,EN,sima-Portaria 443/2014,
@@ -5918,7 +5918,7 @@ Angiospermas,Apocynaceae,Prestonia riedelii,É sinônimo de Rhodocalyx riedelii,
 ,,Hibiscus urticifolius,,,,,,,,,,,,Nome não encontrado na FB2020,,,,,EX,EX,,,,,,sima-SP_oficial,
 ,,Holocheilus schulzii,,,,,,,,,,,,Nome não encontrado na FB2020,,,,,,,,,,,,sima,
 ,,Hypericum cordiforme var. Kleinii,,,,,,,,,,,,Nome não encontrado na FB2020,,,,,,,,,,,,sima,
-,,Maytenus ilicifolia,,,,,,,,,,,,,Nome ainda precisa ser checado,,,,VU,VU,,,,VU,,sima-SP_oficial-mpoSP,
+,,Maytenus ilicifolia,,,,,,,,,,,,,Taxonomia incerta,,,,VU,VU,,,,VU,,sima-SP_oficial-mpoSP,
 ,,Ossaea australis,,,,,,,,,,,,Nome não encontrado na FB2020,,,,,,,,,,,,sima,
 ,,Paepalanthus melaleucus var. epilosus,,,,,,,,,,,,Nome não encontrado na FB2020,,,,,,,,,,,,sima,
 ,,Parodia schumanniana,,,,,,,,,,,,Nome não encontrado na FB2020,,,,DD,,,,,,,,sima,
