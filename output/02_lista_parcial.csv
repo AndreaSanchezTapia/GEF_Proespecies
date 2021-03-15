@@ -1503,8 +1503,7 @@ Cuphea teleandra,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Cuphea urbaniana,sima,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Curculigo scorzonerifolia,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Curitiba prismatica,sima,NA,VU,NA,NA,NA,NA,NA,NA,NA
-Curtia,mpoSP,NA,NA,NA,NA,NA,NA,NA,CR,NA
-Curtia tenuifolia,sima-SP_oficial-cncflora_web,NA,LC,CR,CR,NA,LC,NA,NA,NA
+Curtia tenuifolia,sima-SP_oficial-cncflora_web-mpoSP,NA,LC,CR,CR,NA,LC,NA,CR,NA
 Cuscuta obtusiflora,cncflora_web,NA,NA,NA,NA,NA,NT,NA,NA,NA
 Cyanaeorchis arundinae,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
 Cyanocephalus apertiflorus,sima-Portaria 443/2014,VU,NA,NA,NA,NA,NA,NA,NA,VU
@@ -3906,7 +3905,6 @@ Nycticalanthus speciosus,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Nymphaea lotus,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Ocellochloa brachystachya,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR
 Ocimum nudicaule,sima-cncflora_web,NA,LC,NA,NA,NA,LC,NA,NA,NA
-Ocotea,mpoSP,NA,NA,NA,NA,NA,NA,NA,EN,NA
 Ocotea aciphylla,cncflora_web-UICN_API,NA,NA,NA,NA,NA,NT,LR/lc,NA,NA
 Ocotea basicordatifolia,sima-SP_oficial-cncflora_ckan-UICN_API-Portaria 443/2014,EN,NA,VU,VU,NA,EN,EN,NA,EN
 Ocotea beulahiae,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,EN,NA,EN,EN,NA,VU,NA,NA,EN
@@ -3949,7 +3947,7 @@ Ocotea prolifera,cncflora_ckan,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ocotea puberula,cncflora_web-UICN_API,NA,NA,NA,NA,NA,NT,LR/lc,NA,NA
 Ocotea pulchella,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ocotea pulchra,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
-Ocotea serrana,sima-SP_oficial-cncflora_ckan-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
+Ocotea serrana,sima-SP_oficial-cncflora_ckan-mpoSP-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,EN,EN
 Ocotea silvestris,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Ocotea tabacifolia,sima-SP_oficial-cncflora_web-Portaria 443/2014,EN,NA,EN,EN,NA,EN,NA,NA,EN
 Ocotea teleiandra,cncflora_ckan-UICN_API,NA,NA,NA,NA,NA,LC,LC,NA,NA
