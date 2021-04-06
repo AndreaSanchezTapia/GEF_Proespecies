@@ -1,6 +1,7 @@
 #busca sinonimos
 #versão nova
 remotes::install_github("liibre/Rocc")
+
 library(Rocc)
 library(readr)
 library(stringr)
@@ -69,77 +70,42 @@ especies <- especies[!ignorar]
  #                           ~check_flora(.x, get_synonyms = T))
 
 library("furrr")
-plan(multisession, workers = 3)
-test <- especies[1:10]
+plan(multisession, workers = 14)
+especies
+#cria funcao que vai salvar no hd o resultado de check_flora para nao repetirmos a busca
 save_check <- function(x) {
   if (!file.exists(fs::path("output/p2/check_flora", x, ext = "rda"))) {
-  a <- check_flora(x, get_synonyms = T)
+  a <- Rocc::check_flora(x, get_synonyms = T)
   save(a,
        file = fs::path("output/p2/check_flora", x, ext = "rda"))
   return(a)
   } else {
   message("file already in disk")
 }}
+#o objto ficou salvo como a, vai ter que rolar um rename com assign
 
-save_check(especies[1])
-furtest <- furrr::future_map(test,
+furtest <- furrr::future_map(especies,
                              .progress = T,
                       ~save_check(.x))
 plan(sequential)
-length(get_sinonimos)
-#2492 e 2493
-for (i in 2494:length(especies)) {
-  get_sinonimos[[i]] <- check_flora(especies[i], get_synonyms = T)
-  print(i)
-}
-i
+#checar o que rodou
+ya <- list.files("output/p2/check_flora/")
+ya <- stringr::str_remove(ya, "\\.rda$")
+#para ver o que precisa rodar de novo... istodeveria ser com um tryCatch mas sem tempo
+again <- setdiff(especies, ya)
+furtest <- furrr::future_map(again,
+                             .progress = T,
+                             ~save_check(.x))
+#o seguinte passo vai ser 1. carregar
+load("output/p2/check_flora/Abarema acreana.rda")
+#2. renomear
+assign(ya[1], a)
+rm(a)
+#decidir se append ou conerter a dataframe
+res <- get(ya[1])
+#3.
+res$taxon$verbatimSpecies == unique(res$synonyms$species_base)
 
-for (i in 2678:length(especies)) {
-  get_sinonimos[[i]] <- check_flora(especies[i], get_synonyms = T)
-  print(i)
-}
-for (i in 3202:length(especies)) {
-  get_sinonimos[[i]] <- check_flora(especies[i], get_synonyms = T)
-  print(i)
-}
-especies[3201]
-get_sinonimos[3201]
-#resolvendo check_flora para rodar as que faltaram
-source("../../R_packages/Rocc/R/check_flora.R")
-for (i in c(2492, 2493, 2677, 3200, 3201)) {
-    get_sinonimos[[i]] <- check_flora(especies[i], get_synonyms = T)
-  print(i)
-}
-especies[c(2492, 2493, 2677, 3200, 3201)]
-
-glimpse(get_sinonimos)
-
-#ah mas eu deveria ter escrito os arquivos, duh
-#por enquanto salvo a lista
-for (i in seq_along(get_sinonimos)) {
-get_sinonimos[[1]]$taxon
-}
-save(get_sinonimos, file = "output/p2/get_sinonimos_inicial.rda")
-
-load("output/p2/get_sinonimos_inicial.rda")
-length(get_sinonimos)
-length(especies)
-
-#saca la tbla de sinonimos
-syn2 <- purrr::map(get_sinonimos,
-           ~.x$synonyms)
-length(get_sinonimos)
-especies_antes <- purrr::map(syn2,
-           ~unique(.x$species_base))
-especies_antes <- unlist(especies_antes)
-a <- setdiff(especies, especies_antes)
-b <- setdiff(especies_antes, especies)
-especies_faltantes <- c(a, b)
-get_sinonimos_examinar <- list()
-for (i in seq_along(especies_faltantes)) {
-  get_sinonimos_examinar[[i]] <- check_flora(especies_faltantes[i], get_synonyms = T)
-  print(i)
-}
 lista_completa <- append(get_sinonimos, get_sinonimos_examinar)
 syn_todas <- purrr::map(lista_completa,
                    ~.x$synonyms)
@@ -152,15 +118,6 @@ especies_todas <- purrr::map(syn_todas,
                              ~unique(.x$species_base))
 especies_todas <- unlist(especies_todas)
 
-length(lista_completa)
-length(syn_todas)
-length(especies_todas)
-
-dims <- unlist(dims)
-head(dims)
-which(dims ==9)
-syn2[which(unlist(dims) ==1)]
-nrow(syn2[[9]])
 unlist(Rocc::check_string(syn2[[13]]$scientificName)$species)
 sin_df3 <- purrr::map(syn2[[13]],
                      ~unlist(Rocc::check_string(.x$scientificName)$species))
