@@ -110,3 +110,34 @@ for (i in seq_along(get_sinonimos)) {
 get_sinonimos[[1]]$taxon
 }
 save(get_sinonimos, file = "output/p2/get_sinonimos_inicial.rda")
+
+load("output/p2/get_sinonimos_inicial.rda")
+
+
+#saca la tbla de sinonimos
+syn2 <- purrr::map(get_sinonimos,
+           ~.x$synonyms)
+dims <- purrr::map(syn2,
+           ~nrow(.x))
+dims <- unlist(dims)
+head(dims)
+which(dims ==9)
+syn2[which(unlist(dims) ==1)]
+nrow(syn2[[9]])
+unlist(Rocc::check_string(syn2[[13]]$scientificName)$species)
+sin_df3 <- purrr::map(syn2[[13]],
+                     ~unlist(Rocc::check_string(.x$scientificName)$species))
+
+sin_df <- purrr::map(syn2,
+                     ~data.frame(
+  especie = .x$species_base,
+  syn = .x$scientificName,
+  ))
+
+write.csv(data.frame(nome = sp, sinonimos = syn), file = paste0("output/p2/", unique(sp), ".csv"))
+
+install.packages("furrr")
+
+sinonimos_df <- function(data) {
+
+}
