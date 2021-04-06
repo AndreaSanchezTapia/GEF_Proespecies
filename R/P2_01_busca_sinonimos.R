@@ -1,19 +1,18 @@
 #busca sinonimos
+#versão nova
 remotes::install_github("liibre/Rocc")
 library(Rocc)
 library(readr)
 library(stringr)
 library(readxl)
 library(dplyr)
+library(purrr)
 
+#le tabela produto 1
 p1 <- read_xlsx("data/dados_formatados/produto1/produto1_Lista_de_espécies.xlsx",
                  sheet = 2)
-count(p1, notas)
-count(p1, elegivel)
-count(p1, notas, elegivel) %>% View()
-count(p1, especie_original, nome_aceito_correto) %>% arrange(desc(n))
-p1 %>% View()
 
+#formata lista com os nomes bons
 p2 <- p1 %>%
   select(especie_original, nome_aceito_correto, fontes, elegivel, notas) %>%
          group_by(nome_aceito_correto) %>%
@@ -31,51 +30,50 @@ p2 <- p1 %>%
                               "apta-apta-apta",
                               "apta-apta-apta-apta",
                               "apta-apta-apta-apta-apta") ~ "apta",
-#    elegivel_originais %in% c("apta-examinar", "examinar-apta") ~ "apta-examinar",
+    elegivel_originais %in% c("apta-examinar", "examinar-apta") ~ "apta-examinar",
     stringr::str_detect(elegivel_originais, pattern = "inapta") ~ "inapta",
     elegivel_originais %in% c("examinar",
                               "examinar-examinar",
                               "examinar-examinar-examinar") ~ "examinar")
 ) %>%  distinct()
-
+p2
 count(p2, elegivel_originais)
 
-#primeira passada> tem 3056 especies que aparecem uma vez soh, aptas, 329+66+6+3 especies que aparecem varias vezes, sempre aptas
-#8 e 4 que aparecem apta-examinar (sinonimos?)
-#2321 52 e 1 examinar
-#inapta always inapta, cool
-#segunda passada com case_when 3460 aptas, 2374 examinar, 12 apta-examinar, 16
- inapta
 dir.create("output/p2")
-write_csv(p2, "output/p2/p2_inicial.csv")
-
+#write_csv(p2, "output/p2/p2_inicial.csv")
+write_csv(p2, "output/p2/p2_segundo.csv")
 count(p2, elegivel_originais)
 
 
 
 p2 %>%
-  filter(is.na(elegivel_originais)) %>%
-  select(elegivel_originais, notas)
-
+  filter(elegivel_originais != "inapta") %>%
+  select(elegivel_originais, notas) %>%
+  count(elegivel_originais, notas) %>%
+  View()
 
 # checar sinonimos aptas
-library(Rocc)
-library(purrr)
-p2 %>% count(elegivel_originais)
+
 especies <- p2 %>%
-  filter(elegivel_originais == "apta") %>%
-  select(nome_aceito_correto) %>%
-  distinct() %>% pull()
+  filter(elegivel_originais != "inapta") %>%
+  #select(nome_aceito_correto) %%
+  filter(!is.na(nome_aceito_correto)) %>%
+  distinct(nome_aceito_correto) %>%
+  pull()
+length(especies)
 
 ignorar <- str_detect(especies, "subsp.") | str_detect(especies, "var.")
 
 especies <- especies[!ignorar]
+#get_sinonimos <- purrr::map(especies,
+ #                           ~check_flora(.x, get_synonyms = T))
 
-get_sinonimos <- list()
-for (i in seq_along(especies)) {
-  get_sinonimos[[i]] <- check_flora(especies[i], get_synonyms = T)
-  print(i)
-}
+library("furrr")
+plan(multisession, workers = 3)
+test <- especies[1:10]
+furtest <- furrr::future_map(test,.progress = T,
+                      ~check_flora(.x, get_synonyms = T))
+
 length(get_sinonimos)
 #2492 e 2493
 for (i in 2494:length(especies)) {
@@ -112,13 +110,40 @@ get_sinonimos[[1]]$taxon
 save(get_sinonimos, file = "output/p2/get_sinonimos_inicial.rda")
 
 load("output/p2/get_sinonimos_inicial.rda")
-
+length(get_sinonimos)
+length(especies)
 
 #saca la tbla de sinonimos
 syn2 <- purrr::map(get_sinonimos,
            ~.x$synonyms)
-dims <- purrr::map(syn2,
-           ~nrow(.x))
+length(get_sinonimos)
+especies_antes <- purrr::map(syn2,
+           ~unique(.x$species_base))
+especies_antes <- unlist(especies_antes)
+a <- setdiff(especies, especies_antes)
+b <- setdiff(especies_antes, especies)
+especies_faltantes <- c(a, b)
+get_sinonimos_examinar <- list()
+for (i in seq_along(especies_faltantes)) {
+  get_sinonimos_examinar[[i]] <- check_flora(especies_faltantes[i], get_synonyms = T)
+  print(i)
+}
+lista_completa <- append(get_sinonimos, get_sinonimos_examinar)
+syn_todas <- purrr::map(lista_completa,
+                   ~.x$synonyms)
+tax_todas <- purrr::map(lista_completa,
+                   ~.x$taxon)
+tax_syn_yes_no <- purrr::map(tax_todas,
+                             ~unique(.x$synoyms))
+
+especies_todas <- purrr::map(syn_todas,
+                             ~unique(.x$species_base))
+especies_todas <- unlist(especies_todas)
+
+length(lista_completa)
+length(syn_todas)
+length(especies_todas)
+
 dims <- unlist(dims)
 head(dims)
 which(dims ==9)
