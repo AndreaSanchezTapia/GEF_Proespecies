@@ -1,0 +1,40 @@
+---
+title: "Produto2"
+author: "Andrea Sánchez-Tapia"
+date: "3/29/2021"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
+```
+
+```{r remedy001}
+library(readxl)
+library(readr)
+library(dplyr)
+p1 <- read_xlsx("data/dados_formatados/produto1/produto1_Lista_de_espécies.xlsx",
+                 sheet = 2)
+
+```
+
+
+## Lista de espécies
+
+A lista preliminar que foi entregue como Produto1 continha 
+`r length(unique(p1$especie_original))` nomes originais únicos (ou seja, depois 
+de unificar as bases de dados e levando em conta que elas poderiam aparecer em 
+várias das bases), correspondentes a `r length(unique(p1$nome_aceito_correto))`
+nomes aceitos corretos. 
+
+Agrupando pelos nomes corretos, a classificação prévia das espécies como aptas, inaptas e precisando de examinação, esses nomes se classificam assim: 
+
+```{r remedy002}
+
+p2 <- read_csv("output/p2/p2_inicial.csv")
+knitr::kable(count(p2, elegivel_originais))
+```
+
+As espécies classificadas como apta-examinar correspondem a nomes diferentes onde um dos nomes é apto e o outro corresponde a um nome que não foi detectado pela Flora do Brasil, portanto serão re-examinadas, mas isto não representa um problema. 
