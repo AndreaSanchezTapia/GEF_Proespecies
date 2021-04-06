@@ -71,9 +71,21 @@ especies <- especies[!ignorar]
 library("furrr")
 plan(multisession, workers = 3)
 test <- especies[1:10]
-furtest <- furrr::future_map(test,.progress = T,
-                      ~check_flora(.x, get_synonyms = T))
+save_check <- function(x) {
+  if (!file.exists(fs::path("output/p2/check_flora", x, ext = "rda"))) {
+  a <- check_flora(x, get_synonyms = T)
+  save(a,
+       file = fs::path("output/p2/check_flora", x, ext = "rda"))
+  return(a)
+  } else {
+  message("file already in disk")
+}}
 
+save_check(especies[1])
+furtest <- furrr::future_map(test,
+                             .progress = T,
+                      ~save_check(.x))
+plan(sequential)
 length(get_sinonimos)
 #2492 e 2493
 for (i in 2494:length(especies)) {
