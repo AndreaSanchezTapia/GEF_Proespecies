@@ -15,7 +15,11 @@ p1 <- read_xlsx("data/dados_formatados/produto1/produto1_Lista_de_espécies.xlsx
 
 #formata lista com os nomes bons
 p2 <- p1 %>%
-  select(especie_original, nome_aceito_correto, fontes, elegivel, notas) %>%
+  select(especie_original,
+         nome_aceito_correto,
+         fontes,
+         elegivel,
+         notas) %>%
          group_by(nome_aceito_correto) %>%
   mutate(
     nomes_originais = paste(especie_original, collapse = "-"),
@@ -41,8 +45,8 @@ p2
 count(p2, elegivel_originais)
 
 dir.create("output/p2")
-#write_csv(p2, "output/p2/p2_inicial.csv")
-write_csv(p2, "output/p2/p2_segundo.csv")
+write_csv(p2, "output/p2/p2_inicial.csv")
+
 count(p2, elegivel_originais)
 
 
@@ -64,7 +68,7 @@ especies <- p2 %>%
 length(especies)
 
 ignorar <- str_detect(especies, "subsp.") | str_detect(especies, "var.")
-
+sum(ignorar)
 especies <- especies[!ignorar]
 #get_sinonimos <- purrr::map(especies,
  #                           ~check_flora(.x, get_synonyms = T))

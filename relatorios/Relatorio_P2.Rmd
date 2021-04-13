@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
 library(readxl)
 library(readr)
 library(dplyr)
+library(stringr)
 p1 <- read_xlsx("data/dados_formatados/produto1/produto1_Lista_de_espécies.xlsx",
                  sheet = 2)
 
@@ -38,3 +39,50 @@ knitr::kable(count(p2, elegivel_originais))
 ```
 
 As espécies classificadas como apta-examinar correspondem a nomes diferentes onde um dos nomes é apto e o outro corresponde a um nome que não foi detectado pela Flora do Brasil, portanto serão re-examinadas, mas isto não representa um problema. 
+
+Os motivos para a classificação são os seguintes:
+```{r}
+p2 %>%
+  filter(elegivel_originais != "inapta") %>%
+  select(elegivel_originais, notas) %>%
+  count(elegivel_originais, notas) %>%
+  knitr::kable()
+```
+
+## Reformatação da base de dados
+
+A tabela de espécies do Produto 1 foi reformatada para obtermos uma linha por nome aceito e correto. Os nomes originais se encontram na coluna `nomes_originais` e as fontes que os citam, na coluna `fontes`, e as demais colunas foram mantidas. A nova lista contém `r nrow(p2)` linhas, a comparação das `r nrow(p1)` da lista original.
+
+## Busca de sinônimos
+
+```{r}
+especies <- p2 %>%
+  filter(elegivel_originais != "inapta") %>%
+  #select(nome_aceito_correto) %%
+  filter(!is.na(nome_aceito_correto)) %>%
+  distinct(nome_aceito_correto) %>%
+  pull()
+
+
+ignorar <- str_detect(especies, "subsp.") | str_detect(especies, "var.")
+```
+
+Dentre as `r length(especies)` espécies classificadas como aptas e examinar  `r sum(ignorar)` correspondem a subespécies e variedades. Estes nomes infraespecíficos não puderam (*) ser checados por sinônimos pela Flora do Brasil. 
+
+```{r}
+especies <- especies[!ignorar]
+```
+
+Os demais `r length(unique(especies))` nomes foram checados por sinônimos perante a Flora do Brasil. 
+
+Para cada nome, os sinônimos pela FB2020 foram extraídos, e todos os nomes foram utilizados para realizar o download dos registros de herbário em speciesLink e rgbif.
+
+{comentário sobre as demais fontes de dados. simbiota nunca teve, jabot está sem API}
+
+## Download de ocorrências
+
+Para cada nome aceito e correto, e cada sinônimo aceito pela FB2020, foram requeridos os registros nas bases de dados SpeciesLink e GBIF (Global Biodiversity Information Facility).
+
+Os erros de download em ambas as bases foram corrigidos manualmente.
+
+
