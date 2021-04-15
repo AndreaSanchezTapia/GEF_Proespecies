@@ -37,4 +37,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-accessory/token_IUCN
+data/accessory/
+update_flora_metadata.txt
+
+output/p2/occs
