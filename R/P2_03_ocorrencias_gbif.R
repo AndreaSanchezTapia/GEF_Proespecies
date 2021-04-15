@@ -60,29 +60,7 @@ download_rgbif <- function(oc) {
       }
   }
 
-
-
-list.files("output/p2/occs", recursive = T)
-plan(multisession, workers = 15)
+#plan(multisession, workers = 15)
 gf <- furrr::future_map(df, ~download_rgbif(.x), .progress = T)
 plan(sequential)
 
-#checar
-#lee la tabla original de sinomimos
-df_sinonimos <- list.files("output/p2/sinonimos/", full.names = T)
-nomes1 <- basename(df_sinonimos)
-nomes <- stringr::str_remove(nomes1, ".csv")
-
-#lee las tablas de gbif
-occs <- list.files("output/p2/occs/",recursive = T, full.names = T, pattern = ".csv")
-gbif <- occs[stringr::str_detect(occs, "splink", negate = T)]
-splink <- occs[stringr::str_detect(occs, "gbif", negate = T)]
-
-sp1 <- basename(splink) %>% stringr::str_remove(".csv")
-gb1 <- basename(gbif) %>% stringr::str_remove(".csv")
-
-fazer <- tibble(sp = setdiff(nomes, gb1), source = "gbif")
-fazers <- tibble(sp = setdiff(nomes, sp1), source = "specieslink")
-tibble(sp = setdiff(sp1, nomes), source = "specieslink")
-full_join(fazer, fazers, by = "sp") %>% View()
-setdiff(fazers, fazer)

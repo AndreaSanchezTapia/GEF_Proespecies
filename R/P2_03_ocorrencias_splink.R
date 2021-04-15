@@ -25,19 +25,20 @@ names(df)
 
 
 #baja ocurrencias de species link
-download_splink <- function(oc) {
+download_splink <- function(oc, syn = T) {
   sp <- unique(oc$especie)
   pasta_out <- paste0(pasta_occs, sp, "/splink/")
   dir.create(pasta_out, recursive = T)
-  search <- oc$nomes[stringr::str_detect(string = oc$nomes, "var\\.", negate = T)]
-
+  if (syn) {
+    search <- oc$nomes[stringr::str_detect(string = oc$nomes, "var\\.", negate = T)]
+  } else search <- sp
   if (!file.exists(fs::path(pasta_out, sp, ext = "csv"))) {
 
     message(paste(sp))
 
     out <- tryCatch (
       {
-        sl <- rspeciesLink(dir = paste0(pasta_out, "/splink/"),
+        sl <- rspeciesLink(dir = paste0(pasta_out),
                      filename = sp,
                      species = search,
                      Scope = "plants",
@@ -57,41 +58,10 @@ download_splink <- function(oc) {
   }
 }
 
-gf <- furrr::future_map(df, ~download_splink(.x), .progress = T)
-
-
-beepr::beep(8)
-#errores puntuales
-2034#nome original
-3426#nome original
-3442#nome original
-j <- 3475
-read_csv(paste0(pasta_out[j], "/splink/",nomes[j], ".csv"))
-#Error in readBin(3L, raw(0), 32768L) :
-#GnuTLS recv error (-110): The TLS connection was non-properly terminated.
-en myrcia splendens
-paste(search, collapse = " ")
-
-
+gf <- furrr::future_map(df, ~download_splink(.x, syn = F), .progress = T)
 
 
 #para busca en jabot
 dir.create("data/dados_formatados/hv/")
 paste(nomes, collapse = ",") %>% writeLines("data/dados_formatados/hv/nomes.txt")
-
-
-
-
-#save rgbif
-for (i in j) {
-  search <- df[[i]]$nomes[stringr::str_detect(string = df[[i]]$nomes, "var\\.", negate = T)]
-
-  sp <- rspeciesLink(dir = paste0(pasta_out[i], "/splink/"),
-                     filename = nomes[i],
-                     species = nomes[i],
-                     Scope = "plants",
-                     Synonyms =  "flora2020")
-  Sys.sleep(1)
-  print(i)
-}
 
