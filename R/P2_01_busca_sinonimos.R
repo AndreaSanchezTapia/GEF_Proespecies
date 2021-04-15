@@ -35,10 +35,7 @@ p2 <- p1 %>%
   select(-especie_original, fontes, -elegivel) %>%
   distinct() %>%
   ungroup()
-p1
-p2
   #isto eh feio para caramba-
-p2 %>% filter(elegivel_produto_1 == "apta-inapta")
 p2 <- p2 %>% mutate(elegivel_produto_1 = case_when(
     elegivel_produto_1 %in% c("apta",
                               "apta-apta",
@@ -50,7 +47,9 @@ p2 <- p2 %>% mutate(elegivel_produto_1 = case_when(
     elegivel_produto_1 %in% c("examinar",
                               "examinar-examinar",
                               "examinar-examinar-examinar") ~ "examinar")
-) %>% select(-fontes_originais ) %>% distinct()
+) %>%
+  select(-fontes_originais, -fontes ) %>%
+  distinct()
 names(p2)
 p2 %>% count(elegivel_produto_1)
 length(unique(p2$nome_aceito_correto))
