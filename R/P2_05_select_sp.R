@@ -31,5 +31,13 @@ setdiff(p2$nome_aceito_correto, spp$nome_aceito_correto)
 #cruza
 cruza <- read_csv("output/p2/01_cruzam_shapes.csv") %>%
   rename(nome_aceito_correto = sp)
-p2 %>% left_join(cruza) %>%
-  count(elegivel_produto_1, sum)
+resumo <- p2 %>% left_join(cruza)
+resumo %>% write_csv("output/p2/02_resumo.csv")
+  resumo %>% View()
+resumo %>% count(elegivel_produto_1, splink_t20, gbif_t20) %>% View()
+
+resumo <- readr::read_csv("output/p2/02_resumo.csv")
+
+
+junto <- left_join(spp, resumo)
+write_csv(junto, "output/p2/P1_atualizado.csv")
