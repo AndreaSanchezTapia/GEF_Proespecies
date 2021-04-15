@@ -14,42 +14,51 @@ p1 <- read_xlsx("output/p2/Lista de espécies-geral para analise andrea- PR-14-0
                  sheet = 2)
 p1$nome_aceito_correto[p1$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
 names(p1)
+p1 %>% arrange(grupo, familia, especie_original) %>% write_csv("output/p2/p1_final.csv")
 #formata lista com os nomes bons
 p2 <- p1 %>%
   rename(elegivel = `elegivel - Produto 1`) %>%
   select(especie_original,
          nome_aceito_correto,
          fontes,
-         elegivel,
-         `elegivel - Produto 2`,
-         notas) %>%
+         elegivel
+         #`elegivel - Produto 2`,
+         #notas
+         ) %>%
          group_by(nome_aceito_correto) %>%
   mutate(
     nomes_originais = paste(especie_original, collapse = "-"),
     elegivel_produto_1 = paste(elegivel, collapse = "-"),
-    elegivel_produto_2 = paste(`elegivel - Produto 2`, collapse = "-"),
-    notas = paste(notas, collapse = "-"),
+    #elegivel_produto_2 = paste(`elegivel - Produto 2`, collapse = "-"),
+    #notas = paste(notas, collapse = "-"),
     fontes_originais = paste(fontes, collapse = "-")) %>%
   select(-especie_original, fontes, -elegivel) %>%
   distinct() %>%
-  ungroup() %>% count(elegivel_produto_1) %>%
+  ungroup()
+p1
+p2
   #isto eh feio para caramba-
-  mutate(elegivel_produto_1 = case_when(
+p2 %>% filter(elegivel_produto_1 == "apta-inapta")
+p2 <- p2 %>% mutate(elegivel_produto_1 = case_when(
     elegivel_produto_1 %in% c("apta",
                               "apta-apta",
                               "apta-apta-apta",
                               "apta-apta-apta-apta",
                               "apta-apta-apta-apta-apta") ~ "apta",
-    elegivel_produto_1 %in% c("apta-examinar", "examinar-apta", "apta-inapta") ~ "examinar",
+    elegivel_produto_1 %in% c("apta-examinar", "examinar-apta") ~ "examinar",
     stringr::str_detect(elegivel_produto_1, pattern = "inapta") ~ "inapta",
     elegivel_produto_1 %in% c("examinar",
                               "examinar-examinar",
                               "examinar-examinar-examinar") ~ "examinar")
-) %>%  distinct()
-p2
+) %>% select(-fontes_originais ) %>% distinct()
+names(p2)
+p2 %>% count(elegivel_produto_1)
 length(unique(p2$nome_aceito_correto))
 
 count(p2, elegivel_originais)
+
+
+
 
 dir.create("output/p2")
 write_csv(p2, "output/p2/p2_inicial.csv")
