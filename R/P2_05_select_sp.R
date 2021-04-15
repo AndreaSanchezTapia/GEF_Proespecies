@@ -7,16 +7,28 @@ full_join(a, b) %>%
 
 library(readxl)
 library(dplyr)
-spp <- read_excel("output/p2/Lista de espécies-geral para analise andrea- PR-14-04.xlsx", sheet = 2)
+spp <- read_excel("output/p2/Lista de espécies-geral.xlsx", sheet = 1)
 names(spp)
-spp$nome_aceito_correto[spp$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
-dim(spp)
-spp %>%
-  select(nome_aceito_correto,
-         `elegivel - Produto 1`,
-         `Produto 1 - final`,
-         `elegivel - Produto 2`) %>%
 
+spp$nome_aceito_correto[spp$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
+
+dim(spp)
+
+entra <- spp %>%
+  select(nome_aceito_correto, `ENTRA OU NAO`) %>%
+  count(nome_aceito_correto, `ENTRA OU NAO`) %>%
+  group_by(nome_aceito_correto) %>%
+  mutate(ameacada = paste(`ENTRA OU NAO`, collapse = "-")) %>%
+  arrange(nome_aceito_correto) %>%
+  ungroup() %>%
+  #count(ameacada)
+  mutate(entra = if_else(ameacada %in% c("AMEACADA", "AMEACADA-NAO"), "entra", "nao entra")) %>%
+  select(nome_aceito_correto, entra) %>%
+  distinct()
+entra
+readr::write_csv(entra, "output/p2/03_entra.csv")
+
+spp %>% filter(nome_aceito_correto %in% dupl) %>% View()
   count( `elegivel - Produto 1`,
          `Produto 1 - final`,
          `elegivel - Produto 2`)
