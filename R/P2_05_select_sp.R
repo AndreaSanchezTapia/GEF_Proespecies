@@ -61,11 +61,11 @@ resumo %>%
   mutate(especialista =
            case_when(
              sum > 0  & str_detect(notas_all, "ocorre") ~ "FBnao- OCCScruzam",
-             sum == 0 & str_detect(elegivel_produto_1 == "apta") ~ " FBsim- OCCSnaocruzam")
+             sum == 0 & elegivel_produto_1 == "apta" ~ "FBsim- OCCSnaocruzam")
          ) %>%
    write_csv("output/p2/03_resumo_anotado.csv")
 
-resumo %
+
 resumo <- readr::read_csv("output/p2/02_resumo.csv")
 resumo$
 
