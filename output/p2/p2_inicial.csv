@@ -576,7 +576,7 @@ Stifftia parviflora,sima-cncflora_web,NA,Stifftia parviflora,apta,sima-cncflora_
 Trichocline catharinensis,sima,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Trichocline catharinensis,examinar,sima
 Trichocline linearifolia,sima-cncflora_web-Portaria 443/2014,NA,Trichocline linearifolia,apta,sima-cncflora_web-Portaria 443/2014
 Trichocline macrocephala,sima-cncflora_web,NA,Trichocline macrocephala,apta,sima-cncflora_web
-Trichogoniopsis adenantha,sima,NA,Trichogoniopsis adenantha,apta,sima
+Trichogoniopsis adenantha,sima,NA,Trichogoniopsis adenantha,inapta,sima
 Trixis glaziovii,sima-SP_oficial-cncflora_web-Portaria 443/2014,NA,Trixis glaziovii,apta,sima-SP_oficial-cncflora_web-Portaria 443/2014
 Trixis thyrsoidea,sima,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Trixis thyrsoidea,examinar,sima
 Wunderlichia azulensis,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Wunderlichia azulensis,examinar,sima-Portaria 443/2014
@@ -985,7 +985,7 @@ Adenocalymma divaricatum,sima-Portaria 443/2014,A espécie não ocorre no Estado
 Adenocalymma hypostictum,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,Adenocalymma fruticosum,examinar,sima-Portaria 443/2014
 Adenocalymma paulistarum,sima-cncflora_web,NA,Adenocalymma paulistarum,apta,sima-cncflora_web
 Adenocalymma ubatubense,sima-SP_oficial-cncflora_web-Portaria 443/2014,NA,Adenocalymma ubatubense,apta,sima-SP_oficial-cncflora_web-Portaria 443/2014
-Amphilophium crucigerum,sima,NA,Amphilophium crucigerum,apta,sima
+Amphilophium crucigerum,sima,NA,Amphilophium crucigerum,inapta,sima
 Anemopaegma arvense,sima-SP_oficial-cncflora_web-Portaria 443/2014,NA,Anemopaegma arvense,apta,sima-SP_oficial-cncflora_web-Portaria 443/2014
 Anemopaegma mirabile,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Anemopaegma mirabile,examinar,sima-Portaria 443/2014
 Anemopaegma patelliforme,sima,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Anemopaegma patelliforme,examinar,sima
@@ -2537,7 +2537,7 @@ Indigofera guaranitica,sima-SP_oficial-cncflora_web,NA,Indigofera guaranitica,ap
 Dahlstedtia pentaphylla,cncflora_ckan,NA,Dahlstedtia pentaphylla,apta,cncflora_ckan
 Sellocharis paradoxa,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Sellocharis paradoxa,examinar,sima-Portaria 443/2014
 Gliricidia sepium,UICN_API,NA,Gliricidia sepium,apta,UICN_API
-Ulex europaeus,UICN_API,NA,Ulex europaeus,apta,UICN_API
+Ulex europaeus,UICN_API,NA,Ulex europaeus,inapta,UICN_API
 Aldina microphylla,sima,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Aldina microphylla,examinar,sima
 Desmodium subsecundum,UICN_API,NA,Desmodium subsecundum,apta,UICN_API
 Mimosa brevipetiolata,UICN_API,NA,Mimosa brevipetiolata,apta,UICN_API
@@ -4528,7 +4528,7 @@ Pabstiella castellensis,sima-Portaria 443/2014,A espécie não ocorre no Estado 
 Bipinnula penicillata,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Bipinnula penicillata,examinar,sima-Portaria 443/2014
 Capanemia therezae,cncflora_web,Nome original era sinônimo,Capanemia fluminensis-Capanemia therezae-Capanemia thereziae,apta,cncflora_web-sima-cncflora_web
 Capanemia therezae,sima,NA,Capanemia fluminensis-Capanemia therezae-Capanemia thereziae,apta,cncflora_web-sima-cncflora_web
-Camaridium meleagris,sima,"Taxonomia incerta/Nome ainda é sinônimo, checar",Camaridium meleagris,examinar,sima
+Maxillaria meleagris,sima,"Taxonomia incerta/Nome ainda é sinônimo, checar",Camaridium meleagris,examinar,sima
 Trichocentrum schwambachiae,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,Lophiaris schwambachiae,examinar,sima-Portaria 443/2014
 Cattleya cernua,sima,NA,Cattleya cernua-Sophronitis cernua,apta,sima-cncflora_web
 Cattleya cernua,cncflora_web,Nome original era sinônimo,Cattleya cernua-Sophronitis cernua,apta,sima-cncflora_web
@@ -4620,8 +4620,8 @@ Phyllanthus claussenii,cncflora_web,NA,Phyllanthus claussenii,apta,cncflora_web
 Phyllanthus gladiatus,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Phyllanthus gladiatus,examinar,sima-Portaria 443/2014
 Phyllanthus niruri subsp. lathyroides,sima,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,Phyllanthus rosellus,examinar,sima
 Phyllanthus riedelianus,cncflora_ckan-UICN_API,NA,Phyllanthus riedelianus,apta,cncflora_ckan-UICN_API
-Phyllanthus subemarginatus,cncflora_web,Nome original era sinônimo,Phyllanthus retroflexus-Phyllanthus subemarginatus,apta,cncflora_web-sima
-Phyllanthus subemarginatus,sima,NA,Phyllanthus retroflexus-Phyllanthus subemarginatus,apta,cncflora_web-sima
+Phyllanthus subemarginatus,cncflora_web,Nome original era sinônimo,Phyllanthus retroflexus-Phyllanthus subemarginatus,inapta,cncflora_web-sima
+Phyllanthus subemarginatus,sima,NA,Phyllanthus retroflexus-Phyllanthus subemarginatus,inapta,cncflora_web-sima
 Savia dictyocarpa,sima-cncflora_web,NA,Savia dictyocarpa,apta,sima-cncflora_web
 Gallesia integrifolia,UICN_API,NA,Gallesia integrifolia,apta,UICN_API
 Seguieria americana,cncflora_web,NA,Seguieria americana,apta,cncflora_web
@@ -5572,8 +5572,8 @@ Cestrum mariquitense,UICN_API,NA,Cestrum mariquitense,apta,UICN_API
 Cestrum schlechtendalii,UICN_API,Nome original mal escrito,Cestrum schlechtendahlii,apta,UICN_API
 Cestrum subpulverulentum,cncflora_ckan-UICN_API,NA,Cestrum subpulverulentum,apta,cncflora_ckan-UICN_API
 Dyssochroma longipes,cncflora_web,NA,Dyssochroma longipes,apta,cncflora_web
-Lycianthes repens,sima-cncflora_web-Portaria 443/2014,NA,Lycianthes repens-Solanum violifolium,apta,sima-cncflora_web-Portaria 443/2014-sima
-Lycianthes repens,sima,Nome original era sinônimo,Lycianthes repens-Solanum violifolium,apta,sima-cncflora_web-Portaria 443/2014-sima
+Lycianthes repens,sima-cncflora_web-Portaria 443/2014,NA,Lycianthes repens-Solanum violifolium,inapta,sima-cncflora_web-Portaria 443/2014-sima
+Lycianthes repens,sima,Nome original era sinônimo,Lycianthes repens-Solanum violifolium,inapta,sima-cncflora_web-Portaria 443/2014-sima
 Lycium glomeratum,sima-cncflora_web,NA,Lycium glomeratum,apta,sima-cncflora_web
 Nicotiana mutabilis,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Nicotiana mutabilis,examinar,sima-Portaria 443/2014
 Petunia bonjardinensis,sima-Portaria 443/2014,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,Petunia bonjardinensis,examinar,sima-Portaria 443/2014
