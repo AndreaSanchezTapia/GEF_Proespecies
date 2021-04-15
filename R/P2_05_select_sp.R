@@ -1,19 +1,16 @@
-full_join(a, b) %>%
-  #   full_join(c) %>%
-  #   full_join(d) %>%
-      arrange(sp) %>%
-     mutate(sum = rowSums(across(where(is.logical)), na.rm = T)) %>% View()
-
-
 library(readxl)
 library(dplyr)
-spp <- read_excel("output/p2/Lista de espécies-geral.xlsx", sheet = 1)
+
+#le a tabela revisada com coluna "ameacada"
+spp <- read_excel("output/p2/Lista de espécies-geral.xlsx", sheet = 1, na = "NA")
 names(spp)
+any(is.na(spp$nome_aceito_correto))
 
 spp$nome_aceito_correto[spp$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
 
 dim(spp)
 
+#cria "entra" para saber quem vai de fato e organiza por nomes_aceito_correto
 entra <- spp %>%
   select(nome_aceito_correto, `ENTRA OU NAO`) %>%
   count(nome_aceito_correto, `ENTRA OU NAO`) %>%
@@ -28,17 +25,13 @@ entra <- spp %>%
 entra
 readr::write_csv(entra, "output/p2/03_entra.csv")
 
-spp %>% filter(nome_aceito_correto %in% dupl) %>% View()
-  count( `elegivel - Produto 1`,
-         `Produto 1 - final`,
-         `elegivel - Produto 2`)
 
 #produto 2
 p2 <- readr::read_csv("output/p2/p2_inicial.csv")
 names(p2)
 dim(p2)
-setdiff(spp$nome_aceito_correto, p2$nome_aceito_correto)
-setdiff(p2$nome_aceito_correto, spp$nome_aceito_correto)
+setdiff(entra$nome_aceito_correto, p2$nome_aceito_correto)
+setdiff(p2$nome_aceito_correto, entra$nome_aceito_correto)
 
 #cruza
 cruza <- read_csv("output/p2/01_cruzam_shapes.csv") %>%
