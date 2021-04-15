@@ -12,6 +12,7 @@ library(purrr)
 #le tabela produto 1
 p1 <- read_xlsx("output/p2/Lista de espécies-geral para analise andrea- PR-14-04.xlsx",
                  sheet = 2)
+p1$nome_aceito_correto[p1$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
 names(p1)
 #formata lista com os nomes bons
 p2 <- p1 %>%
@@ -20,30 +21,34 @@ p2 <- p1 %>%
          nome_aceito_correto,
          fontes,
          elegivel,
+         `elegivel - Produto 2`,
          notas) %>%
          group_by(nome_aceito_correto) %>%
   mutate(
     nomes_originais = paste(especie_original, collapse = "-"),
-    elegivel_originais = paste(elegivel, collapse = "-"),
-         fontes_originais = paste(fontes, collapse = "-")) %>%
+    elegivel_produto_1 = paste(elegivel, collapse = "-"),
+    elegivel_produto_2 = paste(`elegivel - Produto 2`, collapse = "-"),
+    notas = paste(notas, collapse = "-"),
+    fontes_originais = paste(fontes, collapse = "-")) %>%
   select(-especie_original, fontes, -elegivel) %>%
   distinct() %>%
-  ungroup() %>%
-  #isto eh feio para caramba
-  mutate(elegivel_originais = case_when(
-    elegivel_originais %in% c("apta",
+  ungroup() %>% count(elegivel_produto_1) %>%
+  #isto eh feio para caramba-
+  mutate(elegivel_produto_1 = case_when(
+    elegivel_produto_1 %in% c("apta",
                               "apta-apta",
                               "apta-apta-apta",
                               "apta-apta-apta-apta",
                               "apta-apta-apta-apta-apta") ~ "apta",
-    elegivel_originais %in% c("apta-examinar", "examinar-apta") ~ "apta-examinar",
-    stringr::str_detect(elegivel_originais, pattern = "inapta") ~ "inapta",
-    elegivel_originais %in% c("examinar",
+    elegivel_produto_1 %in% c("apta-examinar", "examinar-apta", "apta-inapta") ~ "examinar",
+    stringr::str_detect(elegivel_produto_1, pattern = "inapta") ~ "inapta",
+    elegivel_produto_1 %in% c("examinar",
                               "examinar-examinar",
                               "examinar-examinar-examinar") ~ "examinar")
 ) %>%  distinct()
 p2
-p2$nome_aceito_correto[p2$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
+length(unique(p2$nome_aceito_correto))
+
 count(p2, elegivel_originais)
 
 dir.create("output/p2")
