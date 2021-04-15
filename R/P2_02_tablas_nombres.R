@@ -13,20 +13,22 @@ load_and_rename <- function(object, name) {
 }
 ## test
 load_and_rename(object = spp_files[1], name = spp[1])
-
-lista_completa <- purrr::map2(spp_files, spp, ~load_and_rename(.x, .y))
+library("furrr")
+plan(multisession, workers = 10)
+lista_completa <- furrr::future_map2(spp_files, spp, ~load_and_rename(.x, .y))
 lista_completa[1]
 names(lista_completa) <- spp
 
 
 #extrai a tabela de sinonimos, pode ser NULL
-syn_todas <- purrr::map(lista_completa,
-                        ~.x$synonyms)
+syn_todas <- furrr::future_map(lista_completa,
+                               ~.x$synonyms,
+                               .progress = T)
 #quando tem?
-tax_syn_yes_no <- purrr::map(tax_todas,
-                             ~unique(.x$synonyms))
+#tax_syn_yes_no <- furrr::future_map(tax_todas,
+#                                   ~ unique(.x$synonyms))
 #quantas?
-table(unlist(tax_syn_yes_no))
+#table(unlist(tax_syn_yes_no))
 
 #checa o  string quando a tabela nao eh nula
 check_non_null <- function(x) {
@@ -40,18 +42,17 @@ a <- check_non_null(NULL)
 a <- check_non_null(syn_todas[[7]])
 a <- check_non_null(syn_todas[[1]])
 #aplica:
-syn_list <- purrr::map(syn_todas,
-                      ~check_non_null(.x))
+syn_list <- furrr::future_map(syn_todas,
+                              ~ check_non_null(.x),
+                              .progress = T)
 # temos uma lista de nomes com os sinonimos quando a especie tem sinonimos
 
 #formata em tibble
-sin_df <- purrr::imap(syn_list,
-                     ~dplyr::tibble(especie = .y, nomes =c(.y, .x))
-                     )
+sin_df <- furrr::future_imap(syn_list,
+                             ~ dplyr::tibble(especie = .y, nomes = c(.y, .x)),
+                             .progress = T)
 pasta <- "output/p2/sinonimos"
 dir.create(pasta)
-purrr::imap(sin_df, ~readr::write_csv(.x, file = fs::path(pasta, .y, ext = "csv")))
-
-write.csv(data.frame(nome = sp, sinonimos = syn), file = paste0("output/p2/", unique(sp), ".csv"))
-
+furrr::future_imap(sin_df, ~readr::write_csv(.x, file = fs::path(pasta, .y, ext = "csv")))
+plan(sequential)
 #sucesso
