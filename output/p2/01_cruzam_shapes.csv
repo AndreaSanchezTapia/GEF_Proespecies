@@ -507,6 +507,7 @@ Baccharis sphenophylla,TRUE,TRUE,TRUE,TRUE,4
 Baccharis weirii,FALSE,FALSE,FALSE,FALSE,0
 Bacopa cochlearia,FALSE,FALSE,FALSE,FALSE,0
 Bacopa congesta,TRUE,FALSE,TRUE,FALSE,2
+Bacopa monnieri,TRUE,NA,TRUE,NA,2
 Bactris hatschbachii,TRUE,TRUE,FALSE,FALSE,2
 Bactris timbuiensis,FALSE,FALSE,FALSE,FALSE,0
 Balfourodendron riedelianum,TRUE,TRUE,TRUE,TRUE,4
@@ -913,6 +914,7 @@ Cattleya briegeri,FALSE,FALSE,FALSE,FALSE,0
 Cattleya caulescens,FALSE,FALSE,FALSE,FALSE,0
 Cattleya cernua,TRUE,FALSE,FALSE,FALSE,1
 Cattleya coccinea,TRUE,TRUE,TRUE,TRUE,4
+Cattleya crispa,TRUE,FALSE,TRUE,FALSE,2
 Cattleya dormaniana,NA,FALSE,NA,FALSE,0
 Cattleya endsfeldzii,FALSE,NA,FALSE,NA,0
 Cattleya ghillanyi,FALSE,FALSE,FALSE,FALSE,0
@@ -1357,10 +1359,10 @@ Cybianthus peruvianus,TRUE,TRUE,TRUE,TRUE,4
 Cyclolobium brasiliense,TRUE,TRUE,TRUE,TRUE,4
 Cyclopogon dutrae,FALSE,FALSE,FALSE,FALSE,0
 Cyclopogon longibracteatus,FALSE,FALSE,FALSE,FALSE,0
-Cyclosorus interruptus,TRUE,NA,TRUE,NA,2
-Cycnoches pentadactylum,FALSE,NA,FALSE,NA,0
-Cylindrocolea rhizantha,TRUE,NA,TRUE,NA,2
-Cymbocarpa refracta,TRUE,NA,TRUE,NA,2
+Cyclosorus interruptus,TRUE,FALSE,TRUE,FALSE,2
+Cycnoches pentadactylum,FALSE,FALSE,FALSE,FALSE,0
+Cylindrocolea rhizantha,TRUE,TRUE,TRUE,TRUE,4
+Cymbocarpa refracta,TRUE,FALSE,TRUE,FALSE,2
 Cynophalla flexuosa,TRUE,NA,TRUE,NA,2
 Cyperus articulatus,FALSE,NA,FALSE,NA,0
 Cyperus brasiliensis,TRUE,TRUE,TRUE,TRUE,4
@@ -2990,6 +2992,7 @@ Maxillaria desvauxiana,TRUE,FALSE,TRUE,FALSE,2
 Maxillaria elluziae,FALSE,FALSE,FALSE,FALSE,0
 Maxillaria ferdinandiana,TRUE,TRUE,TRUE,TRUE,4
 Maxillaria marginata,TRUE,TRUE,TRUE,TRUE,4
+Maxillaria meleagris,NA,TRUE,NA,TRUE,2
 Maxillaria parviflora,TRUE,TRUE,TRUE,TRUE,4
 Maxillaria phoenicanthera,TRUE,FALSE,TRUE,FALSE,2
 Maxillaria pumila,TRUE,TRUE,TRUE,TRUE,4
@@ -4247,6 +4250,7 @@ Pouteria ericoides,FALSE,FALSE,FALSE,FALSE,0
 Pouteria exstaminodia,FALSE,NA,FALSE,NA,0
 Pouteria fulva,FALSE,FALSE,FALSE,FALSE,0
 Pouteria furcata,FALSE,FALSE,FALSE,FALSE,0
+Pouteria gardneri,TRUE,TRUE,TRUE,TRUE,4
 Pouteria gardneriana,TRUE,TRUE,TRUE,TRUE,4
 Pouteria glomerata,TRUE,TRUE,FALSE,FALSE,2
 Pouteria latianthera,FALSE,FALSE,FALSE,FALSE,0
