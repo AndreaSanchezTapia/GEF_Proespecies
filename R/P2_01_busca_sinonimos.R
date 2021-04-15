@@ -10,11 +10,12 @@ library(dplyr)
 library(purrr)
 
 #le tabela produto 1
-p1 <- read_xlsx("data/dados_formatados/produto1/produto1_Lista_de_espécies.xlsx",
+p1 <- read_xlsx("output/p2/Lista de espécies-geral para analise andrea- PR-14-04.xlsx",
                  sheet = 2)
-
+names(p1)
 #formata lista com os nomes bons
 p2 <- p1 %>%
+  rename(elegivel = `elegivel - Produto 1`) %>%
   select(especie_original,
          nome_aceito_correto,
          fontes,
@@ -42,6 +43,7 @@ p2 <- p1 %>%
                               "examinar-examinar-examinar") ~ "examinar")
 ) %>%  distinct()
 p2
+p2$nome_aceito_correto[p2$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
 count(p2, elegivel_originais)
 
 dir.create("output/p2")
