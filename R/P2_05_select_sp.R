@@ -66,8 +66,6 @@ resumo %>%
    write_csv("output/p2/03_resumo_anotado.csv")
 
 
-resumo <- readr::read_csv("output/p2/02_resumo.csv")
-resumo$
-
-junto <- left_join(spp, resumo)
-write_csv(junto, "output/p2/P1_atualizado.csv")
+#a primeira versao do resumo ainda usava spp como base,
+#junto <- left_join(spp, resumo)
+#write_csv(junto, "output/p2/P1_atualizado.csv")

@@ -11,10 +11,17 @@ occs <- list.files("output/p2/occs/",recursive = T, full.names = T, pattern = ".
 gbif <- occs[stringr::str_detect(occs, "splink", negate = T)]
 splink <- occs[stringr::str_detect(occs, "gbif", negate = T)]
 
+#checar arquivos vazios
+empty <- file.info(occs)[["size"]] == 0
+which(empty)
+occs[which(empty)]
+#unlink(empty)
 nomes_splink <- basename(splink) %>% stringr::str_remove(".csv")
 nomes_gbif   <- basename(gbif)   %>% stringr::str_remove(".csv")
 names(splink) <- nomes_splink
 names(gbif) <- nomes_gbif
+
+tibble(sp = nomes_gbif, source = "gbif") %>% left_join(tibble(sp = nomes_splink, source = "splink"), by = "sp")
 
 #le os shapes
 rbcv <- read_sf("data/dados_crus/RBCV_Limite/RBCV_Limite_datageo_jan2020.shp")

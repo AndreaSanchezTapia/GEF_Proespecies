@@ -34,18 +34,18 @@ Agrupando pelos nomes corretos, a classificação prévia das espécies como apt
 
 ```{r remedy002}
 
-p2 <- read_csv("output/p2/p2_inicial.csv")
-knitr::kable(count(p2, elegivel_originais))
+p2 <- read_csv("output/p2/03_resumo_anotado.csv")
+knitr::kable(count(p2, elegivel_produto_1))
 ```
 
-As espécies classificadas como apta-examinar correspondem a nomes diferentes onde um dos nomes é apto e o outro corresponde a um nome que não foi detectado pela Flora do Brasil, portanto serão re-examinadas, mas isto não representa um problema. 
 
 Os motivos para a classificação são os seguintes:
 ```{r}
 p2 %>%
-  filter(elegivel_originais != "inapta") %>%
-  select(elegivel_originais, notas) %>%
-  count(elegivel_originais, notas) %>%
+#  filter(elegivel_produto_1 != "inapta") %>%
+ # select(elegivel_produto_1, notas) %>%
+  count(elegivel_produto_1, notas_all) %>%
+  arrange(desc(n)) %>% 
   knitr::kable()
 ```
 
@@ -57,14 +57,15 @@ A tabela de espécies do Produto 1 foi reformatada para obtermos uma linha por n
 
 ```{r}
 especies <- p2 %>%
-  filter(elegivel_originais != "inapta") %>%
+  filter(elegivel_produto_1 != "inapta") %>%
   #select(nome_aceito_correto) %%
   filter(!is.na(nome_aceito_correto)) %>%
   distinct(nome_aceito_correto) %>%
   pull()
 
 
-ignorar <- str_detect(especies, "subsp.") | str_detect(especies, "var.")
+ignorar <- str_detect(especies, "subsp.") |
+  str_detect(especies, "var.")
 ```
 
 Dentre as `r length(especies)` espécies classificadas como aptas e examinar  `r sum(ignorar)` correspondem a subespécies e variedades. Estes nomes infraespecíficos não puderam (*) ser checados por sinônimos pela Flora do Brasil. 
@@ -83,6 +84,27 @@ Para cada nome, os sinônimos pela FB2020 foram extraídos, e todos os nomes for
 
 Para cada nome aceito e correto, e cada sinônimo aceito pela FB2020, foram requeridos os registros nas bases de dados SpeciesLink e GBIF (Global Biodiversity Information Facility).
 
-Os erros de download em ambas as bases foram corrigidos manualmente.
+```{r remedy003}
+occs <- list.files("output/p2/occs/",recursive = T, full.names = T, pattern = ".csv")
+gbif <- occs[stringr::str_detect(occs, "splink", negate = T)] %>% basename() %>% stringr::str_remove(".csv")
+splink <- occs[stringr::str_detect(occs, "gbif", negate = T)] %>% basename() %>% stringr::str_remove(".csv")
 
+```
+
+Os erros de download em ambas as bases foram corrigidos manualmente. No entanto, algumas buscas não retornaram resultados, principalmente devido a nomes ausentes das bases de dados.No final da fase de download, `r length(gbif)` espécies têm dados provindos de GBIF e `r length(splink)` têm dados provindos de SpeciesLink.
+
+
+## 
+
+- [x] Quem é ameaçada?
+- [x] Quem fura ou nao os shapes
+- [ ] Qual e a lista final de especies das quais vamos retornar ocorrencias. 
+    1. Entra (por cat_ameaca)
+    2. Entra iif&& Aptas segundo a FB (mesmo que nao cruze)
+    3. qualquer coisa que cruze e que seja entra (por cat_ameaca)
+    3. Com ocorrencias
+    
+
+- [ ] Juntar* sim ou sim para cada especie final selecionada a base de gbif e a base de species link 
+ - Juntar bases de species link e gbif para uma especie só: formatar os campos!!!!
 
