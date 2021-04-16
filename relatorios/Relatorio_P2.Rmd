@@ -16,6 +16,7 @@ library(readxl)
 library(readr)
 library(dplyr)
 library(stringr)
+library(knitr)
 p1 <- read_xlsx("data/dados_formatados/produto1/produto1_Lista_de_espécies.xlsx",
                  sheet = 2)
 
@@ -92,6 +93,22 @@ splink <- occs[stringr::str_detect(occs, "gbif", negate = T)] %>% basename() %>%
 ```
 
 Os erros de download em ambas as bases foram corrigidos manualmente. No entanto, algumas buscas não retornaram resultados, principalmente devido a nomes ausentes das bases de dados.No final da fase de download, `r length(gbif)` espécies têm dados provindos de GBIF e `r length(splink)` têm dados provindos de SpeciesLink.
+
+## Especies com download em ambas bases de dados
+
+```{r remedy004}
+tb <- tibble(sp = especies) %>% 
+full_join(tibble(sp = gbif, source = "gbif")) %>%
+  full_join(tibble(sp = splink, source = "splink"), by = "sp") %>% arrange(sp)
+  rmarkdown::paged_table(tb)
+```
+
+```{r remedy005}
+nodata <- tb %>% filter(is.na(source.x) & is.na(source.y)) %>% pull(sp)
+```
+
+As espécies seguintes nao têm dados para nenhuma das fontes de dados: _`r nodata`_.
+
 
 
 ## 
