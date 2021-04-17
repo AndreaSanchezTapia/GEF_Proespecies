@@ -30,11 +30,29 @@ notas <- spp %>%
   arrange(nome_aceito_correto) %>%
   ungroup() %>%
   #count(ameacada)
-  mutate(cat_ameaca = if_else(ameacada %in% c("AMEACADA", "AMEACADA-NAO"), "entra", "nao entra")) %>%
-  select(nome_aceito_correto, entra) %>%
+  mutate(cat_ameaca_geral = if_else(ameacada %in% c("AMEACADA", "AMEACADA-NAO"), "entra", "nao entra")) %>%
+  select(nome_aceito_correto, cat_ameaca_geral) %>%
   distinct()
 entra
 readr::write_csv(entra, "output/p2/03_entra.csv")
+
+#cats
+#cria "entra" para saber quem vai de fato e organiza por nomes_aceito_correto
+cat_ameaca <-
+  spp %>%
+  select(nome_aceito_correto, starts_with("cat_ameaca")) %>%
+  count(nome_aceito_correto, cat_ameaca_cr_lac, cat_ameaca_iucn, cat_ameaca_mpo_sp, cat_ameaca_br,    cat_ameaca_cncflora, cat_ameaca_sp) %>%
+  group_by(nome_aceito_correto) %>%
+  mutate(across(starts_with("cat_ameaca"), .fns = function(x) paste(x, collapse = "-"))) %>%
+  arrange(nome_aceito_correto) %>%
+  ungroup() %>%
+  #  count(across(starts_with("cat_ameaca"))) %>% arrange(desc(n))
+  #mutate(cat_ameaca_geral = if_else(ameacada %in% c("AMEACADA", "AMEACADA-NAO"), "entra", "nao entra")) %>%
+  #select(nome_aceito_correto, cat_ameaca_geral) %>%
+    select(-n) %>%
+  distinct()
+
+readr::write_csv(cat_ameaca, "output/p2/04_cat_ameaca.csv")
 
 
 #produto 2
@@ -49,10 +67,15 @@ entra
 cruza <- read_csv("output/p2/01_cruzam_shapes.csv") %>%
   rename(nome_aceito_correto = sp)
 
-resumo <- p2 %>% left_join(cruza) %>% left_join(entra) %>% left_join(notas)
+resumo <- p2 %>%
+  left_join(notas) %>%
+  left_join(cat_ameaca) %>%
+  left_join(entra) %>%
+  left_join(cruza)
+names(resumo)
 resumo %>% write_csv("output/p2/02_resumo.csv")
 
-resumo %>% count(entra)
+resumo %>% count(cat_ameaca_geral)
 
 resumo %>%
   count(elegivel_produto_1 == "examinar",sum > 0,str_detect(notas_all, "ocorre")) %>% View()

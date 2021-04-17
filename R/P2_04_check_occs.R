@@ -21,7 +21,8 @@ nomes_gbif   <- basename(gbif)   %>% stringr::str_remove(".csv")
 names(splink) <- nomes_splink
 names(gbif) <- nomes_gbif
 
-tibble(sp = nomes_gbif, source = "gbif") %>% left_join(tibble(sp = nomes_splink, source = "splink"), by = "sp")
+tibble(sp = nomes_gbif, source = "gbif") %>%
+  left_join(tibble(sp = nomes_splink, source = "splink"), by = "sp")
 
 #le os shapes
 rbcv <- read_sf("data/dados_crus/RBCV_Limite/RBCV_Limite_datageo_jan2020.shp")
