@@ -27,6 +27,7 @@ tibble(sp = nomes_gbif, source = "gbif") %>%
 #le os shapes
 rbcv <- read_sf("data/dados_crus/RBCV_Limite/RBCV_Limite_datageo_jan2020.shp")
 t20  <- read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
+sp  <- read_sf("data/dados_crus/SP_UF_2020/SP_UF_2020.shp")
 
 #checa se cruza
 cruza_shape <- function(tabela, shape) {
@@ -48,13 +49,14 @@ cruza_shape <- function(tabela, shape) {
     }
 }
 
-
 plan(multisession, workers = 15)
 #cruza_t20_splink  <- furrr::future_map(splink,
 #                                       ~cruza_shape(.x, t20), .progress = T)
 #cruza_rbcv_splink <- furrr::future_map(splink, ~cruza_shape(.x, rbcv), .progress = T)
 #cruza_rbcv_gbif   <- furrr::future_map(gbif,   ~cruza_shape(.x, rbcv), .progress = T)
 #cruza_t20_gbif   <- furrr::future_map(gbif,   ~cruza_shape(.x, t20), .progress = T)
+cruza_sp_gbif   <- furrr::future_map(gbif,   ~cruza_shape(.x, sp), .progress = T)
+cruza_sp_splink <- furrr::future_map(splink, ~cruza_shape(.x, sp), .progress = T)
 
 plan(sequential)
 
@@ -64,6 +66,8 @@ a <- cruza_t20_splink %>% bind_rows() %>% rename(splink_t20 = inside)
 b <- cruza_t20_gbif %>% bind_rows() %>% rename(gbif_t20 = inside)
 c <- cruza_rbcv_splink %>% bind_rows() %>% rename(splink_rbcv = inside)
 d <- cruza_rbcv_gbif %>% bind_rows() %>% rename(gbif_rbcv = inside)
+f <- cruza_sp_splink %>% bind_rows() %>% rename(splink_sp = inside)
+e <- cruza_sp_gbif %>% bind_rows() %>% rename(gbif_sp = inside)
 
 #salva quem cruza e quem nao
 full_join(a, b) %>%
@@ -72,3 +76,11 @@ full_join(a, b) %>%
   arrange(sp) %>%
   mutate(sum = rowSums(across(where(is.logical)), na.rm = T)) %>%
   write_csv("output/p2/01_cruzam_shapes.csv")
+
+cruza <- read_csv("output/p2/01_cruzam_shapes.csv")
+cruza %>% select(-sum) %>% full_join(f) %>% full_join(e) %>%
+  arrange(sp) %>%
+  mutate(sum = rowSums(across(where(is.logical)), na.rm = T)) %>%
+  #count(sum)
+  write_csv("output/p2/01_cruzam_shapes.csv")
+

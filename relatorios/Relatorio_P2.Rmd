@@ -94,6 +94,7 @@ splink <- occs[stringr::str_detect(occs, "gbif", negate = T)] %>% basename() %>%
 
 Os erros de download em ambas as bases foram corrigidos manualmente. No entanto, algumas buscas não retornaram resultados, principalmente devido a nomes ausentes das bases de dados.No final da fase de download, `r length(gbif)` espécies têm dados provindos de GBIF e `r length(splink)` têm dados provindos de SpeciesLink.
 
+
 ## Especies com download em ambas bases de dados
 
 ```{r remedy004}
@@ -109,13 +110,24 @@ nodata <- tb %>% filter(is.na(source.x) & is.na(source.y)) %>% pull(sp)
 
 As espécies seguintes nao têm dados para nenhuma das fontes de dados: _`r nodata`_.
 
+## Checagem geográfica
+
+O _shapefile_ para conferência da ocorrência de cada espécie no estado de São Paulo
+foi baixado do endereço: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?edicao=30138&t=downloads -  Seção Geocièncias > Organização do território > Malhas territoriais > municipio_2020 > UFs > SP > SP_UF_2020.zip.
+
+Os demais _shapefiles_ foram fornecidos pela contratante e correspondem aos municípios do território 20 e à RBCV.
+
+Para todas as espécies, as ocorrências provindas de SpeciesLink e GBIF foram cruzadas com os shapefiles, criando vetores lógicos que respondem à pergunta x tabela cruza com y shape? Por exemplo, sp_splink corresponde às espécies com alguma ocorrência dentro do Estado de São Paulo para a fonte de dados SpeciesLink.
+
+### Seleção preliminar de espécies
+
 
 
 ## 
 
 - [x] Quem é ameaçada?
 - [x] Quem fura ou nao os shapes
-- [ ] Qual e a lista final de especies das quais vamos retornar ocorrencias. 
+- [ ] Qual  a lista final de especies das quais vamos retornar ocorrencias. 
     1. Entra (por cat_ameaca)
     2. Entra iif&& Aptas segundo a FB (mesmo que nao cruze)
     3. qualquer coisa que cruze e que seja entra (por cat_ameaca)
