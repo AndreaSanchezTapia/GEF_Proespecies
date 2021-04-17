@@ -2,18 +2,18 @@ library(readr)
 library(knitr)
 library(Rocc)
 
-p2 <- read_csv("output/p2/02_resumo.csv")
-checa as categorias atuais
- nop <- p2 %>%
-   filter(cat_ameaca_geral == "nao entra" &
-            elegivel_produto_1 != "inapta")
- nop %>% count(cat_ameaca_iucn)
-
-# #corrige cat_ameaca_br
- nop %>% count(cat_ameaca_br)#2
- p2$cat_ameaca_geral[which(p2$elegivel_produto_1 != "inapta" &
-                             p2$cat_ameaca_br  == "EN" &
-                             p2$cat_ameaca_geral == "nao entra")] <- "entra"
+# p2 <- read_csv("output/p2/02_resumo.csv")
+# checa as categorias atuais
+#  nop <- p2 %>%
+#    filter(cat_ameaca_geral == "nao entra" &
+#             elegivel_produto_1 != "inapta")
+#  nop %>% count(cat_ameaca_iucn)
+#
+# # #corrige cat_ameaca_br
+#  nop %>% count(cat_ameaca_br)#2
+#  p2$cat_ameaca_geral[which(p2$elegivel_produto_1 != "inapta" &
+#                              p2$cat_ameaca_br  == "EN" &
+#                              p2$cat_ameaca_geral == "nao entra")] <- "entra"
 #
 # nop %>% count(cat_ameaca_cncflora)
 # nop %>% count(cat_ameaca_sp)
@@ -46,16 +46,17 @@ p2 %>% filter(nome_aceito_correto %in% especies) %>% count(splink_sp | gbif_sp, 
 p2_selecionadas <- p2 %>%
   filter(nome_aceito_correto %in% especies)
 write_csv(p2_selecionadas, "output/p2/p2_selecionadas.csv")
-
+names(p2_selecionadas)
+p2_selecionadas %>% count(elegivel_produto_1, cat_ameaca_geral, gbif_sp, splink_sp) %>% arrange(desc(n))
 #### hasta aqui seleccion
 
 
 #lee las tablas de ocurrencias
 occs <- list.files("output/p2/occs",recursive = T, full.names = T, pattern = ".csv")
 #checar arquivos vazios
-#empty <- file.info(occs)[["size"]] == 0
-#which(empty)
-#occs[which(empty)]
+empty <- file.info(occs)[["size"]] == 0
+which(empty)
+occs[which(empty)]
 #unlink(empty)
 oc_sp <- basename(occs) %>% stringr::str_remove(".csv")
 selecionadas <- occs[oc_sp %in% especies]
@@ -74,68 +75,96 @@ occs <- tibble(sp = especies) %>%
   arrange(sp)
 occs
 #
-library("remotes")
-install_github("LimaRAF/plantR")
+#library("remotes")
+#install_github("LimaRAF/plantR")
 library(plantR)
-library
-occs %>% View()
-   pasta_all <- fs::path("output/p2/all")
+
+
+   pasta_all <- fs::path("output/p2/sel_sp")
    dir.create(pasta_all)
 
-for (i in 1:10) {
-  spp <- occs$splink_file[i]
-  if (!is.na(spp)) {
-    spl <- read.csv(spp) %>%
-      mutate(across(is_integer, .fns = function(x) as.character(x)))%>%
-      mutate(across(is_double, .fns = function(x) as.character(x)))
-
-  } else spl <- NULL
-  gbb <- occs$gbif_file[i]
-  if (!is.na(gbb)) {
-    gbf <- read.csv(gbb) %>%
-      mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
-      mutate(across(is_double, .fns = function(x) as.character(x)))
-  } else gbf <- NULL
-   all <- formatDwc(splink_data = spl,
-                 gbif_data = gbf,
-                 drop.empty = T)
-   sp <- occs$sp[i]
-   file <- fs::path(pasta_all, sp, ext = "csv")
-   if (!file.exists(file)) {
-     write_csv(all, file = file)
-     }
-   rm(spl)
-   rm(gbf)
-   }
-
-names(occs)
-juntar_tudo <- function(.x) {
-  spp <- ..3
-  if (!is.na(spp)) {
-       spl <- read.csv(spp) %>%
-         mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
-         mutate(across(is_double, .fns = function(x) as.character(x)))
-
-     } else spl <- NULL
-  gbb <- ..2
-     if (!is.na(gbb)) {
-       gbf <- read.csv(gbb) %>%
-         mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
-         mutate(across(is_double, .fns = function(x) as.character(x)))
-     } else gbf <- NULL
-     all <- formatDwc(splink_data = spl,
-                      gbif_data = gbf,
-                      drop.empty = T)
-     sp <- ..1
-     file <- fs::path(pasta_all, sp, ext = "csv")
-     if (!file.exists(file)) {
-       write_csv(all, file = file)
-     }
-     rm(spl)
-     rm(gbf)
-   }
-occs[11,]
-purrr::pmap(occs[14,], ~{
+# for (i in 1:10) {
+#   spp <- occs$splink_file[i]
+#   if (!is.na(spp)) {
+#     spl <- read.csv(spp) %>%
+#       mutate(across(is_integer, .fns = function(x) as.character(x)))%>%
+#       mutate(across(is_double, .fns = function(x) as.character(x)))
+#
+#   } else spl <- NULL
+#   gbb <- occs$gbif_file[i]
+#   if (!is.na(gbb)) {
+#     gbf <- read.csv(gbb) %>%
+#       mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
+#       mutate(across(is_double, .fns = function(x) as.character(x)))
+#   } else gbf <- NULL
+#    all <- formatDwc(splink_data = spl,
+#                  gbif_data = gbf,
+#                  drop.empty = T)
+#    sp <- occs$sp[i]
+#    file <- fs::path(pasta_all, sp, ext = "csv")
+#    if (!file.exists(file)) {
+#      write_csv(all, file = file)
+#      }
+#    rm(spl)
+#    rm(gbf)
+#    }
+#
+# names(occs)
+# juntar_tudo <- function(.x) {
+#   spp <- ..3
+#   if (!is.na(spp)) {
+#        spl <- read.csv(spp) %>%
+#          mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
+#          mutate(across(is_double, .fns = function(x) as.character(x)))
+#
+#      } else spl <- NULL
+#   gbb <- ..2
+#      if (!is.na(gbb)) {
+#        gbf <- read.csv(gbb) %>%
+#          mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
+#          mutate(across(is_double, .fns = function(x) as.character(x)))
+#      } else gbf <- NULL
+#      all <- formatDwc(splink_data = spl,
+#                       gbif_data = gbf,
+#                       drop.empty = T)
+#      sp <- ..1
+#      file <- fs::path(pasta_all, sp, ext = "csv")
+#      if (!file.exists(file)) {
+#        write_csv(all, file = file)
+#      }
+#      rm(spl)
+#      rm(gbf)
+#    }
+#first with purrr
+# purrr::pmap(occs[1,], ~{
+#   sp <- ..1
+#   gbb <- ..2
+#   spp <- ..3
+#
+#   if (!is.na(spp)) {
+#     spl <- read.csv(spp) %>%
+#       mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
+#       mutate(across(is_double, .fns = function(x) as.character(x)))
+#
+#   } else spl <- NULL
+#   if (!is.na(gbb)) {
+#     gbf <- read.csv(gbb) %>%
+#       mutate(across(is_integer, .fns = function(x) as.character(x))) %>%
+#       mutate(across(is_double, .fns = function(x) as.character(x)))
+#   } else gbf <- NULL
+#   tryCatch({all <- formatDwc(splink_data = spl,
+#                    gbif_data = gbf,
+#                    drop.empty = T)
+#     file <- fs::path(pasta_all, sp, ext = "csv")
+#     if (!file.exists(file)) {
+#       write_csv(all, file = file)
+#     }
+#   })
+#   })
+#then with furrr
+   list.files(pasta_all)
+plan(multisession, workers = 15)
+furrr::future_pmap(occs[250:2000,], ~{
   sp <- ..1
   gbb <- ..2
   spp <- ..3
@@ -152,11 +181,13 @@ purrr::pmap(occs[14,], ~{
       mutate(across(is_double, .fns = function(x) as.character(x)))
   } else gbf <- NULL
   tryCatch({all <- formatDwc(splink_data = spl,
-                   gbif_data = gbf,
-                   drop.empty = T)
-    file <- fs::path(pasta_all, sp, ext = "csv")
-    if (!file.exists(file)) {
-      write_csv(all, file = file)
-    }
+                             gbif_data = gbf,
+                             drop.empty = T)
+  file <- fs::path(pasta_all, sp, ext = "csv")
+  if (!file.exists(file)) {
+    write_csv(all, file = file)
+  }
   })
-  })
+}, .progress = TRUE)
+
+plan(sequential)

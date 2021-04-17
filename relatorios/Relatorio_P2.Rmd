@@ -117,10 +117,16 @@ foi baixado do endereço: https://www.ibge.gov.br/geociencias/organizacao-do-ter
 
 Os demais _shapefiles_ foram fornecidos pela contratante e correspondem aos municípios do território 20 e à RBCV.
 
-Para todas as espécies, as ocorrências provindas de SpeciesLink e GBIF foram cruzadas com os shapefiles, criando vetores lógicos que respondem à pergunta x tabela cruza com y shape? Por exemplo, sp_splink corresponde às espécies com alguma ocorrência dentro do Estado de São Paulo para a fonte de dados SpeciesLink.
+Para todas as espécies, as ocorrências provindas de SpeciesLink e GBIF foram cruzadas com os _shapefiles_, criando vetores lógicos que respondem à pergunta x tabela cruza com y shape? Por exemplo, sp_splink corresponde às espécies com alguma ocorrência dentro do Estado de São Paulo para a fonte de dados SpeciesLink.
 
 ### Seleção preliminar de espécies
 
+As espécies cujos registros foram selecionados são espécies que cumprem os critérios seguintes:
+
+- Foram consideradas aptas ou examinar no Produto 1
+- Têm alguma categoria de ameaça superior a LC em qualquer das avaliações realizadas de revisadas no Produto 1. 
+- Têm alguma ocorrência cruzando o shapefile do Estado de São Paulo. 
+- 
 
 
 ## 
