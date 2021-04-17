@@ -20,6 +20,8 @@ notas <- spp %>%
   ungroup() %>%
   select(nome_aceito_correto, notas_all) %>%
   distinct()
+readr::write_csv(notas, "output/p2/05_notas.csv")
+
 
 #cria "entra" para saber quem vai de fato e organiza por nomes_aceito_correto
   entra <- spp %>%
@@ -54,41 +56,3 @@ cat_ameaca <-
 
 readr::write_csv(cat_ameaca, "output/p2/04_cat_ameaca.csv")
 
-
-#produto 2
-p2 <- readr::read_csv("output/p2/p2_inicial.csv")
-names(p2)
-dim(p2)
-setdiff(entra$nome_aceito_correto, p2$nome_aceito_correto)
-setdiff(p2$nome_aceito_correto, entra$nome_aceito_correto)
-
-#cruza
-entra
-cruza <- read_csv("output/p2/01_cruzam_shapes.csv") %>%
-  rename(nome_aceito_correto = sp)
-
-resumo <- p2 %>%
-  left_join(notas) %>%
-  left_join(cat_ameaca) %>%
-  left_join(entra) %>%
-  left_join(cruza)
-names(resumo)
-resumo %>% write_csv("output/p2/02_resumo.csv")
-
-resumo %>% count(cat_ameaca_geral)
-
-resumo %>%
-  count(elegivel_produto_1 == "examinar",sum > 0,str_detect(notas_all, "ocorre")) %>% View()
-library(stringr)
-resumo %>%
-  mutate(especialista =
-           case_when(
-             sum > 0  & str_detect(notas_all, "ocorre") ~ "FBnao- OCCScruzam",
-             sum == 0 & elegivel_produto_1 == "apta" ~ "FBsim- OCCSnaocruzam")
-         ) %>%
-   write_csv("output/p2/03_resumo_anotado.csv")
-
-
-#a primeira versao do resumo ainda usava spp como base,
-#junto <- left_join(spp, resumo)
-#write_csv(junto, "output/p2/P1_atualizado.csv")
