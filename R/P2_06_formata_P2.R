@@ -30,8 +30,8 @@ resumo <- resumo %>%
   )
 
   write_csv(resumo, "output/p2/02_resumo.csv")
-
-
+names(resumo)
+resumo %>% count(elegivel_produto_1, splink_sp, gbif_sp) %>% View()
 #a primeira versao do resumo ainda usava spp como base,
 #junto <- left_join(spp, resumo)
 #write_csv(junto, "output/p2/P1_atualizado.csv")

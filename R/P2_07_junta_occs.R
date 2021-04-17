@@ -20,7 +20,7 @@ checa as categorias atuais
 # nop %>% count(cat_ameaca_mpo_sp)
 # nop %>% count(cat_ameaca_cr_lac)
 #
-write_csv(p2, "output/p2/03_resumo_anotado.csv")
+#write_csv(p2, "output/p2/03_resumo_anotado.csv")
 
 p2 <- read_csv("output/p2/03_resumo_anotado.csv")
 
@@ -29,12 +29,26 @@ especies <- p2 %>%
          cat_ameaca_geral == "entra") %>%
   pull(nome_aceito_correto)
 
-
+#tira as que vamos ignorar
 ignorar <- str_detect(especies, "subsp.") |
   str_detect(especies, "var.")
 bajar <- especies[ignorar]
-
 especies <- especies[!ignorar]
+
+#tira as que nao tem em SP
+no_SP <- p2 %>% filter(elegivel_produto_1 == "examinar" &
+         splink_sp == FALSE &
+           gbif_sp == FALSE)%>%
+  pull(nome_aceito_correto)
+especies <- especies[!especies %in% no_SP]
+
+p2 %>% filter(nome_aceito_correto %in% especies) %>% count(splink_sp | gbif_sp, elegivel_produto_1, cat_ameaca_geral)
+p2_selecionadas <- p2 %>%
+  filter(nome_aceito_correto %in% especies)
+write_csv(p2_selecionadas, "output/p2/p2_selecionadas.csv")
+
+#### hasta aqui seleccion
+
 
 #lee las tablas de ocurrencias
 occs <- list.files("output/p2/occs",recursive = T, full.names = T, pattern = ".csv")
