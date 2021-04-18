@@ -4643,7 +4643,7 @@ Raddiella esenbeckii,Raddiella esenbeckii,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,F
 Reitzia smithii,Reitzia smithii,apta,NA,NA,NA,NA,VU,VU,EX,entra,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,1,NA
 Saccharum villosum,Saccharum villosum,apta,NA,NA,LC,NA,NA,NA,NA,nao entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
 Schizachyrium tenerum,Schizachyrium tenerum,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
-Setaria parviflora,Setaria parviflora,apta,NA,NA,LC,EX,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Setaria parviflora,Setaria parviflora,inapta,NA,NA,LC,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
 Setaria paucifolia,Setaria paucifolia,apta,NA,NA,NA,NA,NA,LC,NA,nao entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
 Setaria sphacelata,Setaria sphacelata,apta,NA,NA,LC,NA,NA,NA,NA,nao entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
 Setaria tenacissima,Setaria tenacissima,apta,NA,NA,NA,CR,NA,LC,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
@@ -4706,7 +4706,7 @@ Avena strigosa,Avena strigosa,apta,NA,NA,DD,NA,NA,NA,NA,entra,TRUE,FALSE,TRUE,FA
 Piptochaetium palustre,Piptochaetium palustre,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,entra,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0,NA
 Deschampsia cespitosa,Deschampsia caespitosa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original mal escrito,NA,NA,NA,EN,NA,NA,entra,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0,NA
 Paspalum exaltatum,Paspalum exaltatum,apta,NA,NA,NA,NA,NA,NA,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
-Setaria parviflora var. pilosissima,Setaria parviflora var. pilosissima,apta,NA,NA,NA,NA,CR,CR,EX,entra,NA,NA,NA,NA,NA,NA,NA,NA
+Setaria parviflora var. pilosissima,Setaria parviflora var. pilosissima,apta,NA,NA,NA,EX,CR,CR,EX,entra,NA,NA,NA,NA,NA,NA,NA,NA
 Paspalum foliiforme,Paspalum foliiforme,apta,NA,NA,NA,NA,NA,NA,EN,entra,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,2,NA
 Discolobium psoraleifolium,Discolobium psoraleifolium,inapta,Nome original mal escrito/Taxonomia incerta,NA,NA,NA,NA,DD,NA,nao entra,NA,NA,NA,NA,NA,NA,NA,NA
 Ocellochloa brachystachya,Ocellochloa brachystachya,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,entra,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0,NA

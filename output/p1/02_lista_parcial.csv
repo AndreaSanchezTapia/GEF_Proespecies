@@ -5041,8 +5041,8 @@ Sesbania punicea,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Sesbania virgata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Sessea brasiliensis,cncflora_web-UICN_API,NA,NA,NA,NA,NA,NT,DD,NA,NA
 Sessea regnellii,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
-Setaria parviflora,UICN_API-mpoSP,NA,NA,NA,NA,NA,NA,LC,EX,NA
-Setaria parviflora var. pilosissima,sima-SP_oficial-cncflora_web-Portaria 443/2014,NA,NE,EX,EX,NA,CR,NA,NA,CR
+Setaria parviflora,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
+Setaria parviflora var. pilosissima,sima-SP_oficial-cncflora_web-mpoSP-Portaria 443/2014,NA,NE,EX,EX,NA,CR,NA,EX,CR
 Setaria paucifolia,cncflora_web,NA,NA,NA,NA,NA,LC,NA,NA,NA
 Setaria sphacelata,UICN_API,NA,NA,NA,NA,NA,NA,LC,NA,NA
 Setaria stolonifera,sima-Portaria 443/2014,CR,NA,NA,NA,NA,NA,NA,NA,CR

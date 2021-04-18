@@ -2,7 +2,7 @@ library(readxl)
 library(dplyr)
 library(readr)
 #le a tabela revisada com coluna "ameacada"
-spp <- read_excel("output/p2/Lista de espécies-geral.xlsx", sheet = 1, na = "NA")
+spp <- read_excel("output/p2/Lista de espécies-geral para analise andrea- PR-14-04.xlsx", sheet = 2, na = "NA")
 names(spp)
 any(is.na(spp$nome_aceito_correto))
 

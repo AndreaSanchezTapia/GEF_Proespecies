@@ -3,7 +3,8 @@ library(dplyr)
 library(stringr)
 remotes::install_github("andreasancheztapia/flora")
 library(flora)
-
+sessioninfo::session_info()
+library(tidyr)
 
 #le tudo formatado
 output <- "data/dados_formatados"
@@ -85,7 +86,7 @@ write_csv(Lista_parcial, "output/02_lista_parcial.csv")
 #
 
 #juntar com a base unificada e examinar.
-flora_tudo <- readr::read_csv(file = fs::path("output", "03_flora_tudo", ext = "csv"))
+flora_tudo <- readr::read_csv(file = fs::path("output/p1", "03_flora_tudo", ext = "csv"))
 
 #cria especie_original para juntar
 flora_tudo$especie_original <- flora_tudo$original.search
@@ -93,7 +94,7 @@ flora_tudo$especie_original <- flora_tudo$original.search
 Lista_all <- left_join(Lista_parcial, flora_tudo) %>%
   distinct()
 readr::write_csv(Lista_all,
-                 file = fs::path("output", "04_tudo_sem formato", ext = "csv"))
+                 file = fs::path("output/p1", "04_tudo_sem formato", ext = "csv"))
 
 #agora só tem duplicados devido às fontes. vismia martiana em sp oficial e stenandrum diphyllum em sima
 dupl <- which(duplicated(Lista_all$especie_original))

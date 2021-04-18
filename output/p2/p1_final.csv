@@ -4841,8 +4841,8 @@ Angiospermas,Poaceae,Sacciolepis indica,NA,NA,Sacciolepis indica,Sacciolepis,ind
 Angiospermas,Poaceae,Schizachyrium scabriflorum,NA,NA,Schizachyrium scabriflorum,Schizachyrium,scabriflorum,especie,NA,NA,NA,NA,NA,EN,EN,EX,sima-SP_oficial-cncflora_web-Portaria 443/2014,apta,sim - produto 2,apta,apta,NA
 Angiospermas,Poaceae,Schizachyrium scabrifolium,NA,NA,Schizachyrium scabriflorum,Schizachyrium,scabriflorum,especie,NA,Nome original mal escrito,NA,NA,EX,NA,NA,NA,mpoSP,apta,sim - produto 2,apta,apta,NA
 Angiospermas,Poaceae,Schizachyrium tenerum,NA,NA,Schizachyrium tenerum,Schizachyrium,tenerum,especie,NA,NA,NA,NA,EN,NA,NA,EN,sima-SP_oficial-mpoSP,apta,sim - produto 2,apta,apta,NA
-Angiospermas,Poaceae,Setaria parviflora,NA,NA,Setaria parviflora,Setaria,parviflora,especie,NA,NA,NA,LC,EX,NA,NA,NA,UICN_API-mpoSP,apta,sim - produto 2,apta,apta,NA
-Angiospermas,Poaceae,Setaria parviflora var. pilosissima,NA,NA,Setaria parviflora var. pilosissima,Setaria,parviflora,variedade,pilosissima,NA,NA,NA,NA,CR,CR,EX,sima-SP_oficial-cncflora_web-Portaria 443/2014,apta,sim - produto 2,apta,apta,NA
+Angiospermas,Poaceae,Setaria parviflora,NA,NA,Setaria parviflora,Setaria,parviflora,especie,NA,NA,NA,LC,NA,NA,NA,NA,UICN_API,inapta,sim - produto 2,apta,apta,NA
+Angiospermas,Poaceae,Setaria parviflora var. pilosissima,NA,NA,Setaria parviflora var. pilosissima,Setaria,parviflora,variedade,pilosissima,NA,NA,NA,EX,CR,CR,EX,sima-SP_oficial-cncflora_web-Portaria 443/2014_mpoSP,apta,sim - produto 2,apta,apta,NA
 Angiospermas,Poaceae,Setaria paucifolia,NA,NA,Setaria paucifolia,Setaria,paucifolia,especie,NA,NA,NA,NA,NA,NA,LC,NA,cncflora_web,apta,sim - produto 1,apta,inapta,NA
 Angiospermas,Poaceae,Setaria sphacelata,NA,NA,Setaria sphacelata,Setaria,sphacelata,especie,NA,NA,NA,LC,NA,NA,NA,NA,UICN_API,apta,sim - produto 1,apta,inapta,NA
 Angiospermas,Poaceae,Setaria stolonifera,NA,NA,Setaria stolonifera,Setaria,stolonifera,especie,NA,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,sima-Portaria 443/2014,examinar,sim - produto 2,NA,NA,NA
