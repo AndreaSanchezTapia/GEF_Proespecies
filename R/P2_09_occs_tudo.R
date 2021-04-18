@@ -33,14 +33,57 @@ add_nome <- furrr::future_map2(add_nome,
                                .progress = T)
 dim_raw <- furrr::future_map(fields_raw, ~dim(.x), .progress = T)
 dim_now <- furrr::future_map(add_nome, ~dim(.x), .progress = T)
-names(dim_now) <- paste(especies_all, fonte_all)
+names(dim_now) <- paste(especies_all, fonte_all, sep = "_")
 dimensoes <- bind_rows(dim_now)
 dimensoes_df <-  t(dimensoes) %>% data.frame() %>% tibble::rownames_to_column("dataset")
 write_csv(dimensoes_df, "output/p2/09_dimensoes.csv")
 plan(sequential)
 
+names_now <- furrr::future_map(add_nome, ~names(.x), .progress = T)
+names(names_now) <- paste(especies_all, fonte_all, sep = "_")
 
-#checar arquivos vazios
+bind_rows(add_nome[1], add_nome[2])
+unique(add_nome[[1]]$countryCode)
+
+p1_base <- read_csv("output/p2/10_base_P1.csv")
+flora_base <- read_csv("output/p1/03_flora_tudo.csv")
+flora_base %>% rename(nome_aceito_correto = search.str) %>%
+  names() %>%
+  select()
+names(p1_base)
+tax <- p1_base %>%
+  select(nome_aceito_correto, grupo, familia, genero, epiteto_especifico) %>%
+  distinct()
+plan(multisession, workers = 15)
+add_tax <-  furrr::future_map(add_nome,
+                              ~left_join(.x, tax),
+                              .progress = T)
+c(names(spp), names(tax), sel_fields) %>% tibble(campos= .) %>% write_csv("output/p2/11_camposP2.csv")
+#reorganiza a mano
+dir.create("output/p2/t20_format/")
+add_tax <-  furrr::future_map(add_tax,
+                              ~select(one_of()),
+                              .progress = T)
+
+furrr::future_map2(add_tax,
+                   paste0("output/p2/t20_format/", names(names_now), ".csv"),
+                   ~write_csv(x = .x, file = .y),
+                   .progress = T)
+zip("output/p2/t20_format/" ,zipfile = "Format_preliminar.zip")
+
+names_now <- furrr::future_map(add_tax,
+                               ~select(one_of(grupo, familia, nome_aceito_correto,
+                                              genero, epiteto_especifico,
+                                              collectionCode,
+                                              collection_ID,
+                                              barcode,
+                                              .progress = T)
+
+furrr::future_map2(add_tax,
+                   paste0("output/p2/t20_format/", names(names_now), ".csv"),
+                   ~write_csv(x = .x, file = .y),
+                   .progress = T)
+
 
 gbif <- occs[stringr::str_detect(occs, "splink", negate = T)]
 nomes_gbif   <- basename(gbif)   %>% stringr::str_remove("_gbif_c.csv")

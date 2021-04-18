@@ -74,9 +74,9 @@ genusKey,FALSE
 geodeticDatum,TRUE
 geoFlag,FALSE
 geologicalContextID,FALSE
-georeferencedBy,FALSE
+georeferencedBy,TRUE
 georeferencedDate,FALSE
-georeferenceProtocol,FALSE
+georeferenceProtocol,TRUE
 georeferenceRemarks,FALSE
 georeferenceSources,FALSE
 georeferenceVerificationStatus,FALSE
@@ -201,7 +201,7 @@ protocol,FALSE
 publishingCountry,FALSE
 publishingOrgKey,FALSE
 record_id,TRUE
-recordedBy,FALSE
+recordedBy,TRUE
 recordedByIDs,FALSE
 recordedByIDs.type,FALSE
 recordedByIDs.value,FALSE

@@ -7,7 +7,7 @@ names(spp)
 any(is.na(spp$nome_aceito_correto))
 
 spp$nome_aceito_correto[spp$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
-
+write_csv(spp, "output/p2/10_base_P1.csv")
 dim(spp)
 
 notas <- spp %>%

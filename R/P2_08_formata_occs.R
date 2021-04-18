@@ -21,4 +21,3 @@ na.omit(occs$splink_file) %>% furrr::future_map(~clean_all(.x), .progress = T)
 plan(sequential)
 
 
-clean_all("output/p2/occs/Salvia campos-portoi/gbif/Salvia campos-portoi.csv")
