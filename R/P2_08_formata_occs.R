@@ -1,12 +1,4 @@
 library(stringr)
-ya_t20 <- list.files("output/p2/t20", full.names = T)
-table(str_detect(ya_t20, "clean"))
-ya <- basename(ya_t20) %>% str_remove(".csv")
-sum(ya %in% occs$sp)
-sum(!ya %in% occs$sp)
-#unlink(ya_t20[!ya %in% occs$sp])
-
-
 
 clean_all <- function(file_path) {
   sp <- basename(file_path) %>% str_remove(".csv")
@@ -20,20 +12,13 @@ clean <- file %>% mutate(basisOfRecord = tolower(basisOfRecord)) %>%
 print(unique(clean$basisOfRecord))
 }
 }
-occs %>% View()
-write_csv(occs, "output/p2/06_occ_files.csv")
-occs <- read_csv("output/p2/06_occ_files.csv")
-ya <- basename(ya_t20) %>% str_remove("_clean") %>% str_remove(".csv") %>% unique(.)
-nrow(occs)
-length(ya)
-setdiff(occs$sp, ya)
-setdiff(ya, occs$sp)
-falta <-
+
 library(furrr)
 plan(multisession, workers = 15)
 ya_t20 %>% furrr::future_map(~clean_all(.x), .progress = T)
 occs$gbif_file %>% furrr::future_map(~clean_all(.x), .progress = T)
 na.omit(occs$splink_file) %>% furrr::future_map(~clean_all(.x), .progress = T)
-na.omit(occs$splink_file)
 plan(sequential)
 
+
+clean_all("output/p2/occs/Salvia campos-portoi/gbif/Salvia campos-portoi.csv")

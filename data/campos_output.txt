@@ -1,0 +1,76 @@
+# Colunas para P1
+Grupo <- c("Briófitas", "Angiospermas", "Gimnospermas",
+"Samambaias", "Licófitas")
+Familia
+Genero
+Epiteto_especifico
+Especie #(binomio
+Sinonimia #(preenchimento livre)
+Fonte_sinonimia
+Cat_ameaca_IUCN <- (EX, EW, CR, VU, EN, CR, LC/CD, NT ou LC/NT, DD)
+Cat_ameaca_BR #(Lista vermelha nacional)
+Cat_ameaca_cncflora
+Cat_ameaca_sp
+#s.i = sem informacao
+#n.a. = nao aplica
+
+
+# P2
+ID #Identidade de cada registro
+autor_nome_cient
+subespecie
+autor_subesp
+variedade
+autor_varied
+herbario_origem
+tombo_herbario_origem
+cod_barras_herbario_origem
+registro_duplicado
+Nome_coletor_original
+Numero_coletor
+Ano_coleta
+Mes_coleta
+Dia_coleta
+Estado #(Estado_coleta)
+Municipio
+Localidade
+Long_original
+Lat_original
+Sist_coord_original
+Datum_original
+Situacao_coordenada <- c("CO", "CA", "COS", "COSR", "COSM", "CR-a", "CR-e")
+Altitude
+Determinador_original
+Ano_determinacao
+Mes_determinacao
+Dia_determinacao
+Tipo_veg_habitat
+Fonte_dados <- c("Reflora", "specieslink", "sinbiota") #mais opcoes??
+
+#P3
+#duplicataP3
+#Nome_coletor_padronizado P3
+Long_corrigida
+Lat_corrigida
+Determinador_padronizado
+Tipo_veg_padronizado
+Planta_cultivada
+PAN
+Nome_PAN
+UC_federal
+Nome_UC_federal
+UC_estadual
+Nome_UC_estadual
+UC_municipal
+Nome_UC_municipal
+
+#P4
+Obs_localidade
+Obs_ecologia_especie
+Obs_nomenclatura
+
+
+
+
+
+

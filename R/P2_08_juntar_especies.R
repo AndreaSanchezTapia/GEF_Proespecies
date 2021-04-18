@@ -51,10 +51,12 @@ library(furrr)
 
 plan(multisession, workers = 15)
 library(dplyr)
+which(occs$sp == "Salvia campos-portoi")
+occs$gbif_file[790]
 sp <- occs[1,1]
 gbb <- occs[1,2]
 spp <- occs[1,3]
-furrr::future_pmap(occs, ~{
+furrr::future_pmap(occs[790,], ~{
   sp <- ..1
   gbb <- ..2
   spp <- ..3
@@ -74,18 +76,28 @@ furrr::future_pmap(occs, ~{
       mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
       mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
       write_csv(gb_file)
-  } else gbf <- NULL
-  if (!file.exists(file))
- tryCatch({all <- formatDwc(splink_data = spl,
-                             gbif_data = gbf,
-                             drop.empty = T)
-      write_csv(all, file = file)
-  },
-  error = function(e) {
-    message(paste(sp, "problem"))
-    message(e)
-  })
+  }# else gbf <- NULL
+ #  if (!file.exists(file))
+ # tryCatch({all <- formatDwc(splink_data = spl,
+ #                             gbif_data = gbf,
+ #                             drop.empty = T)
+ #      write_csv(all, file = file)
+ #  },
+ #  error = function(e) {
+ #    message(paste(sp, "problem"))
+ #    message(e)
+ #  })
 
 }, .progress = TRUE)
 
 plan(sequential)
+
+
+raw <- list.files(pasta_all) %>%
+  basename() %>%
+  str_remove(".csv") %>%
+  str_remove("_gbif_c") %>%
+  str_remove("_splink") %>% unique()
+setdiff(especies, raw)
+zipfile <- 't20_raw.zip'
+zip(zipfile, 'output/p2/t20_raw/')
