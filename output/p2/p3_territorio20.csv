@@ -1,0 +1,948 @@
+nome_aceito_correto,nomes_originais,elegivel_produto_1,notas_all,cat_ameaca_cr_lac,cat_ameaca_iucn,cat_ameaca_mpo_sp,cat_ameaca_br,cat_ameaca_cncflora,cat_ameaca_sp,cat_ameaca_geral,splink_t20,gbif_t20,splink_rbcv,gbif_rbcv,splink_sp,gbif_sp,sum,especialista
+Aphelandra squarrosa,Aphelandra squarrosa,apta,NA,NA,NA,NA,NA,LC,EW,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Justicia genuflexa,Justicia genuflexa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Justicia pygmaea,Justicia catharinensis,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Justicia tijucensis,Justicia tijucensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,FBnao- OCCScruzam
+Staurogyne vauthieriana,Staurogyne vauthieriana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Stenostephanus lobeliiformis,Stenostephanus lobeliiformis,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Stenandrium dulce,Stenandrium diphyllum-Stenandrium diphyllum,examinar,nome duplicado com critério conflitante na base original/Nome original era sinônimo,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Ruellia chamaedrys,Ruellia chamaedrys,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Echinodorus paniculatus,Echinodorus paniculatus,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Alstroemeria caryophyllaea,Alstroemeria caryophyllaea,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,EW,EN,NA,EW,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Alstroemeria foliosa,Alstroemeria foliosa,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Alstroemeria plantaginea,Alstroemeria plantaginea,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Herbstia brasiliana,Herbstia brasiliana,apta,NA,NA,NA,EX,NA,DD,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Froelichia interrupta,Froelichia interrupta,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Froelichia procera,Froelichia procera,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Alternanthera aquatica,Alternanthera aquatica,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Alternanthera paronychioides,Alternanthera paronychioides,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Alternanthera kurtzii,Alternanthera decurrens,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Alternanthera flavescens,Alternanthera flavescens,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Crinum americanum,Crinum americanum,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Griffinia espiritensis,Griffinia espiritensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Hippeastrum psittacinum,Hippeastrum psittacinum,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Hippeastrum striatum,Hippeastrum striatum,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Griffinia liboniana,Griffinia liboniana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Hippeastrum morelianum,Hippeastrum morelianum,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Hippeastrum reginae,Hippeastrum reginae,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,5,NA
+Hippeastrum vittatum,Hippeastrum vittatum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Worsleya procera,Worsleya procera,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Zephyranthes candida,Zephyranthes candida,apta,NA,NA,NA,NA,EN,EN,EN,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Zephyranthes blumenavia,Eithea blumenavia,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Schinus engleri,Schinus engleri,apta,NA,NA,DD,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Astronium urundeuva,Astronium urundeuva-Myracrodruon urundeuva,apta,Nome original era sinônimo-NA,NA-NA,DD-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Anemia blechnoides,Anemia blechnoides,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,NA,FALSE,NA,TRUE,NA,2,FBnao- OCCScruzam
+Anemia phyllitidis,Anemia candidoi,apta,Nome original era sinônimo,NA,DD,NA,NA,NA,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Annona dolabripetala,Annona dolabripetala-Annona neosericea-Annona ubatubensis,apta,Nome original era sinônimo-NA,NA-NA,LC-LR/nt,NA-NA,NA-EN,LC-EN,NA-EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Annona emarginata,Annona emarginata-Annona maritima-Annona neosalicifolia-Annona rugulosa,apta,Nome original era sinônimo-NA,NA-NA-NA,LC-LC-LC,NA-NA-NA,VU-NA-NA,VU-LC-NA,NA-NA-NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Annona parviflora,Annona parviflora,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Annona xylopiifolia,Annona xylopiifolia,apta,NA,NA,LR/nt,NA,NA,NT,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Duguetia salicifolia,Duguetia salicifolia,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Trigynaea oblongifolia,Trigynaea oblongifolia,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Xylopia brasiliensis,Xylopia brasiliensis,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eryngium eurycephalum,Eryngium eurycephalum,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Eryngium scirpinum,Eryngium scirpinum,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Eryngium koehneanum,Eryngium koehneanum,apta,NA,NA,NA,EN,VU,VU,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Apium prostratum,Apium prostratum,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Asclepias aequicornu,Asclepias aequicornu,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Asclepias langsdorffii,Asclepias langsdorffii-Asclepias langsdorfii,apta,Nome original mal escrito-NA,NA-NA,NA-NA,NA-NA,NA-NA,LC-NA,EX-EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Aspidosperma compactinervium,Aspidosperma compactinervium,apta,NA,NA,DD,NA,NA,NA,NA,entra,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,3,NA
+Aspidosperma parvifolium,Aspidosperma ingratum,apta,Nome original era sinônimo,NA,DD,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Aspidosperma polyneuron,Aspidosperma polyneuron,apta,NA,NA,EN,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Aspidosperma quirandy,Aspidosperma quirandy,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,EN,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,FBnao- OCCScruzam
+Aspidosperma riedelii,Aspidosperma riedelii,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Macroditassa marianae,Macroditassa marianae,apta,NA,NA,NA,NA,CR,CR,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Matelea glaziovii,Matelea glaziovii,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Oxypetalum strictum,Oxypetalum strictum,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Prestonia solanifolia,Prestonia solanifolia,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Widgrenia corymbosa,Widgrenia corymbosa,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ilex integerrima,Ilex grandis-Ilex integerrima,apta,Nome original era sinônimo-NA,NA-NA,LC-VU,NA-NA,NA-NA,NA-VU,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ilex paraguariensis,Ilex paraguariensis,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Anthurium jureianum,Anthurium jureianum,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,NA,FALSE,NA,TRUE,NA,2,NA
+Anthurium langsdorffii,Anthurium langsdorffii,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Asterostigma cubense,Asterostigma cubense,apta,NA,NA,NA,NA,NA,DD,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Asterostigma tweedianum,Asterostigma tweedianum,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Philodendron simonianum,Philodendron simonianum,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Xanthosoma pentaphyllum,Xanthosoma pentaphyllum,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Xanthosoma riedelianum,Xanthosoma riedelianum,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Urospatha edwallii,Urospatha edwallii,apta,NA,NA,NA,NA,NA,NA,EX,entra,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,3,NA
+Wolffia arrhiza,Wolffia arrhiza,apta,NA,NA,LC,NA,NA,NA,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Asterostigma colubrinum,Asterostigma colubrinum,apta,NA,NA,NA,VU,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Xanthosoma blandum,Xanthosoma blandum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,VU,entra,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,3,FBnao- OCCScruzam
+Dendropanax nebulosus,Dendropanax nebulosus,apta,NA,NA,EN,NA,NA,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Hydrocotyle exigua,Hydrocotyle exigua,apta,NA,NA,NA,NA,NA,DD,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Hydrocotyle pusilla,Hydrocotyle pusilla,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Araucaria angustifolia,Araucaria angustifolia,apta,NA,NA,CR,EN,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Euterpe edulis,Euterpe edulis,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Butia eriospatha,Butia eriospatha,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Syagrus picrophylla,Syagrus picrophylla,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Trithrinax brasiliensis,Trithrinax brasiliensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Syagrus insignis,Lytocaryum insigne,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Aristolochia hypoglauca,Aristolochia hypoglauca,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Aristolochia cymbifera,Aristolochia cymbifera,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Asplenium austrobrasiliense,Asplenium austrobrasiliense,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Asplenium bradeanum,Asplenium bradeanum,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Dasyphyllum lanceolatum,Dasyphyllum lanceolatum-Dasyphyllum synacanthum,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania biformis,Mikania biformis,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania bradei,Mikania bradei,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Mikania chlorolepis,Mikania chlorolepis,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania decumbens,Mikania decumbens,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Mikania firmula,Mikania firmula,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,FBnao- OCCScruzam
+Mikania hastato-cordata,Mikania hastato-cordata,apta,NA,NA,NA,NA,VU,VU,NA,entra,NA,TRUE,NA,TRUE,NA,TRUE,3,NA
+Mikania oreophila,Mikania oreophila,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania rufescens,Mikania rufescens,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania smaragdina,Mikania smaragdina,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania warmingii,Mikania warmingii,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Stifftia fruticosa,Stifftia fruticosa,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Stifftia parviflora,Stifftia parviflora,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Trichocline linearifolia,Trichocline linearifolia,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Trixis glaziovii,Trixis glaziovii,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Austrocritonia angulicaulis,Austrocritonia angulicaulis,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eremanthus brasiliensis,Eremanthus brasiliensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Stevia pohliana,Stevia pohliana,apta,NA,NA,NA,NA,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Senecio pohlii,Senecio pohlii,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Aspilia espinhacensis,Aspilia espinhacensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Aspilia floribunda,Aspilia floribunda,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Baccharis elliptica,Baccharis elliptica,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Heterocondylus amphidyctius,Heterocondylus amphidyctius,apta,NA,NA,NA,NA,NA,LC,VU,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Lepidaploa chamissonis,Lepidaploa chamissonis,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Lessingianthus argenteus,Lessingianthus argenteus,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Lessingianthus elegans,Lessingianthus elegans,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Lessingianthus grandiflorus,Lessingianthus grandiflorus,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Lessingianthus niederleinii,Lessingianthus niederleinii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Lessingianthus pumillus,Lessingianthus pumillus,apta,NA,NA,NA,NA,VU,VU,NA,entra,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,3,NA
+Lessingianthus zuccarinianus,Lessingianthus zuccarinianus,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania argyreiae,Mikania argyreiae,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania capricorni,Mikania capricorni,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mikania malacolepis,Mikania malacolepis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Praxelis grandiflora,Praxelis grandiflora,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Stomatanthes dentatus,Stomatanthes dentatus,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Stomatanthes dictyophyllus,Stomatanthes dictyophyllus,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Vernonanthura lindbergii,Vernonanthura lindbergii,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Wedelia puberula,Wedelia puberula,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Symphyopappus lymansmithii,Symphyopappus lymansmithii,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Neocabreria malachophylla,Neocabreria malachophylla,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Bidens bipinnata,Bidens bipinnata,apta,NA,NA,NA,NA,NA,LC,EN,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Isostigma peucedanifolium,Isostigma crithmifolium-Isostigma peucedanifolium-Isostigma speciosum,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,DD-LC,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Baccharis pseudoalpestris,Baccharis pseudoalpestris,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Baccharis sphenophylla,Baccharis sphenophylla,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Holocheilus hieracioides,Holocheilus hieracioides,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Lessingianthus reitzianus,Lessingianthus reitzianus,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Stenachaenium megapotamicum,Stenachaenium macrocephalum,apta,Nome original era sinônimo,NA,NA,NA,CR,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Stevia selloi,Stevia selloi,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Steyermarkina dispalata,Steyermarkina dispalata,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Calea acaulis,Calea acaulis,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Calea gentianoides,Calea gentianoides,apta,NA,NA,NA,EN,VU,VU,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Calea polycephala,Calea polycephala,apta,NA,NA,NA,NA,NA,NT,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chromolaena elliptica,Chromolaena elliptica,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chromolaena latisquamulosa,Chromolaena latisquamulosa,apta,NA,NA,NA,NA,NA,DD,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chromolaena rhinanthacea,Chromolaena rhinanthacea,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Gyptis lanigera,Gyptis lanigera-Gyptis vernoniopsis,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-EN,EN-NA,EN-EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Hatschbachiella tweedieana,Hatschbachiella tweediana-Hatschbachiella tweedieana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil-A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original mal escrito,NA-NA,NA-NA,NA-NA,NA-NA,LC-NA,EN-EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Austroeupatorium rosmarinaceum,Austroeupatorium rosmarinaceum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Verbesina floribunda,Verbesina pseudoclaussenii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original mal escrito/Nome original era sinônimo,NA,NA,NA,CR,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Calea heteropappa,Calea heteropappa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Aldama goyazii,Aldama goyazii-Viguiera hispida,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,VU-NA,NA-VU,NA-NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Baccharis aracatubensis,Baccharis aracatubensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Eremanthus praetermissus,Eremanthus praetermissus,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Piptocarpha longipedunculata,Piptocarpha longipedunculata,apta,NA,NA,EN,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chromolaena paraguariensis,Chromolaena angusticeps,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,2,FBnao- OCCScruzam
+Vickia rotundifolia,Gochnatia rotundifolia,apta,Nome original era sinônimo,NA,NA,EX,VU,VU,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Begonia brevilobata,Begonia brevilobata,apta,NA,NA,NA,NA,NA,DD,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Begonia dentatiloba,Begonia dentatiloba,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Begonia handroi,Begonia handroi,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Begonia itatinensis,Begonia itatinensis,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Begonia paranaensis,Begonia paranaensis,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Begonia paulensis,Begonia paulensis,apta,NA,NA,NA,NA,EN,EN,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Begonia piresiana,Begonia piresiana,apta,NA,CR,NA,NA,CR,CR,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Begonia salesopolensis,Begonia salesopolensis,apta,NA,NA,NA,NA,CR,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Begonia santoslimae,Begonia santoslimae,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Begonia toledoana,Begonia toledoana,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Begonia coccinea,Begonia coccinea,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,5,FBnao- OCCScruzam
+Anemopaegma arvense,Anemopaegma arvense,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Lundia damazioi,Lundia damazii,apta,Nome original mal escrito,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,5,NA
+Handroanthus impetiginosus,Handroanthus impetiginosus-Tabebuia impetiginosa,apta,Nome original era sinônimo-NA,NA-NA,LC-LR/lc,NA-NA,NA-NA,NT-NA,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Paratecoma peroba,Paratecoma peroba,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Tabebuia cassinoides,Tabebuia cassinoides,apta,NA,NA,NA,EN,EN,VU,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Zeyheria tuberculosa,Zeyheria tuberculosa,apta,NA,NA,VU,VU,VU,NT,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Handroanthus botelhensis,Handroanthus botelhensis,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cordia silvestris,Cordia silvestris,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cordia trichoclada,Cordia trichoclada,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Acanthostachys pitcairnioides,Acanthostachys pitcairnioides,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Aechmea gamosepala,Aechmea gamosepala-Aechmea gamossepala,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil-A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original mal escrito,NA-NA,NA-NA,NA-NA,NA-NA,LC-NA,EX-EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Alcantarea glaziouana,Alcantarea glaziouana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Billbergia nutans,Billbergia nutans,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Billbergia pyramidalis,Billbergia pyramidalis,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cryptanthus minarum,Cryptanthus minarum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Dyckia minarum,Dyckia minarum,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Dyckia tuberosa,Dyckia cabrerae-Dyckia pseudococcinea-Dyckia tuberosa,apta,Nome original era sinônimo-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,CR-EN-NA,CR-EN-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Guzmania monostachia,Guzmania monostachia,apta,NA,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hohenbergia ridleyi,Hoehenbergia ridleyi-Hohenbergia ridleyi,apta,Nome original mal escrito-NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Neoregelia hoehneana,Neoregelia hoehneana,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Nidularium camposportoi,Nidularium campos-portoi-Nidularium camposportoi,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Nidularium corallinum,Nidularium corallinum,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Nidularium marigoi,Nidularium marigoi,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Nidularium minutum,Nidularium minutum,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pitcairnia albiflos,Pitcairnia albiflos,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Pitcairnia decidua,Pitcairnia decidua,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Tillandsia araujei,Tillandsia araujei,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Tillandsia linearis,Tillandsia linearis,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Tillandsia recurvifolia,Tillandsia recurvifolia,apta,NA,NA,NA,NA,NA,DD,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Tillandsia tenuifolia,Tillandsia pseudomontana-Tillandsia tenuifolia,apta,Nome original era sinônimo-NA,NA-NA,EN-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Vriesea gracilior,Vriesea gracilior,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Vriesea minarum,Vriesea minarum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,FBnao- OCCScruzam
+Vriesea neoglutinosa,Vriesea neoglutinosa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Vriesea pabstii,Vriesea pabstii,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Vriesea pardalina,Vriesea pardalina,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Vriesea procera,Vriesea procera var. debilis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Vriesea saundersii,Vriesea saundersii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Vriesea schwackeana,Vriesea monacorum-Vriesea schwackeana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil-A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA-NA,NA-NA,NA-NA,CR-NA,NA-DD,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Vriesea taritubensis,Vriesea taritubensis,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Vriesea vulpinoidea,Vriesea vulpinoidea,apta,NA,NA,NA,VU,NA,NA,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Vriesea warmingii,Vriesea warmingii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Neoregelia bahiana,Neoregelia bahiana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Vriesea flava,Vriesea flava,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Vriesea sparsiflora,Vriesea sparsiflora,apta,NA,NA,NA,NA,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Alcantarea imperialis,Alcantarea imperialis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Rhipsalis crispata,Rhipsalis crispata,apta,NA,NA,EN,NA,NA,DD,VU,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Rhipsalis dissimilis,Rhipsalis dissimilis,apta,NA,NA,EN,NA,NA,DD,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Rhipsalis oblonga,Rhipsalis oblonga,apta,NA,NA,VU,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rhipsalis paradoxa,Rhipsalis paradoxa,apta,NA,NA,LC,NA,EN,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rhipsalis pilocarpa,Rhipsalis pilocarpa,apta,NA,NA,VU,NA,NA,NT,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Schlumbergera opuntioides,Schlumbergera opuntioides,apta,NA,NA,VU,NA,VU,VU,VU,entra,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,3,NA
+Schlumbergera truncata,Schlumbergera truncata,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Tacinga braunii,Tacinga braunii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Selenicereus undatus,Hylocereus undatus,apta,Nome original era sinônimo,NA,DD,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Kielmeyera decipiens,Kielmeyera decipiens,apta,NA,NA,NA,NA,NA,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Acicarpha tribuloides,Acicarpha tribuloides,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Lobelia xalapensis,Lobelia xalapensis,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,5,NA
+Siphocampylus lycioides,Siphocampylus lycioides,apta,NA,NA,NA,NA,NA,NT,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Lobelia hederacea,Lobelia hederacea,apta,NA,NA,NA,EX,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Lobelia nummularioides,Lobelia nummularioides,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Lobelia anceps,Lobelia anceps,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cinnamodendron occhionianum,Cinnamodendron occhionianum,apta,NA,NA,NA,NA,NA,CR,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Salacia mosenii,Salacia mosenii,apta,NA,NA,NA,NA,CR,CR,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Tontelea martiana,Tontelea martiana,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Monteverdia brasiliensis,Maytenus brasiliensis-Monteverdia brasiliensis,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,LC,CR,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Hirtella angustifolia,Hirtella angustifolia,apta,NA,NA,VU,NA,NA,VU,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Couepia meridionalis,Couepia meridionalis,apta,NA,CR,CR,NA,CR,CR,EX,entra,NA,TRUE,NA,TRUE,NA,TRUE,3,NA
+Hirtella glaziovii,Hirtella glaziovii,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Licania indurata,Licania indurata,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Parinari brasiliensis,Parinari brasiliensis,apta,NA,NA,NA,NA,EN,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Moquilea tomentosa,Licania tomentosa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Tarenaya diffusa,Hemiscola diffusa-Tarenaya diffusa,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,NA,EX,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,NA
+Terminalia januariensis,Terminalia januariensis,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Terminalia triflora,Terminalia reitzii-Terminalia triflora,apta,Nome original era sinônimo-NA,NA-NA,LC-VU,NA-NA,NA-NA,DD-DD,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Terminalia kleinii,Buchenavia iguaratensis-Buchenavia kleinii-Terminalia kleinii,apta,Nome original era sinônimo-NA,NA-NA,LR/nt-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Terminalia parvifolia,Buchenavia parvifolia-Buchenavia parvifolia subsp. rabelloana-Buchenavia rabelloana,apta,Nome original era sinônimo,NA-NA-NA,NA-NA-NA,NA-NA-NA,VU-NA-NA,NA-VU-NA,VU-NA-VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Rourea pseudospadicea,Rourea pseudospadicea,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Cuscuta obtusiflora,Cuscuta obtusiflora,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Evolvulus barbatus,Evolvulus barbatus,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Evolvulus chrysotrichos,Evolvulus chrysotrichos,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Evolvulus riedelii,Evolvulus riedelii,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Ipomoea aprica,Ipomoea aprica,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Ipomoea argentea,Ipomoea argentea,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ipomoea campestris,Ipomoea campestris,apta,NA,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Operculina macrocarpa,Operculina macrocarpa,apta,NA,NA,NA,NA,NA,LC,EW,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Ipomoea cynanchifolia,Ipomoea cynanchifolia,apta,NA,NA,LC,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Ipomoea acutisepala,Ipomoea acutisepala,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Jacquemontia glabrescens,Jacquemontia glabrescens,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cayaponia trilobata,Cayaponia trilobata,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Cayaponia bonariensis,Cayaponia bonariensis,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Weinmannia paulliniifolia,Weinmannia paulliniifolia,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Lamanonia ulei,Lamanonia ulei,apta,NA,NA,EN,NA,NA,EN,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,NA
+Cyathea poeppigii,Cyathea poeppigii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,FBnao- OCCScruzam
+Asplundia brachypus,Asplundia brachypus-Asplundia polymera-Asplundia polymera subsp. reitzii,apta,Nome original era sinônimo-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,VU-VU-NA,VU-NA-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Rhynchospora tenuis,Rhynchospora enmanuelis-Rhynchospora tenuis,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,EN-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rhynchospora pilulifera,Pleurostachys pilulifera,apta,Nome original era sinônimo,NA,NA,NA,CR,NA,NA,entra,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,5,NA
+Stephanopodium estrellense,Stephanopodium estrellense,apta,NA,NA,EN,NA,NA,EN,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Dicksonia sellowiana,Dicksonia sellowiana,apta,NA,NA,NA,VU,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Atractylocarpus brasiliensis,Atractylocarpus brasiliensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Dioscorea sanpaulensis,Dioscorea sanpaulensis,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Dioscorea trilinguis,Dioscorea trilinguis,apta,NA,NA,LC,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Dioscorea asperula,Dioscorea asperula,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Elaphoglossum herminieri,Elaphoglossum herminieri,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Elaphoglossum itatiayense,Elaphoglossum itatiayense,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Elaphoglossum paulistanum,Elaphoglossum wettsteinii,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Elaphoglossum scolopendrifolium,Elaphoglossum amplissimum,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sloanea obtusifolia,Sloanea obtusifolia,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Agarista niederleinii,Agarista niederleinii,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Agarista nummularia,Agarista nummularia,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Agarista pulchra,Agarista pulchra,apta,NA,NA,NA,NA,NA,NT,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Gaylussacia montana,Gaylussacia montana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Comanthera elegans,Comanthera elegans,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Heisteria perianthomega,Heisteria perianthomega,apta,NA,NA,LC,EX,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Erythroxylum catharinense,Erythroxylum catharinense,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Erythroxylum cuneifolium,Erythroxylum cuneifolium-Erythroxylum cyclophyllum,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Erythroxylum myrsinites,Erythroxylum myrsinites,apta,NA,NA,LC,NA,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Escallonia chlorophylla,Escallonia chlorophylla,apta,NA,NA,NA,CR,NA,LC,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Escallonia petrophila,Escallonia petrophila,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Acalypha brasiliensis,Acalypha fragilis,apta,Nome original era sinônimo,NA,CR,NA,NA,CR*,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Croton hemiargyreus,Croton hemiargyreus,apta,NA,NA,EN,NA,NA,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Joannesia princeps,Joannesia princeps,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Actinostemon klotzschii,Actinostemon klotzschii,apta,NA,NA,LC,NA,NA,DD,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Euphorbia attastoma,Euphorbia attastoma,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Algernonia brasiliensis,Algernonia brasiliensis,apta,NA,NA,VU,NA,NA,VU,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Algernonia riedelii,Algernonia riedelii,apta,NA,NA,NT,NA,NA,NT,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Bernardia pulchella,Bernardia confertifolia-Bernardia pulchella,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-EN,EN-NA,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chiropetalum tricoccum,Chiropetalum gymnadenium,apta,Nome original era sinônimo,NA,NA,NA,VU,VU,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cnidoscolus froesii,Cnidoscolus froesii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Croton priscus,Croton priscus,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Croton serratifolius,Croton serratifolius,apta,NA,NA,NA,NA,NA,LC,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Croton sphaerogynus,Croton sphaerogynus,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Dalechampia leandrii,Dalechampia leandrii,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chloroleucon tortum,Chloroleucon tortum,apta,NA,NA,CR,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Inga bollandii,Inga bollandii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Mimosa elliptica,Mimosa elliptica,apta,NA,NA,NT,NA,NA,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Apuleia leiocarpa,Apuleia leiocarpa,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Dalbergia nigra,Dalbergia nigra,apta,NA,NA,VU,NA,VU,VU,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chamaecrista aristata,Chamaecrista aristata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Chamaecrista choriophylla,Chamaecrista choriophylla,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Chamaecrista trachycarpa,Chamaecrista trachycarpa,apta,NA,NA,LC,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Melanoxylon brauna,Melanoxylon brauna,apta,NA,NA,NA,NA,VU,VU,EW,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pterogyne nitens,Pterogyne nitens,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Bowdichia virgilioides,Bowdichia virgilioides,apta,NA,NA,LC,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Dipteryx alata,Dipteryx alata,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Machaerium villosum,Machaerium villosum,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Poecilanthe parviflora,Poecilanthe parviflora,apta,NA,NA,DD,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Mimosa cubatanensis,Mimosa cubatanensis,apta,NA,NA,NT,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Mimosa lanata,Mimosa lanata,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Mimosa orthacantha,Mimosa orthacantha,apta,NA,NA,NT,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Dimorphandra wilsonii,Dimorphandra wilsonii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Abarema brachystachya,Abarema obovata,apta,Nome original era sinônimo,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Inga lentiscifolia,Inga lentiscifolia,apta,NA,NA,VU,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrocarpus frondosus,Myrocarpus frondosus,apta,NA,NA,DD,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peltogyne confertiflora,Peltogyne confertiflora,apta,NA,NA,NA,NA,NA,LC,EN,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Plathymenia reticulata,Plathymenia foliolosa-Plathymenia reticulata,apta,Nome original era sinônimo-NA,NA-NA,LC-VU,NA-NA,NA-NA,LC-NA,NA-NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Rhynchosia reticulata,Rhynchosia reticulata,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pomaria stipularis,Pomaria stipularis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NT,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Tachigali denudata,Sclerolobium denudatum-Tachigali denudata,apta,Nome original era sinônimo-NA,NA-NA,LR/nt-NA,NA-NA,NA-NA,NA-EN,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Albizia edwallii,Albizia edwallii-Albizia edwarllii,apta,Nome original mal escrito-NA,NA-NA,LC-VU,NA-NA,NA-NA,LC-NA,NA-NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Inga bullata,Inga bullata,apta,NA,NA,VU,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Inga lanceifolia,Inga lanceifolia,apta,NA,NA,EN,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Inga lenticellata,Inga lenticellata,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Inga maritima,Inga maritima,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Inga praegnans,Inga praegnans,apta,NA,NA,EN,NA,VU,EN,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Inga sellowiana,Inga sellowiana,apta,NA,NA,EN,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Centrosema jaraguaense,Centrosema jaraguaense,apta,NA,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,2,NA
+Myrocarpus leprosus,Myrocarpus leprosus,apta,NA,NA,CR,NA,NA,CR,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Ormosia minor,Ormosia minor,apta,NA,NA,VU,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Senegalia parviceps,Senegalia parviceps,apta,NA,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Arachis villosa,Arachis villosa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Desmodium subsecundum,Desmodium subsecundum,apta,NA,NA,DD,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Muellera filipes,Muellera filipes,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Dahlstedtia muehlbergiana,Dahlstedtia muehlbergiana-Lonchocarpus muehlbergianus,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ancistrotropis firmula,Ancistrotropis firmula-Vigna firmula,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,LC-LC,VU-NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Paubrasilia echinata,Caesalpinia echinata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Amburana erythrosperma,Amburana erythrosperma,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,FBnao- OCCScruzam
+Cratylia isopetala,Camptosema isopetalum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Nanogalactia heterophylla,Galactia marginalis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Voyria aphylla,Voyria aphylla,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Zygostigma australe,Zygostigma australe,apta,NA,NA,NA,CR,EN,EN,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Curtia tenuifolia,Curtia tenuifolia,apta,NA,NA,NA,CR,NA,LC,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Schultesia aptera,Schultesia aptera,apta,NA,NA,NA,CR,NA,LC,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Codonanthe carnosa,Codonanthe carnosa,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Nematanthus crassifolius,Nematanthus crassifolius,apta,NA,NA,NA,NA,NA,LC,VU,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Nematanthus monanthos,Nematanthus monanthos,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Nematanthus sericeus,Nematanthus sericeus,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Nematanthus strigillosus,Nematanthus strigillosus,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Seemannia sylvatica,Seemannia sylvatica,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sinningia canescens,Sinningia canescens,apta,NA,NA,NA,NA,NA,NT,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Sinningia hirsuta,Sinningia hirsuta,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,NA,TRUE,NA,TRUE,NA,TRUE,3,FBnao- OCCScruzam
+Sinningia iarae,Sinningia iarae,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Sinningia magnifica,Sinningia magnifica,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sinningia micans,Sinningia micans,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Sinningia piresiana,Sinningia piresiana,apta,NA,NA,NA,NA,EN,EN,EN,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Sinningia rupicola,Sinningia rupicola,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Sinningia tuberosa,Sinningia tuberosa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Sinningia villosa,Sinningia villosa,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Sinningia warmingii,Sinningia warmingii,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Griselinia ruscifolia,Griselinia ruscifolia,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hymenophyllum crispum,Hymenophyllum sampaioanum,apta,Nome original era sinônimo,NA,NA,NA,CR,CR,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Hymenophyllum elegans,Hymenophyllum silveirae,apta,Nome original era sinônimo,NA,NA,NA,CR,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hypericum mutilum,Hypericum mutilum,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hypericum piriai,Hypericum piriai,apta,NA,NA,NA,EX,NA,NT,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hypericum rigidum,Hypericum rigidum,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Gelasine coerulea,Alophia coerulea,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pseudotrimezia juncifolia,Trimezia fistulosa var. longifolia,apta,Nome original era sinônimo,NA,NA,NA,CR,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Jungermannia decolor,Jungermannia decolor,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,2,FBnao- OCCScruzam
+Lacistema lucidum,Lacistema lucidum,apta,NA,NA,DD,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hyptis lagenaria,Hyptis lagenaria,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Rhabdocaulon gracile,Rhabdocaulon gracile,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Salvia campos-portoi,Salvia campos-portoi,apta,NA,NA,NA,NA,NA,NA,EX,entra,NA,TRUE,NA,FALSE,NA,TRUE,2,NA
+Hyptis lobata,Hyptis lobata,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Beilschmiedia fluminensis,Beilschmiedia fluminensis,apta,NA,NA,EN,NA,NA,EN,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Cryptocarya botelhensis,Cryptocarya botelhensis,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Cryptocarya micrantha,Cryptocarya micrantha,apta,NA,NA,LC,VU,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Nectandra barbellata,Nectandra barbellata,apta,NA,NA,EN,VU,VU,EN,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Nectandra cissiflora,Nectandra cissiflora,apta,NA,NA,LC,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Nectandra debilis,Nectandra debilis,apta,NA,NA,CR,VU,NA,DD,VU,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Nectandra psammophila,Nectandra psammophila,apta,NA,NA,EN,NA,NA,LC,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Ocotea aciphylla,Ocotea aciphylla,apta,NA,NA,LR/lc,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea basicordatifolia,Ocotea basicordatifolia,apta,NA,NA,EN,NA,EN,EN,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea beulahiae,Ocotea beulahiae,apta,NA,NA,NA,NA,EN,VU,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea beyrichii,Ocotea beyrichii,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Ocotea bragai,Ocotea bragai,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea catharinensis,Ocotea catharinensis,apta,NA,NA,VU,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea daphnifolia,Ocotea daphnifolia-Ocotea vaccinioides,apta,Nome original era sinônimo-NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea felix,Ocotea felix,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea frondosa,Ocotea frondosa,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Ocotea lancifolia,Ocotea cantareirae-Ocotea lancifolia,apta,Nome original era sinônimo-NA,NA-NA,CR-NA,NA-NA,NA-NA,CR-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea minarum,Ocotea domatiata-Ocotea minarum,apta,Nome original era sinônimo-NA,NA-NA,EN-LC,NA-NA,NA-NA,EN-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea odorifera,Ocotea odorifera-Ocotea pretiosa,apta,Nome original era sinônimo-NA,NA-NA,VU-NA,NA-EN,NA-EN,NA-EN,NA-EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea porosa,Ocotea porosa,apta,NA,NA,VU,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea serrana,Ocotea serrana,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea tabacifolia,Ocotea tabacifolia,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,5,NA
+Ocotea curucutuensis,Ocotea curucutuensis,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea puberula,Ocotea puberula,apta,NA,NA,LR/lc,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Persea obovata,Persea obovata,apta,NA,NA,NA,CR,CR,CR,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Aiouea trinervis,Aiouea trinervis,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Nectandra hihua,Nectandra hihua,apta,NA,NA,LC,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cinnamomum erythropus,Cinnamomum erythropus,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Nectandra paranaensis,Nectandra paranaensis,apta,NA,NA,VU,NA,VU,EN,VU,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Ocotea mosenii,Ocotea mosenii,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Persea rigida,Persea rigida,apta,NA,NA,NA,NA,NA,DD,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ocotea inhauba,Ocotea inhauba,apta,NA,NA,DD,NA,NA,DD,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Ocotea virgultosa,Ocotea virgultosa,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Nectandra angustifolia,Nectandra angustifolia,apta,NA,NA,LC,NA,NA,LC,EN,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Cariniana legalis,Cariniana legalis,apta,NA,NA,VU,VU,EN,EN,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Lecythis lanceolata,Lecythis lanceolata,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Genlisea repens,Genlisea repens,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Utricularia trichophylla,Utricularia trichophylla,apta,NA,NA,LC,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Linum carneum,Linum carneum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Blumenbachia scabra,Blumenbachia scabra,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Strychnos gardneri,Strychnos gardneri,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Strychnos nigricans,Strychnos nigricans,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Strychnos trinervis,Strychnos trinervis,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Struthanthus flexicaulis,Struthanthus microstylus-Struthanthus pusillifolius-Struthanthus rufo-furfuraceus,apta,Nome original era sinônimo,NA-NA-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,CR-DD-EN,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Struthanthus marginatus,Struthanthus marginatus,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Struthanthus taubatensis,Struthanthus planaltinae-Struthanthus taubatensis,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,DD-EN,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Phlegmariurus mollicomus,Huperzia mollicoma-Phlegmariurus mollicomus,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-NA,NA-EN,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cuphea arenarioides,Cuphea arenarioides,apta,NA,NA,NA,EN,VU,VU,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Cuphea lindmaniana,Cuphea lindmaniana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Diplusodon villosissimus,Diplusodon villosissimus,apta,NA,NA,NA,NA,VU,VU,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Lafoensia replicata,Lafoensia vandelliana subsp. replicata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Magnolia ovata,Magnolia irwiniana-Magnolia ovata-Magnolia paranaensis-Magnolia sellowiana,apta,Nome original era sinônimo-NA,NA-NA-NA,DD-EN-LC,NA-NA-NA,NA-NA-NA,NA-NA-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Banisteriopsis parviflora,Banisteriopsis parviflora,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Barnebya dispar,Barnebya dispar,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Heteropterys patens,Heteropterys patens,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Heteropterys thyrsoidea,Heteropterys thyrsoidea,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mezia araujoi,Mezia araujoi,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Lophanthera lactescens,Lophanthera lactescens,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Camarea hirsuta,Camarea hirsuta,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Heteropterys brasiliensis,Heteropterys brasiliensis,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hiraea macrophylla,Hiraea macrophylla-Hiraea wiedeana,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-EN,EN-NA,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Heteropterys conformis,Heteropterys conformis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Byttneria scabra,Byttneria scabra,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hibiscus diversifolius,Hibiscus diversifolius,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pavonia distinguenda,Pavonia distinguenda,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Eriotheca pubescens,Eriotheca pubescens,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Christiana macrodon,Christiana macrodon,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Pachira calophylla,Pachira calophylla,apta,NA,NA,NA,NA,NA,EN,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Abutilon venosum,Abutilon venosum,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sida acrantha,Sida acrantha,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Callianthe latipetala,Callianthe latipetala,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Goeppertia zebrina,Calathea zebrina-Goeppertia zebrina,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,VU-NA,NA-NA,LC-LC,VU-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Regnellidium diphyllum,Regnellidium diphyllum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Bertolonia hoehneana,Bertolonia hoehneana,apta,NA,CR,NA,NA,CR,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chaetostoma glaziovii,Chaetostoma glaziovii,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Leandra amplexicaulis,Leandra amplexicaulis-Leandra longistyla,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,NA-NA,VU-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra aurea,Leandra lancifolia,apta,Nome original era sinônimo,NA,LC,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra brackenridgei,Leandra brackenridgei-Leandra pilonensis,apta,Nome original era sinônimo-NA,NA-NA,LC-NT,NA-NA,NA-NA,LC-NT,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra calvescens,Leandra calvescens,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Leandra carassana,Leandra dispar-Leandra tristis,apta,Nome original era sinônimo,NA-NA,NA-NA,NA-NA,NA-NA,DD-NA,EN-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra humilis,Leandra humilis var. glabrata,apta,Nome original era sinônimo,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra lapae,Leandra lapae,apta,NA,NA,NA,VU,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra limbata,Leandra limbata,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Leandra mattosii,Leandra mattosii,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Leandra quinquenodis,Leandra quinquenodis-Leandra viridiflava,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,NA-NA,EN-VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Leandra regnellii,Leandra pauloensis-Leandra regnellii,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,NE-NA,EX-EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra salicina,Leandra linearifolia-Leandra parvifolia-Leandra salicina,apta,Nome original era sinônimo-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,NT-NT-NA,VU-NA-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra sparsisetulosa,Leandra sparsisetulosa,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra strigilliflora,Leandra strigilliflora,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Leandra uliginosa,Leandra uliginosa,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Leandra umbellata,Leandra involucrata-Leandra umbellata,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,LC-NA,EN-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leandra xantholasia,Leandra xantholasia,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia castaneiflora,Miconia castaneiflora,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia cinerascens,Miconia lagunensis,apta,Nome original era sinônimo,NA,EN,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia longicuspis,Miconia longicuspis,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia mendoncae,Miconia mendoncae,apta,NA,NA,NA,NA,VU,VU,VU,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Miconia polyandra,Miconia polyandra,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia serrulata,Miconia serrulata,apta,NA,NA,LC,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia tentaculifera,Miconia tentaculifera,apta,NA,NA,NT,NA,NA,NT,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia urophylla,Miconia urophylla,apta,NA,NA,LC,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Miconia willdenowii,Miconia argyraea-Miconia willdenowii,apta,Nome original era sinônimo-NA,NA-NA,DD-NA,NA-NA,NA-NA,DD-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Microlicia isophylla,Microlicia doryphylla,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rhynchanthera grandiflora,Rhynchanthera grandiflora,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Siphanthera cordata,Siphanthera cordata,apta,NA,NA,NA,VU,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Trembleya calycina,Trembleya calycina,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Cambessedesia glaziovii,Cambessedesia glaziovii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Microlicia myrtoidea,Microlicia myrtoidea,apta,NA,NA,NA,NA,NA,NT,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Huberia laurina,Huberia laurina,apta,NA,NA,NA,NA,NA,DD,EX,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Rhynchanthera latifolia,Rhynchanthera latifolia,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Miconia robusta,Miconia robusta-Miconia robustissima,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,LC,EN,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Pleroma bergianum,Tibouchina bergiana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Chaetogastra versicolor,Tibouchina versicolor,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Huberia insignis,Behuria insignis,apta,Nome original era sinônimo,NA,NT,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cedrela fissilis,Cedrela fissilis,apta,NA,NA,VU,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cedrela odorata,Cedrela odorata,apta,NA,NA,VU,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Trichilia emarginata,Trichilia emarginata,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Trichilia pallens,Trichilia pallens,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Trichilia silvatica,Trichilia silvatica,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Trichilia casaretti,Trichilia casaretti,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Metzgeria hegewaldii,Metzgeria hegewaldii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Macropeplus dentatus,Macropeplus dentatus,apta,NA,NA,NT,NA,NA,NT,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Mollinedia argyrogyna,Mollinedia argyrogyna,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia boracensis,Mollinedia boracensis,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia clavigera,Mollinedia blumenaviana-Mollinedia clavigera,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,NA-NT,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia engleriana,Mollinedia engleriana,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia gilgiana,Mollinedia gilgiana,apta,NA,NA,CR,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia luizae,Mollinedia luizae,apta,NA,NA,DD,NA,VU,DD,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Mollinedia pachysandra,Mollinedia pachysandra,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia salicifolia,Mollinedia salicifolia,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,FBnao- OCCScruzam
+Mollinedia schottiana,Mollinedia oligotricha-Mollinedia schottiana,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,NA-NA,EX-EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mollinedia triflora,Mollinedia triflora,apta,NA,NA,LC,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Brosimum glaziovii,Brosimum glaziovii,apta,NA,NA,EN,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ficus hirsuta,Ficus hirsuta-Ficus salzmanniana,apta,Nome original era sinônimo-NA,NA-NA,EN-LR/nt,NA-NA,NA-NA,NT-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ficus pulchella,Ficus pulchella,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sorocea guilleminiana,Sorocea guilleminiana,apta,NA,NA,VU,NA,NA,LC,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Virola bicuhyba,Virola bicuhyba,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Campomanesia hirsuta,Campomanesia hirsuta,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Campomanesia neriiflora,Campomanesia neriiflora,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Campomanesia phaea,Campomanesia phaea,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Campomanesia reitziana,Campomanesia reitziana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Eugenia bahiensis,Eugenia bahiensis,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Eugenia bunchosiifolia,Eugenia brunoi-Eugenia bunchosiifolia,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-VU,EN-VU,NA-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia disperma,Eugenia disperma-Eugenia oblongata,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-VU,NA-EN,NA-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia handroi,Eugenia handroi,apta,NA,NA,LC,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Eugenia hermesiana,Eugenia hermesiana,apta,NA,NA,CR,NA,CR,CR,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia lambertiana,Eugenia lambertiana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Eugenia longipetiolata,Eugenia longipetiolata,apta,NA,NA,EN,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia macrobracteolata,Eugenia macrobracteolata,apta,NA,NA,EN,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia malacantha,Eugenia malacantha,apta,NA,NA,NA,NA,EN,VU,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia nutans,Eugenia nutans,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Eugenia peruibensis,Eugenia peruibensis,apta,NA,NA,CR,NA,EN,CR,EN,entra,TRUE,NA,FALSE,NA,TRUE,NA,2,NA
+Eugenia pisiformis,Eugenia microcarpa-Eugenia pisiformis,apta,Nome original era sinônimo-NA,NA-NA,VU-NA,NA-NA,NA-NA,NA-LC,NA-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia plicata,Eugenia plicata,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Eugenia prasina,Eugenia prasina,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia pruinosa,Eugenia pruinosa,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia pseudomalacantha,Eugenia pseudomalacantha,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Eugenia squamiflora,Eugenia squamiflora,apta,NA,NA,DD,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia subundulata,Eugenia subundulata,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Eugenia tenuipedunculata,Eugenia imaruiensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Eugenia vattimoana,Eugenia vattimoana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,FBnao- OCCScruzam
+Eugenia zuccarinii,Eugenia zuccarinii,apta,NA,NA,LC,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia bracteosa,Myrceugenia bracteosa,apta,NA,NA,VU,NA,EN,EN,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Myrceugenia campestris,Myrceugenia campestris,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia euosma,Myrceugenia euosma,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrceugenia franciscensis,Myrceugenia franciscensis,apta,NA,NA,VU,NA,EN,VU,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia hoehnei,Myrceugenia hoehnei,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia kleinii,Myrceugenia kleinii,apta,NA,NA,VU,NA,VU,VU,VU,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Myrceugenia miersiana,Myrceugenia miersiana,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia myrcioides,Myrceugenia myrcioides,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia pilotantha,Myrceugenia pilotantha,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia reitzii,Myrceugenia reitzii,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Myrceugenia rufescens,Myrceugenia rufescens,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia scutellata,Myrceugenia scutellata,apta,NA,NA,VU,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia venosa,Myrceugenia venosa,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia anomala,Myrcia anomala,apta,NA,NA,NA,NA,NA,NA,EX,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Myrcia bicolor,Myrcia bicolor,apta,NA,NA,VU,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia diaphana,Myrcia diaphana,apta,NA,NA,VU,NA,VU,NT,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia dichrophylla,Myrcia dichrophylla,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia eriocalyx,Myrcia eriocalyx,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia eriopus,Myrcia eriopus,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia eumecephylla,Myrcia limae,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,FBnao- OCCScruzam
+Myrcia glabra,Myrcia glabra,apta,NA,NA,NT,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia guianensis,Myrcia guianensis-Myrciaria silveirana,apta,Nome original era sinônimo-NA,NA-NA,LC-VU,NA-NA,NA-NA,LC-NA,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia hexasticha,Myrcia hexasticha,apta,NA,NA,VU,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrcia isaiana,Myrcia isaiana,apta,NA,NA,NA,NA,EN,NT,EN,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Myrcia laxiflora,Myrcia laxiflora,apta,NA,NA,EN,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia macrocarpa,Myrcia macrocarpa,apta,NA,NA,DD,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia montana,Myrcia montana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,VU,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,FBnao- OCCScruzam
+Myrcia plusiantha,Myrcia follii-Myrcia plusiantha,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-CR,NT-CR,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrcia pubipetala,Myrcia grandiflora-Myrcia pubipetala,apta,Nome original era sinônimo-NA,NA-NA,VU-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia rupicola,Myrcia rupicola,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia tenuivenosa,Marlierea acuminatissima-Myrcia tenuivenosa,examinar,Não foi avaliada-Nome original era sinônimo,NA-NA,NA-NA,NA-NA,NA-NA,DD-NE,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcianthes pungens,Myrcianthes pungens,apta,NA,NA,EN,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrciaria cuspidata,Myrciaria cuspidata,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrciaria tenella,Myrciaria tenella,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Neomitranthes amblymitra,Neomitranthes amblymitra,apta,NA,NA,NA,NA,VU,EN,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Neomitranthes gracilis,Neomitranthes gracilis,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Neomitranthes pedicellata,Neomitranthes pedicellata,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Plinia edulis,Plinia edulis,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Plinia hatschbachii,Plinia hatschbachii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Plinia phitrantha,Plinia phitrantha,apta,NA,NA,NT,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Psidium grandifolium,Psidium cinereum-Psidium grandifolium,apta,Nome original era sinônimo-NA,NA-NA,LR/nt-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Psidium myrtoides,Psidium giganteum-Psidium myrtoides,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-NA,EN-LC,EN-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Psidium salutare,Psidium salutare,apta,NA,NA,LC,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Psidium sartorianum,Psidium sartorianum,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Siphoneugena densiflora,Siphoneugena densiflora-Siphoneugenia densiflora,apta,Nome original mal escrito-NA,NA-NA,VU-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Siphoneugena kiaerskoviana,Siphoneugena kiaerskoviana,apta,NA,NA,NT,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Siphoneugena reitzii,Siphoneugena reitzii,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia vestita,Myrcia vestita,apta,NA,NA,LC,NA,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Eugenia arenosa,Eugenia arenosa,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrcia aethusa,Myrcia aethusa-Myrcia oligantha,apta,Nome original era sinônimo-NA,NA-NA,VU-NA,NA-NA,NA-NA,NA-NA,NA-EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Plinia coronata,Plinia coronata,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrcia eugenioides,Myrcia lineata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,FBnao- OCCScruzam
+Myrcia retusa,Myrcia retusa,apta,NA,NA,EN,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Plinia pseudodichasiantha,Plinia pseudodichasiantha,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia flagellaris,Myrcia flagellaris,apta,NA,NA,NA,VU,NA,NT,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia longibracteata,Eugenia longibracteata,apta,NA,NA,NA,NA,NA,DD,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrceugenia hamoniana,Myrceugenia hamoniana-Myrceugenia smithii,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-NA,NA-EN,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Siphoneugena crassifolia,Siphoneugena crassifolia-Siphoneugena widgreniana-Siphoneugenia widgreniana,apta,Nome original era sinônimo-Nome original mal escrito/Nome original era sinônimo-NA,NA-NA-NA,LC-VU-NA,NA-NA-NA,NA-NA-NA,NA-NA-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia ferruginosa,Myrcia ferruginosa,apta,NA,NA,EN,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia skortzoviana,Marlierea skortzoviana-Myrcia skortzoviana,apta,Nome original era sinônimo-NA,CR-NA,NA-EN,NA-NA,CR-NA,CR-NA,CR-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eugenia pithecocephala,Eugenia pithecocephala,apta,NA,NA,CR,NA,NA,CR,NA,entra,TRUE,NA,FALSE,NA,TRUE,NA,2,NA
+Myrcia multipunctata,Marlierea clausseniana-Marlierea gardneriana-Myrcia multipunctata,apta,Nome original era sinônimo-NA,NA-NA-NA,LC-NA-NA,NA-NA-NA,NA-NA-NA,NA-DD-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Plinia silvestris,Plinia complanata-Plinia silvestris,apta,Nome original era sinônimo-NA,NA-NA,EN-NA,NA-EN,NA-EN,EN-EN,NA-EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia grammica,Calyptranthes grammica-Myrcia grammica,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,NA-NA,NA-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia lonchophylla,Calyptranthes ubatubana-Myrcia lonchophylla,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,NA-VU,NA-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia legrandii,Calyptranthes hatschbachii-Calyptranthes obovata,apta,Nome original era sinônimo,NA-NA,NA-NA,NA-NA,EN-EN,EN-LC,NA-EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia pileata,Calyptranthes pileata,apta,Nome original era sinônimo,NA,NA,NA,VU,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia curta,Calyptranthes curta,apta,Nome original era sinônimo,NA,NA,NA,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia dryadica,Calyptranthes dryadica-Myrcia dryadica,apta,Nome original era sinônimo-NA,NA-NA,VU-NA,NA-VU,NA-NA,NA-DD,NA-VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Myrcia fusiformis,Calyptranthes fusiformis,apta,Nome original era sinônimo,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia styphelantha,Calyptranthes serrana,apta,Nome original era sinônimo,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia solitaria,Calyptranthes solitaria,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Myrcia neoregeliana,Marlierea regeliana-Myrcia neoregeliana,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-VU,NA-NA,NA-LC,NA-VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Myrcia glomerata,Calyptranthes concinna-Calyptranthes obversa-Calyptranthes widgreniana,apta,Nome original era sinônimo,NA-NA-NA,LC-NA-NA,NA-NA-NA,NA-NA-NA,NA-CR-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Myrcia loranthifolia,Calyptranthes brasiliensis-Calyptranthes glazioviana-Calyptranthes grandifolia-Calyptranthes rufa-Myrcia neobrasiliensis,apta,Nome original era sinônimo,NA-NA-NA-NA,LC-NA-NA-NA,NA-NA-NA-NA,NA-NA-NA-NA,NA-EN-LC-NA,NA-NA-NA-EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Guapira nitida,Guapira nitida,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chionanthus filiformis,Chionanthus filiformis,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chionanthus subsessilis,Chionanthus subsessilis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Ludwigia anastomosans,Ludwigia anastomosans,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Anathallis gehrtii,Anathallis gehrtii,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Barbosella dusenii,Barbosella dusenii,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Bifrenaria racemosa,Bifrenaria racemosa,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Brachionidium restrepioides,Brachionidium restrepioides,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Campylocentrum spannagelii,Campylocentrum spannagelii,apta,NA,NA,DD,NA,NA,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Catasetum atratum,Catasetum atratum,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cattleya bicolor,Cattleya bicolor,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Cattleya intermedia,Cattleya intermedia,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cattleya labiata,Cattleya labiata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Cattleya tigrina,Cattleya tigrina,apta,NA,NA,NA,NA,VU,VU,EW,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cirrhaea loddigesii,Cirrhaea loddigesii,apta,NA,NA,NA,NA,CR,CR,CR,entra,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,4,NA
+Cirrhaea longiracemosa,Cirrhaea longiracemosa,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cyrtopodium hatschbachii,Cyrtopodium hatschbachii,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Cyrtopodium lissochiloides,Cyrtopodium lissochiloides,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cyrtopodium palmifrons,Cyrtopodium palmifrons,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Cyrtopodium parviflorum,Cyrtopodium parviflorum,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Dichaea mosenii,Dichaea mosenii,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Dryadella auriculigera,Dryadella auriculigera,apta,NA,CR,NA,NA,CR,CR,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Epidendrum geniculatum,Epidendrum geniculatum-Epidendrum hololeucum,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,NT,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Epidendrum henschenii,Epidendrum henschenii,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Epidendrum saxatile,Epidendrum saxatile,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Gomesa laxiflora,Gomesa doeringii-Gomesa laxiflora,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Grandiphyllum auricula,Grandiphyllum schunkeanum,apta,Nome original era sinônimo,NA,CR,NA,NA,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Grandiphyllum hians,Grandiphyllum hians,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Grobya fascifera,Grobya fascifera,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Habenaria armata,Habenaria armata,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Habenaria crucifera,Habenaria aphylla-Habenaria crucifera,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,DD-DD,EX-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Habenaria hexaptera,Habenaria hexaptera,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Habenaria leucosantha,Habenaria leucosantha,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Habenaria novaesii,Habenaria novaesii,apta,NA,NA,NA,NA,CR,CR,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Habenaria regnellii,Habenaria regnellii,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Habenaria trifida,Habenaria trifida,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Habenaria brachyplectron,Habenaria brachyplectron,apta,NA,CR,NA,NA,CR,CR,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Isabelia virginalis,Isabelia virginalis,apta,NA,NA,NA,VU,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Lepanthopsis densiflora,Lepanthopsis densiflora,apta,NA,NA,NA,NA,NA,DD,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Malaxis jaraguae,Malaxis jaraguae,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Mesadenella atroviridis,Mesadenella atroviridis,apta,NA,NA,NA,NA,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Octomeria alexandri,Octomeria alexandri,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Octomeria decumbens,Octomeria decumbens,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Octomeria estrellensis,Octomeria estrellensis,apta,NA,NA,NA,NA,NA,NT,EW,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Octomeria lichenicola,Octomeria lichenicola,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Octomeria praestans,Octomeria praestans,apta,NA,NA,NA,NA,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Octomeria truncicola,Octomeria truncicola,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Octomeria wawrae,Octomeria wawrae,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Octomeria wilsoniana,Octomeria wilsoniana,apta,NA,CR,NA,NA,CR,CR,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Pogoniopsis schenckii,Pogoniopsis schenckii,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Pteroglossa macrantha,Pteroglossa macrantha,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Rodriguezia obtusifolia,Rodriguezia obtusifolia,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rodriguezia rigida,Rodriguezia rigida,apta,NA,NA,NA,NA,NA,DD,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Sarcoglottis alexandri,Sarcoglottis alexandri-Sarcoglottis alexandrii,apta,Nome original mal escrito-NA,NA-NA,NA-NA,NA-NA,EN-NA,EN-NA,EX-EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Sarcoglottis uliginosa,Sarcoglottis uliginosa,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Stelis argentata,Stelis itatiayae,apta,Nome original era sinônimo,NA,NT,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Zootrophion atropurpureum,Zootrophion atropurpureum,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Bifrenaria tyrianthina,Bifrenaria tyrianthina,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,LC,EW,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Maxillaria marginata,Brasiliorchis consanguinea,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Saundersia mirabilis,Saundersia mirabilis,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Acianthera ophiantha,Acianthera ophiantha,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Chaubardia gehrtiana,Hoehneella heloisae,apta,Nome original era sinônimo,NA,NA,NA,CR,CR,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Cirrhaea fuscolutea,Cirrhaea fuscolutea,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Epidendrum parahybunense,Epidendrum ecostatum-Epidendrum parahybunense,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil-A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,VU,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Habenaria santensis,Habenaria santensis,apta,NA,NA,NA,NA,NA,DD,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Houlletia brocklehurstiana,Houlletia brocklehurstiana,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Malaxis cogniauxiana,Malaxis cogniauxiana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NT,EX,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,FBnao- OCCScruzam
+Maxillaria schunkeana,Brasiliorchis schunkeana,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Miltonia russelliana,Anneliesia russelliana,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Octomeria hoehnei,Octomeria hoehnei,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Polystachya rupicola,Polystachya rupicola,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Veyretia aphylla,Veyretia rupicola,apta,Nome original era sinônimo,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Zygopetalum maculatum,Zygopetalum brachypetalum-Zygopetalum maculatum,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,LC-NT,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cattleya crispa,Brasilaelia crispa-Hadrolaelia crispa,apta,Nome original era sinônimo,NA-NA,NA-NA,NA-NA,VU-NA,NA-VU,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Cattleya jongheana,Hadrolaelia jongheana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Cattleya pumila,Hadrolaelia pumila,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA,NA,NA,VU,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Cattleya wittigiana,Hadrolaelia brevipedunculata-Hadrolaelia wittigiana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA-NA,NA-NA,NA-NA,EN-VU,NA-NA,NA-NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Pabstiella miniatolineolata,Pleurothallis miniatolineolata,apta,Nome original era sinônimo,NA,DD,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sauroglossum elatum,Sauroglossum elatum,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Vanilla dietschiana,Vanilla dietschiana,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Zygopetalum jugosum,Pabstia jugosa,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Zygopetalum mosenianum,Zygopetalum pedicellatum,apta,Nome original era sinônimo,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Zygopetalum viride,Pabstia schunkiana-Pabstia viridis,apta,Nome original era sinônimo,NA-NA,NA-NA,NA-NA,CR-NA,CR-DD,NA-NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Gomesa jucunda,Gomesa jucunda,apta,NA,NA,NA,VU,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Gomesa concolor,Brasilidium concolor-Gomesa concolor,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,LC-LC,EN-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Gomesa ciliata,Gomesa ciliata,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Gomesa cuneata,Baptistonia truncata-Gomesa cuneata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil-A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil/Nome original era sinônimo,NA-NA,NA-NA,NA-NA,CR-CR,NA-NA,VU-NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Gomesa majevskyae,Coppensia majevskyi,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Gomesa pectoralis,Brasilidium marshallianum-Brasilidium pectorale-Gomesa pectoralis,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,CR-CR,CR-NA,NA-CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Gomesa praetexta,Brasilidium gravesianum-Brasilidium praetextum-Gomesa praetexta,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,VU-NA,NA-NA,NA-LC,VU-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Gomesa sarcodes,Baptistonia sarcodes-Gomesa sarcodes,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Gomesa uniflora,Alatiglossum croesus-Alatiglossum longipes-Gomesa uniflora,apta,Nome original era sinônimo-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,CR-CR-NA,CR-NA-LC,NA-NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Capanemia therezae,Capanemia fluminensis-Capanemia therezae-Capanemia thereziae,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,DD-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Maxillaria meleagris,Camaridium meleagris,examinar,"Taxonomia incerta/Nome ainda é sinônimo, checar",NA,NA,NA,NA,DD,NA,entra,NA,TRUE,NA,TRUE,NA,TRUE,3,NA
+Cattleya purpurata,Brasilaelia purpurata-Cattleya purpurata-Hadrolaelia purpurata,apta,Nome original era sinônimo-NA,NA-NA-NA,NA-NA-NA,NA-NA-NA,VU-VU-NA,NA-NA-VU,EW-NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Gomesa florida,Coppensia macronyx,apta,Nome original era sinônimo,NA,NA,NA,VU,VU,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Warczewiczella wailesiana,Warczewiczella candida-Warczewiczella wailesiana,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,DD-DD,EN-NA,entra,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,3,NA
+Agalinis communis,Agalinis communis,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Agalinis ramulifera,Agalinis ramulifera,apta,NA,NA,NA,EX,EN,EN,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Escobedia grandiflora,Escobedia grandiflora,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Melasma rhinanthoides,Melasma rhinanthoides,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Esterhazya caesarea,Esterhazya caesarea,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Passiflora campanulata,Passiflora campanulata,apta,NA,NA,NA,NA,NA,LC,EW,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Passiflora hatschbachii,Passiflora hatschbachii,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Passiflora ischnoclada,Passiflora ischnoclada,apta,NA,NA,NA,NA,CR,CR,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Passiflora racemosa,Passiflora racemosa,apta,NA,NA,NA,NA,NA,LC,EW,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Passiflora setulosa,Passiflora setulosa,apta,NA,NA,NA,NA,EN,EN,EW,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pera glabrata,Pera androgyna-Pera glabrata,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,DD-DD,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Gonatogyne brasiliensis,Amazona brasiliensis-Gonatogyne brasiliensis,apta,Nome original mal escrito/Nome original era sinônimo-NA,NA-NA,NT-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia adsurgens,Peperomia adsurgens,apta,NA,NA,NA,NA,NA,DD,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia clivicola,Peperomia clivicola,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia diaphanoides,Peperomia diaphanoides,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia emarginella,Peperomia emarginella,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia guarujana,Peperomia guarujana,apta,NA,CR,NA,NA,CR,CR,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia hydrocotyloides,Peperomia hydrocotyloides,apta,NA,NA,NA,NA,NA,NT,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia oreophila,Peperomia oreophila-Peperomia oreophilla,apta,Nome original mal escrito-NA,NA-NA,NA-NA,NA-NA,NA-NA,LC-NA,EX-EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia quadrifolia,Peperomia quadrifolia,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Peperomia rostulatiformis,Peperomia rostulatiformis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,EX,EN,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Peperomia schwackei,Peperomia schwackei,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Peperomia trinervis,Peperomia trinervis,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Peperomia velloziana,Peperomia velloziana,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Piper hoehnei,Piper hoehnei,apta,NA,NA,NA,NA,EN,EN,EX,entra,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,5,NA
+Piper kuhlmannii,Piper kuhlmannii,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Piper lanceolatum,Piper lanceolatum,apta,NA,NA,NA,EN,NA,NT,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Piper loefgrenii,Piper loefgrenii,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Piper scabrellum,Piper scabrellum,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Piper tectoniifolium,Piper tectoniifolium,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Piper vaginans,Piper vaginans,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Piper velutinibaccum,Piper velutinibaccum,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Bacopa congesta,Bacopa congesta,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Plantago catharinea,Plantago catharinea,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Agrostis longiberbis,Agrostis longiberbis,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Andropogon carinatus,Andropogon carinatus,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Andropogon hypogynus,Andropogon hypogynus,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Aristida brasiliensis,Aristida brasiliensis,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Aristida circinalis,Aristida circinalis,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Aristida ekmaniana,Aristida ekmaniana,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Aristida macrophylla,Aristida macrophylla,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Axonopus monticola,Axonopus monticola,apta,NA,NA,NA,NA,EN,EN,EX,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,NA
+Axonopus uninodis,Axonopus uninodis,apta,NA,NA,NA,EX,CR,CR,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chusquea anelythra,Chusquea anelythra,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Chusquea attenuata,Chusquea attenuata,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chusquea erecta,Chusquea erecta,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chusquea pinifolia,Chusquea pinifolia,apta,NA,NA,NA,NA,NA,LC,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chusquea pulchella,Chusquea pulchella,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chusquea tenuiglumis,Chusquea tenuiglumis,apta,NA,NA,NA,NA,CR,CR,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Colanthelia macrostachya,Colanthelia macrostachya,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Ctenium brevispicatum,Ctenium brevispicatum,apta,NA,NA,NA,NA,NA,LC,CR,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Ctenium cirrosum,Ctenium cirrhosum-Ctenium cirrosum,apta,Nome original mal escrito-NA,NA-NA,NA-NA,EN-NA,NA-NA,DD-DD,EN-EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Digitaria corynotricha,Digitaria corynotricha,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eragrostis neesii,Eragrostis neesii,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Gymnopogon burchellii,Gymnopogon burchellii,apta,NA,NA,NA,EN,NA,LC,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hymenachne donacifolia,Hymenachne donacifolia,apta,NA,NA,NA,NA,NA,LC,CR,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Hymenachne pernambucensis,Hymenachne pernambucensis,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ichnanthus bambusiflorus,Ichnanthus bambusiflorus,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Leersia ligularis,Leersia ligularis,apta,NA,NA,NA,CR,VU,VU,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Lithachne horizontalis,Lithachne horizontalis,apta,NA,NA,NA,EX,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Luziola bahiensis,Luziola bahiensis,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Merostachys bradei,Merostachys bradei,apta,NA,NA,NA,NA,NA,NA,EX,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Merostachys brevigluma,Merostachys brevigluma,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,3,NA
+Merostachys burmanii,Merostachys burmanii,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Merostachys caucaiana,Merostachys caucaiana,apta,NA,CR,NA,NA,CR,CR,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Merostachys kleinii,Merostachys kleinii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Merostachys neesii,Merostachys neesii,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Merostachys polyantha,Merostachys polyantha,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,NA,FALSE,NA,TRUE,NA,2,NA
+Merostachys scandens,Merostachys scandens,apta,NA,CR,NA,CR,CR,CR,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Merostachys skvortzovii,Merostachys skvortzovii,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Mesosetum ferrugineum,Mesosetum ferrugineum,apta,NA,NA,LC,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Panicum peladoense,Panicum peladoense,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Paspalum acuminatum,Paspalum acuminatum,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Paspalum erianthoides,Paspalum erianthoides,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Paspalum erianthum,Paspalum erianthum,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Paspalum falcatum,Paspalum falcatum,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Paspalum flaccidum,Paspalum flaccidum,apta,NA,NA,NA,CR,NA,NA,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Paspalum glaucescens,Paspalum glaucescens,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Paspalum usterii,Paspalum usterii,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Raddiella esenbeckii,Raddiella esenbeckii,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Schizachyrium tenerum,Schizachyrium tenerum,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Setaria parviflora,Setaria parviflora,apta,NA,NA,LC,EX,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Setaria tenacissima,Setaria tenacissima,apta,NA,NA,NA,CR,NA,LC,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Steinchisma spathellosum,Steinchisma spathellosum,apta,NA,NA,NA,EX,NA,NA,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Zizaniopsis microstachya,Zizaniopsis microstachya,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Ichnanthus lancifolius,Ichnanthus lancifolius,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Reimarochloa acuta,Reimarochloa acuta,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,CR,NA,NA,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Agenium leptocladum,Agenium leptocladum,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Arthropogon xerachne,Arthropogon xerachne,apta,NA,NA,NA,NA,CR,CR,CR,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Axonopus argentinus,Axonopus argentinus-Axonopus ramboi,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,EX-NA,EN-EN,NA-EN,EX-EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Axonopus comans,Axonopus comans,apta,NA,NA,NA,NA,NA,LC,EX,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,NA
+Gymnopogon doellii,Gymnopogon doellii,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,CR,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Paspalum cinerascens,Paspalum cinerascens,apta,NA,NA,NA,NA,NA,NA,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Paspalum plenum,Paspalum plenum,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sporobolus apiculatus,Sporobolus apiculatus,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Axonopus carajasensis,Axonopus carajasensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Andropogon glaucophyllus,Andropogon glaucophyllus,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Polypogon chilensis,Polypogon chilensis,apta,NA,NA,NA,CR,NA,NA,CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Polypogon imberbis,Polypogon imberbis,apta,NA,NA,NA,NA,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Arundinella deppeana,Arundinella deppeana,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Avena strigosa,Avena strigosa,apta,NA,NA,DD,NA,NA,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Paspalum exaltatum,Paspalum exaltatum,apta,NA,NA,NA,NA,NA,NA,CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chascolytrum brasilense,Briza brasiliensis-Chascolytrum brasiliense-Chascolytum brasiliense,apta,Nome original era sinônimo-Nome original mal escrito,NA-NA-NA,NA-NA-NA,CR-NA-NA,EN-NA-NA,NA-EN-NA,CR-NA-CR,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Paspalum repandum,Paspalum repandum-Thrasyopsis repanda,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,EN-NA,NA-EN,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Aulonemia setosa,Eremocaulon setosum,apta,Nome original era sinônimo,NA,VU,NA,NA,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Aristida subaequans,Aristida subaequans,apta,NA,NA,NA,NA,NA,NA,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Hymenachne condensata,Hymenanchne condensata-Panicum condensatum,apta,Nome original era sinônimo-Nome original mal escrito,NA-NA,NA-NA,NA-NA,NA-NA,LC-NA,NA-CR,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Schizachyrium scabriflorum,Schizachyrium scabriflorum-Schizachyrium scabrifolium,apta,Nome original mal escrito-NA,NA-NA,NA-NA,EX-NA,NA-EN,NA-EN,NA-EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Podocarpus lambertii,Podocarpus lambertii,apta,NA,NA,NT,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Podocarpus sellowii,Podocarpus sellowii,apta,NA,NA,EN,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Apinagia riedelii,Apinagia fluitans-Apinagia riedelii,apta,Nome original era sinônimo-NA,NA-NA,DD-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Polygala molluginifolia,Polygala molluginifolia,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Polygala brasiliensis,Polygala brasiliensis,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Polygala pumila,Polygala pumila,apta,NA,NA,NA,EX,NA,NT,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Lellingeria itatimensis,Lellingeria itatimensis,apta,NA,NA,NA,NA,CR,CR,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Moranopteris perpusilla,Moranopteris perpusilla,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Mycopteris taxifolia,Terpsichore taxifolia,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Heteranthera reniformis,Heteranthera reniformis,apta,NA,NA,NA,VU,NA,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Heteranthera zosterifolia,Heteranthera zosterifolia,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Portulaca amilis,Portulaca amilis,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Portulaca halimoides,Portulaca halimoides,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Myrsine rubra,Myrsine rubra,apta,NA,NA,NT,NA,NA,NT,NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Myrsine villosissima,Myrsine villosissima,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Lysimachia buxifolia,Anagallis alternifolia-Lysimachia buxifolia,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,EN-NA,EN-NA,NA-EN,EN-NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Euplassa cantareirae,Euplassa cantareirae,apta,NA,NA,NA,EX,EN,EN,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Euplassa hoehnei,Euplassa hoehnei,apta,NA,NA,LC,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Euplassa incana,Euplassa incana,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Panopsis multiflora,Panopsis multiflora,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Roupala sculpta,Roupala sculpta,apta,NA,NA,NA,VU,VU,EN,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Cheilanthes regnelliana,Cheilanthes regnelliana,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Doryopteris rediviva,Doryopteris rediviva,apta,NA,NA,NA,NA,VU,VU,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Lytoneuron crenulans,Doryopteris crenulans-Lytoneuron crenulans,apta,Nome original era sinônimo-NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Quiina glaziovii,Quiina glaziovii-Quiina magallano-gomesii,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,VU-NA,NA-NA,DD-LC,VU-VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Clematis campestris,Clematis campestris,apta,NA,NA,NA,NA,NA,LC,EW,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,NA
+Ranunculus flagelliformis,Ranunculus flagelliformis,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Reissekia smilacina,Reissekia smilacina,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Gouania inornata,Gouania inornata,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Gouania ulmifolia,Gouania ulmifolia,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Acaena eupatoria,Acaena eupatoria,apta,NA,NA,NA,NA,NA,NA,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chomelia brasiliana,Chomelia brasiliana-Chomelia modesta-Chomelia parvifolia,apta,Nome original era sinônimo-NA,NA-NA-NA,LC-LC-NA,NA-NA-NA,NA-NA-CR,LC-NA-CR,NA-NA-EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chomelia obtusa,Chomelia randioides,apta,Nome original era sinônimo,NA,EN,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Coussarea accedens,Coussarea accedens,apta,NA,NA,VU,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Declieuxia cordigera,Declieuxia cordigera,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Faramea stipulacea,Faramea martiana-Faramea stipulacea,apta,Nome original era sinônimo-NA,NA-NA,DD-LC,NA-NA,NA-NA,DD-NA,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Galianthe peruviana,Galianthe peruviana,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Galium equisetoides,Galium equisetoides,apta,NA,NA,NA,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Galium humile,Galium humile,apta,NA,NA,NA,EX,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Guettarda platyphylla,Guettarda platyphylla,apta,NA,NA,NA,NA,NA,DD,EX,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Manettia campanulacea,Manettia campanulacea,apta,NA,NA,NA,NA,CR,CR,CR,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Melanopsidium nigrum,Melanopsidium nigrum,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,VU,NA,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Palicourea tetraphylla,Palicourea tetraphylla,apta,NA,NA,NA,VU,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Posoqueria acutifolia,Posoqueria acutifolia,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Psychotria fluminensis,Psychotria fluminensis,apta,NA,NA,VU,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Psychotria glaziovii,Psychotria glaziovii,apta,NA,NA,VU,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Richardia schumannii,Richardia schumannii,apta,NA,NA,NA,EX,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Richardia stellaris,Richardia stellaris,apta,NA,NA,NA,EN,NA,NT,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Rudgea coronata,Rudgea coronata,apta,NA,NA,LC,NA,CR,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rudgea corymbulosa,Rudgea corymbulosa,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Rudgea nobilis,Rudgea nobilis,apta,NA,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rudgea sessilis,Rudgea sessilis,apta,NA,NA,NA,NA,EN,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rudgea triflora,Rudgea triflora,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rudgea vellerea,Rudgea vellerea,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Rustia angustifolia,Rustia angustifolia,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Declieuxia oenanthoides,Declieuxia oenanthoides,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Coffea arabica,Coffea arabica,apta,NA,NA,EN,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Simira hexandra,Simira corumbensis-Simira pilosa,apta,Nome original era sinônimo,NA-NA,DD-NA,NA-NA,NA-NA,DD-LC,NA-NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Simira rubra,Simira rubra-Simira viridiflora,apta,Nome original era sinônimo-NA,NA-NA,NA-NA,NA-NA,NA-NA,DD-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Ixora schottiana,Ixora schottiana,apta,NA,NA,LC,NA,NA,NT,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,NA
+Schizocalyx cuspidatus,Bathysa cuspidata-Schizocalyx cuspidatus,apta,Nome original era sinônimo-NA,NA-NA,LC-NA,NA-NA,NA-NA,LC-LC,VU-NA,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,NA
+Palicourea forsteronioides,Palicourea forsteronioides,apta,NA,NA,DD,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Palicourea malaneoides,Palicourea malaneoides,apta,NA,NA,DD,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Balfourodendron riedelianum,Balfourodendron riedelianum,apta,NA,NA,EN,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Esenbeckia hieronymi,Esenbeckia hieronymi,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Esenbeckia leiocarpa,Esenbeckia leiocarpa,apta,NA,NA,VU,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pilocarpus giganteus,Pilocarpus giganteus,apta,NA,NA,NA,NA,NA,NT,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Meliosma chartacea,Meliosma chartacea,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Meliosma itatiaiae,Meliosma itatiaiae,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Casearia lasiophylla,Casearia lasiophylla,apta,NA,NA,DD,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Casearia paranaensis,Casearia paranaensis,apta,NA,NA,NT,NA,VU,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Xylosma glaberrima,Xylosma glaberrima,apta,NA,NA,NA,NA,NA,VU,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Eubrachion ambiguum,Eubrachion ambiguum,apta,NA,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Phoradendron dipterum,Phoradendron anamariae,apta,Nome original era sinônimo,NA,NA,NA,NA,CR,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Cupania concolor,Cupania concolor,apta,NA,NA,NA,NA,VU,NT,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Cupania furfuracea,Cupania furfuracea,apta,NA,NA,NA,NA,VU,NT,VU,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Urvillea glabra,Urvillea glabra,apta,NA,NA,NA,NA,VU,VU,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Allophylus melanophloeus,Allophylus melanophloeus,apta,NA,NA,NA,NA,NA,DD,NA,entra,TRUE,NA,TRUE,NA,TRUE,NA,3,NA
+Paullinia pseudota,Paullinia racemosa,apta,Nome original era sinônimo,NA,NA,NA,NA,LC,VU,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Chrysophyllum flexuosum,Chrysophyllum flexuosum,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chrysophyllum imperiale,Chrysophyllum imperiale,apta,NA,NA,EN,NA,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chrysophyllum inornatum,Chrysophyllum inornatum,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Chrysophyllum paranaense,Chrysophyllum paranaense,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,DD,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Chrysophyllum viride,Chrysophyllum viride,apta,NA,NA,LR/nt,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pouteria beaurepairei,Pouteria beaurepairei,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pouteria bullata,Pouteria bullata,apta,NA,NA,VU,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pouteria gardneri,Pouteria gardneri-Pouteria peduncularis,apta,Nome original era sinônimo-NA,NA-NA,DD-LC,NA-NA,NA-NA,VU-NA,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pouteria glomerata,Pouteria glomerata,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,NA,LC,VU,entra,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam
+Pouteria oxypetala,Pouteria oxypetala,apta,NA,NA,EN,NA,EN,NT,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Pouteria psammophila,Pouteria psammophila,apta,NA,NA,EN,NA,NA,"NT, quase chegando à VU",NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Micropholis crassipedicellata,Micropholis crassipedicellata,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Manilkara subsericea,Manilkara subsericea,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Selaginella valida,Selaginella valida,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Smilax muscosa,Smilax muscosa,apta,NA,NA,NA,NA,VU,VU,EX,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Smilax spicata,Smilax spicata,apta,NA,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Smilax subsessiliflora,Smilax subsessiliflora,apta,NA,NA,NA,NA,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Smilax lappacea,Smilax lappacea,apta,NA,NA,NA,EX,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Brugmansia suaveolens,Brugmansia suaveolens,apta,NA,NA,EW,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Petunia mantiqueirensis,Petunia mantiqueirensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,FBnao- OCCScruzam
+Schwenckia curviflora,Schwenckia curviflora,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Sessea brasiliensis,Sessea brasiliensis,apta,NA,NA,DD,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum arenarium,Solanum arenarium,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Solanum bullatum,Solanum bullatum,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum cinnamomeum,Solanum cinnamomeum,apta,NA,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum diploconos,Cyphomandra diploconos-Solanum diploconos,apta,Nome original era sinônimo-NA,NA-NA,LR/nt-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum latiflorum,Solanum latiflorum,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum melissarum,Solanum melissarum,apta,NA,NA,LR/nt,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Solanum paralum,Solanum paralum,apta,NA,NA,EN,NA,EN,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum pinetorum,Solanum pinetorum,apta,NA,NA,LR/nt,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum pseudoquina,Solanum inaequale-Solanum pseudoquina,apta,Nome original era sinônimo-NA,NA-NA,LR/cd-NA,NA-NA,NA-NA,NA-LC,NA-NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Solanum spissifolium,Solanum spissifolium,apta,NA,CR,NA,EX,CR,CR,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Solanum viscosissimum,Solanum viscosissimum,apta,NA,NA,NA,NA,EN,EN,NA,entra,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,4,NA
+Calibrachoa humilis,Calibrachoa humilis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,3,FBnao- OCCScruzam
+Petunia exserta,Petunia exserta,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,FBnao- OCCScruzam
+Athenaea fasciculata,Aureliana fasciculata,apta,Nome original era sinônimo,NA,LR/cd,NA,NA,LC,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Athenaea sellowiana,Aureliana sellowiana,apta,Nome original era sinônimo,NA,NA,NA,NA,EN,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Sphagnum brasiliense,Sphagnum brasiliense,apta,NA,NA,EN,NA,NA,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Goniopteris littoralis,Thelypteris littoralis,apta,Nome original era sinônimo,NA,NA,NA,EN,EN,NA,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Sciaphila schwackeana,Sciaphila schwackeana,apta,NA,NA,NA,NA,NA,NT,EN,entra,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,2,NA
+Turnera hilaireana,Turnera hilaireana,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Pilea rhizobola,Pilea rhizobola,apta,NA,NA,NA,NA,NA,DD,EX,entra,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,5,NA
+Lantana canescens,Lippia duartei,apta,Nome original era sinônimo,NA,NA,NA,NA,CR,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Viola gracillima,Viola gracillima,apta,NA,NA,NA,EX,EN,EN,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Viola subdimidiata,Viola subdimidiata,apta,NA,NA,NA,EN,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Cissus serroniana,Cissus serroniana,apta,NA,NA,NA,NA,NA,NT,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Callisthene castellanosii,Callisthene castellanosii,apta,NA,NA,NA,NA,NA,"NT, quase chegando à VU",NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Xyris fallax,Xyris fallax,apta,NA,NA,NA,EN,NA,NA,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Xyris trachyphylla,Xyris trachyphylla,apta,NA,NA,NA,NA,NA,LC,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Xyris vacillans,Xyris vacillans,apta,NA,NA,NA,EN,EN,EN,EN,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Xyris capensis,Xyris capensis,apta,NA,NA,LC,NA,NA,LC,EX,entra,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,3,NA
+Xyris rigida,Xyris rigida,apta,NA,NA,NA,CR,CR,CR,CR,entra,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,5,NA
+Xyris wawrae,Xyris wawrae,apta,NA,NA,NA,NA,EN,EN,EN,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,NA
+Hedychium coronarium,Hedychium coronarium,apta,NA,NA,DD,NA,NA,NA,NA,entra,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6,NA
+Renealmia brasiliensis,Renealmia brasiliensis,examinar,A espécie não ocorre no Estado de São Paulo segundo a Flora do Brasil,NA,NA,NA,EN,NA,NA,entra,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,4,FBnao- OCCScruzam

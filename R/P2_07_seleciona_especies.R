@@ -68,4 +68,11 @@ p2_selecionadas %>%
   count(elegivel_produto_1, cat_ameaca_geral, gbif_sp, splink_sp) %>% arrange(desc(n))
 #### hasta aqui seleccion
 
+#selecion por territorio 20
+
+write_csv(p2_selecionadas, "output/p2/p2_selecionadas.csv")
+
+
+p2_selecionadas %>% filter(splink_t20 | gbif_t20) %>%
+  write_csv("output/p2/p3_territorio20.csv")
 
