@@ -3,25 +3,25 @@ library(knitr)
 library(Rocc)
 library(stringr)
 library(dplyr)
-# p2 <- read_csv("output/p2/02_resumo.csv")
+p2 <- read_csv("output/p2/02_resumo.csv")
 # checa as categorias atuais
-#  nop <- p2 %>%
-#    filter(cat_ameaca_geral == "nao entra" &
-#             elegivel_produto_1 != "inapta")
-#  nop %>% count(cat_ameaca_iucn)
-#
+ nop <- p2 %>%
+   filter(cat_ameaca_geral == "nao entra" &
+            elegivel_produto_1 != "inapta")
+ nop %>% count(cat_ameaca_iucn)
+
 # # #corrige cat_ameaca_br
-#  nop %>% count(cat_ameaca_br)#2
-#  p2$cat_ameaca_geral[which(p2$elegivel_produto_1 != "inapta" &
-#                              p2$cat_ameaca_br  == "EN" &
-#                              p2$cat_ameaca_geral == "nao entra")] <- "entra"
+ nop %>% count(cat_ameaca_br)#2
+ p2$cat_ameaca_geral[which(p2$elegivel_produto_1 != "inapta" &
+                             p2$cat_ameaca_br  == "EN" &
+                             p2$cat_ameaca_geral == "nao entra")] <- "entra"
+
+nop %>% count(cat_ameaca_cncflora)
+nop %>% count(cat_ameaca_sp)
+nop %>% count(cat_ameaca_mpo_sp)
+nop %>% count(cat_ameaca_cr_lac)
 #
-# nop %>% count(cat_ameaca_cncflora)
-# nop %>% count(cat_ameaca_sp)
-# nop %>% count(cat_ameaca_mpo_sp)
-# nop %>% count(cat_ameaca_cr_lac)
-#
-#write_csv(p2, "output/p2/03_resumo_anotado.csv")
+write_csv(p2, "output/p2/03_resumo_anotado.csv")
 
 p2 <- read_csv("output/p2/03_resumo_anotado.csv")
 

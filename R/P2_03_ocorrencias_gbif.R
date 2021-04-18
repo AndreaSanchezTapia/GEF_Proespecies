@@ -42,7 +42,7 @@ download_rgbif <- function(oc) {
   out <- tryCatch (
     {
     res_gbif <- purrr::map(keys_final,
-                         ~rgbif::occ_search(taxonKey = .x,
+                         ~rgbif::occ_search(taxonKey = .x, basisOfRecord = "PRESERVED_SPECIMEN",#SHOULD HAVE
                                      limit = 100000)$data)
   res <- bind_rows(res_gbif)
   write_csv(res, fs::path(pasta_out, sp, ext = "csv"))
@@ -62,5 +62,5 @@ download_rgbif <- function(oc) {
 
 #plan(multisession, workers = 15)
 gf <- furrr::future_map(df, ~download_rgbif(.x), .progress = T)
-plan(sequential)
+future::plan(sequential)
 
