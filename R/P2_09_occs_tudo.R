@@ -6,6 +6,9 @@ library(stringr)
 p3_selecionadas <- read_csv("output/p2/p3_territorio20.csv")
 especies <- p3_selecionadas$nome_aceito_correto
 occs <- list.files("output/p2/t20_raw/",recursive = T, full.names = T, pattern = ".csv")
+especies_all <- basename(occs) %>% str_remove(".csv") %>% str_remove("_gbif_c")%>% str_remove("_splink")
+fonte_all <- basename(occs) %>% str_remove(".csv") %>% str_remove("_c") %>% str_split("_", simplify = T ) %>% data.frame() %>% select(2) %>% pull()
+
 library(furrr)
 plan(multisession, workers = 10)
 read_raw2 <- furrr::future_map(occs,
@@ -14,7 +17,21 @@ read_raw2 <- furrr::future_map(occs,
 nrow_raw <- furrr::future_map(read_raw2, ~nrow(.x), .progress = T)
 names_raw <- furrr::future_map(read_raw2, ~names(.x), .progress = T)
 todos_os_nomes <- simplify(names_raw) %>% unique() %>% sort()
-
+#processamento a mao apra ver quais campos ficam em P2_10
+sel_fields <- read_csv("output/p2/08_campos_originales.csv")
+sel_fields <- sel_fields %>% filter(select == T) %>% pull(field)
+plan(multisession, workers = 15)
+fields_raw <- furrr::future_map(read_raw2, ~select(.x, one_of(sel_fields)), .progress = T)
+add_nome <- furrr::future_map2(read_raw2,
+                               especies_all, ~mutate(.x, nome_aceito_correto = .y), .progress = T)
+add_nome <- furrr::future_map2(add_nome,
+                               fonte_all, ~mutate(.x, fonte = .y), .progress = T)
+dim_raw <- furrr::future_map(fields_raw, ~dim(.x), .progress = T)
+dim_now <- furrr::future_map(add_nome, ~dim(.x), .progress = T)
+names(dim_now) <- paste(especies_all, fonte_all)
+dimensoes <- bind_rows(dim_now)
+dimensoes_df <-  t(dimensoes) %>% data.frame() %>% tibble::rownames_to_column("dataset")
+write_csv(dimensoes_df, "output/p2/09_dimensoes.csv")
 plan(sequential)
 
 
@@ -45,6 +62,7 @@ dir.create(pasta_all)
 library(furrr)
 
 plan(multisession, workers = 15)
+plan(sequential)
 library(dplyr)
 sp <- oc_df[1,1]
 gbb <- oc_df[1,2]

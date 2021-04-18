@@ -32,3 +32,6 @@ camposP2 <- c("ID_registro",
 todos_os_nomes <- simplify(names_raw) %>% unique() %>% sort() %>% tibble(field = .)
 write_csv(camposP2, "output/p2/07_campos_P2.csv")
 write_csv(todos_os_nomes, "output/p2/08_campos_originales.csv")
+###processamento a mao para saber qual selecionar
+sel_fields <- read_csv("output/p2/08_campos_originales.csv")
+sel_fields <- sel_fields %>% filter(select == T)
