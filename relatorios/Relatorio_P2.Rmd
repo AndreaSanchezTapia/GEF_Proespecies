@@ -40,8 +40,8 @@ knitr::kable(count(p2, elegivel_produto_1))
 ```
 
 
-Os motivos para a classificação são os seguintes:
-```{r}
+```{r, eval = F}
+#Os motivos para a classificação são os seguintes:
 p2 %>%
 #  filter(elegivel_produto_1 != "inapta") %>%
  # select(elegivel_produto_1, notas) %>%
@@ -123,17 +123,29 @@ Para todas as espécies, as ocorrências provindas de SpeciesLink e GBIF foram c
 
 As espécies cujos registros foram selecionados são espécies que cumprem os critérios seguintes:
 
-- Foram consideradas aptas ou examinar no Produto 1
-- Têm alguma categoria de ameaça superior a LC em qualquer das avaliações realizadas de revisadas no Produto 1. 
-- Têm alguma ocorrência cruzando o shapefile do Estado de São Paulo. 
-- 
 
+- Foram consideradas aptas ou examinar no Produto 1 (as inaptas foram removidas)
+- Têm alguma categoria de ameaça (VU, EN, CR) ou DD, ou NT em qualquer das avaliações realizadas e revisadas no Produto 1. 
+- Para as espécies Aptas, a Flora do Brasil afirma que há algum registro no Estado. Essas espécies não foram verificadas geográficamente mesmo que os dados de ocorrência georreferenciados não apontem para a presença da espécie no estado. 
+- Para as espécies Examinar, a Flora do Brasil apontava que a espécie não se encontra no Estado. Essas espécies foram verificadas geograficamente, eliminando espécies que não tivessem registros comprovados no Estado. 
+
+```{r remedy006}
+p3 <- read_csv("output/p2/p2_selecionadas.csv")
+p3 %>%
+     count(
+       elegivel_produto_1,
+       cat_ameaca_geral,
+       splink_sp | gbif_sp
+      ) %>% arrange(desc(n)) %>%
+  kable()
+
+```
 
 ## 
 
 - [x] Quem é ameaçada?
 - [x] Quem fura ou nao os shapes
-- [ ] Qual  a lista final de especies das quais vamos retornar ocorrencias. 
+- [x] Qual  a lista final de especies das quais vamos retornar ocorrencias. 
     1. Entra (por cat_ameaca)
     2. Entra iif&& Aptas segundo a FB (mesmo que nao cruze)
     3. qualquer coisa que cruze e que seja entra (por cat_ameaca)
