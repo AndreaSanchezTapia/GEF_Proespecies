@@ -21,11 +21,16 @@ todos_os_nomes <- simplify(names_raw) %>% unique() %>% sort()
 sel_fields <- read_csv("output/p2/08_campos_originales.csv")
 sel_fields <- sel_fields %>% filter(select == T) %>% pull(field)
 plan(multisession, workers = 15)
+length(sel_fields)
 fields_raw <- furrr::future_map(read_raw2, ~select(.x, one_of(sel_fields)), .progress = T)
-add_nome <- furrr::future_map2(read_raw2,
-                               especies_all, ~mutate(.x, nome_aceito_correto = .y), .progress = T)
+add_nome <- furrr::future_map2(fields_raw,
+                               especies_all,
+                               ~mutate(.x, nome_aceito_correto = .y),
+                               .progress = T)
 add_nome <- furrr::future_map2(add_nome,
-                               fonte_all, ~mutate(.x, fonte = .y), .progress = T)
+                               fonte_all,
+                               ~mutate(.x, fonte = .y),
+                               .progress = T)
 dim_raw <- furrr::future_map(fields_raw, ~dim(.x), .progress = T)
 dim_now <- furrr::future_map(add_nome, ~dim(.x), .progress = T)
 names(dim_now) <- paste(especies_all, fonte_all)
