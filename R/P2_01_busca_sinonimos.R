@@ -75,43 +75,48 @@ p2 %>%
 # checar sinonimos aptas
 
 especies <- p2 %>%
-  filter(elegivel_originais != "inapta") %>%
+  filter(elegivel_produto_1 != "inapta") %>%
   #select(nome_aceito_correto) %%
   filter(!is.na(nome_aceito_correto)) %>%
   distinct(nome_aceito_correto) %>%
   pull()
 length(especies)
 
-ignorar <- str_detect(especies, "subsp.") | str_detect(especies, "var.")
+ignorar <- str_detect(especies, "subsp\\.") | str_detect(especies, "var\\.")
+
 sum(ignorar)
-especies <- especies[!ignorar]
+
 #get_sinonimos <- purrr::map(especies,
  #                           ~check_flora(.x, get_synonyms = T))
 
 library("furrr")
-plan(multisession, workers = 14)
+plan(multisession, workers = 15)
 especies
 #cria funcao que vai salvar no hd o resultado de check_flora para nao repetirmos a busca
+source("../../../Andre/R_packages/Rocc/R/check_flora.R")
 save_check <- function(x) {
-  if (!file.exists(fs::path("output/p2/check_flora", x, ext = "rda"))) {
-  a <- Rocc::check_flora(x, get_synonyms = T)
+  #if (!file.exists(fs::path("output/p2/check_flora", x, ext = "rda"))) {
+  a <- check_flora(x, get_synonyms = T, infraspecies = T)
   save(a,
        file = fs::path("output/p2/check_flora", x, ext = "rda"))
   return(a)
-  } else {
-  message("file already in disk")
-}}
+  #} else {
+  #message("file already in disk")
+#}
+}
 #o objto ficou salvo como a, vai ter que rolar um rename com assign
 
 furtest <- furrr::future_map(especies,
                              .progress = T,
                       ~save_check(.x))
 plan(sequential)
+
 #checar o que rodou
 ya <- list.files("output/p2/check_flora/")
 ya <- stringr::str_remove(ya, "\\.rda$")
 #para ver o que precisa rodar de novo... istodeveria ser com um tryCatch mas sem tempo
 again <- setdiff(especies, ya)
-furtest <- furrr::future_map(again,
+
+furtest <- furrr::future_map(again[1],
                              .progress = T,
                              ~save_check(.x))

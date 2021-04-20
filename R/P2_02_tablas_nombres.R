@@ -14,9 +14,8 @@ load_and_rename <- function(object, name) {
 ## test
 load_and_rename(object = spp_files[1], name = spp[1])
 library("furrr")
-plan(multisession, workers = 10)
+plan(multisession, workers = 15)
 lista_completa <- furrr::future_map2(spp_files, spp, ~load_and_rename(.x, .y))
-lista_completa[1]
 names(lista_completa) <- spp
 
 
@@ -24,11 +23,6 @@ names(lista_completa) <- spp
 syn_todas <- furrr::future_map(lista_completa,
                                ~.x$synonyms,
                                .progress = T)
-#quando tem?
-#tax_syn_yes_no <- furrr::future_map(tax_todas,
-#                                   ~ unique(.x$synonyms))
-#quantas?
-#table(unlist(tax_syn_yes_no))
 
 #checa o  string quando a tabela nao eh nula
 check_non_null <- function(x) {
@@ -53,6 +47,7 @@ sin_df <- furrr::future_imap(syn_list,
                              .progress = T)
 pasta <- "output/p2/sinonimos"
 dir.create(pasta)
-furrr::future_imap(sin_df, ~readr::write_csv(.x, file = fs::path(pasta, .y, ext = "csv")))
+furrr::future_imap(sin_df,
+                   ~readr::write_csv(.x, file = fs::path(pasta, .y, ext = "csv")))
 plan(sequential)
 #sucesso
