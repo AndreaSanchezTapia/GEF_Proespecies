@@ -2,48 +2,52 @@
 library(readr)
 library(dplyr)
 library(Rocc)
-splink <- "output/p2/specieslink/"
-gbif <- "output/p2/gbif/"
+pasta_splink <- "output/p2/occs/splink/"
+
+#sinonimos
 df_sinonimos <- list.files("output/p2/sinonimos/", full.names = T)
 nomes1 <- basename(df_sinonimos)
 nomes <- stringr::str_remove(nomes1, ".csv")
 names(df_sinonimos) <- nomes
-#para cada especie
-pasta_occs <- "output/p2/occs/"
+syn_df <- tibble(nome_aceito_correto = nomes,
+                 sinonimo_file = df_sinonimos)
 
+#para cada especie que entra pelo criterio ameaca
+p2 <- read_csv("output/p2/03_resumo_anotado.csv")
+entra <- p2 %>%
+  filter(cat_ameaca_geral == "entra") %>%
+  select(nome_aceito_correto, cat_ameaca_geral)
+
+syn_df <- left_join(entra, syn_df)
+#para cada especie
+
+sp_link_now <- file_data_frame("output/p2/occs/splink/")
+sp_link_entra <- sp_link_now %>% filter(names %in% syn_df$nome_aceito_correto)
+falta_splink <- setdiff(syn_df$nome_aceito_correto, sp_link_entra$names)
+syn_df <- filter(syn_df, nome_aceito_correto %in% falta_splink)
 library(furrr)
-plan(multisession, workers = 14)
-df <- furrr::future_map(df_sinonimos, ~read_csv(.x), .progress = T)
-warnings()
+plan(multisession, workers = 15)
+df <- furrr::future_map(syn_df$sinonimo_file, ~read_csv(.x), .progress = T)
 plan(sequential)
 
-df[[1]]$nomes
 names(df)
-
-length(df)
-names(df)
-
-
+oc <- df[[1]]
 #baja ocurrencias de species link
 download_splink <- function(oc, syn = T) {
   sp <- unique(oc$especie)
-  pasta_out <- paste0(pasta_occs, sp, "/splink/")
-  dir.create(pasta_out, recursive = T)
   if (syn) {
     search <- oc$nomes[stringr::str_detect(string = oc$nomes, "var\\.", negate = T)]
   } else search <- sp
-  if (!file.exists(fs::path(pasta_out, sp, ext = "csv"))) {
-
+  if (!file.exists(fs::path(pasta_splink, sp, ext = "csv"))) {
     message(paste(sp))
 
     out <- tryCatch (
       {
-        sl <- rspeciesLink(dir = paste0(pasta_out),
+        sl <- rspeciesLink(dir = paste0(pasta_splink),
                      filename = sp,
                      species = search,
                      Scope = "plants",
                      Synonyms =  "flora2020")
-        #write_csv(res, fs::path(pasta_out, sp, ext = "csv"))
         print(sp)
       },
       error = function(e) {
@@ -57,11 +61,12 @@ download_splink <- function(oc, syn = T) {
     return(out)
   }
 }
+df
+length(df)
+plan(sequential)
 
 gf <- furrr::future_map(df, ~download_splink(.x, syn = F), .progress = T)
-
-
-#para busca en jabot
-dir.create("data/dados_formatados/hv/")
-paste(nomes, collapse = ",") %>% writeLines("data/dados_formatados/hv/nomes.txt")
+for(i in 1:119) {
+  download_splink(df[[i]], syn = T)
+}
 
