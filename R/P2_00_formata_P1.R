@@ -7,20 +7,8 @@ names(spp)
 any(is.na(spp$nome_aceito_correto))
 
 spp$nome_aceito_correto[spp$nome_aceito_correto == "Maxillaria meleagris Lindl."] <- "Maxillaria meleagris"
-write_csv(spp, "output/p2/10_base_P1.csv")
-dim(spp)
 
-notas <- spp %>%
-  select(nome_aceito_correto, notas) %>%
-  count(nome_aceito_correto, notas) %>%
-  #arrange(desc(n)) %>% View()
-  group_by(nome_aceito_correto) %>%
-  mutate(notas_all = paste(notas, collapse = "-")) %>%
-  arrange(nome_aceito_correto) %>%
-  ungroup() %>%
-  select(nome_aceito_correto, notas_all) %>%
-  distinct()
-readr::write_csv(notas, "output/p2/05_notas.csv")
+names(spp)
 
 
 #cria "entra" para saber quem vai de fato e organiza por nomes_aceito_correto
@@ -56,3 +44,32 @@ cat_ameaca <-
 
 readr::write_csv(cat_ameaca, "output/p2/04_cat_ameaca.csv")
 
+notas <- spp %>%
+  select(nome_aceito_correto, notas) %>%
+  count(nome_aceito_correto, notas) %>%
+  #arrange(desc(n)) %>% View()
+  group_by(nome_aceito_correto) %>%
+  mutate(notas_all = paste(notas, collapse = "-")) %>%
+  arrange(nome_aceito_correto) %>%
+  ungroup() %>%
+  select(nome_aceito_correto, notas_all) %>%
+  distinct()
+readr::write_csv(notas, "output/p2/05_notas.csv")
+
+
+
+tax <- spp %>%
+  select(1:10) %>%
+  #group_by(nome_aceito_correto) %>%
+  count(across(everything())) %>%
+  #arrange(desc(n))
+  select(-n) %>%
+  distinct()
+write_csv(tax, file = "output/p2/10_base_P1.csv")
+fontes <- spp %>%
+  select(nome_aceito_correto, fontes) %>%
+    group_by(nome_aceito_correto) %>%
+  mutate(fontes = paste(fontes, collapse = "-")) %>%
+  count(across(everything())) %>% select(-n)
+  fontes
+  write_csv(fontes, file = "output/p2/12_fontes.csv")

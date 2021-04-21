@@ -1,19 +1,11 @@
 
-#produto 2
-p2 <- readr::read_csv("output/p2/p2_inicial.csv")
-names(p2)
-dim(p2)
-setdiff(entra$nome_aceito_correto, p2$nome_aceito_correto)
-setdiff(p2$nome_aceito_correto, entra$nome_aceito_correto)
-
-
-cruza <- read_csv("output/p2/01_cruzam_shapes.csv") %>%
-  rename(nome_aceito_correto = sp)
+cruza <- read_csv("output/p2/01_cruzam_shapes_new.csv")
+tax <- read_csv("output/p2/10_base_P1.csv")
 entra <- read_csv("output/p2/03_entra.csv")
 cat_ameaca <- read_csv("output/p2/04_cat_ameaca.csv")
 notas <- read_csv("output/p2/05_notas.csv")
 
-resumo <- p2 %>%
+resumo <- tax %>%
   left_join(notas) %>%
   left_join(cat_ameaca) %>%
   left_join(entra) %>%

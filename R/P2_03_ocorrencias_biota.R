@@ -31,3 +31,5 @@ biota_CR <- biota %>% filter(scientificName %in%
 dir.create("output/p2/occs/biota/")
 write_csv(biota_CR, "output/p2/occs/biota/biotaCR.csv")
 
+tibble(campos_biota = names(biota_CR)[who]) %>% write_csv("output/p2/14_campos_biota.csv")
+who <- apply(biota_CR, MARGIN = 2, FUN = function(x)all(!is.na(x)))

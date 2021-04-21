@@ -13,8 +13,9 @@ splink <- list.files("output/p2/occs/splink",full.names = T, pattern = ".csv")
 #checar arquivos vazios
 empty <- file.info(gbif)[["size"]] == 0
 empty <- file.info(splink)[["size"]] == 0
-
+sum(empty)
 #unlink(empty)
+
 splinks <- file_data_frame("output/p2/occs/splink")
 gbifs <- file_data_frame("output/p2/occs/clean") %>%
   mutate(names = stringr::str_remove(names, "_SYNONYM")) %>%
@@ -37,7 +38,7 @@ tabela <- df_all$splink[2]
 names <- df_all$names[2]
 test <- read_csv(tabela) %>% select(decimalLongitude, decimalLatitude) %>% filter(complete.cases(.))
 #checa se cruza
-destdir <- "output/p2/occs_cruza"
+
 cruza_shape <- function(names, tabela, shape, destdir) {
   ss <- names
   if(!dir.exists(destdir)) dir.create(destdir, recursive = T)
@@ -92,8 +93,8 @@ cruza_t20_gbif <- furrr::future_map2(.x = df_all$gbif,
                                       ~cruza_shape(names = .y, tabela = .x, shape = t20, destdir = pasta_out_occs), .progress = T)
 
 pasta_out_occs <- "output/p2/cruza_shape/rbcv/gbif/"
-cruza_rbcv_gbif <- furrr::future_map2(.x = df_all$gbif[-2],
-                                      .y = df_all$names[-2],
+cruza_rbcv_gbif <- furrr::future_map2(.x = df_all$gbif,
+                                      .y = df_all$names,
                                       ~cruza_shape(names = .y, tabela = .x, shape = rbcv, destdir = pasta_out_occs), .progress = T)
 
 pasta_out_occs <- "output/p2/cruza_shape/sp/gbif/"
@@ -129,3 +130,27 @@ new <- left_join( entra, cruza_new)
 
 left_join(old, new, by = "nome_aceito_correto") %>% View()
 
+#checa_cruza_biota
+st <- read_sf("output/p2/occs/biota/biotaCR.csv",
+  options = c(
+    "X_POSSIBLE_NAMES=decimalLongitude",
+    "Y_POSSIBLE_NAMES=decimalLatitude"))
+
+shape <- t20
+destdir <- paste0("output/p2/cruza_shape/t20/biota")
+dir.create(destdir)
+    st <- st_set_crs(st, st_crs(shape))
+    joins <- st_join(st, shape, left = F)
+    st_write(joins, paste0(destdir,"/biota_occs.csv"), layer_options = "GEOMETRY=AS_XY")
+shape <- sp
+destdir <- paste0("output/p2/cruza_shape/sp/biota")
+dir.create(destdir)
+    st <- st_set_crs(st, st_crs(shape))
+    joins <- st_join(st, shape, left = F)
+    st_write(joins, paste0(destdir,"/biota_occs.csv"), layer_options = "GEOMETRY=AS_XY")
+shape <- rbcv
+destdir <- paste0("output/p2/cruza_shape/rbcv/biota")
+dir.create(destdir)
+    st <- st_set_crs(st, st_crs(shape))
+    joins <- st_join(st, shape, left = F)
+    st_write(joins, paste0(destdir,"/biota_occs.csv"), layer_options = "GEOMETRY=AS_XY")
