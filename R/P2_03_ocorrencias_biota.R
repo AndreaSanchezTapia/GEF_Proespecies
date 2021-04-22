@@ -13,12 +13,12 @@ count(biota, infraspecificEpithet)
 
 
 cats <- readr::read_csv("./output/p2/04_cat_ameaca.csv")
-cat_geral <- readr::read_csv("./output/p2/03_entra.csv")
-cat <- left_join(cats, cat_geral)
+cat <- cats
 
 CR <- cat %>% mutate(across(-1, ~stringr::str_detect(.x,
   pattern = "CR"), .names = "{.col}_CR")) %>%
   select(ends_with("CR")) %>% rowSums(na.rm = T)
+names(CR)
 CR <- tibble(nome_aceito_correto = cat$nome_aceito_correto, CR) %>% filter(CR > 0)
 write_csv(CR, "output/p2/13_especies_CR.csv")
 
