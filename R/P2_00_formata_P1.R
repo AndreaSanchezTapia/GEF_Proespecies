@@ -76,7 +76,7 @@ tax <- spp %>%
   arrange(desc(n)) %>%
   select(-n) %>%
   distinct()
-tax
+tax %>% View()
 write_csv(tax, file = "output/p2/10_base_P1.csv")
 
 fontes <- spp %>%
