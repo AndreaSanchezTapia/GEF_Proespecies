@@ -2,29 +2,54 @@ library(readr)
 library(dplyr)
 library(stringr)
 
+splinks <- file_data_frame("output/p2/occs/splink") %>%
+  rename(splink = paths, nome_aceito_correto = names)
+cruza_splinks <- file_data_frame("output/p2/cruza_shape/t20/splink/") %>%
+  rename(splink_cruza = paths, nome_aceito_correto = names)
+gbifs <- file_data_frame("output/p2/occs/clean") %>%
+  mutate(names = stringr::str_remove(names, "_SYNONYM")) %>%
+  mutate(names = stringr::str_remove(names, "_NAO_LIMPOU_CHECK_NOME")) %>%
+  rename(gbif = paths, nome_aceito_correto = names)
+cruza_gbif <- file_data_frame("output/p2/cruza_shape/t20/gbif/") %>%
+  rename(gbif_cruza = paths, nome_aceito_correto = names)
+cruza_gbif$nome_aceito_correto <- str_remove(cruza_gbif$nome_aceito_correto, "_occs")
+cruza_splinks$nome_aceito_correto <- str_remove(cruza_splinks$nome_aceito_correto, "_occs")
+
+plan(sequential)
 #lee las tablas de ocurrencias
 p3_selecionadas <- read_csv("output/p2/p3_territorio20.csv")
-length(unique(p3_selecionadas$nome_aceito_correto))
-
 especies <- p3_selecionadas %>% select(nome_aceito_correto)
-
-
-gbif_files <- file_data_frame("output/p2/occs/gbif/") %>%
-  rename(gbif = paths, nome_aceito_correto = names)
-splink_files <- file_data_frame("output/p2/occs/splink/") %>%
-  rename(splink = paths, nome_aceito_correto = names)
-
-df <- especies %>% left_join(gbif_files) %>% left_join(splink_files)
-df[is.na(df$gbif),]
-df[is.na(df$splink),]
+df_all <- left_join(especies, gbifs) %>% left_join(splinks) %>% left_join(cruza_gbif) %>% left_join(cruza_splinks)
 
 library(furrr)
 plan(multisession, workers = 15)
 #lee todo
-read_raw2 <- furrr::future_map(df$gbif,
+plan(sequential)
+
+read_gbif <- furrr::future_map(na.omit(df_all$gbif),
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
                               .progress = T)
-nrow_raw <- furrr::future_map(read_raw2, ~nrow(.x), .progress = T)
+read_splink <- furrr::future_map(na.omit(df_all$splink),
+                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+                              .progress = T)
+read_cruza_gbif <- furrr::future_map(na.omit(df_all$gbif_cruza),
+                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+                              .progress = T)
+read_cruza_splink <- furrr::future_map(na.omit(df_all$splink_cruza),
+                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+                              .progress = T)
+which(is.na(df_all$gbif))
+which(is.na(df_all$gbif_cruza))
+
+read(sequential)
+#nrow_g <- furrr::future_map(read_gbif, ~nrow(.x), .progress = T)
+#nrow_sp <- furrr::future_map(read_splink, ~nrow(.x), .progress = T)
+#purrr::simplify(nrow_g) %>% sum()
+#purrr::simplify(nrow_sp) %>% sum()
+
+cruza_gbif <- furrr::future_map(na.omit(df_all$gbif),
+                                ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+                                .progress = T)
 names_raw <- furrr::future_map(read_raw2, ~names(.x), .progress = T)
 todos_os_nomes <- simplify(names_raw) %>% unique() %>% sort()
 
