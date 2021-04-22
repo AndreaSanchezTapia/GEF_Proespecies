@@ -14,11 +14,13 @@ syn_df <- tibble(nome_aceito_correto = nomes,
 
 #para cada especie que entra pelo criterio ameaca
 p2 <- read_csv("output/p2/03_resumo_anotado.csv")
+p2 <- read_csv("output/p2/p3_territorio20.csv")
 entra <- p2 %>%
-  filter(cat_ameaca_geral == "entra") %>%
-  select(nome_aceito_correto, cat_ameaca_geral)
+  #filter(cat_ameaca_geral == "entra") %>%
+  select(nome_aceito_correto)
 
 syn_df <- left_join(entra, syn_df)
+syn_df %>% View()
 #para cada especie
 
 sp_link_now <- file_data_frame("output/p2/occs/splink/")
@@ -63,10 +65,11 @@ download_splink <- function(oc, syn = T) {
 }
 df
 length(df)
+
 plan(sequential)
 
 gf <- furrr::future_map(df, ~download_splink(.x, syn = F), .progress = T)
-for(i in 1:119) {
+for(i in 4:15) {
   download_splink(df[[i]], syn = T)
 }
 

@@ -44,9 +44,15 @@ EX <- cat_ameaca %>% mutate(across(-1, ~stringr::str_detect(.x,
 NT <- cat_ameaca %>% mutate(across(-1, ~stringr::str_detect(.x,
                                                      pattern = "NT"), .names = "{.col}_NT")) %>%
   select(ends_with("NT")) %>% rowSums(na.rm = T)
+EW <- cat_ameaca %>% mutate(across(-1, ~stringr::str_detect(.x,
+                                                     pattern = "EW"), .names = "{.col}_EW")) %>%
+  select(ends_with("EW")) %>% rowSums(na.rm = T)
+LR <- cat_ameaca %>% mutate(across(-1, ~stringr::str_detect(.x,
+                                                     pattern = "LR"), .names = "{.col}_LR")) %>%
+  select(ends_with("LR")) %>% rowSums(na.rm = T)
 
 
-cat_ameaca_geral <- tibble(nome_aceito_correto = cat_ameaca$nome_aceito_correto, CR, EN, VU, DD, EX, NT)
+cat_ameaca_geral <- tibble(nome_aceito_correto = cat_ameaca$nome_aceito_correto, CR, EN, VU, DD, EX, NT, EW, LR)
 cat_ameaca_geral <- cat_ameaca_geral %>%
   rowwise %>%
   mutate(cat_ameaca_geral = sum(across(-1))) %>%
@@ -70,13 +76,16 @@ readr::write_csv(notas, "output/p2/05_notas.csv")
 
 names(spp)
 tax <- spp %>%
-  select(c(1:3, 6:10)) %>%
+  select(c(1:2, 6:10)) %>%
   group_by(nome_aceito_correto) %>%
   count(across(everything())) %>%
   arrange(desc(n)) %>%
   select(-n) %>%
-  distinct()
+  distinct() %>%
+  filter(!is.na(nome_aceito_correto))
 tax %>% View()
+length(tax$nome_aceito_correto)
+length(unique(tax$nome_aceito_correto))
 write_csv(tax, file = "output/p2/10_base_P1.csv")
 
 fontes <- spp %>%

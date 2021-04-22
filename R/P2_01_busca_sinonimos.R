@@ -54,15 +54,12 @@ names(p2)
 p2 %>% count(elegivel_produto_1)
 length(unique(p2$nome_aceito_correto))
 
-count(p2, elegivel_originais)
-
-
-
-
 dir.create("output/p2")
 write_csv(p2, "output/p2/p2_inicial.csv")
 
-count(p2, elegivel_originais)
+p2_i <- read_csv( "output/p2/p2_inicial.csv")
+
+count(p2_i, elegivel_produto_1)
 
 
 
@@ -82,9 +79,8 @@ especies <- p2 %>%
   pull()
 length(especies)
 
-ignorar <- str_detect(especies, "subsp\\.") | str_detect(especies, "var\\.")
 
-sum(ignorar)
+
 
 #get_sinonimos <- purrr::map(especies,
  #                           ~check_flora(.x, get_synonyms = T))
