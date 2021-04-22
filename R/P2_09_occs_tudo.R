@@ -4,20 +4,31 @@ library(stringr)
 
 #lee las tablas de ocurrencias
 p3_selecionadas <- read_csv("output/p2/p3_territorio20.csv")
-especies <- p3_selecionadas$nome_aceito_correto
-occs <- list.files("output/p2/t20_raw/",recursive = T, full.names = T, pattern = ".csv")
-especies_all <- basename(occs) %>% str_remove(".csv") %>% str_remove("_gbif_c")%>% str_remove("_splink")
-fonte_all <- basename(occs) %>% str_remove(".csv") %>% str_remove("_c") %>% str_split("_", simplify = T ) %>% data.frame() %>% select(2) %>% pull()
+length(unique(p3_selecionadas$nome_aceito_correto))
+
+especies <- p3_selecionadas %>% select(nome_aceito_correto)
+
+
+gbif_files <- file_data_frame("output/p2/occs/gbif/") %>%
+  rename(gbif = paths, nome_aceito_correto = names)
+splink_files <- file_data_frame("output/p2/occs/splink/") %>%
+  rename(splink = paths, nome_aceito_correto = names)
+
+df <- especies %>% left_join(gbif_files) %>% left_join(splink_files)
+df[is.na(df$gbif),]
+df[is.na(df$splink),]
 
 library(furrr)
-plan(multisession, workers = 10)
-read_raw2 <- furrr::future_map(occs,
+plan(multisession, workers = 15)
+#lee todo
+read_raw2 <- furrr::future_map(df$gbif,
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
                               .progress = T)
 nrow_raw <- furrr::future_map(read_raw2, ~nrow(.x), .progress = T)
 names_raw <- furrr::future_map(read_raw2, ~names(.x), .progress = T)
 todos_os_nomes <- simplify(names_raw) %>% unique() %>% sort()
-#processamento a mao apra ver quais campos ficam em P2_10
+
+# processamento a mao apra ver quais campos ficam em P2_10
 sel_fields <- read_csv("output/p2/08_campos_originales.csv")
 sel_fields <- sel_fields %>% filter(select == T) %>% pull(field)
 plan(multisession, workers = 15)

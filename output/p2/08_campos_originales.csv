@@ -1,6 +1,6 @@
 field,select
 acceptedNameUsage,TRUE
-acceptedNameUsageID,TRUE
+acceptedNameUsageID,FALSE
 acceptedScientificName,TRUE
 acceptedTaxonKey,FALSE
 accessRights,FALSE
@@ -173,7 +173,7 @@ nomenclaturalCode,FALSE
 nomenclaturalStatus,TRUE
 occurrenceID,FALSE
 occurrenceRemarks,TRUE
-occurrenceStatus,TRUE
+occurrenceStatus,FALSE
 order,FALSE
 orderKey,FALSE
 organismID,FALSE
@@ -188,7 +188,7 @@ ownerInstitutionCode,FALSE
 parentEventID,FALSE
 parentNameUsage,FALSE
 parentNameUsageID,FALSE
-phylum,TRUE
+phylum,FALSE
 phylumKey,FALSE
 pointRadiusSpatialFit,FALSE
 preparations,FALSE
