@@ -2,6 +2,11 @@ library(readr)
 library(dplyr)
 library(stringr)
 
+#cria os dataframes dos quatro grupos de dados
+biota <- file_data_frame("output/p2/occs/biota") %>%
+  rename(biota = paths, nome_aceito_correto = names)
+cruza_biota <- file_data_frame("output/p2/cruza_shape/t20/biota/") %>%
+  rename(biota_cruza = paths, nome_aceito_correto = names)
 splinks <- file_data_frame("output/p2/occs/splink") %>%
   rename(splink = paths, nome_aceito_correto = names)
 cruza_splinks <- file_data_frame("output/p2/cruza_shape/t20/splink/") %>%
@@ -15,50 +20,70 @@ cruza_gbif <- file_data_frame("output/p2/cruza_shape/t20/gbif/") %>%
 cruza_gbif$nome_aceito_correto <- str_remove(cruza_gbif$nome_aceito_correto, "_occs")
 cruza_splinks$nome_aceito_correto <- str_remove(cruza_splinks$nome_aceito_correto, "_occs")
 
-plan(sequential)
-#lee las tablas de ocurrencias
+#so as selecionadas
 p3_selecionadas <- read_csv("output/p2/p3_territorio20.csv")
 especies <- p3_selecionadas %>% select(nome_aceito_correto)
 df_all <- left_join(especies, gbifs) %>% left_join(splinks) %>% left_join(cruza_gbif) %>% left_join(cruza_splinks)
 
 library(furrr)
 plan(multisession, workers = 15)
-#lee todo
-plan(sequential)
 
+#lee todo
 read_gbif <- furrr::future_map(na.omit(df_all$gbif),
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
                               .progress = T)
+names(read_gbif) <- df_all$nome_aceito_correto[-which(is.na(df_all$gbif))]
 read_splink <- furrr::future_map(na.omit(df_all$splink),
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
                               .progress = T)
+names(read_splink) <- df_all$nome_aceito_correto[-which(is.na(df_all$splink))]
 read_cruza_gbif <- furrr::future_map(na.omit(df_all$gbif_cruza),
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
                               .progress = T)
+names(read_cruza_gbif) <- df_all$nome_aceito_correto[-which(is.na(df_all$gbif_cruza))]
 read_cruza_splink <- furrr::future_map(na.omit(df_all$splink_cruza),
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
                               .progress = T)
-which(is.na(df_all$gbif))
-which(is.na(df_all$gbif_cruza))
+names(read_cruza_splink) <- df_all$nome_aceito_correto[-which(is.na(df_all$splink_cruza))]
 
-read(sequential)
-#nrow_g <- furrr::future_map(read_gbif, ~nrow(.x), .progress = T)
-#nrow_sp <- furrr::future_map(read_splink, ~nrow(.x), .progress = T)
-#purrr::simplify(nrow_g) %>% sum()
-#purrr::simplify(nrow_sp) %>% sum()
+read_biota <- furrr::future_map(biota$biota,
+                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+                              .progress = T)
+names(read_biota) <- "CRbiota"
+read_cruza_splink <- furrr::future_map(na.omit(df_all$splink_cruza),
+                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+                              .progress = T)
+names(read_cruza_splink) <- df_all$nome_aceito_correto[-which(is.na(df_all$splink_cruza))]
 
-cruza_gbif <- furrr::future_map(na.omit(df_all$gbif),
-                                ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                                .progress = T)
-names_raw <- furrr::future_map(read_raw2, ~names(.x), .progress = T)
-todos_os_nomes <- simplify(names_raw) %>% unique() %>% sort()
+
+
+#numero de registros
+nrow_g <- furrr::future_map(read_gbif, ~nrow(.x), .progress = T)
+purrr::simplify(nrow_g) %>% sum()
+nrow_sp <- furrr::future_map(read_splink, ~nrow(.x), .progress = T)
+purrr::simplify(nrow_sp) %>% sum()
+nrow_gb <- furrr::future_map(read_cruza_gbif, ~nrow(.x), .progress = T)
+purrr::simplify(nrow_gb) %>% sum()
+nrow_spl <- furrr::future_map(read_cruza_splink, ~nrow(.x), .progress = T)
+purrr::simplify(nrow_spl) %>% sum()
+
+#pega todos os nomes para checar se tudo bem
+all <- c(read_gbif, read_cruza_gbif, read_splink, read_cruza_splink, read_biota)
+
+names_raw <- furrr::future_map(all, ~names(.x), .progress = T)
+todos_os_nomes <- purrr::simplify(names_raw) %>% unique() %>% sort()
 
 # processamento a mao apra ver quais campos ficam em P2_10
 sel_fields <- read_csv("output/p2/08_campos_originales.csv")
 sel_fields <- sel_fields %>% filter(select == T) %>% pull(field)
+especies_all <- names(all)
 plan(multisession, workers = 15)
 length(sel_fields)
-fields_raw <- furrr::future_map(read_raw2, ~select(.x, one_of(sel_fields)), .progress = T)
+fields_raw <- furrr::future_map(all,
+                                especies_all,
+                                ~select(.x, one_of(sel_fields)) %>%
+                                  mutate(nome_aceito_correto = .y), .progress = T)
+fields_raw[[1]]
 add_nome <- furrr::future_map2(fields_raw,
                                especies_all,
                                ~mutate(.x, nome_aceito_correto = .y),
