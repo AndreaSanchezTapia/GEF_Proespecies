@@ -33,10 +33,7 @@ tail(df_all) %>% View()
 rbcv <- read_sf("data/dados_crus/RBCV_Limite/RBCV_Limite_datageo_jan2020.shp") %>% select(OID_, Name)
 t20  <- read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
 sp  <- read_sf("data/dados_crus/SP_UF_2020/SP_UF_2020.shp")
-shape <- sp
-tabela <- df_all$splink[2]
-names <- df_all$names[2]
-test <- read_csv(tabela) %>% select(decimalLongitude, decimalLatitude) %>% filter(complete.cases(.))
+
 #checa se cruza
 
 cruza_shape <- function(names, tabela, shape, destdir) {
