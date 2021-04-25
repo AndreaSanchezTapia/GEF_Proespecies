@@ -35,7 +35,7 @@ download_rgbif <- function(oc) {
     key <- purrr::map(search, ~rgbif::name_backbone(name = .x))
     key2 <- purrr::map(key,
                      ~select(.x, any_of(c("acceptedUsageKey", "usageKey"))))
-    key3 <- modify_if(key2, .p = ~ncol(.x) > 0, .f = ~select(.x, 1))
+    key3 <- purrr::modify_if(key2, .p = ~ncol(.x) > 0, .f = ~select(.x, 1))
     keys_final <- bind_rows(key3) %>% tidyr::unite("key", na.rm = T) %>%
       mutate(key = as.numeric(key)) %>% na.omit() %>% distinct() %>% pull()
     message(paste(sp, keys_final))
@@ -59,11 +59,7 @@ download_rgbif <- function(oc) {
   return(out)
   }
   }
-hay <- list.files(pasta_out) %>% stringr::str_remove(".csv")
-setdiff(hay, syn_df$nome_aceito_correto)
-falta <- setdiff(syn_df$nome_aceito_correto, hay)
-falta_df <- syn_df %>% filter(nome_aceito_correto %in% falta)
-df_falta <- furrr::future_map(falta_df$sinonimo_file, ~read_csv(.x), .progress = T)
+
 plan(multisession, workers = 15)
 gf <- furrr::future_map(df_falta, ~download_rgbif(.x), .progress = T)
 future::plan(sequential)
