@@ -2,25 +2,25 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(furrr)
-devtools::load_all("../../R_packages/plantR")
+#devtools::load_all("../../R_packages/plantR")
 source("R/functions.R")
 #cria os dataframes dos quatro grupos de dados----
 biota <- file_data_frame("output/p2/occs/biota") %>%
   rename(biota = paths, nome_aceito_correto = names)
-cruza_biota <- file_data_frame("output/p2/cruza_shape/t20/biota/") %>%
-  rename(biota_cruza = paths, nome_aceito_correto = names)
+#cruza_biota <- file_data_frame("output/p2/cruza_shape/t20/biota/") %>%
+ # rename(biota_cruza = paths, nome_aceito_correto = names)
 splinks <- file_data_frame("output/p2/occs/splink") %>%
   rename(splink = paths, nome_aceito_correto = names)
-cruza_splinks <- file_data_frame("output/p2/cruza_shape/t20/splink/") %>%
-  rename(splink_cruza = paths, nome_aceito_correto = names)
+#cruza_splinks <- file_data_frame("output/p2/cruza_shape/t20/splink/") %>%
+ # rename(splink_cruza = paths, nome_aceito_correto = names)
 gbifs <- file_data_frame("output/p2/occs/clean") %>%
   mutate(names = stringr::str_remove(names, "_SYNONYM")) %>%
   mutate(names = stringr::str_remove(names, "_NAO_LIMPOU_CHECK_NOME")) %>%
   rename(gbif = paths, nome_aceito_correto = names)
-cruza_gbif <- file_data_frame("output/p2/cruza_shape/t20/gbif/") %>%
-  rename(gbif_cruza = paths, nome_aceito_correto = names)
-cruza_gbif$nome_aceito_correto <- str_remove(cruza_gbif$nome_aceito_correto, "_occs")
-cruza_splinks$nome_aceito_correto <- str_remove(cruza_splinks$nome_aceito_correto, "_occs")
+#cruza_gbif <- file_data_frame("output/p2/cruza_shape/t20/gbif/") %>%
+ # rename(gbif_cruza = paths, nome_aceito_correto = names)
+#cruza_gbif$nome_aceito_correto <- str_remove(cruza_gbif$nome_aceito_correto, "_occs")
+#cruza_splinks$nome_aceito_correto <- str_remove(cruza_splinks$nome_aceito_correto, "_occs")
 
 #so as selecionadas----
 p3_selecionadas <- read_csv("output/p2/p3_territorio20.csv")
@@ -29,65 +29,61 @@ especies <- p3_selecionadas %>%
 
 #omits biota here----
 df_all <- left_join(especies, gbifs) %>%
-  left_join(splinks) %>%
-  left_join(cruza_gbif) %>%
-  left_join(cruza_splinks)
+  left_join(splinks) #%>%
+#  left_join(cruza_gbif) %>%
+ # left_join(cruza_splinks)
 
 
 # PARA FORMATEAR!!!! -----
-cruza_all <- left_join(especies, cruza_gbif) %>%
-  left_join(cruza_splinks)
-plan(multisession, workers = 15)
-read_cruza_gbif <- furrr::future_map(na.omit(df_all$gbif_cruza),
-                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                              .progress = T)
-names(read_cruza_gbif) <- df_all$nome_aceito_correto[-which(is.na(df_all$gbif_cruza))]
-read_cruza_splink <- furrr::future_map(na.omit(df_all$splink_cruza),
-                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                              .progress = T)
-names(read_cruza_splink) <- df_all$nome_aceito_correto[-which(is.na(df_all$splink_cruza))]
+#cruza_all <- left_join(especies, cruza_gbif) %>%
+#  left_join(cruza_splinks)
+#plan(multisession, workers = 15)
+#read_cruza_gbif <- furrr::future_map(na.omit(df_all$gbif_cruza),
+ #                             ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+#                              .progress = T)
+#names(read_cruza_gbif) <- df_all$nome_aceito_correto[-which(is.na(df_all$gbif_cruza))]
+#read_cruza_splink <- furrr::future_map(na.omit(df_all$splink_cruza),
+ #                             ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+  #                            .progress = T)
+#names(read_cruza_splink) <- df_all$nome_aceito_correto[-which(is.na(df_all$splink_cruza))]
 
 read_biota <- furrr::future_map(biota$biota,
                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                              .progress = T)
+                             .progress = T)
 names(read_biota) <- "CRbiota"
 
-nrow_gb <- furrr::future_map(read_cruza_gbif, ~nrow(.x), .progress = T)
-purrr::simplify(nrow_gb) %>% sum()
-nrow_spl <- furrr::future_map(read_cruza_splink, ~nrow(.x), .progress = T)
-purrr::simplify(nrow_spl) %>% sum()
-gbif_dwc <- furrr::future_map(read_cruza_gbif,
-                              ~formatDwc(gbif_data = .x),
-                              .progress = T)
-gbif_dwc2 <- furrr::future_map(gbif_dwc,
-                               ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
-                                 mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-                                 mutate(across(where(is.logical), .fns = function(x) as.character(x))),
-                               .progress = T)
-gbif_all2 <- bind_rows(gbif_dwc2)
-write_csv(gbif_all2, "output/p2/occs/CRUZA_GBIF_TUDO.csv")
-read_sf2("output/p2/occs/CRUZA_GBIF_TUDO.csv")
-dim(test)
-splink_dwc <- furrr::future_map(read_cruza_splink,
-                                ~formatDwc(splink_data = .x),
-                                .progress = T)
-
-splink_dwc2 <- furrr::future_map(splink_dwc,
-                                 ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
-                                   mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-                                   mutate(across(where(is.logical), .fns = function(x) as.character(x))),
-                                 .progress = T)
-splink_all2 <- bind_rows(splink_dwc2)
-write_csv(splink_all2, "output/p2/occs/CRUZA_SPLINK_TUDO.csv")
-read_sf2("output/p2/occs/CRUZA_SPLINK_TUDO.csv")
-cruza_all <- bind_rows(gbif_all2, splink_all2)
-nrow(cruza_all)
-2856+10420
-write_csv(cruza_all, "output/p2/occs/CRUZA_TUDO.csv")
-read_sf2("output/p2/occs/CRUZA_TUDO.csv")
+# gbif_dwc <- furrr::future_map(read_cruza_gbif,
+#                               ~formatDwc(gbif_data = .x),
+#                               .progress = T)
+# gbif_dwc2 <- furrr::future_map(gbif_dwc,
+#                                ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
+#                                  mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+#                                  mutate(across(where(is.logical), .fns = function(x) as.character(x))),
+#                                .progress = T)
+# gbif_all2 <- bind_rows(gbif_dwc2)
+# write_csv(gbif_all2, "output/p2/occs/CRUZA_GBIF_TUDO.csv")
+# read_sf2("output/p2/occs/CRUZA_GBIF_TUDO.csv")
+# dim(test)
+# splink_dwc <- furrr::future_map(read_cruza_splink,
+#                                 ~formatDwc(splink_data = .x),
+#                                 .progress = T)
+#
+# splink_dwc2 <- furrr::future_map(splink_dwc,
+#                                  ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
+#                                    mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+#                                    mutate(across(where(is.logical), .fns = function(x) as.character(x))),
+#                                  .progress = T)
+# splink_all2 <- bind_rows(splink_dwc2)
+# write_csv(splink_all2, "output/p2/occs/CRUZA_SPLINK_TUDO.csv")
+# read_sf2("output/p2/occs/CRUZA_SPLINK_TUDO.csv")
+#cruza_all <- bind_rows(gbif_all2, splink_all2)
+#nrow(cruza_all)
+#2856+10420
+#write_csv(cruza_all, "output/p2/occs/CRUZA_TUDO.csv")
+#read_sf2("output/p2/occs/CRUZA_TUDO.csv")
 
 #separa los que no tienen coordenadas-----
-plan(multisession, workers = 15)
+#plan(multisession, workers = 15)
 
 #lee todo
 read_gbif <- furrr::future_map(na.omit(df_all$gbif),
@@ -105,123 +101,123 @@ purrr::simplify(nrow_g) %>% sum()
 nrow_sp <- furrr::future_map(read_splink, ~nrow(.x), .progress = T)
 purrr::simplify(nrow_sp) %>% sum()
 
-#no col----
-out_dir_sp <- "output/p2/occs/no_coord/splink"
-out_dir_gb <- "output/p2/occs/no_coord/gbig"
-dir.create(out_dir_gb, recursive = T)
-dir.create(out_dir_sp, recursive = T)
+# #no col----
+# out_dir_sp <- "output/p2/occs/no_coord/splink"
+# out_dir_gb <- "output/p2/occs/no_coord/gbig"
+# dir.create(out_dir_gb, recursive = T)
+# dir.create(out_dir_sp, recursive = T)
+#
+# #names gbif e specieslink
+# long <- furrr::future_map(read_gbif, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
+# lat <- furrr::future_map(read_gbif, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
+#
+# #lat[lat ==F]
+# gbif_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols,]
+# gbif_col <- df_all[!df_all$nome_aceito_correto %in% no_cols,]
+#
+# long2 <- furrr::future_map(read_splink, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
+# lat2 <- furrr::future_map(read_splink, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
+# no_cols2 <- names(long2[long2 == F])
+# splink_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols2,]
+# splink_col <- df_all[!df_all$nome_aceito_correto %in% no_cols2,]
+#
+# #leer y juntar esas
+# g_no_col <- furrr::future_map(gbif_no_col$gbif,
+#                                ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+#                                .progress = T)
+# names(g_no_col) <- gbif_no_col$nome_aceito_correto
+# s_no_col <- furrr::future_map(splink_no_col$splink,
+#                                  ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+#                                  .progress = T)
+# names(s_no_col) <- splink_no_col$nome_aceito_correto
+#
+# #mutate pre bind
+# g_no_dwc <- furrr::future_map(g_no_col,
+#                                 ~formatDwc(gbif_data = .x),
+#                                 .progress = T)
+# s_no_dwc <- formatDwc(splink_data = s_no_col$`Couepia meridionalis`)
+# s_no_dwc2 <- s_no_dwc %>%
+#   mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
+#   mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+#   mutate(across(where(is.logical), .fns = function(x) as.character(x)))
+#
+# g_no_dwc2 <- furrr::future_map(g_no_dwc,
+#                                  ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
+#                                    mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+#                                    mutate(across(where(is.logical), .fns = function(x) as.character(x))),
+#                                  .progress = T)
+# all_no <- bind_rows(g_no_dwc2) %>% bind_rows(s_no_dwc2)
+# nrow(all_no)
+# write_csv(all_no, "output/p2/occs/ALL_NO_COLUMN.csv")
+# read_sf2("output/p2/occs/ALL_NO_COLUMN.csv")
+# #agora extrai as que nao tem coordenadas daquelas tabela grandes -----
+# plan(multisession, workers = 15)
+# any(is.na(gbif_col$nome_aceito_correto))
+# any(gbif_col$nome_aceito_correto =="NA")
+# any(is.na(gbif_col$gbif))
+# read_gbif_tirar <- furrr::future_map(na.omit(gbif_col$gbif),
+#                                ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+#                                .progress = T)
+# names(read_gbif_tirar) <- gbif_col$nome_aceito_correto[which(!is.na(gbif_col$gbif))]
+# read_splink_tirar <- furrr::future_map(na.omit(splink_col$splink),
+#                                  ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+#                                  .progress = T)
+# names(read_splink_tirar) <- splink_col$nome_aceito_correto[which(!is.na(splink_col$splink))]
+#
+# no_coord_gbif <- furrr::future_map(read_gbif_tirar,
+#                                    ~filter(.x, (is.na(decimalLongitude) | is.na(decimalLatitude))),
+#                                    .progress = T)
+# no_coord_splink <- furrr::future_map(read_splink_tirar,
+#                                      ~filter(.x, (is.na(decimalLongitude) | is.na(decimalLatitude))),
+#                                      .progress = T)
+# #mutate colunas
+#
+# plantr_SP <- function(x) {
+#   data.frame(x) %>%
+#     plantR::fixLoc(loc.levels = c("country", "stateProvince")) %>%
+#   filter(country.new == "brazil" | is.na(country.new)) %>%
+#   filter(stateProvince.new == "sao paulo" | is.na(stateProvince.new))
+# }
+#
+# no_coord_SP <- furrr::future_map(no_coord_gbif,
+#                   ~plantr_SP(.x),
+#                   .progress = T)
+# names(no_coord_SP)
+#
+# no_coord_SP_sl <- furrr::future_map(no_coord_splink,
+#                   ~plantr_SP(.x),
+#                   .progress = T)
+# names(no_coord_SP_sl)
+#
+# #tudo filtradinho
+# bind_rows(no_coord_SP)
+# bind_rows(no_coord_SP_sl)
+#
+# mutate_para_bind <- function(x){
+#   x %>%
+#     mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
+#     mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+#     mutate(across(where(is.logical), .fns = function(x) as.character(x)))
+# }
+# no_coord_SP <- furrr::future_map(no_coord_SP,
+#                                  ~mutate_para_bind(.x),
+#                                  .progress = T)
+# no_coord_SP_sl <- furrr::future_map(no_coord_SP_sl,
+#                                     ~mutate_para_bind(.x),
+#                                     .progress = T)
+# gb <- bind_rows(no_coord_SP) %>% mutate(data_source = "gbif")
+# sl <- bind_rows(no_coord_SP_sl) %>% mutate(data_source = "splink")
+# all_no_coord <- bind_rows(gb, sl)
+# unique(all_no_coord$country.new)
+# unique(all_no_coord$stateProvince)
+# unique(all_no_coord$stateProvince.new)
+# unique(all_no_coord$decimalLatitude)
+# unique(all_no_coord$decimalLongitude)
+# unique(all_no_coord$species)
+#
+# write_csv(all_no_coord, "output/p2/occs/ALL_NO_COORD.csv")
+# test <- read_sf2("output/p2/occs/ALL_NO_COORD.csv")
 
-#names gbif e specieslink
-long <- furrr::future_map(read_gbif, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
-lat <- furrr::future_map(read_gbif, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
-
-#lat[lat ==F]
-gbif_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols,]
-gbif_col <- df_all[!df_all$nome_aceito_correto %in% no_cols,]
-
-long2 <- furrr::future_map(read_splink, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
-lat2 <- furrr::future_map(read_splink, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
-no_cols2 <- names(long2[long2 == F])
-splink_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols2,]
-splink_col <- df_all[!df_all$nome_aceito_correto %in% no_cols2,]
-
-#leer y juntar esas
-g_no_col <- furrr::future_map(gbif_no_col$gbif,
-                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                               .progress = T)
-names(g_no_col) <- gbif_no_col$nome_aceito_correto
-s_no_col <- furrr::future_map(splink_no_col$splink,
-                                 ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                                 .progress = T)
-names(s_no_col) <- splink_no_col$nome_aceito_correto
-
-#mutate pre bind
-g_no_dwc <- furrr::future_map(g_no_col,
-                                ~formatDwc(gbif_data = .x),
-                                .progress = T)
-s_no_dwc <- formatDwc(splink_data = s_no_col$`Couepia meridionalis`)
-s_no_dwc2 <- s_no_dwc %>%
-  mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
-  mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-  mutate(across(where(is.logical), .fns = function(x) as.character(x)))
-
-g_no_dwc2 <- furrr::future_map(g_no_dwc,
-                                 ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
-                                   mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-                                   mutate(across(where(is.logical), .fns = function(x) as.character(x))),
-                                 .progress = T)
-all_no <- bind_rows(g_no_dwc2) %>% bind_rows(s_no_dwc2)
-nrow(all_no)
-write_csv(all_no, "output/p2/occs/ALL_NO_COLUMN.csv")
-read_sf2("output/p2/occs/ALL_NO_COLUMN.csv")
-#agora extrai as que nao tem coordenadas daquelas tabela grandes -----
-plan(multisession, workers = 15)
-any(is.na(gbif_col$nome_aceito_correto))
-any(gbif_col$nome_aceito_correto =="NA")
-any(is.na(gbif_col$gbif))
-read_gbif_tirar <- furrr::future_map(na.omit(gbif_col$gbif),
-                               ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                               .progress = T)
-names(read_gbif_tirar) <- gbif_col$nome_aceito_correto[which(!is.na(gbif_col$gbif))]
-read_splink_tirar <- furrr::future_map(na.omit(splink_col$splink),
-                                 ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-                                 .progress = T)
-names(read_splink_tirar) <- splink_col$nome_aceito_correto[which(!is.na(splink_col$splink))]
-
-no_coord_gbif <- furrr::future_map(read_gbif_tirar,
-                                   ~filter(.x, (is.na(decimalLongitude) | is.na(decimalLatitude))),
-                                   .progress = T)
-no_coord_splink <- furrr::future_map(read_splink_tirar,
-                                     ~filter(.x, (is.na(decimalLongitude) | is.na(decimalLatitude))),
-                                     .progress = T)
-#mutate colunas
-
-plantr_SP <- function(x) {
-  data.frame(x) %>%
-    plantR::fixLoc(loc.levels = c("country", "stateProvince")) %>%
-  filter(country.new == "brazil" | is.na(country.new)) %>%
-  filter(stateProvince.new == "sao paulo" | is.na(stateProvince.new))
-}
-
-no_coord_SP <- furrr::future_map(no_coord_gbif,
-                  ~plantr_SP(.x),
-                  .progress = T)
-names(no_coord_SP)
-
-no_coord_SP_sl <- furrr::future_map(no_coord_splink,
-                  ~plantr_SP(.x),
-                  .progress = T)
-names(no_coord_SP_sl)
-
-#tudo filtradinho
-bind_rows(no_coord_SP)
-bind_rows(no_coord_SP_sl)
-
-mutate_para_bind <- function(x){
-  x %>%
-    mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
-    mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-    mutate(across(where(is.logical), .fns = function(x) as.character(x)))
-}
-no_coord_SP <- furrr::future_map(no_coord_SP,
-                                 ~mutate_para_bind(.x),
-                                 .progress = T)
-no_coord_SP_sl <- furrr::future_map(no_coord_SP_sl,
-                                    ~mutate_para_bind(.x),
-                                    .progress = T)
-gb <- bind_rows(no_coord_SP) %>% mutate(data_source = "gbif")
-sl <- bind_rows(no_coord_SP_sl) %>% mutate(data_source = "splink")
-all_no_coord <- bind_rows(gb, sl)
-unique(all_no_coord$country.new)
-unique(all_no_coord$stateProvince)
-unique(all_no_coord$stateProvince.new)
-unique(all_no_coord$decimalLatitude)
-unique(all_no_coord$decimalLongitude)
-unique(all_no_coord$species)
-
-write_csv(all_no_coord, "output/p2/occs/ALL_NO_COORD.csv")
-test <- read_sf2("output/p2/occs/ALL_NO_COORD.csv")
-plot(test[1])
 t20  <- read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
 mpos <-textclean::replace_non_ascii(tolower(t20$NM_MUNICIP))
 
@@ -239,14 +235,11 @@ todos_os_nomes <- purrr::simplify(names_raw) %>% unique() %>% sort()
 
 plan(sequential)
 
-length(sel_fields)
-campos_ordenados[which(!campos_ordenados %in%  sel_fields)]
 campos_tax <- campos_ordenados[which(!campos_ordenados %in%  sel_fields)][-8]
 
 format_all <- function(df, names) {
   df %>% select(one_of(sel_fields)) %>% #seleciona colunas
     mutate(nome_aceito_correto = names) %>%
-
 }
 fields_raw <- furrr::future_imap(all,
                                 ~select(.y, one_of(sel_fields)) %>%
