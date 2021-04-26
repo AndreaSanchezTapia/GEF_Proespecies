@@ -83,15 +83,17 @@ names(read_biota) <- "CRbiota"
 #read_sf2("output/p2/occs/CRUZA_TUDO.csv")
 
 #separa los que no tienen coordenadas-----
-#plan(multisession, workers = 15)
+plan(multisession, workers = 15)
 
 #lee todo
-read_gbif <- furrr::future_map(na.omit(df_all$gbif),
-                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+read_gbif <- furrr::future_map2(na.omit(df_all$gbif),
+                               df_all$nome_aceito_correto[-which(is.na(df_all$gbif))],
+                              ~vroom::vroom(.x, guess_max = 100000) %>% mutate(nome_aceito_correto = .y)  %>% distinct(),
                               .progress = T)
 names(read_gbif) <- df_all$nome_aceito_correto[-which(is.na(df_all$gbif))]
-read_splink <- furrr::future_map(na.omit(df_all$splink),
-                              ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
+read_splink <- furrr::future_map2(na.omit(df_all$splink),
+                                  df_all$nome_aceito_correto[-which(is.na(df_all$splink))],
+                              ~vroom::vroom(.x, guess_max = 100000) %>% mutate(nome_aceito_correto = .y) %>% distinct(),
                               .progress = T)
 names(read_splink) <- df_all$nome_aceito_correto[-which(is.na(df_all$splink))]
 
@@ -101,54 +103,57 @@ purrr::simplify(nrow_g) %>% sum()
 nrow_sp <- furrr::future_map(read_splink, ~nrow(.x), .progress = T)
 purrr::simplify(nrow_sp) %>% sum()
 
-# #no col----
-# out_dir_sp <- "output/p2/occs/no_coord/splink"
-# out_dir_gb <- "output/p2/occs/no_coord/gbig"
-# dir.create(out_dir_gb, recursive = T)
-# dir.create(out_dir_sp, recursive = T)
+ #no col----
+ out_dir_sp <- "output/p2/occs/no_coord/splink"
+ out_dir_gb <- "output/p2/occs/no_coord/gbig"
+ dir.create(out_dir_gb, recursive = T)
+ dir.create(out_dir_sp, recursive = T)
 #
 # #names gbif e specieslink
-# long <- furrr::future_map(read_gbif, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
-# lat <- furrr::future_map(read_gbif, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
-#
+ long <- furrr::future_map(read_gbif, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
+ lat <- furrr::future_map(read_gbif, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
+no_cols <- names(long[long == F])
 # #lat[lat ==F]
-# gbif_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols,]
-# gbif_col <- df_all[!df_all$nome_aceito_correto %in% no_cols,]
+ gbif_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols,]
+ gbif_col <- df_all[!df_all$nome_aceito_correto %in% no_cols,]
 #
-# long2 <- furrr::future_map(read_splink, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
-# lat2 <- furrr::future_map(read_splink, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
-# no_cols2 <- names(long2[long2 == F])
-# splink_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols2,]
-# splink_col <- df_all[!df_all$nome_aceito_correto %in% no_cols2,]
+ long2 <- furrr::future_map(read_splink, ~if_else("decimalLongitude" %in% names(.x), TRUE, FALSE), .progress = T)
+ lat2 <- furrr::future_map(read_splink, ~if_else("decimalLatitude" %in% names(.x), TRUE, FALSE), .progress = T)
+ no_cols2 <- names(long2[long2 == F])
+ splink_no_col <- df_all[df_all$nome_aceito_correto %in% no_cols2,]
+ splink_col <- df_all[!df_all$nome_aceito_correto %in% no_cols2,]
 #
 # #leer y juntar esas
-# g_no_col <- furrr::future_map(gbif_no_col$gbif,
-#                                ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-#                                .progress = T)
-# names(g_no_col) <- gbif_no_col$nome_aceito_correto
-# s_no_col <- furrr::future_map(splink_no_col$splink,
-#                                  ~vroom::vroom(.x, guess_max = 100000) %>% distinct(),
-#                                  .progress = T)
-# names(s_no_col) <- splink_no_col$nome_aceito_correto
-#
+ g_no_col <- furrr::future_map2(gbif_no_col$gbif,
+                                gbif_no_col$nome_aceito_correto,
+                                 ~vroom::vroom(.x, guess_max = 100000) %>% mutate(nome_aceito_correto = .y)  %>% distinct(),
+                                 .progress = T)
+ names(g_no_col) <- gbif_no_col$nome_aceito_correto
+ s_no_col <- furrr::future_map2(splink_no_col$splink,
+                                splink_no_col$nome_aceito_correto,
+                                   ~vroom::vroom(.x, guess_max = 100000) %>% mutate(nome_aceito_correto = .y) %>% distinct(),
+                                   .progress = T)
+ names(s_no_col) <- splink_no_col$nome_aceito_correto
+
 # #mutate pre bind
-# g_no_dwc <- furrr::future_map(g_no_col,
-#                                 ~formatDwc(gbif_data = .x),
-#                                 .progress = T)
-# s_no_dwc <- formatDwc(splink_data = s_no_col$`Couepia meridionalis`)
-# s_no_dwc2 <- s_no_dwc %>%
-#   mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
-#   mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-#   mutate(across(where(is.logical), .fns = function(x) as.character(x)))
-#
-# g_no_dwc2 <- furrr::future_map(g_no_dwc,
-#                                  ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
-#                                    mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
-#                                    mutate(across(where(is.logical), .fns = function(x) as.character(x))),
-#                                  .progress = T)
-# all_no <- bind_rows(g_no_dwc2) %>% bind_rows(s_no_dwc2)
-# nrow(all_no)
-# write_csv(all_no, "output/p2/occs/ALL_NO_COLUMN.csv")
+
+s_no_col$`Couepia meridionalis` <- s_no_col$`Couepia meridionalis` %>%
+   mutate(across(where(is.integer), .fns = function(x) as.character(x))) %>%
+   mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+   mutate(across(where(is.logical), .fns = function(x) as.character(x)))
+
+g_no_col <- furrr::future_map(g_no_col,
+                                  ~mutate(.x, across(where(is.integer), .fns = function(x) as.character(x))) %>%
+                                    mutate(across(where(is.double), .fns = function(x) as.character(x))) %>%
+                                    mutate(across(where(is.logical), .fns = function(x) as.character(x))),
+                                  .progress = T)
+s_no_col$`Couepia meridionalis` <- s_no_col$`Couepia meridionalis` %>% mutate(fonte_dados = "splink")
+all_no <- bind_rows(g_no_col) %>% mutate(fonte_dados = "gbif") %>% bind_rows(s_no_col$`Couepia meridionalis`)
+nrow(all_no)
+
+all_no <-  all_no %>% select(one_of(c(ord_fields, "decimalLongitude", "decimalLatitude")))
+count(all_no, fonte_dados)
+write_csv(all_no, "output/p2/occs/ALL_NO_COLUMN.csv")
 # read_sf2("output/p2/occs/ALL_NO_COLUMN.csv")
 # #agora extrai as que nao tem coordenadas daquelas tabela grandes -----
 # plan(multisession, workers = 15)
@@ -324,3 +329,4 @@ sel_fields$field %in% names(all2)
 names(all2) %in% sel_fields$field[sel_fields$select == T]
 fields <- sel_fields$field[sel_fields$select == T]
 all2 %>% select(fields)
+
