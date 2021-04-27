@@ -3,7 +3,7 @@ library(dplyr)
 source("R/functions.R")
 sampa <- read_sf2("sampa.csv", column = "XY")
 plot(sampa$Y, sampa$Y.1)
-names(sampa)
+dim(sampa)
 no_col <- read_csv("output/p2/occs/ALL_NO_COLUMN.csv")
 unique(no_col$country)
 
@@ -23,37 +23,81 @@ no_col <- no_col %>% mutate(elevation = as.character(elevation),
   filter(stateProvince %in% c("São Paulo", "Sp", "Sao Paulo") | is.na(stateProvince))
 
 sampa_w_no_col <- bind_rows(sampa, no_col)
+nrow(sampa_w_no_col)
 sampa_w_no_col %>% count(t20, is.na(X))
 
 
+rb <- read_biota$CRbiota %>% select(one_of(names(sampa_w_no_col))) %>%
+  mutate(institutionID = as.character(institutionID),
+         catalogNumber = as.character(catalogNumber),
+         locationID = as.character(locationID))
+
 tax <- read_csv("output/p2/10_base_P1.csv")
-final_sampa <- left_join(sampa_w_no_col, tax) %>%
-  select(one_of(c(ord_fields, "X", "Y", "t20")))
-dim(final_sampa)
-count(final_sampa, t20, country, stateProvince) %>% View()
+final <- bind_rows(sampa_w_no_col, rb) %>% left_join(tax)
 
-t20
+final <- final %>% select(one_of(c(ord_fields, "X", "Y", "t20")))
+write_sf2(final, "output/p2/P2_sampa_final_unfiltered_cr_BIOTA.csv", delete_dsn = T)
 
+###MUNICIPIOS
+get_county_sl <- unique(final$county)
 
-t20  <- read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
-mpos <-textclean::replace_non_ascii(tolower(t20$NM_MUNICIP))
 
 ####DETECTA E FILTRA MUNICIPIOS
-
-purrr::map(final_sampa$county, sum(str_detect(final_sampa$county, mpos[1]), na.rm = T)
-
-vars <- c("verbatimLongitude", "verbatimLatitude", "country", "county","locality", "municipality")
+t20  <- read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
+mpos <- textclean::replace_non_ascii(tolower(t20$NM_MUNICIP))
+t20
+munt20 <- tibble(mun= sort(mpos), t20 = TRUE)
+vars <- c("stateProvince", "county", "municipality", "locality")
 vars %in% names(final_sampa)
-test <- final_sampa %>% select(all_of(vars))
-test <- test %>% mutate(across(any_of(vars),
-                             .fns = function(x) tolower(x) %>% textclean::replace_non_ascii(.)))
-whereee <- purrr::map(test, ~str_detect(string = .x, pattern = mpos)) %>% bind_rows
-onde <- which(colSums(whereee, na.rm = T) > 0)
-onde_linhas <- which(rowSums(whereee, na.rm = T) > 0)
-final_sampa <- final_sampa %>%
-  rename(decimalLongitude = X, decimalLatitude = Y) %>%
-  mutate(DETECT_MUNICIPIO = if_else(rowSums(whereee, na.rm = T) > 0, TRUE, FALSE))
+test <- final_sampa %>% mutate(across(any_of(vars),
+                             .fns = function(x) tolower(x) %>% textclean::replace_non_ascii(.), .names = "{.col}_format"))
+get_county <- unique(test$county_format) %>% sort()
+get_mplit <- unique(test$municipality_format) %>% sort()
+get_loc <- unique(test$locality_format) %>% sort()
 
+#cria a tabela inteira para ver o que tem nos campos county e municipality
+mpos_etiqueta <- c(get_county, get_mplit) %>% unique()
+sum(mpos_etiqueta %in% mpos)
+mun_eti <- tibble(mun = mpos_etiqueta, etiqueta = T)
+all_mpo <- full_join(munt20, mun_eti)
+write_csv(all_mpo, "output/p2/17_municipios_p_fitrar.csv")
+#editado a mano por los errores de ortografia / quitando otros municipios que claramente no entram
+mpos_tabla <- read_csv("output/p2/17_municipios_p_fitrar_edited.csv")
+
+filt <- mpos_tabla %>% rename(county_format = `mun+county`,
+                              select_county = select,
+                              in_t20_county = t20)
+filt2 <- mpos_tabla %>% rename(municipality_format = `mun+county`,
+                               select_municipality = select,
+                               in_t20_mpo = t20)
+tst <- test %>% left_join(filt) %>% left_join(filt2)
+tst %>% View()
+count(tst, t20, select_county, select_municipality)
+count(tst, t20, select_county)
+count(tst, t20, )
+tst %>% filter(select_county != FALSE | select_municipality != FALSE) %>% count(select_county, select_municipality)
+
+tst2 <- tst %>% mutate(final_selection = case_when(
+  t20 == 0 & select_county == FALSE ~ "sai",
+  t20 == 0 & select_municipality == FALSE ~ "sai",
+  t20 == 1 ~ "entra",
+  t20 == 0 & select_county == TRUE ~ "entra",
+  t20 == 0 & select_municipality == TRUE ~ "entra",
+  is.na(t20) & select_county == TRUE ~ "entra",
+  is.na(t20) & select_municipality == FALSE ~ "sai",
+  is.na(t20) & select_municipality == TRUE ~ "entra",
+  is.na(t20) & is.na(select_county) ~ "check_locality",
+  is.na(select_county) & is.na(select_municipality) ~ "check_locality"
+  ))
+
+count(tst2, t20, select_county, select_municipality, final_selection)
+names(tst2)
+ord_fields
+final_sampa <- tst2 %>%
+  select(-starts_with("in_t20"), -ends_with("format"), -etiqueta, -starts_with("acceptedNameUsage"), -institutionKey,
+         -collectionKey, -elevationAccuracy) %>%
+  rename(decimalLongitude = X, decimalLatitude = Y)
+count(final_sampa, ) %>% View()
 write_sf2(final_sampa, "sampa_final_unfiltered.csv", delete_dsn = T)
 
 final_sampa_filtered <- final_sampa %>%
@@ -63,12 +107,3 @@ write_sf2(final_sampa_filtered, "sampa_final_filtered.csv", delete_dsn = T)
 
 
 
-rb <- read_biota$CRbiota %>% select(one_of(names(final_sampa_filtered))) %>%
-  mutate(institutionID = as.character(institutionID),
-                                    catalogNumber = as.character(catalogNumber),
-                                    locationID = as.character(locationID))
-
-final <- bind_rows(final_sampa_filtered, rb) %>% left_join(tax)
-  write_sf2(final, "output/p2/P2_sampa_final_filtered_cr_BIOTA.csv", delete_dsn = T)
-count(final, t20, is.na(decimalLatitude), is.na(decimalLongitude))
-final %>% pull(verbatimLatitude) %>% unique()
