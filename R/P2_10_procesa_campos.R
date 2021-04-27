@@ -94,15 +94,18 @@ count(tst2, t20, select_county, select_municipality, final_selection)
 names(tst2)
 ord_fields
 final_sampa <- tst2 %>%
+  rename(decimalLatitude = Y, decimalLongitude = X) %>%
+  mutate(situacao_coordenada = if_else(is.na(decimalLatitude)|is.na(decimalLongitude),"CA" ,"CO")) %>%
+  mutate(ID = 1:nrow(tst2)) %>%
   select(-starts_with("in_t20"), -ends_with("format"), -etiqueta, -starts_with("acceptedNameUsage"), -institutionKey,
-         -collectionKey, -elevationAccuracy) %>%
-  rename(decimalLongitude = X, decimalLatitude = Y)
-count(final_sampa, ) %>% View()
+         -collectionKey, -elevationAccuracy, -countryCode, -familyKey) %>%
+  select(ID, grupo, familia, genero, epiteto_especifico, nome_aceito_correto, nivel_taxonomico, epiteto_infraespecifico, #sinonimia, fonte_sinonimia,
+         institutionCode, collectionCode, catalogNumber, barcode, recordedBy, record_id, recordNumber, fieldNumber, year, month, day, stateProvince, county, municipality, locality, decimalLongitude, decimalLatitude, verbatimLongitude, , verbatimLatitude, verbatimLocality, geodeticDatum, situacao_coordenada, elevation, identifiedBy, identifier, identifiers, dateIdentified, yearIdentified, monthIdentified, dayIdentified,  ends_with("Remarks"), habitat, fonte_dados, t20, select_county, select_municipality, final_selection)
+
 write_sf2(final_sampa, "sampa_final_unfiltered.csv", delete_dsn = T)
 
 final_sampa_filtered <- final_sampa %>%
-  #mutate(DETECT_MUNICIPIO = if_else(rowSums(whereee, na.rm = T) > 0, TRUE, FALSE)) %>%
-  filter(t20 == 1 |  DETECT_MUNICIPIO == TRUE)
+  filter(final_selection != "sai")
 write_sf2(final_sampa_filtered, "sampa_final_filtered.csv", delete_dsn = T)
 
 
