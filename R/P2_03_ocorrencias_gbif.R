@@ -14,7 +14,7 @@ syn_df <- tibble(nome_aceito_correto = nomes,
        sinonimo_file = df_sinonimos)
 
 #para cada especie que entra pelo criterio ameaca
-entra <- read_csv("output/p2/p2_inicial.csv") %>%
+entra <- read_csv("output/p2/p2_selecionadas.csv") %>%
   select(nome_aceito_correto, cat_ameaca_geral)
 syn_df <- left_join(entra, syn_df)
 
@@ -22,6 +22,14 @@ pasta_occs <- "output/p2/occs/"
 
 plan(multisession, workers = 15)
 df <- furrr::future_map(syn_df$sinonimo_file, ~read_csv(.x), .progress = T)
+
+all_names <- bind_rows(df) %>% distinct()
+write_csv(all_names, "all_names_and_synonyms_before.csv")
+stringr::str_detect(all_names$especie, "var\\.") %>% sum()
+stringr::str_detect(all_names$especie, "subsp\\.") %>% sum()
+
+
+
 #plan(sequential)
 pasta_out <- paste0(pasta_occs, "gbif")
 dir.create(pasta_out)

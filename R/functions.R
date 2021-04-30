@@ -13,6 +13,7 @@ file_data_frame <- function(folder) {
 read_sf2 <- function(x, column = "XY",  ...) {
   if (column == "XY") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=X", "Y_POSSIBLE_NAMES=Y"), ...)
   if (column == "latlon") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=decimalLongitude", "Y_POSSIBLE_NAMES=decimalLatitude"), ...)
+  if (column == "ellos") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=long_original", "Y_POSSIBLE_NAMES=lat_original"), ...)
   return(y)
   }
 #writes tables as sf
