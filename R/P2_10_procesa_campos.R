@@ -26,18 +26,30 @@ sampa_w_no_col <- bind_rows(sampa, no_col)
 nrow(sampa_w_no_col)
 sampa_w_no_col %>% count(t20, is.na(X))
 
+is(read_biota$CRbiota)
+names(read_biota$CRbiota)
+read_biota$CRbiota$scientificName
 
-rb <- read_biota$CRbiota %>% select(one_of(names(sampa_w_no_col))) %>%
+write_csv(read_biota$CRbiota, "output/p2/p2_CR_Biota.csv")
+biota <- read_sf2("output/p2/p2_CR_Biota.csv", column = "latlon")
+rb <- biota %>%
+  mutate(nome_aceito_correto = scientificName) %>%
+  select(any_of(names(sampa_w_no_col)), "decimalLatitude", "decimalLongitude", "geometry") %>%
   mutate(institutionID = as.character(institutionID),
          catalogNumber = as.character(catalogNumber),
-         locationID = as.character(locationID))
+         locationID = as.character(locationID),
+         fonte_dados = "SisBIOTA" )
 
 tax <- read_csv("output/p2/10_base_P1.csv")
 final <- bind_rows(sampa_w_no_col, rb) %>% left_join(tax)
-
-final <- final %>% select(one_of(c(ord_fields, "X", "Y", "t20")))
-write_sf2(final, "output/p2/P2_sampa_final_unfiltered_cr_BIOTA.csv", delete_dsn = T)
-
+sort(names(final))
+sort(ord_fields)
+final <- final %>% select(one_of(c(ord_fields, "X", "Y", "t20", "decimalLatitude", "decimalLongitude")))
+write_sf2(final, "output/p2/P2_sampa_final_unfiltered_cr_BIOTA_forp3.csv", delete_dsn = T)
+count(final, fonte_dados)
+filter(final, fonte_dados == "SisBIOTA") %>%
+write_sf2("output/p2/P2_biota_data.csv", delete_dsn = T)
+read_sf2("output/p2/P2_biota_data.csv")
 ###MUNICIPIOS
 get_county_sl <- unique(final$county)
 
