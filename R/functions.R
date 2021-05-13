@@ -1,7 +1,7 @@
 library(dplyr)
 library(sf)
 library(readr)
-#takes species names fro folder paths
+#takes species names from folder paths
 file_data_frame <- function(folder) {
   path <- list.files(folder, full.names = T)
   name <- basename(path) %>% stringr::str_remove(".csv")
@@ -52,3 +52,14 @@ ord_fields <- setdiff(ord_fields, c("decimalLatitude", "decimalLongitude"))
 #CRUZA SHAPE
 
 
+clean_string <- function(x, var) {
+  x <- x %>%
+    mutate(mpo_check = trimws(tolower(textclean::replace_non_ascii({{var}})),
+                              whitespace = "[ \\t\\r\\n\U00A0]"))
+  x$mpo_check <- gsub("\\s|\\t|\\r|\\n|\U00A0", "", x$mpo_check)
+  x$mpo_check <- gsub("\\'", "", x$mpo_check)
+  x$mpo_check <- gsub("\\-", "", x$mpo_check)
+  x$mpo_check <- gsub("[[:punct:]]", "", x$mpo_check)
+  x$mpo_check <- gsub("[[:digit:]]", "", x$mpo_check)
+  return(x)
+}
