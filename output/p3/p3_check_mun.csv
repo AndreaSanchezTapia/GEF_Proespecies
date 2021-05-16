@@ -1,369 +1,376 @@
-mpo_county,mpo_check
-Cubatão,cubatao
-Salesópolis,salesopolis
-Mauá,maua
-São Bernardo do Campo,saobernardodocampo
-Sorocaba,sorocaba
-Conchas,conchas
-São José dos Campos,saojosedoscampos
-Itararé,itarare
-São Paulo,saopaulo
-NA,NA
-São Lorenço da Serra,saolorencodaserra
-Itapecirica da Serra,itapeciricadaserra
-Ibiúna,ibiuna
-Miracatú,miracatu
-Piquete,piquete
-São José do Barreiro,saojosedobarreiro
-Santa Olivia,santaolivia
-Nova Odessa,novaodessa
-Delfim Moreira,delfimmoreira
-Itanhaém,itanhaem
-Biritiba Mirim,biritibamirim
-Santo André,santoandre
-Atibaia,atibaia
-Jundiaí,jundiai
-Cotia,cotia
-Botucatu,botucatu
-Itirapina,itirapina
-Mogi-Guaçu,mogiguacu
-São Carlos,saocarlos
-Angatuba,angatuba
-Guarulhos,guarulhos
-Mongaguá,mongagua
-Sao Paulo,saopaulo
-Santos,santos
-Franco da Rocha,francodarocha
-Biritiba-ussu,biritibaussu
-Itatiaia,itatiaia
-Juquiá,juquia
-Campinas,campinas
-São Sebastião,saosebastiao
-Embú das Artes,embudasartes
-Saltão,saltao
-Mogi das Cruzes,mogidascruzes
-Carapicuiba,carapicuiba
-Ribeirão Grande da Serra,ribeiraograndedaserra
-Sete Barras,setebarras
-Itapira,itapira
-Santa Bárbara d'Oeste,santabarbaradoeste
-Sabino,sabino
-Campos do Jordão,camposdojordao
-Teodoro Sampaio,teodorosampaio
-José Bonifacio,josebonifacio
-Américo de Campos,americodecampos
-Iguape,iguape
-Osasco,osasco
-Pedro de Toledo,pedrodetoledo
-Cosmópolis,cosmopolis
-Embu-Guaçu,embuguacu
-São José do Rio Preto,saojosedoriopreto
-Natividade da Serra,natividadedaserra
-São Roque,saoroque
-Peruíbe,peruibe
-Ibití,ibiti
-Monte Alegre do Sul,montealegredosul
-Ibiti,ibiti
-Tanabi,tanabi
+mpo_county,mpo_check,mpo_check2,mpo_check3
+Cubatão,cubatao,NA,cubatao
+Salesópolis,salesopolis,NA,salesopolis
+Mauá,maua,NA,maua
+São Bernardo do Campo,saobernardodocampo,NA,saobernardodocampo
+Sorocaba,sorocaba,NA,sorocaba
+Conchas,conchas,NA,conchas
+São José dos Campos,saojosedoscampos,NA,saojosedoscampos
+Itararé,itarare,NA,itarare
+São Paulo,saopaulo,NA,saopaulo
+NA,NA,NA,NA
+São Lorenço da Serra,saolorencodaserra,saolourencodaserra,saolourencodaserra
+Itapecirica da Serra,itapeciricadaserra,itapecericadaserra,itapecericadaserra
+Ibiúna,ibiuna,NA,ibiuna
+Miracatú,miracatu,NA,miracatu
+Piquete,piquete,NA,piquete
+São José do Barreiro,saojosedobarreiro,NA,saojosedobarreiro
+Santa Olivia,santaolivia,NA,santaolivia
+Nova Odessa,novaodessa,NA,novaodessa
+Delfim Moreira,delfimmoreira,NA,delfimmoreira
+Itanhaém,itanhaem,NA,itanhaem
+Biritiba Mirim,biritibamirim,NA,biritibamirim
+Santo André,santoandre,NA,santoandre
+Atibaia,atibaia,NA,atibaia
+Jundiaí,jundiai,NA,jundiai
+Cotia,cotia,NA,cotia
+Botucatu,botucatu,NA,botucatu
+Itirapina,itirapina,NA,itirapina
+Mogi-Guaçu,mogiguacu,NA,mogiguacu
+São Carlos,saocarlos,NA,saocarlos
+Angatuba,angatuba,NA,angatuba
+Guarulhos,guarulhos,NA,guarulhos
+Mongaguá,mongagua,NA,mongagua
+Sao Paulo,saopaulo,NA,saopaulo
+Santos,santos,NA,santos
+Franco da Rocha,francodarocha,NA,francodarocha
+Biritiba-ussu,biritibaussu,NA,biritibaussu
+Itatiaia,itatiaia,NA,itatiaia
+Juquiá,juquia,NA,juquia
+Campinas,campinas,NA,campinas
+São Sebastião,saosebastiao,NA,saosebastiao
+Embú das Artes,embudasartes,NA,embudasartes
+Saltão,saltao,NA,saltao
+Mogi das Cruzes,mogidascruzes,NA,mogidascruzes
+Carapicuiba,carapicuiba,NA,carapicuiba
+Ribeirão Grande da Serra,ribeiraograndedaserra,NA,ribeiraograndedaserra
+Sete Barras,setebarras,NA,setebarras
+Itapira,itapira,NA,itapira
+Santa Bárbara d'Oeste,santabarbaradoeste,NA,santabarbaradoeste
+Sabino,sabino,NA,sabino
+Campos do Jordão,camposdojordao,NA,camposdojordao
+Teodoro Sampaio,teodorosampaio,NA,teodorosampaio
+José Bonifacio,josebonifacio,NA,josebonifacio
+Américo de Campos,americodecampos,NA,americodecampos
+Iguape,iguape,NA,iguape
+Osasco,osasco,NA,osasco
+Pedro de Toledo,pedrodetoledo,NA,pedrodetoledo
+Cosmópolis,cosmopolis,NA,cosmopolis
+Embu-Guaçu,embuguacu,NA,embuguacu
+São José do Rio Preto,saojosedoriopreto,NA,saojosedoriopreto
+Natividade da Serra,natividadedaserra,NA,natividadedaserra
+São Roque,saoroque,NA,saoroque
+Peruíbe,peruibe,NA,peruibe
+Ibití,ibiti,NA,ibiti
+Monte Alegre do Sul,montealegredosul,NA,montealegredosul
+Ibiti,ibiti,NA,ibiti
+Tanabi,tanabi,NA,tanabi
 "São Paulo
 
-",saopaulo
-Mairiporã,mairipora
-São Sebastião Bertioga,saosebastiaobertioga
-Embu das Artes,embudasartes
-São Vicente,saovicente
-Ubatuba,ubatuba
-Nova Aliança,novaalianca
-José Bonifácio,josebonifacio
-Sales,sales
-Mirassol,mirassol
-Cabreúva,cabreuva
-Bertioga,bertioga
-"São Paulo",saopaulo
-"São Lourenço da Serra",saolourencodaserra
-São Lourenço da Serra,saolourencodaserra
-Juquitiba,juquitiba
-Miracatu,miracatu
-Loreto,loreto
-Jacareí,jacarei
-Santa Isabel,santaisabel
-Nazaré Paulista,nazarepaulista
-Iperó,ipero
-Cananeia,cananeia
-"Tapiraí",tapirai
-Tapiraí,tapirai
-Cananéia,cananeia
-Cunha,cunha
-sp,sp
-Paranapiacaba,paranapiacaba
-"Sete Barras",setebarras
-"Santo André",santoandre
-Caraguatatuba,caraguatatuba
-São Luiz do Paraitinga,saoluizdoparaitinga
-Peruibe,peruibe
-Paraibuna,paraibuna
-Subaúma,subauma
-Itatinga,itatinga
-"Guarulhos
-",guarulhos
-São José do Barreiros,saojosedobarreiros
-Suzano,suzano
-Joanópolis,joanopolis
-JUNDIAI,jundiai
-SãoPaulo,saopaulo
-"Jundiaí",jundiai
-"Jundiaí
-",jundiai
-Pedra Bela,pedrabela
-Ribeirao Pires,ribeiraopires
-Igaratá,igarata
-"Ibiúna
-",ibiuna
-Itopitingui,itopitingui
-Serra da Cantareira,serradacantareira
-Bom Sucesso de Itararé,bomsucessodeitarare
-Campo de Congonhas,campodecongonhas
-Paticonia,paticonia
-Indaiatuba,indaiatuba
-Porto Feliz,portofeliz
-Salto de Pirapora,saltodepirapora
-Itatiba,itatiba
-Salto,salto
-Piracicaba,piracicaba
-Campo Grande,campogrande
-Boracéia,boraceia
-Itinga,itinga
-Embú,embu
-Campo Limpo Paulista,campolimpopaulista
-Embu,embu
-Araraquara,araraquara
-Pirituba,pirituba
-Caieiras,caieiras
-Santa Branca,santabranca
-São Caetano do Sul,saocaetanodosul
-Itapecerica da Serra,itapecericadaserra
-Várzea Paulista,varzeapaulista
-SÃO PAULO,saopaulo
-Pinheiros,pinheiros
-Itu,itu
-Cocaes,cocaes
-Itú,itu
-Arujá,aruja
-Buri,buri
-Sao José dos Campos,saojosedoscampos
-Sarapuí,sarapui
-Praia Grande,praiagrande
-Boa Esperança do Sul,boaesperancadosul
-Sao Vicente,saovicente
-Bananal,bananal
-Barra do Turvo,barradoturvo
-Bragança Paulista,bragancapaulista
-SAO PAULO,saopaulo
-São Miguel Arcanjo,saomiguelarcanjo
-Itapevi,itapevi
-Lindóia,lindoia
-São Bernardo Do Campo,saobernardodocampo
-Piruquê,piruque
-Moji das Cruzes,mojidascruzes
-Barra do Una,barradouna
-Barra de Una,barradeuna
-Boraceia,boraceia
-Sallesópolis,sallesopolis
-Alumínio,aluminio
-Mato Grosso,matogrosso
-Santana do Riacho,santanadoriacho
-Emas,emas
-Conchal,conchal
-Estreito,estreito
-Mogi,mogi
-Uberaba,uberaba
-Campo Alegre,campoalegre
-Florianópolis,florianopolis
-Piracaia,piracaia
-Piedade,piedade
-Picinguaba,picinguaba
-Monguaguá,monguagua
-Vale do Ribeira,valedoribeira
-Sousas,sousas
-Itambé,itambe
-Pirajussara,pirajussara
-São vicente,saovicente
-Parelheiros,parelheiros
-SETE BARRAS,setebarras
-Jardim Botanico,jardimbotanico
-Bauru,bauru
-Ipiranga,ipiranga
-Santo Anastácio,santoanastacio
-Anastácio,anastacio
-ANASTÁCIO,anastacio
-PERUÍBE,peruibe
-Santana,santana
-Itapitingui,itapitingui
-Palmitalzinho,palmitalzinho
-Itacaré,itacare
-Águas de Prata,aguasdeprata
-Ribeirão Pires,ribeiraopires
-Rio Grande da Serra,riograndedaserra
-Jaraguá,jaragua
-Rubiao Junior,rubiaojunior
-Porto Primavera,portoprimavera
-Bocaina do Sul,bocainadosul
-Votorantim,votorantim
-Ibiuna,ibiuna
-Ibiína,ibiina
-Mairipora,mairipora
-Teodoro sampaio,teodorosampaio
-Jundiai,jundiai
-Agudos,agudos
-Ilha da Queimada Grande,ilhadaqueimadagrande
-Santo Andre,santoandre
-Itanhaem,itanhaem
-Pedregulho,pedregulho
-Juréia,jureia
-Idaiatuba,idaiatuba
-Cajamar,cajamar
-Americana,americana
-Inúbia,inubia
-Limeira,limeira
-Nubia,nubia
-Araçatuba,aracatuba
-São Simão,saosimao
-Bebedouro,bebedouro
-Espírito Santo do Pinhal,espiritosantodopinhal
-Santa Rita do Passa Quatro,santaritadopassaquatro
-Moji-Guaçu,mojiguacu
-Eldorado,eldorado
-Sao Luiz da Paraitinga.,saoluizdaparaitinga
-Tombos,tombos
-Morro Chato,morrochato
-Tarumã,taruma
-Paranapanema,paranapanema
-Araras,araras
-Mogi-Guaçú,mogiguacu
-Itapetinga,itapetinga
-S. Ant. da Alegria,santdaalegria
-Paulo de Freitas,paulodefreitas
-Reserva da Juréia,reservadajureia
-Mairinque,mairinque
-Iracemópolis,iracemopolis
-MAIRINQUE,mairinque
-Vinhedo,vinhedo
-Espraiado,espraiado
-Taubaté,taubate
-Vila Amália,vilaamalia
-Itatuba,itatuba
+",saopaulo,NA,saopaulo
+Mairiporã,mairipora,NA,mairipora
+São Sebastião Bertioga,saosebastiaobertioga,saosebastiao,saosebastiao
+Embu das Artes,embudasartes,NA,embudasartes
+São Vicente,saovicente,NA,saovicente
+Ubatuba,ubatuba,NA,ubatuba
+Nova Aliança,novaalianca,NA,novaalianca
+José Bonifácio,josebonifacio,NA,josebonifacio
+Sales,sales,NA,sales
+Mirassol,mirassol,NA,mirassol
+Cabreúva,cabreuva,NA,cabreuva
+Bertioga,bertioga,NA,bertioga
+"São Paulo
+",saopaulo,NA,saopaulo
+"São Lourenço da Serra
+",saolourencodaserra,NA,saolourencodaserra
+São Lourenço da Serra,saolourencodaserra,NA,saolourencodaserra
+Juquitiba,juquitiba,NA,juquitiba
+Miracatu,miracatu,NA,miracatu
+Loreto,loreto,NA,loreto
+Jacareí,jacarei,NA,jacarei
+Santa Isabel,santaisabel,NA,santaisabel
+Nazaré Paulista,nazarepaulista,NA,nazarepaulista
+Iperó,ipero,NA,ipero
+Cananeia,cananeia,NA,cananeia
+"Tapiraí
+",tapirai,NA,tapirai
+Tapiraí,tapirai,NA,tapirai
+Cananéia,cananeia,NA,cananeia
+Cunha,cunha,NA,cunha
+sp,sp,saopaulo,saopaulo
+Paranapiacaba,paranapiacaba,NA,paranapiacaba
 "Sete Barras
-",setebarras
-S. Luis do Paraytinga,sluisdoparaytinga
-itaquera,itaquera
-Itaquera.,itaquera
-Ouro Verde,ouroverde
-Rio Claro,rioclaro
-Porto Epitácio,portoepitacio
-Elihu Root,elihuroot
-Carapicuíba,carapicuiba
-Palheireiros,palheireiros
-São Bento do Sapucaí,saobentodosapucai
-Lorena,lorena
-Sao José do Barreiro,saojosedobarreiro
-Sao Roque,saoroque
-Viracopos,viracopos
-Barra do turvo,barradoturvo
-SÃO JOSÉ DOS CAMPOS,saojosedoscampos
-Querência,querencia
-Brejetuba,brejetuba
-Rio das Pedras,riodaspedras
-Mariporã,maripora
-s/ local,slocal
-JUNDIAÍ,jundiai
-Mogí das cruzes,mogidascruzes
-Marsilac,marsilac
-Sao Miguel Arcanjo,saomiguelarcanjo
-Mogi Mirim,mogimirim
-Guapira,guapira
-"São Roque",saoroque
-SÃO ROQUE,saoroque
-SANTA CRUZ DA ESTRELA,santacruzdaestrela
-Itaqui,itaqui
-Diadema,diadema
-picinguaba,picinguaba
-Sao Bernardo Do Campo,saobernardodocampo
-são bernardo do campo,saobernardodocampo
-São Bernado do Campo,saobernadodocampo
-"Cotia",cotia
-Talhado,talhado
+",setebarras,NA,setebarras
+"Santo André
+",santoandre,NA,santoandre
+Caraguatatuba,caraguatatuba,NA,caraguatatuba
+São Luiz do Paraitinga,saoluizdoparaitinga,NA,saoluizdoparaitinga
+Peruibe,peruibe,NA,peruibe
+Paraibuna,paraibuna,NA,paraibuna
+Subaúma,subauma,NA,subauma
+Itatinga,itatinga,NA,itatinga
+"Guarulhos
+",guarulhos,NA,guarulhos
+São José do Barreiros,saojosedobarreiros,saojosedobarreiro,saojosedobarreiro
+Suzano,suzano,NA,suzano
+Joanópolis,joanopolis,NA,joanopolis
+JUNDIAI,jundiai,NA,jundiai
+SãoPaulo,saopaulo,NA,saopaulo
+"Jundiaí
+",jundiai,NA,jundiai
+Pedra Bela,pedrabela,NA,pedrabela
+Ribeirao Pires,ribeiraopires,NA,ribeiraopires
+Igaratá,igarata,NA,igarata
+"Ibiúna
+",ibiuna,NA,ibiuna
+Itopitingui,itopitingui,NA,itopitingui
+Serra da Cantareira,serradacantareira,NA,serradacantareira
+Bom Sucesso de Itararé,bomsucessodeitarare,NA,bomsucessodeitarare
+Campo de Congonhas,campodecongonhas,NA,campodecongonhas
+Paticonia,paticonia,NA,paticonia
+Indaiatuba,indaiatuba,NA,indaiatuba
+Porto Feliz,portofeliz,NA,portofeliz
+Salto de Pirapora,saltodepirapora,NA,saltodepirapora
+Itatiba,itatiba,NA,itatiba
+Salto,salto,NA,salto
+Piracicaba,piracicaba,NA,piracicaba
+Campo Grande,campogrande,NA,campogrande
+Boracéia,boraceia,NA,boraceia
+Itinga,itinga,NA,itinga
+Embú,embu,embudasartes,embudasartes
+Campo Limpo Paulista,campolimpopaulista,NA,campolimpopaulista
+Embu,embu,embudasartes,embudasartes
+Araraquara,araraquara,NA,araraquara
+Pirituba,pirituba,NA,pirituba
+Caieiras,caieiras,NA,caieiras
+Santa Branca,santabranca,NA,santabranca
+São Caetano do Sul,saocaetanodosul,NA,saocaetanodosul
+Itapecerica da Serra,itapecericadaserra,NA,itapecericadaserra
+Várzea Paulista,varzeapaulista,NA,varzeapaulista
+SÃO PAULO,saopaulo,NA,saopaulo
+Pinheiros,pinheiros,NA,pinheiros
+Itu,itu,NA,itu
+Cocaes,cocaes,NA,cocaes
+Itú,itu,NA,itu
+Arujá,aruja,NA,aruja
+Buri,buri,NA,buri
+Sao José dos Campos,saojosedoscampos,NA,saojosedoscampos
+Sarapuí,sarapui,NA,sarapui
+Praia Grande,praiagrande,NA,praiagrande
+Boa Esperança do Sul,boaesperancadosul,NA,boaesperancadosul
+Sao Vicente,saovicente,NA,saovicente
+Bananal,bananal,NA,bananal
+Barra do Turvo,barradoturvo,NA,barradoturvo
+Bragança Paulista,bragancapaulista,NA,bragancapaulista
+SAO PAULO,saopaulo,NA,saopaulo
+São Miguel Arcanjo,saomiguelarcanjo,NA,saomiguelarcanjo
+Itapevi,itapevi,NA,itapevi
+Lindóia,lindoia,NA,lindoia
+São Bernardo Do Campo,saobernardodocampo,NA,saobernardodocampo
+Piruquê,piruque,NA,piruque
+Moji das Cruzes,mojidascruzes,mogidascruzes,mogidascruzes
+Barra do Una,barradouna,NA,barradouna
+Barra de Una,barradeuna,NA,barradeuna
+Boraceia,boraceia,NA,boraceia
+Sallesópolis,sallesopolis,salesopolis,salesopolis
+Alumínio,aluminio,NA,aluminio
+Mato Grosso,matogrosso,NA,matogrosso
+Santana do Riacho,santanadoriacho,NA,santanadoriacho
+Emas,emas,NA,emas
+Conchal,conchal,NA,conchal
+Estreito,estreito,NA,estreito
+Mogi,mogi,mogidascruzes,mogidascruzes
+Uberaba,uberaba,NA,uberaba
+Campo Alegre,campoalegre,NA,campoalegre
+Florianópolis,florianopolis,NA,florianopolis
+Piracaia,piracaia,NA,piracaia
+Piedade,piedade,NA,piedade
+Picinguaba,picinguaba,NA,picinguaba
+Monguaguá,monguagua,mongagua,mongagua
+Vale do Ribeira,valedoribeira,NA,valedoribeira
+Sousas,sousas,NA,sousas
+Itambé,itambe,NA,itambe
+Pirajussara,pirajussara,NA,pirajussara
+São vicente,saovicente,NA,saovicente
+Parelheiros,parelheiros,NA,parelheiros
+SETE BARRAS,setebarras,NA,setebarras
+Jardim Botanico,jardimbotanico,NA,jardimbotanico
+Bauru,bauru,NA,bauru
+Ipiranga,ipiranga,NA,ipiranga
+Santo Anastácio,santoanastacio,NA,santoanastacio
+Anastácio,anastacio,NA,anastacio
+ANASTÁCIO,anastacio,NA,anastacio
+PERUÍBE,peruibe,NA,peruibe
+Santana,santana,NA,santana
+Itapitingui,itapitingui,NA,itapitingui
+Palmitalzinho,palmitalzinho,NA,palmitalzinho
+Itacaré,itacare,NA,itacare
+Águas de Prata,aguasdeprata,NA,aguasdeprata
+Ribeirão Pires,ribeiraopires,NA,ribeiraopires
+Rio Grande da Serra,riograndedaserra,NA,riograndedaserra
+Jaraguá,jaragua,NA,jaragua
+Rubiao Junior,rubiaojunior,NA,rubiaojunior
+Porto Primavera,portoprimavera,NA,portoprimavera
+Bocaina do Sul,bocainadosul,NA,bocainadosul
+Votorantim,votorantim,NA,votorantim
+Ibiuna,ibiuna,NA,ibiuna
+Ibiína,ibiina,ibiuna,ibiuna
+Mairipora,mairipora,NA,mairipora
+Teodoro sampaio,teodorosampaio,NA,teodorosampaio
+Jundiai,jundiai,NA,jundiai
+Agudos,agudos,NA,agudos
+Ilha da Queimada Grande,ilhadaqueimadagrande,NA,ilhadaqueimadagrande
+Santo Andre,santoandre,NA,santoandre
+Itanhaem,itanhaem,NA,itanhaem
+Pedregulho,pedregulho,NA,pedregulho
+Juréia,jureia,NA,jureia
+Idaiatuba,idaiatuba,indaiatuba,indaiatuba
+Cajamar,cajamar,NA,cajamar
+Americana,americana,NA,americana
+Inúbia,inubia,inubiapaulista,inubiapaulista
+Limeira,limeira,NA,limeira
+Nubia,nubia,inubiapaulista,inubiapaulista
+Araçatuba,aracatuba,NA,aracatuba
+São Simão,saosimao,NA,saosimao
+Bebedouro,bebedouro,NA,bebedouro
+Espírito Santo do Pinhal,espiritosantodopinhal,NA,espiritosantodopinhal
+Santa Rita do Passa Quatro,santaritadopassaquatro,NA,santaritadopassaquatro
+Moji-Guaçu,mojiguacu,mogiguacu,mogiguacu
+Eldorado,eldorado,NA,eldorado
+Sao Luiz da Paraitinga.,saoluizdaparaitinga,saoluizdoparaitinga,saoluizdoparaitinga
+Tombos,tombos,NA,tombos
+Morro Chato,morrochato,NA,morrochato
+Tarumã,taruma,NA,taruma
+Paranapanema,paranapanema,NA,paranapanema
+Araras,araras,NA,araras
+Mogi-Guaçú,mogiguacu,NA,mogiguacu
+Itapetinga,itapetinga,NA,itapetinga
+S. Ant. da Alegria,santdaalegria,santoantoniodaalegria,santoantoniodaalegria
+Paulo de Freitas,paulodefreitas,NA,paulodefreitas
+Reserva da Juréia,reservadajureia,NA,reservadajureia
+Mairinque,mairinque,NA,mairinque
+Iracemópolis,iracemopolis,NA,iracemopolis
+MAIRINQUE,mairinque,NA,mairinque
+Vinhedo,vinhedo,NA,vinhedo
+Espraiado,espraiado,NA,espraiado
+Taubaté,taubate,NA,taubate
+Vila Amália,vilaamalia,NA,vilaamalia
+Itatuba,itatuba,NA,itatuba
+S. Luis do Paraytinga,sluisdoparaytinga,saoluizdoparaitinga,saoluizdoparaitinga
+itaquera,itaquera,NA,itaquera
+Itaquera.,itaquera,NA,itaquera
+Ouro Verde,ouroverde,NA,ouroverde
+Rio Claro,rioclaro,NA,rioclaro
+Porto Epitácio,portoepitacio,NA,portoepitacio
+Elihu Root,elihuroot,NA,elihuroot
+Carapicuíba,carapicuiba,NA,carapicuiba
+Palheireiros,palheireiros,NA,palheireiros
+São Bento do Sapucaí,saobentodosapucai,NA,saobentodosapucai
+Lorena,lorena,NA,lorena
+Sao José do Barreiro,saojosedobarreiro,NA,saojosedobarreiro
+Sao Roque,saoroque,NA,saoroque
+Viracopos,viracopos,NA,viracopos
+Barra do turvo,barradoturvo,NA,barradoturvo
+SÃO JOSÉ DOS CAMPOS,saojosedoscampos,NA,saojosedoscampos
+Querência,querencia,NA,querencia
+Brejetuba,brejetuba,NA,brejetuba
+Rio das Pedras,riodaspedras,NA,riodaspedras
+Mariporã,maripora,mairipora,mairipora
+s/ local,slocal,"NA","NA"
+JUNDIAÍ,jundiai,NA,jundiai
+Mogí das cruzes,mogidascruzes,NA,mogidascruzes
+Marsilac,marsilac,NA,marsilac
+Sao Miguel Arcanjo,saomiguelarcanjo,NA,saomiguelarcanjo
+Mogi Mirim,mogimirim,NA,mogimirim
+Guapira,guapira,NA,guapira
+"São Roque
+",saoroque,NA,saoroque
+SÃO ROQUE,saoroque,NA,saoroque
+SANTA CRUZ DA ESTRELA,santacruzdaestrela,NA,santacruzdaestrela
+Itaqui,itaqui,NA,itaqui
+Diadema,diadema,NA,diadema
+picinguaba,picinguaba,NA,picinguaba
+Sao Bernardo Do Campo,saobernardodocampo,NA,saobernardodocampo
+são bernardo do campo,saobernardodocampo,NA,saobernardodocampo
+São Bernado do Campo,saobernadodocampo,saobernardodocampo,saobernardodocampo
+"Cotia
+",cotia,NA,cotia
+Talhado,talhado,NA,talhado
 "Jundiaí
 
-",jundiai
-Mogi Cruzes,mogicruzes
-SANTO ANDRÉ,santoandre
-"Paranapiacaba",paranapiacaba
-Ñazaré Paulista,nazarepaulista
-Barueri,barueri
-Arariquama,arariquama
-Assis,assis
-Araçariguama,aracariguama
-Pirssununga,pirssununga
-"São Paulo
-",saopaulo
-Santo Amaro,santoamaro
-"Juquitiba",juquitiba
-Mogi da Cruzes,mogidacruzes
-Serra da Bocaina,serradabocaina
-"São José do Barreiro",saojosedobarreiro
-Pindamonhangaba,pindamonhangaba
-São Francisco,saofrancisco
-Extrema,extrema
-Sete Barros,setebarros
-Sabaúna,sabauna
-Ponte Grande,pontegrande
-Santo Antônio do Pinhal,santoantoniodopinhal
-Sao Jose do Barreiro,saojosedobarreiro
-Campos da Bocaina,camposdabocaina
-rodovia Washington Luiz km 261,rodoviawashingtonluizkm
-Santa Rita de Passa Quatro,santaritadepassaquatro
-Núbia,nubia
-Sud Mennucci.,sudmennucci
-São João das Laranjeiras,saojoaodaslaranjeiras
-Matão (G9),mataog
-Sao Joao das Laranjeiras,saojoaodaslaranjeiras
-Nazare Paulista,nazarepaulista
-Sabauna,sabauna
-Taruma,taruma
-Itariri,itariri
-Sao Jose dos Campos,saojosedoscampos
-Tapirai,tapirai
-Ferraz de Vasconcelos,ferrazdevasconcelos
-Itapina,itapina
-São Luis do Paraitinga,saoluisdoparaitinga
-Ilha do Cardoso,ilhadocardoso
-"Guarulhos",guarulhos
-"Peruíbe",peruibe
-"Embu das Artes",embudasartes
-Mogi das Cruzes - estrada Usaca,mogidascruzesestradausaca
-Guarujá,guaruja
-Itapira da Serra,itapiradaserra
-Períbe,peribe
-Mongagá,mongaga
-Ilha de São Sebastião,ilhadesaosebastiao
-Paruíbe,paruibe
-Itanhém,itanhem
-Pinheirinho,pinheirinho
-Córrego Alegre,corregoalegre
-"Mogi das Cruzes",mogidascruzes
-Capivari,capivari
-Jucupiranga,jucupiranga
-Carlos Botelho,carlosbotelho
-Mamparra,mamparra
-Parelheiro,parelheiro
-Paraíbuna,paraibuna
-Antonina,antonina
-Parque São Paulo,parquesaopaulo
-p/ Mogi das Cruzes,pmogidascruzes
-Riberao Grande,riberaogrande
-Guaratinguetá,guaratingueta
-SANTO ANDRE,santoandre
-Sete barras,setebarras
-Såo Paulo,saopaulo
-Rio Grande,riogrande
-Mogi Guaçu,mogiguacu
+",jundiai,NA,jundiai
+Mogi Cruzes,mogicruzes,mogidascruzes,mogidascruzes
+SANTO ANDRÉ,santoandre,NA,santoandre
+"Paranapiacaba
+",paranapiacaba,NA,paranapiacaba
+Ñazaré Paulista,nazarepaulista,NA,nazarepaulista
+Barueri,barueri,NA,barueri
+Arariquama,arariquama,aracariguama,aracariguama
+Assis,assis,NA,assis
+Araçariguama,aracariguama,NA,aracariguama
+Pirssununga,pirssununga,pirassununga,pirassununga
+Santo Amaro,santoamaro,NA,santoamaro
+"Juquitiba
+",juquitiba,NA,juquitiba
+Mogi da Cruzes,mogidacruzes,mogidascruzes,mogidascruzes
+Serra da Bocaina,serradabocaina,NA,serradabocaina
+"São José do Barreiro
+",saojosedobarreiro,NA,saojosedobarreiro
+Pindamonhangaba,pindamonhangaba,NA,pindamonhangaba
+São Francisco,saofrancisco,NA,saofrancisco
+Extrema,extrema,NA,extrema
+Sete Barros,setebarros,setebarras,setebarras
+Sabaúna,sabauna,NA,sabauna
+Ponte Grande,pontegrande,NA,pontegrande
+Santo Antônio do Pinhal,santoantoniodopinhal,NA,santoantoniodopinhal
+Sao Jose do Barreiro,saojosedobarreiro,NA,saojosedobarreiro
+Campos da Bocaina,camposdabocaina,NA,camposdabocaina
+rodovia Washington Luiz km 261,rodoviawashingtonluizkm,NA,rodoviawashingtonluizkm
+Santa Rita de Passa Quatro,santaritadepassaquatro,santaritadopassaquatro,santaritadopassaquatro
+Núbia,nubia,inubiapaulista,inubiapaulista
+Sud Mennucci.,sudmennucci,NA,sudmennucci
+São João das Laranjeiras,saojoaodaslaranjeiras,NA,saojoaodaslaranjeiras
+Matão (G9),mataog,matao,matao
+Sao Joao das Laranjeiras,saojoaodaslaranjeiras,NA,saojoaodaslaranjeiras
+Nazare Paulista,nazarepaulista,NA,nazarepaulista
+Sabauna,sabauna,NA,sabauna
+Taruma,taruma,NA,taruma
+Itariri,itariri,NA,itariri
+Sao Jose dos Campos,saojosedoscampos,NA,saojosedoscampos
+Tapirai,tapirai,NA,tapirai
+Ferraz de Vasconcelos,ferrazdevasconcelos,NA,ferrazdevasconcelos
+Itapina,itapina,NA,itapina
+São Luis do Paraitinga,saoluisdoparaitinga,saolourencodaserra,saolourencodaserra
+Ilha do Cardoso,ilhadocardoso,NA,ilhadocardoso
+"Peruíbe
+",peruibe,NA,peruibe
+"Embu das Artes
+",embudasartes,NA,embudasartes
+Mogi das Cruzes - estrada Usaca,mogidascruzesestradausaca,mogidascruzes,mogidascruzes
+Guarujá,guaruja,NA,guaruja
+Itapira da Serra,itapiradaserra,NA,itapiradaserra
+Períbe,peribe,peruibe,peruibe
+Mongagá,mongaga,mongagua,mongagua
+Ilha de São Sebastião,ilhadesaosebastiao,NA,ilhadesaosebastiao
+Paruíbe,paruibe,peruibe,peruibe
+Itanhém,itanhem,NA,itanhem
+Pinheirinho,pinheirinho,NA,pinheirinho
+Córrego Alegre,corregoalegre,NA,corregoalegre
+"Mogi das Cruzes
+",mogidascruzes,NA,mogidascruzes
+Capivari,capivari,NA,capivari
+Jucupiranga,jucupiranga,NA,jucupiranga
+Carlos Botelho,carlosbotelho,NA,carlosbotelho
+Mamparra,mamparra,NA,mamparra
+Parelheiro,parelheiro,NA,parelheiro
+Paraíbuna,paraibuna,NA,paraibuna
+Antonina,antonina,NA,antonina
+Parque São Paulo,parquesaopaulo,NA,parquesaopaulo
+p/ Mogi das Cruzes,pmogidascruzes,mogidascruzes,mogidascruzes
+Riberao Grande,riberaogrande,NA,riberaogrande
+Guaratinguetá,guaratingueta,NA,guaratingueta
+SANTO ANDRE,santoandre,NA,santoandre
+Sete barras,setebarras,NA,setebarras
+Såo Paulo,saopaulo,NA,saopaulo
+Rio Grande,riogrande,NA,riogrande
+Mogi Guaçu,mogiguacu,NA,mogiguacu
