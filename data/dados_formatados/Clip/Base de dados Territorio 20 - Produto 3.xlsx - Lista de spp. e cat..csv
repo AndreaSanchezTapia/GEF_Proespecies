@@ -1,0 +1,856 @@
+grupo,familia,nome_aceito_correto,nomes_originais,cat_ameaca_cr_lac,cat_ameaca_iucn,cat_ameaca_br,cat_ameaca_cncflora,cat_ameaca_sp,cat_ameaca_mpo_sp,cat_compilado,CR,EN,VU,DD,EX,NT,EW,LR,cat_ameaca_geral
+Angiospermas,Acanthaceae,Aphelandra squarrosa,Aphelandra squarrosa,,,,LC,EW,,LC-EW,0,0,0,0,0,0,1,0,1
+Angiospermas,Acanthaceae,Justicia pygmaea,Justicia catharinensis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Acanthaceae,Justicia tijucensis,Justicia tijucensis,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Acanthaceae,Stenandrium dulce,Stenandrium diphyllum-Stenandrium diphyllum,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Acanthaceae,Stenostephanus lobeliiformis,Stenostephanus lobeliiformis,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Alismataceae,Echinodorus paniculatus,Echinodorus paniculatus,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Alstroemeriaceae,Alstroemeria foliosa,Alstroemeria foliosa,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Alstroemeriaceae,Alstroemeria plantaginea,Alstroemeria plantaginea,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Amaranthaceae,Alternanthera aquatica,Alternanthera aquatica,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Amaranthaceae,Alternanthera flavescens,Alternanthera flavescens,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Amaranthaceae,Alternanthera kurtzii,Alternanthera decurrens,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Amaranthaceae,Alternanthera paronychioides,Alternanthera paronychioides,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Amaranthaceae,Froelichia procera,Froelichia procera,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Amaranthaceae,Herbstia brasiliana,Herbstia brasiliana,,,,DD,EX,EX,DD-EX-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Amaryllidaceae,Crinum americanum,Crinum americanum,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Amaryllidaceae,Hippeastrum morelianum,Hippeastrum morelianum,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Amaryllidaceae,Hippeastrum psittacinum,Hippeastrum psittacinum,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Amaryllidaceae,Hippeastrum reginae,Hippeastrum reginae,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Amaryllidaceae,Hippeastrum striatum,Hippeastrum striatum,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Amaryllidaceae,Zephyranthes blumenavia,Eithea blumenavia,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Anacardiaceae,Astronium urundeuva,Astronium urundeuva-Myracrodruon urundeuva,,DD,,LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Anacardiaceae,Schinus engleri,Schinus engleri,,DD,,NT,,,DD-NT,0,0,0,1,0,1,0,0,1
+Samambaias e licófitas,Anemiaceae,Anemia blechnoides,Anemia blechnoides,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Samambaias e licófitas,Anemiaceae,Anemia phyllitidis,Anemia candidoi,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Annonaceae,Annona dolabripetala,Annona dolabripetala-Annona neosericea-Annona ubatubensis,,LC-LR/nt,EN,LC-EN,EN,,LC-LR/nt-EN-LC-EN-EN,0,1,0,0,0,0,0,1,1
+Angiospermas,Annonaceae,Annona emarginata,Annona emarginata-Annona maritima-Annona neosalicifolia-Annona rugulosa,,LC-LC-LC,VU,VU-LC,,,LC-LC-LC-VU-VU-LC,0,0,1,0,0,0,0,0,1
+Angiospermas,Annonaceae,Annona xylopiifolia,Annona xylopiifolia,,LR/nt,,NT,EX,,LR/nt-NT-EX,0,0,0,0,1,1,0,1,1
+Angiospermas,Annonaceae,Duguetia salicifolia,Duguetia salicifolia,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Annonaceae,Trigynaea oblongifolia,Trigynaea oblongifolia,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Annonaceae,Xylopia brasiliensis,Xylopia brasiliensis,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Apiaceae,Apium prostratum,Apium prostratum,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Apiaceae,Eryngium eurycephalum,Eryngium eurycephalum,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Apiaceae,Eryngium koehneanum,Eryngium koehneanum,,,VU,VU,EN,EN,VU-VU-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Apiaceae,Eryngium scirpinum,Eryngium scirpinum,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Apocynaceae,Asclepias aequicornu,Asclepias aequicornu,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Apocynaceae,Asclepias langsdorffii,Asclepias langsdorffii-Asclepias langsdorfii,,,,LC,EX-EX,,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Apocynaceae,Aspidosperma compactinervium,Aspidosperma compactinervium,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Apocynaceae,Aspidosperma parvifolium,Aspidosperma ingratum,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Apocynaceae,Aspidosperma polyneuron,Aspidosperma polyneuron,,EN,,NT,,,EN-NT,0,1,0,0,0,1,0,0,1
+Angiospermas,Apocynaceae,Aspidosperma riedelii,Aspidosperma riedelii,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Apocynaceae,Macroditassa marianae,Macroditassa marianae,,,CR,CR,EN,,CR-CR-EN,1,1,0,0,0,0,0,0,1
+Angiospermas,Apocynaceae,Matelea glaziovii,Matelea glaziovii,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Apocynaceae,Oxypetalum strictum,Oxypetalum strictum,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Apocynaceae,Prestonia solanifolia,Prestonia solanifolia,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Apocynaceae,Widgrenia corymbosa,Widgrenia corymbosa,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Aquifoliaceae,Ilex integerrima,Ilex grandis-Ilex integerrima,,LC-VU,,VU,,,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Aquifoliaceae,Ilex paraguariensis,Ilex paraguariensis,,LR/nt,,LC,,,LR/nt-LC-,0,0,0,0,0,0,0,1,1
+Angiospermas,Araceae,Anthurium jureianum,Anthurium jureianum,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Araceae,Anthurium langsdorffii,Anthurium langsdorffii,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Araceae,Asterostigma colubrinum,Asterostigma colubrinum,,,,,VU,VU,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Araceae,Asterostigma cubense,Asterostigma cubense,,,,DD,VU,,DD-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Araceae,Asterostigma tweedianum,Asterostigma tweedianum,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Araceae,Philodendron simonianum,Philodendron simonianum,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Araceae,Urospatha edwallii,Urospatha edwallii,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Araceae,Wolffia arrhiza,Wolffia arrhiza,,LC,,,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Araceae,Xanthosoma pentaphyllum,Xanthosoma pentaphyllum,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Araceae,Xanthosoma riedelianum,Xanthosoma riedelianum,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Araliaceae,Dendropanax nebulosus,Dendropanax nebulosus,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Araliaceae,Hydrocotyle exigua,Hydrocotyle exigua,,,,DD,EN,,DD-EN,0,1,0,1,0,0,0,0,1
+Angiospermas,Araliaceae,Hydrocotyle pusilla,Hydrocotyle pusilla,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Gimnospermas,Araucariaceae,Araucaria angustifolia,Araucaria angustifolia,,CR,EN,EN,,EN,CR-EN-EN-EN,1,1,0,0,0,0,0,0,1
+Angiospermas,Arecaceae,Euterpe edulis,Euterpe edulis,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Aristolochiaceae,Aristolochia cymbifera,Aristolochia cymbifera,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Samambaias e licófitas,Aspleniaceae,Asplenium austrobrasiliense,Asplenium austrobrasiliense,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Samambaias e licófitas,Aspleniaceae,Asplenium bradeanum,Asplenium bradeanum,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Aldama goyazii,Aldama goyazii-Viguiera hispida,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Aspilia espinhacensis,Aspilia espinhacensis,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Aspilia floribunda,Aspilia floribunda,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Austrocritonia angulicaulis,Austrocritonia angulicaulis,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Austroeupatorium rosmarinaceum,Austroeupatorium rosmarinaceum,,,VU,,EX,,VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Asteraceae,Baccharis elliptica,Baccharis elliptica,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Baccharis sphenophylla,Baccharis sphenophylla,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Calea acaulis,Calea acaulis,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Asteraceae,Calea gentianoides,Calea gentianoides,,,VU,VU,EN,EN,VU-VU-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Calea polycephala,Calea polycephala,,,,NT,VU,,NT-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Asteraceae,Chromolaena elliptica,Chromolaena elliptica,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Asteraceae,Chromolaena latisquamulosa,Chromolaena latisquamulosa,,,,DD,VU,,DD-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Asteraceae,Chromolaena rhinanthacea,Chromolaena rhinanthacea,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Asteraceae,Dasyphyllum lanceolatum,Dasyphyllum lanceolatum-Dasyphyllum synacanthum,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Asteraceae,Eremanthus praetermissus,Eremanthus praetermissus,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Gyptis lanigera,Gyptis lanigera-Gyptis vernoniopsis,,,EN-EN,EN,EN-EN,,EN-EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Hatschbachiella tweedieana,Hatschbachiella tweediana-Hatschbachiella tweedieana,,,,LC,EN-EN,,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Heterocondylus amphidyctius,Heterocondylus amphidyctius,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Isostigma peucedanifolium,Isostigma crithmifolium-Isostigma peucedanifolium-Isostigma speciosum,,,,DD-LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Asteraceae,Lepidaploa chamissonis,Lepidaploa chamissonis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Lessingianthus argenteus,Lessingianthus argenteus,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Lessingianthus elegans,Lessingianthus elegans,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Lessingianthus grandiflorus,Lessingianthus grandiflorus,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Lessingianthus niederleinii,Lessingianthus niederleinii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Lessingianthus pumillus,Lessingianthus pumillus,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Lessingianthus reitzianus,Lessingianthus reitzianus,,,VU,,EN,,VU-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Lessingianthus zuccarinianus,Lessingianthus zuccarinianus,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Mikania argyreiae,Mikania argyreiae,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Mikania biformis,Mikania biformis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Mikania bradei,Mikania bradei,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Asteraceae,Mikania capricorni,Mikania capricorni,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Mikania chlorolepis,Mikania chlorolepis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Mikania decumbens,Mikania decumbens,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Mikania firmula,Mikania firmula,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Mikania hastato-cordata,Mikania hastato-cordata,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Mikania malacolepis,Mikania malacolepis,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Asteraceae,Mikania oreophila,Mikania oreophila,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Mikania rufescens,Mikania rufescens,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Mikania smaragdina,Mikania smaragdina,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Mikania warmingii,Mikania warmingii,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Neocabreria malachophylla,Neocabreria malachophylla,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Piptocarpha longipedunculata,Piptocarpha longipedunculata,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Praxelis grandiflora,Praxelis grandiflora,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Senecio pohlii,Senecio pohlii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Stenachaenium megapotamicum,Stenachaenium macrocephalum,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Stevia pohliana,Stevia pohliana,,,,NT,EX,,NT-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Asteraceae,Stevia selloi,Stevia selloi,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Steyermarkina dispalata,Steyermarkina dispalata,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Asteraceae,Stifftia fruticosa,Stifftia fruticosa,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Stifftia parviflora,Stifftia parviflora,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Asteraceae,Stomatanthes dentatus,Stomatanthes dentatus,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Stomatanthes dictyophyllus,Stomatanthes dictyophyllus,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Asteraceae,Symphyopappus lymansmithii,Symphyopappus lymansmithii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Asteraceae,Trichocline linearifolia,Trichocline linearifolia,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Asteraceae,Trixis glaziovii,Trixis glaziovii,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Asteraceae,Verbesina floribunda,Verbesina pseudoclaussenii,,,CR,,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Asteraceae,Vernonanthura lindbergii,Vernonanthura lindbergii,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Asteraceae,Vickia rotundifolia,Gochnatia rotundifolia,,,VU,VU,EX,EX,VU-VU-EX-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Asteraceae,Wedelia puberula,Wedelia puberula,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia brevilobata,Begonia brevilobata,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Begoniaceae,Begonia coccinea,Begonia coccinea,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia dentatiloba,Begonia dentatiloba,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia handroi,Begonia handroi,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Begoniaceae,Begonia itatinensis,Begonia itatinensis,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia paranaensis,Begonia paranaensis,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia paulensis,Begonia paulensis,,,EN,EN,VU,,EN-EN-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia piresiana,Begonia piresiana,CR,,CR,CR,VU,,CR-CR-CR-VU,1,0,1,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia salesopolensis,Begonia salesopolensis,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Begoniaceae,Begonia toledoana,Begonia toledoana,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Bignoniaceae,Anemopaegma arvense,Anemopaegma arvense,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Bignoniaceae,Handroanthus botelhensis,Handroanthus botelhensis,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Bignoniaceae,Handroanthus impetiginosus,Handroanthus impetiginosus-Tabebuia impetiginosa,,LC-LR/lc,,NT,,,LC-LR/lc-NT,0,0,0,0,0,1,0,1,1
+Angiospermas,Bignoniaceae,Lundia damazioi,Lundia damazii,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bignoniaceae,Tabebuia cassinoides,Tabebuia cassinoides,,,EN,VU,EN,EN,EN-VU-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Bignoniaceae,Zeyheria tuberculosa,Zeyheria tuberculosa,,VU,VU,NT,VU,VU,VU-VU-NT-VU-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Boraginaceae,Cordia silvestris,Cordia silvestris,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Boraginaceae,Cordia trichoclada,Cordia trichoclada,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Aechmea gamosepala,Aechmea gamosepala-Aechmea gamossepala,,,,LC,EX-EX,,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Bromeliaceae,Billbergia nutans,Billbergia nutans,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Billbergia pyramidalis,Billbergia pyramidalis,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Bromeliaceae,Dyckia minarum,Dyckia minarum,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Dyckia tuberosa,Dyckia cabrerae-Dyckia pseudococcinea-Dyckia tuberosa,,,CR-EN,CR-EN-LC,,,CR-EN-CR-EN-LC,1,1,0,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Guzmania monostachia,Guzmania monostachia,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Hohenbergia ridleyi,Hoehenbergia ridleyi-Hohenbergia ridleyi,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Neoregelia bahiana,Neoregelia bahiana,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Bromeliaceae,Neoregelia hoehneana,Neoregelia hoehneana,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Nidularium camposportoi,Nidularium campos-portoi-Nidularium camposportoi,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Nidularium corallinum,Nidularium corallinum,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Nidularium marigoi,Nidularium marigoi,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Bromeliaceae,Nidularium minutum,Nidularium minutum,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Tillandsia araujei,Tillandsia araujei,,,EN,,VU,,EN-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Tillandsia linearis,Tillandsia linearis,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Tillandsia recurvifolia,Tillandsia recurvifolia,,,,DD,VU,,DD-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Bromeliaceae,Tillandsia tenuifolia,Tillandsia pseudomontana-Tillandsia tenuifolia,,EM,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea flava,Vriesea flava,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Bromeliaceae,Vriesea gracilior,Vriesea gracilior,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea neoglutinosa,Vriesea neoglutinosa,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea pabstii,Vriesea pabstii,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea pardalina,Vriesea pardalina,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea procera,Vriesea procera var. debilis,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea saundersii,Vriesea saundersii,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea schwackeana,Vriesea monacorum-Vriesea schwackeana,,,CR,DD,,,CR-DD,1,0,0,1,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea sparsiflora,Vriesea sparsiflora,,,,NT,EX,,NT-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Bromeliaceae,Vriesea taritubensis,Vriesea taritubensis,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Bromeliaceae,Vriesea vulpinoidea,Vriesea vulpinoidea,,,,,VU,VU,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Cactaceae,Rhipsalis dissimilis,Rhipsalis dissimilis,,EN,,DD,EN,,EN-DD-EN,0,1,0,1,0,0,0,0,1
+Angiospermas,Cactaceae,Rhipsalis oblonga,Rhipsalis oblonga,,VU,,NT,,,VU-NT,0,0,1,0,0,1,0,0,1
+Angiospermas,Cactaceae,Rhipsalis paradoxa,Rhipsalis paradoxa,,LC,EN,LC,,,LC-EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Cactaceae,Schlumbergera opuntioides,Schlumbergera opuntioides,,VU,VU,VU,VU,,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Cactaceae,Schlumbergera truncata,Schlumbergera truncata,,VU,,LC,,,VU-LC,0,0,1,0,0,0,0,0,1
+Angiospermas,Cactaceae,Selenicereus undatus,Hylocereus undatus,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Calophyllaceae,Kielmeyera decipiens,Kielmeyera decipiens,,,,CR,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Calyceraceae,Acicarpha tribuloides,Acicarpha tribuloides,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Campanulaceae,Lobelia anceps,Lobelia anceps,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Campanulaceae,Lobelia hederacea,Lobelia hederacea,,,,NT,EX,EX,NT-EX-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Campanulaceae,Lobelia nummularioides,Lobelia nummularioides,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Campanulaceae,Lobelia xalapensis,Lobelia xalapensis,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Campanulaceae,Siphocampylus lycioides,Siphocampylus lycioides,,,,NT,EN,,NT-EM,0,1,0,0,0,1,0,0,1
+Angiospermas,Canellaceae,Cinnamodendron occhionianum,Cinnamodendron occhionianum,,,,CR,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Celastraceae,Monteverdia brasiliensis,Maytenus brasiliensis-Monteverdia brasiliensis,,,,LC,CR,,LC-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Celastraceae,Salacia mosenii,Salacia mosenii,,,CR,CR,CR,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Celastraceae,Tontelea martiana,Tontelea martiana,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Chrysobalanaceae,Couepia meridionalis,Couepia meridionalis,CR,CR,CR,CR,EX,,CR-CR-CR-CR-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Chrysobalanaceae,Hirtella angustifolia,Hirtella angustifolia,,VU,,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Chrysobalanaceae,Hirtella glaziovii,Hirtella glaziovii,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Chrysobalanaceae,Licania indurata,Licania indurata,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Chrysobalanaceae,Parinari brasiliensis,Parinari brasiliensis,,,EN,LC,EN,,EN-LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Combretaceae,Terminalia januariensis,Terminalia januariensis,,VU,,LC,,,VU-LC,0,0,1,0,0,0,0,0,1
+Angiospermas,Combretaceae,Terminalia kleinii,Buchenavia iguaratensis-Buchenavia kleinii-Terminalia kleinii,,LR/nt-,,LC,,,LR/nt-LC,0,0,0,0,0,0,0,1,1
+Angiospermas,Combretaceae,Terminalia parvifolia,Buchenavia parvifolia-Buchenavia parvifolia subsp. rabelloana-Buchenavia rabelloana,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Combretaceae,Terminalia triflora,Terminalia reitzii-Terminalia triflora,,LC-VU,,DD-DD,,,LC-VU-DD-DD,0,0,1,1,0,0,0,0,1
+Angiospermas,Connaraceae,Rourea pseudospadicea,Rourea pseudospadicea,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Convolvulaceae,Cuscuta obtusiflora,Cuscuta obtusiflora,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Convolvulaceae,Evolvulus barbatus,Evolvulus barbatus,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Convolvulaceae,Evolvulus chrysotrichos,Evolvulus chrysotrichos,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Convolvulaceae,Evolvulus riedelii,Evolvulus riedelii,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Convolvulaceae,Ipomoea acutisepala,Ipomoea acutisepala,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Convolvulaceae,Ipomoea aprica,Ipomoea aprica,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Convolvulaceae,Ipomoea argentea,Ipomoea argentea,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Convolvulaceae,Ipomoea cynanchifolia,Ipomoea cynanchifolia,,LC,,DD,,,LC-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Convolvulaceae,Jacquemontia glabrescens,Jacquemontia glabrescens,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Convolvulaceae,Operculina macrocarpa,Operculina macrocarpa,,,,LC,EW,,LC-EW,0,0,0,0,0,0,1,0,1
+Angiospermas,Cucurbitaceae,Cayaponia bonariensis,Cayaponia bonariensis,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Cucurbitaceae,Cayaponia trilobata,Cayaponia trilobata,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Cunoniaceae,Lamanonia ulei,Lamanonia ulei,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Cunoniaceae,Weinmannia paulliniifolia,Weinmannia paulliniifolia,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Cyclanthaceae,Asplundia brachypus,Asplundia brachypus-Asplundia polymera-Asplundia polymera subsp. reitzii,,,VU-VU,VU-LC,,,VU-VU-VU-LC,0,0,1,0,0,0,0,0,1
+Angiospermas,Cyperaceae,Rhynchospora pilulifera,Pleurostachys pilulifera,,,CR,,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Cyperaceae,Rhynchospora tenuis,Rhynchospora enmanuelis-Rhynchospora tenuis,,,,EN-LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Dichapetalaceae,Stephanopodium estrellense,Stephanopodium estrellense,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Samambaias e licófitas,Dicksoniaceae,Dicksonia sellowiana,Dicksonia sellowiana,,,EN,EN,,VU,EN-EN-VU,0,1,1,0,0,0,0,0,1
+Briófitas,Dicranaceae,Atractylocarpus brasiliensis,Atractylocarpus brasiliensis,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Dioscoreaceae,Dioscorea asperula,Dioscorea asperula,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Dioscoreaceae,Dioscorea sanpaulensis,Dioscorea sanpaulensis,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Dioscoreaceae,Dioscorea trilinguis,Dioscorea trilinguis,,LC,EN,EN,,,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Samambaias e licófitas,Dryopteridaceae,Elaphoglossum herminieri,Elaphoglossum herminieri,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Samambaias e licófitas,Dryopteridaceae,Elaphoglossum itatiayense,Elaphoglossum itatiayense,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Samambaias e licófitas,Dryopteridaceae,Elaphoglossum paulistanum,Elaphoglossum wettsteinii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Samambaias e licófitas,Dryopteridaceae,Elaphoglossum scolopendrifolium,Elaphoglossum amplissimum,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Elaeocarpaceae,Sloanea obtusifolia,Sloanea obtusifolia,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Ericaceae,Agarista niederleinii,Agarista niederleinii,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Ericaceae,Agarista nummularia,Agarista nummularia,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Ericaceae,Agarista pulchra,Agarista pulchra,,,,NT,EN,,NT-EN,0,1,0,0,0,1,0,0,1
+Angiospermas,Ericaceae,Gaylussacia montana,Gaylussacia montana,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Erythropalaceae,Heisteria perianthomega,Heisteria perianthomega,,LC,,,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Erythroxylaceae,Erythroxylum catharinense,Erythroxylum catharinense,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Erythroxylaceae,Erythroxylum cuneifolium,Erythroxylum cuneifolium-Erythroxylum cyclophyllum,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Erythroxylaceae,Erythroxylum myrsinites,Erythroxylum myrsinites,,LC,,LC,EN,,LC-LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Escalloniaceae,Escallonia chlorophylla,Escallonia chlorophylla,,,,LC,CR,CR,LC-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Escalloniaceae,Escallonia petrophila,Escallonia petrophila,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Acalypha brasiliensis,Acalypha fragilis,,CR,,CR*,,,CR-CR*,1,0,0,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Actinostemon klotzschii,Actinostemon klotzschii,,LC,,DD,,,LC-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Algernonia brasiliensis,Algernonia brasiliensis,,VU,,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Algernonia riedelii,Algernonia riedelii,,NT,,NT,,,NT-NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Euphorbiaceae,Bernardia pulchella,Bernardia confertifolia-Bernardia pulchella,,,EN-EN,EN,,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Chiropetalum tricoccum,Chiropetalum gymnadenium,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Euphorbiaceae,Croton hemiargyreus,Croton hemiargyreus,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Croton priscus,Croton priscus,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Croton serratifolius,Croton serratifolius,,,,LC,CR,,LC-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Croton sphaerogynus,Croton sphaerogynus,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Euphorbiaceae,Dalechampia leandrii,Dalechampia leandrii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Euphorbiaceae,Joannesia princeps,Joannesia princeps,,VU,,LC,,,VU-LC,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Abarema brachystachya,Abarema obovata,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Aeschynomene sensitiva var. hispidula,Aeschynomene sensitiva var. hispidula,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Fabaceae,Albizia edwallii,Albizia edwallii-Albizia edwarllii,,LC-VU,,LC,,,-LC-VU--LC--,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Ancistrotropis firmula,Ancistrotropis firmula-Vigna firmula,,,,LC-LC,VU,,---LC-LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Apuleia leiocarpa,Apuleia leiocarpa,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Bowdichia virgilioides,Bowdichia virgilioides,,LC,,NT,,,-LC- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Fabaceae,Chamaecrista trachycarpa,Chamaecrista trachycarpa,,LC,,LC,EX,,-LC- -LC-EX-,0,0,0,0,1,0,0,0,1
+Angiospermas,Fabaceae,Chloroleucon tortum,Chloroleucon tortum,,CR,,NT,,,CR-NT,1,0,0,0,0,1,0,0,1
+Angiospermas,Fabaceae,Cratylia isopetala,Camptosema isopetalum,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Fabaceae,Dahlstedtia muehlbergiana,Dahlstedtia muehlbergiana-Lonchocarpus muehlbergianus,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Fabaceae,Dalbergia nigra,Dalbergia nigra,,VU,VU,VU,CR,,-VU-VU-VU-CR-,1,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Desmodium subsecundum,Desmodium subsecundum,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Fabaceae,Dipteryx alata,Dipteryx alata,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Inga bullata,Inga bullata,,VU,,NT,,,-VU- -NT- -,0,0,1,0,0,1,0,0,1
+Angiospermas,Fabaceae,Inga lanceifolia,Inga lanceifolia,,EN,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Fabaceae,Inga lenticellata,Inga lenticellata,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Inga lentiscifolia,Inga lentiscifolia,,VU,,NT,,,-VU- -NT- -,0,0,1,0,0,1,0,0,1
+Angiospermas,Fabaceae,Inga maritima,Inga maritima,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Inga praegnans,Inga praegnans,,EN,VU,EN,VU,,-EN-VU-EN-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Inga sellowiana,Inga sellowiana,,EN,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Fabaceae,Machaerium villosum,Machaerium villosum,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Melanoxylon brauna,Melanoxylon brauna,,,VU,VU,EW,,VU-VU-EW,0,0,1,0,0,0,1,0,1
+Angiospermas,Fabaceae,Mimosa cubatanensis,Mimosa cubatanensis,,NT,,NT,,,-NT- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Fabaceae,Mimosa lanata,Mimosa lanata,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Fabaceae,Mimosa orthacantha,Mimosa orthacantha,,NT,,,,,-NT- - - -,0,0,0,0,0,1,0,0,1
+Angiospermas,Fabaceae,Muellera filipes,Muellera filipes,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Myrocarpus frondosus,Myrocarpus frondosus,,DD,,LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Fabaceae,Myrocarpus leprosus,Myrocarpus leprosus,,CR,,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Fabaceae,Nanogalactia heterophylla,Galactia marginalis,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Fabaceae,Ormosia minor,Ormosia minor,,VU,,VU,,,-VU- -VU- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Peltogyne confertiflora,Peltogyne confertiflora,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Fabaceae,Plathymenia reticulata,Plathymenia foliolosa-Plathymenia reticulata,,LC-VU,,LC,,,-LC-VU--LC--,0,0,1,0,0,0,0,0,1
+Angiospermas,Fabaceae,Poecilanthe parviflora,Poecilanthe parviflora,,DD,,LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Fabaceae,Pterogyne nitens,Pterogyne nitens,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Fabaceae,Rhynchosia reticulata,Rhynchosia reticulata,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Fabaceae,Tachigali denudata,Sclerolobium denudatum-Tachigali denudata,,LR/nt-,,EN,,,-LR/nt- --EN--,0,1,0,0,0,0,0,1,1
+Angiospermas,Gentianaceae,Curtia tenuifolia,Curtia tenuifolia,,,,LC,CR,CR,LC-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Gentianaceae,Schultesia aptera,Schultesia aptera,,,,LC,CR,CR,LC-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Gentianaceae,Voyria aphylla,Voyria aphylla,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Gentianaceae,Zygostigma australe,Zygostigma australe,,,EN,EN,CR,CR,EN-EN-CR-CR,1,1,0,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Codonanthe carnosa,Codonanthe carnosa,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Nematanthus monanthos,Nematanthus monanthos,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Nematanthus sericeus,Nematanthus sericeus,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Gesneriaceae,Nematanthus strigillosus,Nematanthus strigillosus,,,,NT,EX,,NT-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Gesneriaceae,Seemannia sylvatica,Seemannia sylvatica,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Gesneriaceae,Sinningia canescens,Sinningia canescens,,,,NT,VU,,NT-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Gesneriaceae,Sinningia iarae,Sinningia iarae,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Sinningia magnifica,Sinningia magnifica,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Sinningia micans,Sinningia micans,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Sinningia piresiana,Sinningia piresiana,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Sinningia rupicola,Sinningia rupicola,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Gesneriaceae,Sinningia warmingii,Sinningia warmingii,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Griseliniaceae,Griselinia ruscifolia,Griselinia ruscifolia,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Samambaias e licófitas,Hymenophyllaceae,Hymenophyllum crispum,Hymenophyllum sampaioanum,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Samambaias e licófitas,Hymenophyllaceae,Hymenophyllum elegans,Hymenophyllum silveirae,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Hypericaceae,Hypericum mutilum,Hypericum mutilum,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Hypericaceae,Hypericum piriai,Hypericum piriai,,,,NT,EX,EX,NT-EX-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Hypericaceae,Hypericum rigidum,Hypericum rigidum,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Iridaceae,Gelasine coerulea,Alophia coerulea,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Iridaceae,Pseudotrimezia juncifolia,Trimezia fistulosa var. longifolia,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Lacistemataceae,Lacistema lucidum,Lacistema lucidum,,DD,,DD,,,DD-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Lamiaceae,Hyptis lagenaria,Hyptis lagenaria,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lamiaceae,Hyptis lobata,Hyptis lobata,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Lamiaceae,Rhabdocaulon gracile,Rhabdocaulon gracile,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Lamiaceae,Salvia campos-portoi,Salvia campos-portoi,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Lauraceae,Aiouea trinervis,Aiouea trinervis,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Beilschmiedia fluminensis,Beilschmiedia fluminensis,,EN,,EN,VU,,EN-EN-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Cinnamomum erythropus,Cinnamomum erythropus,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Cryptocarya botelhensis,Cryptocarya botelhensis,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Cryptocarya micrantha,Cryptocarya micrantha,,LC,,LC,VU,VU,-LC- -LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Nectandra barbellata,Nectandra barbellata,,EN,VU,EN,VU,VU,-EN-VU-EN-VU-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Nectandra cissiflora,Nectandra cissiflora,,LC,,LC,VU,,-LC- -LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Nectandra debilis,Nectandra debilis,,CR,,DD,VU,VU,CR-DD-VU-VU,1,0,1,1,0,0,0,0,1
+Angiospermas,Lauraceae,Nectandra hihua,Nectandra hihua,,LC,,LC,EN,,-LC- -LC-EN-,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Nectandra paranaensis,Nectandra paranaensis,,VU,VU,EN,VU,,-VU-VU-EN-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Nectandra psammophila,Nectandra psammophila,,EN,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea aciphylla,Ocotea aciphylla,,LR/lc,,NT,,,-LR/lc- -NT- -,0,0,0,0,0,1,0,1,1
+Angiospermas,Lauraceae,Ocotea basicordatifolia,Ocotea basicordatifolia,,EN,EN,EN,VU,,-EN-EN-EN-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea beulahiae,Ocotea beulahiae,,,EN,VU,EN,,EN-VU-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea beyrichii,Ocotea beyrichii,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea bragai,Ocotea bragai,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea catharinensis,Ocotea catharinensis,,VU,VU,VU,VU,VU,VU-VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea curucutuensis,Ocotea curucutuensis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Lauraceae,Ocotea daphnifolia,Ocotea daphnifolia-Ocotea vaccinioides,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea felix,Ocotea felix,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea frondosa,Ocotea frondosa,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea inhauba,Ocotea inhauba,,DD,,DD,EX,,DD-DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Lauraceae,Ocotea lancifolia,Ocotea cantareirae-Ocotea lancifolia,,CR-,,CR-LC,,,CR-CR-LC,1,0,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea minarum,Ocotea domatiata-Ocotea minarum,,EN-LC,,EN-LC,,,-EN-LC--EN-LC--,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea mosenii,Ocotea mosenii,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea odorifera,Ocotea odorifera-Ocotea pretiosa,,VU,EN,EN,EN,EN,-VU-EN-EN-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea porosa,Ocotea porosa,,VU,EN,EN,EN,EN,-VU-EN-EN-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea puberula,Ocotea puberula,,LR/lc,,NT,,,-LR/lc- -NT- -,0,0,0,0,0,1,0,1,1
+Angiospermas,Lauraceae,Ocotea serrana,Ocotea serrana,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea tabacifolia,Ocotea tabacifolia,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Ocotea virgultosa,Ocotea virgultosa,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lauraceae,Persea obovata,Persea obovata,,,CR,CR,CR,CR,CR-CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Lecythidaceae,Cariniana legalis,Cariniana legalis,,VU,EN,EN,VU,VU,-VU-EN-EN-VU-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Lentibulariaceae,Genlisea repens,Genlisea repens,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lentibulariaceae,Utricularia trichophylla,Utricularia trichophylla,,LC,,LC,VU,VU,-LC- -LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Linaceae,Linum carneum,Linum carneum,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Loasaceae,Blumenbachia scabra,Blumenbachia scabra,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Loganiaceae,Strychnos gardneri,Strychnos gardneri,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Loganiaceae,Strychnos nigricans,Strychnos nigricans,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Loganiaceae,Strychnos trinervis,Strychnos trinervis,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Loranthaceae,Struthanthus flexicaulis,Struthanthus microstylus-Struthanthus pusillifolius-Struthanthus rufo-furfuraceus,,,,CR-DD-EN,,,CR-DD-EN,1,1,0,1,0,0,0,0,1
+Angiospermas,Loranthaceae,Struthanthus marginatus,Struthanthus marginatus,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Loranthaceae,Struthanthus taubatensis,Struthanthus planaltinae-Struthanthus taubatensis,,,,DD-EN,,,DD-EN,0,1,0,1,0,0,0,0,1
+Samambaias e licófitas,Lycopodiaceae,Phlegmariurus mollicomus,Huperzia mollicoma-Phlegmariurus mollicomus,,,EN-,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lythraceae,Cuphea arenarioides,Cuphea arenarioides,,,VU,VU,EN,EN,VU-VU-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Lythraceae,Cuphea lindmaniana,Cuphea lindmaniana,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Lythraceae,Diplusodon villosissimus,Diplusodon villosissimus,,,VU,VU,EN,,VU-VU-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Lythraceae,Lafoensia replicata,Lafoensia vandelliana subsp. replicata,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Magnoliaceae,Magnolia ovata,Magnolia irwiniana-Magnolia ovata-Magnolia paranaensis-Magnolia sellowiana,,DD-EN-LC,,LC,,,DD-EN-LC-LC,0,1,0,1,0,0,0,0,1
+Angiospermas,Malpighiaceae,Banisteriopsis parviflora,Banisteriopsis parviflora,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Malpighiaceae,Barnebya dispar,Barnebya dispar,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Malpighiaceae,Camarea hirsuta,Camarea hirsuta,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malpighiaceae,Heteropterys brasiliensis,Heteropterys brasiliensis,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malpighiaceae,Heteropterys conformis,Heteropterys conformis,,,CR,,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Malpighiaceae,Heteropterys patens,Heteropterys patens,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Malpighiaceae,Heteropterys thyrsoidea,Heteropterys thyrsoidea,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malpighiaceae,Hiraea macrophylla,Hiraea macrophylla-Hiraea wiedeana,,,EN-EN,EN,,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malpighiaceae,Mezia araujoi,Mezia araujoi,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malvaceae,Abutilon venosum,Abutilon venosum,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Malvaceae,Byttneria scabra,Byttneria scabra,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Malvaceae,Callianthe latipetala,Callianthe latipetala,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malvaceae,Christiana macrodon,Christiana macrodon,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Malvaceae,Eriotheca pubescens,Eriotheca pubescens,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Malvaceae,Hibiscus diversifolius,Hibiscus diversifolius,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Malvaceae,Luehea divaricata,Luehea divaricata,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Malvaceae,Pachira calophylla,Pachira calophylla,,,,EN,VU,,EN-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Malvaceae,Pavonia distinguenda,Pavonia distinguenda,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Malvaceae,Sida acrantha,Sida acrantha,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Marantaceae,Goeppertia zebrina,Calathea zebrina-Goeppertia zebrina,,,,LC-LC,VU,VU,---LC-LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Bertolonia hoehneana,Bertolonia hoehneana,CR,,CR,CR,,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Cambessedesia glaziovii,Cambessedesia glaziovii,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Melastomataceae,Chaetogastra versicolor,Tibouchina versicolor,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Chaetostoma glaziovii,Chaetostoma glaziovii,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Huberia insignis,Behuria insignis,,NT,,NT,,,-NT- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Huberia laurina,Huberia laurina,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Melastomataceae,Leandra amplexicaulis,Leandra amplexicaulis-Leandra longistyla,,LC,,,VU-VU,,-LC---VU-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra aurea,Leandra lancifolia,,LC,,LC,EN,,-LC- -LC-EN-,0,1,0,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra brackenridgei,Leandra brackenridgei-Leandra pilonensis,,LC-NT,,LC-NT,,,-LC-NT--LC-NT--,0,0,0,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Leandra calvescens,Leandra calvescens,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra carassana,Leandra dispar-Leandra tristis,,,,DD,EN-VU,,DD-EN-VU,0,1,1,1,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra humilis,Leandra humilis var. glabrata,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra lapae,Leandra lapae,,,,,VU,VU,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra limbata,Leandra limbata,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Melastomataceae,Leandra mattosii,Leandra mattosii,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Melastomataceae,Leandra quinquenodis,Leandra quinquenodis-Leandra viridiflava,,,,,EN-VU,,----EN-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra regnellii,Leandra pauloensis-Leandra regnellii,,,,NE,EX-EX,,---NE-EX-EX-,0,0,0,0,1,0,0,0,1
+Angiospermas,Melastomataceae,Leandra salicina,Leandra linearifolia-Leandra parvifolia-Leandra salicina,,,,NT-NT,VU,,---NT-NT-VU-,0,0,1,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Leandra sparsisetulosa,Leandra sparsisetulosa,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Melastomataceae,Leandra strigilliflora,Leandra strigilliflora,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra uliginosa,Leandra uliginosa,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra umbellata,Leandra involucrata-Leandra umbellata,,LC,,LC,EN-VU,,-LC--LC-EN-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Leandra xantholasia,Leandra xantholasia,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia castaneiflora,Miconia castaneiflora,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia cinerascens,Miconia lagunensis,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia longicuspis,Miconia longicuspis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Miconia mendoncae,Miconia mendoncae,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia polyandra,Miconia polyandra,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia robusta,Miconia robusta-Miconia robustissima,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia serrulata,Miconia serrulata,,LC,,,VU,,-LC- - -VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia tentaculifera,Miconia tentaculifera,,NT,,NT,VU,,-NT- -NT-VU-,0,0,1,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Miconia urophylla,Miconia urophylla,,LC,,LC,VU,,-LC- -LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Miconia willdenowii,Miconia argyraea-Miconia willdenowii,,DD,,DD-LC,,,DD-DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Melastomataceae,Microlicia isophylla,Microlicia doryphylla,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Microlicia myrtoidea,Microlicia myrtoidea,,,,NT,VU,,NT-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Melastomataceae,Rhynchanthera grandiflora,Rhynchanthera grandiflora,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Rhynchanthera latifolia,Rhynchanthera latifolia,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Siphanthera cordata,Siphanthera cordata,,,,,VU,VU,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Melastomataceae,Trembleya calycina,Trembleya calycina,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Meliaceae,Cedrela fissilis,Cedrela fissilis,,VU,VU,VU,VU,VU,VU-VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Meliaceae,Cedrela odorata,Cedrela odorata,,VU,VU,VU,VU,VU,VU-VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Meliaceae,Trichilia casaretti,Trichilia casaretti,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Meliaceae,Trichilia emarginata,Trichilia emarginata,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Meliaceae,Trichilia lepidota subsp. schumanniana,Trichilia lepidota subsp. schumanniana,,VU,,,,,-VU- - - -,0,0,1,0,0,0,0,0,1
+Angiospermas,Meliaceae,Trichilia pallens,Trichilia pallens,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Meliaceae,Trichilia silvatica,Trichilia silvatica,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Briófitas,Metzgeriaceae,Metzgeria hegewaldii,Metzgeria hegewaldii,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Monimiaceae,Macropeplus dentatus,Macropeplus dentatus,,NT,,NT,,,-NT- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Monimiaceae,Mollinedia argyrogyna,Mollinedia argyrogyna,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Monimiaceae,Mollinedia boracensis,Mollinedia boracensis,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Monimiaceae,Mollinedia clavigera,Mollinedia blumenaviana-Mollinedia clavigera,,LC,,NT,,,-LC--NT--,0,0,0,0,0,1,0,0,1
+Angiospermas,Monimiaceae,Mollinedia engleriana,Mollinedia engleriana,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Monimiaceae,Mollinedia gilgiana,Mollinedia gilgiana,,CR,,LC,,,CR-LC,1,0,0,0,0,0,0,0,1
+Angiospermas,Monimiaceae,Mollinedia luizae,Mollinedia luizae,,DD,VU,DD,VU,,DD-VU-DD-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Monimiaceae,Mollinedia pachysandra,Mollinedia pachysandra,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Monimiaceae,Mollinedia salicifolia,Mollinedia salicifolia,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Monimiaceae,Mollinedia schottiana,Mollinedia oligotricha-Mollinedia schottiana,,LC,,,EX-EX,,-LC---EX-EX-,0,0,0,0,1,0,0,0,1
+Angiospermas,Monimiaceae,Mollinedia triflora,Mollinedia triflora,,LC,,DD,,,-LC- -DD- -,0,0,0,1,0,0,0,0,1
+Angiospermas,Moraceae,Brosimum glaziovii,Brosimum glaziovii,,EN,,LC,VU,VU,EN-LC-VU-VU,0,1,1,0,0,0,0,0,1
+Angiospermas,Moraceae,Ficus hirsuta,Ficus hirsuta-Ficus salzmanniana,,EN-LR/nt,,NT-LC,,,-EN-LR/nt--NT-LC--,0,1,0,0,0,1,0,1,1
+Angiospermas,Moraceae,Ficus pulchella,Ficus pulchella,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Moraceae,Sorocea guilleminiana,Sorocea guilleminiana,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myristicaceae,Virola bicuhyba,Virola bicuhyba,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Campomanesia hirsuta,Campomanesia hirsuta,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Campomanesia neriiflora,Campomanesia neriiflora,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Campomanesia phaea,Campomanesia phaea,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Campomanesia reitziana,Campomanesia reitziana,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Campomanesia sessiliflora var. sessiliflora,Campomanesia sessiliflora var. sessiliflora,,EN,,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia arenosa,Eugenia arenosa,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia bahiensis,Eugenia bahiensis,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia bunchosiifolia,Eugenia brunoi-Eugenia bunchosiifolia,,,EN-VU,EN-VU,VU,,--EN-VU-EN-VU-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia disperma,Eugenia disperma-Eugenia oblongata,,LC,VU,EN,VU,,-LC-VU-EN-VU-,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia handroi,Eugenia handroi,,LC,,LC,VU,,-LC- -LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia hermesiana,Eugenia hermesiana,,CR,CR,CR,CR,,CR-CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia lambertiana,Eugenia lambertiana,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia longibracteata,Eugenia longibracteata,,,,DD,VU,,DD-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia longipetiolata,Eugenia longipetiolata,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia macrobracteolata,Eugenia macrobracteolata,,EN,EN,EN,EN,,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia malacantha,Eugenia malacantha,,,EN,VU,EN,,EN-VU-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia nutans,Eugenia nutans,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia peruibensis,Eugenia peruibensis,,CR,EN,CR,EN,,CR-EN-CR-EN,1,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia pisiformis,Eugenia microcarpa-Eugenia pisiformis,,VU,,LC,VU,,-VU--LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia pithecocephala,Eugenia pithecocephala,,CR,,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia plicata,Eugenia plicata,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia prasina,Eugenia prasina,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia pruinosa,Eugenia pruinosa,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia pseudomalacantha,Eugenia pseudomalacantha,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia squamiflora,Eugenia squamiflora,,DD,,DD,,,DD-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia subundulata,Eugenia subundulata,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia tenuipedunculata,Eugenia imaruiensis,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Eugenia zuccarinii,Eugenia zuccarinii,,LC,,LC,VU,,-LC- -LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia bracteosa,Myrceugenia bracteosa,,VU,EN,EN,EN,,-VU-EN-EN-EN-,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia campestris,Myrceugenia campestris,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia euosma,Myrceugenia euosma,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia franciscensis,Myrceugenia franciscensis,,VU,EN,VU,EN,,-VU-EN-VU-EN-,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia hamoniana,Myrceugenia hamoniana-Myrceugenia smithii,,,EN-,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia hoehnei,Myrceugenia hoehnei,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia kleinii,Myrceugenia kleinii,,VU,VU,VU,VU,,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia miersiana,Myrceugenia miersiana,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Myrtaceae,Myrceugenia myrcioides,Myrceugenia myrcioides,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Myrtaceae,Myrceugenia pilotantha,Myrceugenia pilotantha,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia reitzii,Myrceugenia reitzii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia rufescens,Myrceugenia rufescens,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia scutellata,Myrceugenia scutellata,,VU,,NT,,,-VU- -NT- -,0,0,1,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrceugenia venosa,Myrceugenia venosa,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia aethusa,Myrcia aethusa-Myrcia oligantha,,VU,,,EN,,-VU---EN-,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia bicolor,Myrcia bicolor,,VU,,,EN,EN,-VU- - -EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia curta,Calyptranthes curta,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia diaphana,Myrcia diaphana,,VU,VU,NT,VU,,-VU-VU-NT-VU-,0,0,1,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrcia dichrophylla,Myrcia dichrophylla,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia dryadica,Calyptranthes dryadica-Myrcia dryadica,,VU,,DD,VU,VU,-VU--DD-VU-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia eriocalyx,Myrcia eriocalyx,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia eriopus,Myrcia eriopus,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia eumecephylla,Myrcia limae,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia ferruginosa,Myrcia ferruginosa,,EN,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia flagellaris,Myrcia flagellaris,,,,NT,VU,VU,NT-VU-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrcia fusiformis,Calyptranthes fusiformis,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia glabra,Myrcia glabra,,NT,,,,,-NT- - - -,0,0,0,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrcia glomerata,Calyptranthes concinna-Calyptranthes obversa-Calyptranthes widgreniana,,LC,,CR-LC,,,-LC--CR-LC--,1,0,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia grammica,Calyptranthes grammica-Myrcia grammica,,LC,,,VU,,-LC---VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia guianensis,Myrcia guianensis-Myrciaria silveirana,,LC-VU,,LC,,,-LC-VU--LC--,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia hexasticha,Myrcia hexasticha,,VU,EN,EN,EN,,-VU-EN-EN-EN-,0,1,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia isaiana,Myrcia isaiana,,,EN,NT,EN,,EN-NT-EN,0,1,0,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrcia laxiflora,Myrcia laxiflora,,EN,,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia legrandii,Calyptranthes hatschbachii-Calyptranthes obovata,,,EN-EN,EN-LC,EX,,--EN-EN-EN-LC-EX-,0,1,0,0,1,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia lonchophylla,Calyptranthes ubatubana-Myrcia lonchophylla,,LC,,VU,VU,,-LC--VU-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia loranthifolia,Calyptranthes brasiliensis-Calyptranthes glazioviana-Calyptranthes grandifolia-Calyptranthes rufa-Myrcia neobrasiliensis,,LC,,EN-LC,EX,,-LC--EN-LC-EX-,0,1,0,0,1,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia macrocarpa,Myrcia macrocarpa,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia multipunctata,Marlierea clausseniana-Marlierea gardneriana-Myrcia multipunctata,,LC,,DD-LC,,,-LC--DD-LC--,0,0,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia neoregeliana,Marlierea regeliana-Myrcia neoregeliana,,LC,,LC,VU,VU,-LC--LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia pileata,Calyptranthes pileata,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia plusiantha,Myrcia follii-Myrcia plusiantha,,LC,CR,NT-CR,,,-LC-CR-NT-CR--,1,0,0,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Myrcia pubipetala,Myrcia grandiflora-Myrcia pubipetala,,VU,,LC,,,-VU--LC--,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia retusa,Myrcia retusa,,EN,,,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia rupicola,Myrcia rupicola,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia skortzoviana,Marlierea skortzoviana-Myrcia skortzoviana,CR,EN,CR,CR,CR,,CR-EN-CR-CR-CR-,1,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia solitaria,Calyptranthes solitaria,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia styphelantha,Calyptranthes serrana,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia tenuivenosa,Marlierea acuminatissima-Myrcia tenuivenosa,,,,DD-NE,,,DD-NE,0,0,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcia vestita,Myrcia vestita,,LC,,,EN,,-LC- - -EN-,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrcianthes pungens,Myrcianthes pungens,,EN,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrciaria cuspidata,Myrciaria cuspidata,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Myrciaria tenella,Myrciaria tenella,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Neomitranthes amblymitra,Neomitranthes amblymitra,,,VU,EN,EX,,VU-EN-EX,0,1,1,0,1,0,0,0,1
+Angiospermas,Myrtaceae,Neomitranthes capivariensis,Neomitranthes capivariensis,,,,DD,EN,EN,DD-EN-EN,0,1,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Neomitranthes gracilis,Neomitranthes gracilis,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Neomitranthes pedicellata,Neomitranthes pedicellata,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Pimenta pseudocaryophyllus var. hoehnei,Pimenta pseudocaryophyllus var. hoehnei,,VU,,,,,-VU- - - -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Plinia coronata,Plinia coronata,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Myrtaceae,Plinia edulis,Plinia edulis,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Plinia hatschbachii,Plinia hatschbachii,,,EN,,EN,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Plinia phitrantha,Plinia phitrantha,,NT,,NT,,,-NT- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Plinia pseudodichasiantha,Plinia pseudodichasiantha,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Plinia silvestris,Plinia complanata-Plinia silvestris,,EM,EN,EN-EN,EN,EN,EN-EN-EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Psidium grandifolium,Psidium cinereum-Psidium grandifolium,,LR/nt-,,LC,,,-LR/nt- --LC--,0,0,0,0,0,0,0,1,1
+Angiospermas,Myrtaceae,Psidium myrtoides,Psidium giganteum-Psidium myrtoides,,,EN-,EN-LC,EN,,EN-EN-LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Psidium rufum var. widgrenianum,Psidium rufum var. widgrenianum,,VU,,,,,-VU- - - -,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Psidium salutare,Psidium salutare,,LC,,LC,EX,,-LC- -LC-EX-,0,0,0,0,1,0,0,0,1
+Angiospermas,Myrtaceae,Psidium sartorianum,Psidium sartorianum,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Siphoneugena crassifolia,Siphoneugena crassifolia-Siphoneugena widgreniana-Siphoneugenia widgreniana,,LC-VU,,LC,,,-LC-VU--LC--,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Siphoneugena densiflora,Siphoneugena densiflora-Siphoneugenia densiflora,,VU,,LC,,,-VU--LC--,0,0,1,0,0,0,0,0,1
+Angiospermas,Myrtaceae,Siphoneugena kiaerskoviana,Siphoneugena kiaerskoviana,,NT,,NT,,,-NT- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Myrtaceae,Siphoneugena reitzii,Siphoneugena reitzii,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Nyctaginaceae,Guapira nitida,Guapira nitida,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Oleaceae,Chionanthus filiformis,Chionanthus filiformis,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Oleaceae,Chionanthus subsessilis,Chionanthus subsessilis,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Onagraceae,Ludwigia anastomosans,Ludwigia anastomosans,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Anathallis gehrtii,Anathallis gehrtii,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Barbosella dusenii,Barbosella dusenii,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Bifrenaria racemosa,Bifrenaria racemosa,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Bifrenaria tyrianthina,Bifrenaria tyrianthina,,,,LC,EW,,LC-EW,0,0,0,0,0,0,1,0,1
+Angiospermas,Orchidaceae,Brachionidium restrepioides,Brachionidium restrepioides,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Campylocentrum spannagelii,Campylocentrum spannagelii,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Capanemia therezae,Capanemia fluminensis-Capanemia therezae-Capanemia thereziae,,,,DD-LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Catasetum atratum,Catasetum atratum,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Cattleya bicolor,Cattleya bicolor,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Cattleya crispa,Brasilaelia crispa-Hadrolaelia crispa,,,VU,VU,,,--VU-VU--,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cattleya intermedia,Cattleya intermedia,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cattleya purpurata,Brasilaelia purpurata-Cattleya purpurata-Hadrolaelia purpurata,,,VU-VU,VU,EW,,--VU-VU-VU-EW-,0,0,1,0,0,0,1,0,1
+Angiospermas,Orchidaceae,Cattleya tigrina,Cattleya tigrina,,,VU,VU,EW,,VU-VU-EW,0,0,1,0,0,0,1,0,1
+Angiospermas,Orchidaceae,Chaubardia gehrtiana,Hoehneella heloisae,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cirrhaea fuscolutea,Cirrhaea fuscolutea,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cirrhaea loddigesii,Cirrhaea loddigesii,,,CR,CR,CR,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cirrhaea longiracemosa,Cirrhaea longiracemosa,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cyrtopodium hatschbachii,Cyrtopodium hatschbachii,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cyrtopodium lissochiloides,Cyrtopodium lissochiloides,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Cyrtopodium palmifrons,Cyrtopodium palmifrons,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Cyrtopodium parviflorum,Cyrtopodium parviflorum,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Dichaea mosenii,Dichaea mosenii,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Dryadella auriculigera,Dryadella auriculigera,CR,,CR,CR,EX,,CR-CR-CR-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Epidendrum geniculatum,Epidendrum geniculatum-Epidendrum hololeucum,,,,NT,VU,,NT-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Epidendrum henschenii,Epidendrum henschenii,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Epidendrum parahybunense,Epidendrum ecostatum-Epidendrum parahybunense,,,VU,,VU,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Epidendrum saxatile,Epidendrum saxatile,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa ciliata,Gomesa ciliata,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa concolor,Brasilidium concolor-Gomesa concolor,,,,LC-LC,EN,,---LC-LC-EN-,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa florida,Coppensia macronyx,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa jucunda,Gomesa jucunda,,,,,VU,VU,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa laxiflora,Gomesa doeringii-Gomesa laxiflora,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa majevskyae,Coppensia majevskyi,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa pectoralis,Brasilidium marshallianum-Brasilidium pectorale-Gomesa pectoralis,,,CR-CR,CR,CR,,CR-CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa praetexta,Brasilidium gravesianum-Brasilidium praetextum-Gomesa praetexta,,,,LC,VU,VU,---LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Gomesa sarcodes,Baptistonia sarcodes-Gomesa sarcodes,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Gomesa uniflora,Alatiglossum croesus-Alatiglossum longipes-Gomesa uniflora,,,CR-CR,CR-LC,,,CR-CR-CR-LC,1,0,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Grandiphyllum auricula,Grandiphyllum schunkeanum,,CR,,,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Grandiphyllum divaricatum,Grandiphyllum divaricatum,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Grandiphyllum hians,Grandiphyllum hians,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Grobya fascifera,Grobya fascifera,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria armata,Habenaria armata,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria brachyplectron,Habenaria brachyplectron,CR,,CR,CR,EX,,CR-CR-CR-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria crucifera,Habenaria aphylla-Habenaria crucifera,,,,DD-DD,EX,,DD-DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria hexaptera,Habenaria hexaptera,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria leucosantha,Habenaria leucosantha,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria novaesii,Habenaria novaesii,,,CR,CR,EX,,CR-CR-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria regnellii,Habenaria regnellii,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria santensis,Habenaria santensis,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Orchidaceae,Habenaria trifida,Habenaria trifida,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Houlletia brocklehurstiana,Houlletia brocklehurstiana,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Isabelia virginalis,Isabelia virginalis,,,VU,VU,VU,VU,VU-VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Lepanthopsis densiflora,Lepanthopsis densiflora,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Orchidaceae,Malaxis jaraguae,Malaxis jaraguae,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Maxillaria marginata,Brasiliorchis consanguinea,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Maxillaria schunkeana,Brasiliorchis schunkeana,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Mesadenella atroviridis,Mesadenella atroviridis,,,,NT,EX,,NT-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Orchidaceae,Miltonia russelliana,Anneliesia russelliana,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Octomeria alexandri,Octomeria alexandri,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Octomeria decumbens,Octomeria decumbens,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Octomeria estrellensis,Octomeria estrellensis,,,,NT,EW,,NT-EW,0,0,0,0,0,1,1,0,1
+Angiospermas,Orchidaceae,Octomeria hoehnei,Octomeria hoehnei,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Octomeria lichenicola,Octomeria lichenicola,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Octomeria praestans,Octomeria praestans,,,,NT,EX,,NT-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Orchidaceae,Octomeria truncicola,Octomeria truncicola,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Octomeria wawrae,Octomeria wawrae,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Octomeria wilsoniana,Octomeria wilsoniana,CR,,CR,CR,EX,,CR-CR-CR-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Pabstiella miniatolineolata,Pleurothallis miniatolineolata,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Pogoniopsis schenckii,Pogoniopsis schenckii,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Promenaea stapelioides subsp. xanthina,Promenaea fuerstenbergiana,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Pteroglossa macrantha,Pteroglossa macrantha,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Rodriguezia obtusifolia,Rodriguezia obtusifolia,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Rodriguezia rigida,Rodriguezia rigida,,,,DD,VU,,DD-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Sarcoglottis alexandri,Sarcoglottis alexandri-Sarcoglottis alexandrii,,,EN-,EN,EX-EX,,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Sarcoglottis uliginosa,Sarcoglottis uliginosa,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Saundersia mirabilis,Saundersia mirabilis,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Sauroglossum elatum,Sauroglossum elatum,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Orchidaceae,Stelis argentata,Stelis itatiayae,,NT,,,,,-NT- - - -,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Vanilla dietschiana,Vanilla dietschiana,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Veyretia aphylla,Veyretia rupicola,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Orchidaceae,Zootrophion atropurpureum,Zootrophion atropurpureum,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Zygopetalum jugosum,Pabstia jugosa,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orchidaceae,Zygopetalum maculatum,Zygopetalum brachypetalum-Zygopetalum maculatum,,,,LC-NT,,,---LC-NT--,0,0,0,0,0,1,0,0,1
+Angiospermas,Orchidaceae,Zygopetalum mosenianum,Zygopetalum pedicellatum,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Orobanchaceae,Agalinis communis,Agalinis communis,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orobanchaceae,Agalinis ramulifera,Agalinis ramulifera,,,EN,EN,EX,EX,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Orobanchaceae,Escobedia grandiflora,Escobedia grandiflora,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Orobanchaceae,Melasma rhinanthoides,Melasma rhinanthoides,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Passifloraceae,Passiflora campanulata,Passiflora campanulata,,,,LC,EW,,LC-EW,0,0,0,0,0,0,1,0,1
+Angiospermas,Passifloraceae,Passiflora hatschbachii,Passiflora hatschbachii,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Passifloraceae,Passiflora ischnoclada,Passiflora ischnoclada,,,CR,CR,CR,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Passifloraceae,Passiflora racemosa,Passiflora racemosa,,,,LC,EW,,LC-EW,0,0,0,0,0,0,1,0,1
+Angiospermas,Passifloraceae,Passiflora setulosa,Passiflora setulosa,,,EN,EN,EW,,EN-EN-EW,0,1,0,0,0,0,1,0,1
+Angiospermas,Peraceae,Pera glabrata,Pera androgyna-Pera glabrata,,LC,,DD-DD,,,-LC--DD-DD--,0,0,0,1,0,0,0,0,1
+Angiospermas,Phyllanthaceae,Gonatogyne brasiliensis,Amazona brasiliensis-Gonatogyne brasiliensis,,NT,,LC,,,-NT--LC--,0,0,0,0,0,1,0,0,1
+Angiospermas,Piperaceae,Peperomia adsurgens,Peperomia adsurgens,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia clivicola,Peperomia clivicola,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia diaphanoides,Peperomia diaphanoides,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia emarginella,Peperomia emarginella,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia guarujana,Peperomia guarujana,CR,,CR,CR,EX,,CR-CR-CR-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia hydrocotyloides,Peperomia hydrocotyloides,,,,NT,EX,,NT-EX,0,0,0,0,1,1,0,0,1
+Angiospermas,Piperaceae,Peperomia oreophila,Peperomia oreophila-Peperomia oreophilla,,,,LC,EX-EX,,---LC-EX-EX-,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia quadrifolia,Peperomia quadrifolia,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia rostulatiformis,Peperomia rostulatiformis,,,EN,,EX,EX,EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Peperomia schwackei,Peperomia schwackei,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Piperaceae,Peperomia trinervis,Peperomia trinervis,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Piperaceae,Peperomia velloziana,Peperomia velloziana,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Piper corcovadensis var. longiracemosum,Ottonia sampaioi,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Piperaceae,Piper hoehnei,Piper hoehnei,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Piper kuhlmannii,Piper kuhlmannii,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Piperaceae,Piper lanceolatum,Piper lanceolatum,,,,NT,EN,EN,NT-EN-EN,0,1,0,0,0,1,0,0,1
+Angiospermas,Piperaceae,Piper loefgrenii,Piper loefgrenii,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Piperaceae,Piper scabrellum,Piper scabrellum,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Piper tectoniifolium,Piper tectoniifolium,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Piperaceae,Piper vaginans,Piper vaginans,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Piperaceae,Piper velutinibaccum,Piper velutinibaccum,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Plantaginaceae,Bacopa congesta,Bacopa congesta,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Plantaginaceae,Plantago catharinea,Plantago catharinea,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Poaceae,Agenium leptocladum,Agenium leptocladum,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Agrostis longiberbis,Agrostis longiberbis,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Andropogon carinatus,Andropogon carinatus,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Andropogon glaucophyllus,Andropogon glaucophyllus,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Andropogon hypogynus,Andropogon hypogynus,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Poaceae,Aristida brasiliensis,Aristida brasiliensis,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Aristida circinalis,Aristida circinalis,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Aristida ekmaniana,Aristida ekmaniana,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Aristida macrophylla,Aristida macrophylla,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Aristida subaequans,Aristida subaequans,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Arthropogon xerachne,Arthropogon xerachne,,,CR,CR,CR,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Arundinella deppeana,Arundinella deppeana,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Poaceae,Aulonemia setosa,Eremocaulon setosum,,VU,,,,,-VU- - - -,0,0,1,0,0,0,0,0,1
+Angiospermas,Poaceae,Avena strigosa,Avena strigosa,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Poaceae,Axonopus argentinus,Axonopus argentinus-Axonopus ramboi,,,EN-EN,EN,EX-EX,EX,--EN-EN-EN-EX-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Axonopus comans,Axonopus comans,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Axonopus monticola,Axonopus monticola,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Axonopus uninodis,Axonopus uninodis,,,CR,CR,EX,EX,CR-CR-EX-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Chascolytrum brasilense,Briza brasiliensis-Chascolytrum brasiliense-Chascolytum brasiliense,,,EN,EN,CR,CR,EN-EN-CR-CR,1,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Chusquea anelythra,Chusquea anelythra,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Chusquea attenuata,Chusquea attenuata,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Chusquea erecta,Chusquea erecta,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Chusquea pinifolia,Chusquea pinifolia,,,,LC,CR,,LC-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Chusquea pulchella,Chusquea pulchella,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Chusquea tenuiglumis,Chusquea tenuiglumis,,,CR,CR,CR,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Colanthelia macrostachya,Colanthelia macrostachya,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Ctenium brevispicatum,Ctenium brevispicatum,,,,LC,CR,,LC-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Ctenium cirrosum,Ctenium cirrhosum-Ctenium cirrosum,,,,DD-DD,EN-EN,EN,DD-DD-EN-EN-EN,0,1,0,1,0,0,0,0,1
+Angiospermas,Poaceae,Digitaria corynotricha,Digitaria corynotricha,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Eragrostis neesii,Eragrostis neesii,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Gymnopogon burchellii,Gymnopogon burchellii,,,,LC,CR,EN,LC-CR-EN,1,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Hymenachne condensata,Hymenanchne condensata-Panicum condensatum,,,,LC,CR,,---LC-CR-,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Hymenachne pernambucensis,Hymenachne pernambucensis,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Ichnanthus bambusiflorus,Ichnanthus bambusiflorus,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Ichnanthus lancifolius,Ichnanthus lancifolius,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Leersia ligularis,Leersia ligularis,,,VU,VU,CR,CR,VU-VU-CR-CR,1,0,1,0,0,0,0,0,1
+Angiospermas,Poaceae,Lithachne horizontalis,Lithachne horizontalis,,,EN,EN,EX,EX,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Luziola bahiensis,Luziola bahiensis,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys bradei,Merostachys bradei,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Merostachys brevigluma,Merostachys brevigluma,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys burmanii,Merostachys burmanii,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys caucaiana,Merostachys caucaiana,CR,,CR,CR,CR,,CR-CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys kleinii,Merostachys kleinii,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys neesii,Merostachys neesii,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys polyantha,Merostachys polyantha,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys scandens,Merostachys scandens,CR,,CR,CR,CR,CR,CR-CR-CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Merostachys skvortzovii,Merostachys skvortzovii,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Mesosetum ferrugineum,Mesosetum ferrugineum,,LC,,LC,EN,EN,-LC- -LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Panicum peladoense,Panicum peladoense,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum acuminatum,Paspalum acuminatum,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum cinerascens,Paspalum cinerascens,,,,,CR,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum erianthoides,Paspalum erianthoides,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Paspalum erianthum,Paspalum erianthum,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum exaltatum,Paspalum exaltatum,,,,,CR,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum falcatum,Paspalum falcatum,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum flaccidum,Paspalum flaccidum,,,,,CR,CR,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum glaucescens,Paspalum glaucescens,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum plenum,Paspalum plenum,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum repandum,Paspalum repandum-Thrasyopsis repanda,,,EN-,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Paspalum usterii,Paspalum usterii,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Polypogon chilensis,Polypogon chilensis,,,,,CR,CR,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Polypogon imberbis,Polypogon imberbis,,,,,EN,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Raddiella esenbeckii,Raddiella esenbeckii,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Reimarochloa acuta,Reimarochloa acuta,,,,,CR,CR,CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Schizachyrium scabriflorum,Schizachyrium scabriflorum-Schizachyrium scabrifolium,,,EN,EN,EX,EX,--EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Schizachyrium tenerum,Schizachyrium tenerum,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Setaria parviflora var. pilosissima,Setaria parviflora var. pilosissima,,,CR,CR,EX,EX,CR-CR-EX-EX,1,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Setaria tenacissima,Setaria tenacissima,,,,LC,CR,CR,LC-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Sporobolus apiculatus,Sporobolus apiculatus,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Poaceae,Steinchisma spathellosum,Steinchisma spathellosum,,,,,EX,EX,EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Poaceae,Zizaniopsis microstachya,Zizaniopsis microstachya,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Gimnospermas,Podocarpaceae,Podocarpus lambertii,Podocarpus lambertii,,NT,,LC,,,-NT- -LC- -,0,0,0,0,0,1,0,0,1
+Gimnospermas,Podocarpaceae,Podocarpus sellowii,Podocarpus sellowii,,EN,,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Podostemaceae,Apinagia riedelii,Apinagia fluitans-Apinagia riedelii,,DD,,LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Polygalaceae,Polygala brasiliensis,Polygala brasiliensis,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Polygalaceae,Polygala molluginifolia,Polygala molluginifolia,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Polygalaceae,Polygala pumila,Polygala pumila,,,,NT,EX,EX,NT-EX,0,0,0,0,1,1,0,0,1
+Samambaias e licófitas,Polypodiaceae,Lellingeria itatimensis,Lellingeria itatimensis,,,CR,CR,,,CR-CR,1,0,0,0,0,0,0,0,1
+Samambaias e licófitas,Polypodiaceae,Moranopteris perpusilla,Moranopteris perpusilla,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
+Samambaias e licófitas,Polypodiaceae,Mycopteris taxifolia,Terpsichore taxifolia,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Pontederiaceae,Heteranthera reniformis,Heteranthera reniformis,,,,,VU,VU,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Pontederiaceae,Heteranthera zosterifolia,Heteranthera zosterifolia,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Portulacaceae,Portulaca amilis,Portulaca amilis,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Portulacaceae,Portulaca halimoides,Portulaca halimoides,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Primulaceae,Lysimachia buxifolia,Anagallis alternifolia-Lysimachia buxifolia,,,EN,EN,EN,EN,--EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Primulaceae,Myrsine rubra,Myrsine rubra,,NT,,NT,,,-NT- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Primulaceae,Myrsine villosissima,Myrsine villosissima,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Proteaceae,Euplassa cantareirae,Euplassa cantareirae,,,EN,EN,EX,EX,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Proteaceae,Euplassa hoehnei,Euplassa hoehnei,,LC,,EN,,,-LC- -EN- -,0,1,0,0,0,0,0,0,1
+Angiospermas,Proteaceae,Euplassa incana,Euplassa incana,,,VU,,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Proteaceae,Panopsis multiflora,Panopsis multiflora,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Proteaceae,Roupala sculpta,Roupala sculpta,,,VU,EN,VU,VU,VU-EN-VU-VU,0,1,1,0,0,0,0,0,1
+Samambaias e licófitas,Pteridaceae,Cheilanthes regnelliana,Cheilanthes regnelliana,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Samambaias e licófitas,Pteridaceae,Doryopteris rediviva,Doryopteris rediviva,,,VU,VU,,,VU-VU,0,0,1,0,0,0,0,0,1
+Samambaias e licófitas,Pteridaceae,Lytoneuron crenulans,Doryopteris crenulans-Lytoneuron crenulans,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Quiinaceae,Quiina glaziovii,Quiina glaziovii-Quiina magallano-gomesii,,,,DD-LC,VU-VU,VU,DD-LC-VU-VU-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Ranunculaceae,Ranunculus flagelliformis,Ranunculus flagelliformis,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rhamnaceae,Gouania inornata,Gouania inornata,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rhamnaceae,Gouania ulmifolia,Gouania ulmifolia,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rhamnaceae,Reissekia smilacina,Reissekia smilacina,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rosaceae,Acaena eupatoria,Acaena eupatoria,,,,,VU,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Chomelia brasiliana,Chomelia brasiliana-Chomelia modesta-Chomelia parvifolia,,LC-LC,CR,LC-CR,EX,,-LC-LC-CR-LC-CR-EX-,1,0,0,0,1,0,0,0,1
+Angiospermas,Rubiaceae,Chomelia obtusa,Chomelia randioides,,EN,,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Coussarea accedens,Coussarea accedens,,VU,,VU,,,-VU- -VU- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Declieuxia cordigera,Declieuxia cordigera,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Declieuxia oenanthoides,Declieuxia oenanthoides,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Faramea stipulacea,Faramea martiana-Faramea stipulacea,,DD-LC,,DD,,,DD-LC-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Rubiaceae,Galianthe peruviana,Galianthe peruviana,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rubiaceae,Galium equisetoides,Galium equisetoides,,,,LC,EX,,LC-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rubiaceae,Galium humile,Galium humile,,,,LC,EX,EX,LC-EX-EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rubiaceae,Galium noxium subsp. valantioides,Galium noxium subsp. valantioides,,,,,EX,,EX,0,0,0,0,1,0,0,0,1
+Angiospermas,Rubiaceae,Guettarda platyphylla,Guettarda platyphylla,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Rubiaceae,Ixora schottiana,Ixora schottiana,,LC,,NT,,,-LC- -NT- -,0,0,0,0,0,1,0,0,1
+Angiospermas,Rubiaceae,Manettia campanulacea,Manettia campanulacea,,,CR,CR,CR,,CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Melanopsidium nigrum,Melanopsidium nigrum,,,VU,,VU,,VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Palicourea forsteronioides,Palicourea forsteronioides,,DD,,DD,,,DD-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Rubiaceae,Palicourea malaneoides,Palicourea malaneoides,,DD,,DD,,,DD-DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Rubiaceae,Palicourea tetraphylla,Palicourea tetraphylla,,,,LC,VU,VU,LC-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Posoqueria acutifolia,Posoqueria acutifolia,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Rubiaceae,Psychotria fluminensis,Psychotria fluminensis,,VU,,VU,,,-VU- -VU- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Psychotria glaziovii,Psychotria glaziovii,,VU,,VU,,,-VU- -VU- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Richardia schumannii,Richardia schumannii,,,EN,EN,EX,EX,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Rubiaceae,Richardia stellaris,Richardia stellaris,,,,NT,EN,EN,NT-EN-EN,0,1,0,0,0,1,0,0,1
+Angiospermas,Rubiaceae,Rudgea coronata,Rudgea coronata,,LC,CR,LC,,,-LC-CR-LC- -,1,0,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Rudgea corymbulosa,Rudgea corymbulosa,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Rudgea nobilis,Rudgea nobilis,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Rudgea sessilis,Rudgea sessilis,,,EN,LC,,,EN-LC,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Rudgea triflora,Rudgea triflora,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Rubiaceae,Rudgea vellerea,Rudgea vellerea,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Rustia angustifolia,Rustia angustifolia,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Schizocalyx cuspidatus,Bathysa cuspidata-Schizocalyx cuspidatus,,LC,,LC-LC,VU,,-LC--LC-LC-VU-,0,0,1,0,0,0,0,0,1
+Angiospermas,Rubiaceae,Simira hexandra,Simira corumbensis-Simira pilosa,,DD,,DD-LC,,,DD-DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Rubiaceae,Simira rubra,Simira rubra-Simira viridiflora,,,,DD-LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Rutaceae,Balfourodendron riedelianum,Balfourodendron riedelianum,,EN,,NT,,,EN-NT,0,1,0,0,0,1,0,0,1
+Angiospermas,Rutaceae,Esenbeckia hieronymi,Esenbeckia hieronymi,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Rutaceae,Esenbeckia leiocarpa,Esenbeckia leiocarpa,,VU,,LC,,,-VU- -LC- -,0,0,1,0,0,0,0,0,1
+Angiospermas,Rutaceae,Pilocarpus giganteus,Pilocarpus giganteus,,,,NT,EN,,NT-EN,0,1,0,0,0,1,0,0,1
+Angiospermas,Sabiaceae,Meliosma chartacea,Meliosma chartacea,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Sabiaceae,Meliosma itatiaiae,Meliosma itatiaiae,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Salicaceae,Casearia lasiophylla,Casearia lasiophylla,,DD,,LC,,,DD-LC,0,0,0,1,0,0,0,0,1
+Angiospermas,Salicaceae,Casearia paranaensis,Casearia paranaensis,,NT,VU,NT,,,-NT-VU-NT- -,0,0,1,0,0,1,0,0,1
+Angiospermas,Salicaceae,Xylosma glaberrima,Xylosma glaberrima,,,,VU,,,VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Santalaceae,Eubrachion ambiguum,Eubrachion ambiguum,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Santalaceae,Phoradendron dipterum,Phoradendron anamariae,,,,CR,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Sapindaceae,Allophylus melanophloeus,Allophylus melanophloeus,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Sapindaceae,Cupania concolor,Cupania concolor,,,VU,NT,VU,,VU-NT-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Sapindaceae,Cupania furfuracea,Cupania furfuracea,,,VU,NT,VU,,VU-NT-VU,0,0,1,0,0,1,0,0,1
+Angiospermas,Sapindaceae,Paullinia pseudota,Paullinia racemosa,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Sapindaceae,Urvillea glabra,Urvillea glabra,,,VU,VU,VU,,VU-VU-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Sapotaceae,Chrysophyllum imperiale,Chrysophyllum imperiale,,EN,EN,EN,EN,,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Sapotaceae,Chrysophyllum paranaense,Chrysophyllum paranaense,,,,DD,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Sapotaceae,Chrysophyllum viride,Chrysophyllum viride,,LR/nt,,NT,,,-LR/nt- -NT- -,0,0,0,0,0,1,0,1,1
+Angiospermas,Sapotaceae,Pouteria bullata,Pouteria bullata,,VU,EN,EN,EN,EN,-VU-EN-EN-EN-EN,0,1,1,0,0,0,0,0,1
+Angiospermas,Sapotaceae,Pouteria gardneri,Pouteria gardneri-Pouteria peduncularis,,DD-LC,,VU,,,DD-LC-VU,0,0,1,1,0,0,0,0,1
+Angiospermas,Sapotaceae,Pouteria glomerata,Pouteria glomerata,,,,LC,VU,,LC-VU,0,0,1,0,0,0,0,0,1
+Angiospermas,Sapotaceae,Pouteria oxypetala,Pouteria oxypetala,,EN,EN,NT,EN,,-EN-EN-NT-EN-,0,1,0,0,0,1,0,0,1
+Angiospermas,Sapotaceae,Pouteria psammophila,Pouteria psammophila,,EN,,"NT, quase chegando à VU",,,"EN-NT, quase chegando à VU",0,1,1,0,0,1,0,0,1
+Samambaias e licófitas,Selaginellaceae,Selaginella valida,Selaginella valida,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Smilacaceae,Smilax lappacea,Smilax lappacea,,,EN,EN,EX,EX,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Smilacaceae,Smilax muscosa,Smilax muscosa,,,VU,VU,EX,,VU-VU-EX,0,0,1,0,1,0,0,0,1
+Angiospermas,Smilacaceae,Smilax spicata,Smilax spicata,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Smilacaceae,Smilax subsessiliflora,Smilax subsessiliflora,,,EN,EN,EX,,EN-EN-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Solanaceae,Athenaea sellowiana,Aureliana sellowiana,,,,EN,,,EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Solanaceae,Brugmansia suaveolens,Brugmansia suaveolens,,EW,,,,,-EW- - - -,0,0,0,0,0,0,1,0,1
+Angiospermas,Solanaceae,Schwenckia curviflora,Schwenckia curviflora,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Solanaceae,Sessea brasiliensis,Sessea brasiliensis,,DD,,NT,,,DD-NT,0,0,0,1,0,1,0,0,1
+Angiospermas,Solanaceae,Solanum latiflorum,Solanum latiflorum,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Solanaceae,Solanum melissarum,Solanum melissarum,,LR/nt,,LC,,,-LR/nt- -LC- -,0,0,0,0,0,0,0,1,1
+Angiospermas,Solanaceae,Solanum paralum,Solanum paralum,,EN,EN,EN,,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Solanaceae,Solanum pinetorum,Solanum pinetorum,,LR/nt,,NT,,,-LR/nt- -NT- -,0,0,0,0,0,1,0,1,1
+Angiospermas,Solanaceae,Solanum spissifolium,Solanum spissifolium,CR,,CR,CR,EX,EX,CR-CR-CR-EX-EX,1,0,0,0,1,0,0,0,1
+Briófitas,Sphagnaceae,Sphagnum brasiliense,Sphagnum brasiliense,,EN,,,,,EN,0,1,0,0,0,0,0,0,1
+Samambaias e licófitas,Thelypteridaceae,Goniopteris littoralis,Thelypteris littoralis,,,EN,EN,,,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Triuridaceae,Sciaphila schwackeana,Sciaphila schwackeana,,,,NT,EN,,NT-EN,0,1,0,0,0,1,0,0,1
+Angiospermas,Turneraceae,Turnera hilaireana,Turnera hilaireana,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Urticaceae,Pilea rhizobola,Pilea rhizobola,,,,DD,EX,,DD-EX,0,0,0,1,1,0,0,0,1
+Angiospermas,Verbenaceae,Lantana canescens,Lippia duartei,,,,CR,,,CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Violaceae,Viola gracillima,Viola gracillima,,,EN,EN,EX,EX,EN-EN-EX-EX,0,1,0,0,1,0,0,0,1
+Angiospermas,Violaceae,Viola subdimidiata,Viola subdimidiata,,,,LC,EN,EN,LC-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Vitaceae,Cissus serroniana,Cissus serroniana,,,,NT,,,NT,0,0,0,0,0,1,0,0,1
+Angiospermas,Vochysiaceae,Callisthene castellanosii,Callisthene castellanosii,,,,"NT, quase chegando à VU",,,"NT, quase chegando à VU",0,0,1,0,0,1,0,0,1
+Angiospermas,Xyridaceae,Xyris capensis,Xyris capensis,,LC,,LC,EX,,-LC- -LC-EX-,0,0,0,0,1,0,0,0,1
+Angiospermas,Xyridaceae,Xyris fallax,Xyris fallax,,,,,EN,EN,EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Xyridaceae,Xyris rigida,Xyris rigida,,,CR,CR,CR,CR,CR-CR-CR-CR,1,0,0,0,0,0,0,0,1
+Angiospermas,Xyridaceae,Xyris trachyphylla,Xyris trachyphylla,,,,LC,EN,,LC-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Xyridaceae,Xyris vacillans,Xyris vacillans,,,EN,EN,EN,EN,EN-EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Xyridaceae,Xyris wawrae,Xyris wawrae,,,EN,EN,EN,,EN-EN-EN,0,1,0,0,0,0,0,0,1
+Angiospermas,Zingiberaceae,Hedychium coronarium,Hedychium coronarium,,DD,,,,,DD,0,0,0,1,0,0,0,0,1
+Angiospermas,Zingiberaceae,Renealmia brasiliensis,Renealmia brasiliensis,,,EN,,,,EN,0,1,0,0,0,0,0,0,1
