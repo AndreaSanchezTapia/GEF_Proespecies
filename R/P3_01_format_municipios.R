@@ -3,13 +3,40 @@ library(sf)
 library(textclean)
 source("R/functions.R")
 library(stringr)
-
+devtools::load_all("../../3_coleguinhas/plantR/plantR/")
 # lee la tabla atual----
 p3 <- readr::read_csv("./data/dados_formatados/p3/Base de dados Territorio 20 - Produto 3.xlsx - Base de registros.csv", skip = 1, guess_max = 100000)
 max(p3$lat_original, na.rm = T)
-min(p3$long_original, na.rm = T)
+table(p3$long_original < -10000)
+table(p3$long_original > 10000)
+table(p3$lat_original < -10000)
+table(p3$lat_original > 10000)
+#### format_coord al final fue a mano
+format_coord <- p3 %>% select(long_original, lat_original, verbatimLongitude, verbatimLatitude) %>%
+  filter(long_original == 0 | lat_original == 0)
+write_csv(format_coord, "output/p3/format_coord.csv")
+plantR::prepCoord(data.frame(format_coord),
+                    lon = "verbatimLongitude",
+                    lat = "verbatimLatitude") %>% View()
+library(measurements)
+str_replace_all(format_coord$verbatimLongitude, pattern = ",", replacement = ".") %>%
+str_detect(pattern = c("º"))
+str_split(format_coord$verbatimLongitude, pattern = c("[[:punct:]]"))
+#measurements::conv_unit("23 59 72", from = "deg_min_sec", to = "dec_deg")
+#measurements::conv_unit("46 8", from = "deg_dec_min", to = "dec_deg")
+
+
+
+#mutate os que sao inferiores a -10000
+p3 <- p3 %>% mutate(
+  lat_original = if_else(lat_original < -10000, lat_original/10000, lat_original),
+  long_original = if_else(long_original < -10000, long_original/10000, long_original)
+  )
+
+
 # cuantos van a salir
 count(p3, `presenca TERR. 20 - original`, `presenca TERR. 20 - revisada`)
+count(p3, `presenca TERR. 20 - original` == 1)
 
 # filtro de t20 vai ter que ser feito ao final----
 #p3 <- p3 %>% filter(`presenca TERR. 20 - revisada` == 1)
@@ -18,7 +45,8 @@ count(p3, `presenca TERR. 20 - original`, `presenca TERR. 20 - revisada`)
 #como estamos de NAs
 count(p3, is.na(county), is.na(municipio))
 
-p3 %>% filter(!is.na(municipio) & !is.na(county)) %>% filter(municipio != county) %>% head()
+p3 %>% filter(!is.na(municipio) & !is.na(county)) %>% filter(municipio != county) %>%
+  select("municipio", "county") %>% View()
 count(p3, county, municipio)
 p3 %>% filter(!is.na(municipio) & is.na(county)) %>% View()
 
@@ -38,7 +66,7 @@ p3 <- p3 %>% mutate(mpo_county = case_when(
 )
 #checa que tenha ficado bom
 p3 %>% filter(!is.na(municipio) & !is.na(county)) %>% filter(municipio != county) %>%
-  select(municipio, county, mpo_county)
+  select(municipio, county, mpo_county) %>% View()
 names(p3)
 
 # crea un string comparable: mpo_check----
@@ -86,7 +114,9 @@ p3 <- p3 %>% mutate(mpo_check2 = case_when(
   mpo_check == "sp" ~ "saopaulo")) %>%
   mutate(mpo_check3 = if_else(is.na(mpo_check2), mpo_check, mpo_check2))
 
-p3 %>% select(mpo_county, mpo_check, mpo_check2, mpo_check3) %>% distinct() %>%
+p3 %>%
+  select(mpo_county, mpo_check, mpo_check2, mpo_check3) %>%
+  distinct() %>%
   readr::write_csv("./output/p3/p3_check_mun.csv")
 p3 <- p3 %>%
   select(-mpo_check, -mpo_check2) %>%
@@ -131,33 +161,50 @@ write_csv(detected_t20, "output/p3/checks_municipio_detected.csv")
 p3_corr$mun_detected_t20 <- detected_t20$detected_t20
 p3_corr$mun_detected_t20[p3_corr$mun_detected_t20 == ""] <- NA
 
+#faltou verbatim
+names(p3_corr)
+vloc_detect <- p3_corr %>%
+  select(ID, verbatimLocality) %>%
+  clean_string(verbatimLocality)
+
+p3_corr$municipio_verbatim_localidade <-
+  mpo_shape$NM_MUN[match(x = vloc_detect$mpo_check, table = mpo_shape$mpo_check)]
+write_csv(tibble(municipio_verbatim_localidade = p3_corr$municipio_verbatim_localidade), "output/p3/checks_municipio_verbatim_localidade.csv")
+
+#extrai sò municipios do t20
+names(mpos_t20$mpo_check) <- mpos_t20$municipio_padronizado
+test_purr2 <- purrr::imap(mpos_t20$mpo_check,
+                         ~if_else(stringr::str_detect(vloc_detect$mpo_check, .x), .y, NA_character_))
+test_p <- bind_rows(test_purr2)
+library(tidyr)
+detected_t20_v <- unite(data = test_p, "detected_t20_v", sep = ",",na.rm = T)
+write_csv(detected_t20_v, "output/p3/checks_municipio_detected_VERBATIM.csv")
+
+p3_corr$mun_detected_t20_v <- detected_t20_v$detected_t20_v
+p3_corr$mun_detected_t20_v[p3_corr$mun_detected_t20_v == ""] <- NA
+
 #crea el municipio final a partir de donde hay NAs o no.
 p3_corr <- p3_corr %>%
-  mutate(municipio_padronizado2 = if_else(is.na(mpo_county), municipio_localidade, municipio_padronizado))
+  mutate(municipio_padronizado2 =
+           if_else(is.na(mpo_county), municipio_localidade, municipio_padronizado))
 
-count(p3_corr, mpo_county, municipio_localidade, municipio_padronizado, mun_detected_t20, municipio_padronizado2) %>%
-  arrange(desc(n)) %>% View()
+# count(p3_corr, mpo_county, municipio_localidade, municipio_padronizado, mun_detected_t20, municipio_padronizado2) %>%
+#   arrange(desc(n)) %>% View()
+
+
 p3_corr <- p3_corr %>%
   mutate(municipio_padronizado_final =
-           if_else(is.na(municipio_padronizado2) & !is.na(mun_detected_t20),
-                                               mun_detected_t20,
-                                               municipio_padronizado2))
+           if_else(is.na(municipio_padronizado2) &
+                     !is.na(mun_detected_t20),
+                   mun_detected_t20,
+                   municipio_padronizado2)) %>%
+  mutate(municipio_padronizado_final =
+           if_else(is.na(municipio_padronizado_final) &
+                     !is.na(mun_detected_t20_v),
+                   mun_detected_t20_v,
+                   municipio_padronizado_final))
 
-count(p3_corr, municipio_padronizado2, mun_detected_t20, municipio_padronizado_final) %>% View()
-count(p3_corr, mpo_county, municipio_padronizado2) %>% arrange(desc(n)) %>% View()
-count(p3_corr, is.na(municipio_padronizado2))
 write_csv(p3_corr, "output/p3/p3_municipio_localidade_match.csv")
 
-p3_corr %>%
-  #filter(`presenca TERR. 20 - revisada` == 1) %>%
-  count(is.na(municipio) &
-        is.na(mpo_county)&
-        is.na(municipio_localidade)&
-        is.na(municipio_padronizado)&
-        is.na(municipio_padronizado2),
-        is.na(mun_detected_t20),
-        is.na(municipio_padronizado_final)
-        ) %>% View()
-p3_corr %>% filter(!is.na(mpo_county)) %>% select(mpo_county, mpo_check, municipio_padronizado) %>% distinct() %>% View()
-
 #listo detectar parcialmente t20
+

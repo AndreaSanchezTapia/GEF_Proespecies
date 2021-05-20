@@ -20,10 +20,6 @@ write_csv(p3_corr, "output/p3/p3_municipio_localidade_match_coletores_numero.csv
 #names(p3_corr)
 
 #año
-names(p3_corr)
-p3_corr$ano_coleta
-ano_plantR <- getYear(p3_corr$ano_coleta)
-data.frame(p = ano_plantR, a= p3_corr$ano_coleta) %>% count(p == a)
 
 p3_corr %>% count(especie, Nome_coletor_padronizado2, numero_coletor_padronizado1, ano_coleta) %>%
   filter(numero_coletor_padronizado1 != "s.n.") %>%
