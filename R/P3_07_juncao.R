@@ -14,17 +14,17 @@ rtf_old <-  readr::read_csv("output/p3/p3_ready_to_filter.csv",
   janitor::clean_names()
 write_csv(rtf_old, "output/p3/p3_ready_to_filter.csv")
 
-rtf <-  readxl::read_xlsx("data/dados_formatados/p3/patricia/p3_ready_to_filter-20-05-21- PR e HCL_AST.xlsx", guess_max = 100000, trim_ws = T) %>%
+rtfPR <-  readxl::read_xlsx("data/dados_formatados/p3/patricia/p3_ready_to_filter-20-05-21- PR e HCL_AST.xlsx", guess_max = 100000, trim_ws = T) %>%
   janitor::clean_names()
 
-rtf <- rtf %>%
+rtfPR <- rtfPR %>%
   mutate(across(starts_with("ano"), as.numeric)) %>%
   mutate(across(starts_with("mes"), as.numeric)) %>%
   mutate(across(starts_with("dia"), as.numeric)) %>%
   mutate(across(starts_with("presenca"), as.numeric)) %>%
   mutate(tombo_herbario_origem = as.numeric(tombo_herbario_origem)) %>% mutate(cd_mun = as.numeric(cd_mun)) %>%
   select(-area_km2)
-write_csv(rtf, "output/p3/p3_rtf.csv")
+write_csv(rtfPR, "output/p3/p3_rtf.csv")
 
 leo <-  readxl::read_xlsx("data/dados_formatados/p3/leo/Base de dados Territorio 20 - Produto 3_Cópia 24_05_Download.xlsx", guess_max = 100000, skip = 1) %>%
   rename(especie = especie...6) %>%
@@ -65,21 +65,22 @@ coord_leo <- leo %>%
 
 # padronizar municipio patricia affe----
 
-mpo_PR <- rtf %>%
+mpo_PR <- rtfPR %>%
   select(id, especie, municipio) %>%
   rename(mPR = municipio) %>%
   clean_string(mPR)
-mpo_original <- rtf_old %>%
-  select(id, especie, municipio) %>%
-  clean_string(municipio) %>%
-  rename(mpo_old = mpo_check)
-mpo_PR_final <- full_join(mpo_original, mpo_PR) %>%
-  left_join(mpo_shape) %>%
-  filter(mpo_check != mpo_old) %>% filter(mPR != "NA") %>%
+# mpo_original <- rtf_old %>%
+#   select(id, especie, municipio) %>%
+#   clean_string(municipio) %>%
+#   rename(mpo_old = mpo_check)
+mpo_PR_final <- #full_join(mpo_original, mpo_PR) %>%
+  left_join(mpo_PR, mpo_shape) %>%
+  #filter(mpo_check != mpo_old) %>%
+  filter(mPR != "NA") %>%
 # só manter quando a substituição é feita por um nome de municipio válido
   filter(!is.na(municipio_padronizado)) %>%
-  rename(municipio_corrigido = municipio_padronizado) %>%
-  select(id, municipio_corrigido)
+  rename(mPRf = municipio_padronizado) %>%
+  select(id, mPRf)
 
 
 

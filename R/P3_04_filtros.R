@@ -22,6 +22,7 @@ p3_etiqueta <- p3_corr_sf %>%
   mutate(nota_etiqueta = if_else(numero_coletor_padronizado1 == "s.n.", "registro_sem_numero_coletor", NA_character_))
 length(unique(p3_etiqueta$etiqueta))#13958 #14841 sin lo de escopo
 
+
 #tem duplicados?
 ha_dupl <- p3_etiqueta %>% count(etiqueta) %>% filter(n != 1) #9702
 p3_etiqueta <- p3_etiqueta %>%
