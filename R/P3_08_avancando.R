@@ -52,6 +52,7 @@ length(unique(leo$long_corrigida))
 
 mpos_t20 <-  read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
 mpos_t20 <- clean_string(mpos_t20, NM_MUNICIP)
+mpos_t20 <- mpos_t20 %>% left_join(mpo_shape)
 sort(mpos_t20$mpo_check)
 
 #solve ambi
