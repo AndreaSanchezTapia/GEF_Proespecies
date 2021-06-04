@@ -13,7 +13,8 @@ file_data_frame <- function(folder) {
 read_sf2 <- function(x, column = "XY",  ...) {
   if (column == "XY") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=X", "Y_POSSIBLE_NAMES=Y"), ...)
   if (column == "latlon") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=decimalLongitude", "Y_POSSIBLE_NAMES=decimalLatitude"), ...)
-  if (column == "ellos") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=long_original", "Y_POSSIBLE_NAMES=lat_original"), ...)
+  if (column == "original") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=long_original", "Y_POSSIBLE_NAMES=lat_original"), ...)
+  if (column == "corrigida") y <- read_sf(x, options = c("X_POSSIBLE_NAMES=long_corrigida", "Y_POSSIBLE_NAMES=lat_corrigida"), ...)
   return(y)
   }
 #writes tables as sf
@@ -63,3 +64,35 @@ clean_string <- function(x, var) {
   x$mpo_check <- gsub("[[:digit:]]", "", x$mpo_check)
   return(x)
 }
+format_dupl <- function(x, var, ...) {
+  x <- x %>%
+    transmute(etiqueta = trimws(tolower(textclean::replace_non_ascii(paste({{var}}))),
+                              whitespace = "[ \\t\\r\\n\U00A0]"))
+  x$etiqueta <- gsub("\\s|\\t|\\r|\\n|\U00A0", "", x$etiqueta)
+  x$etiqueta <- gsub("\\'", "", x$etiqueta)
+  x$etiqueta <- gsub("\\-", "", x$etiqueta)
+  x$etiqueta <- gsub("[[:punct:]]", "", x$etiqueta)
+  x$etiqueta <- gsub("[[:digit:]]", "", x$etiqueta)
+  return(x)
+}
+
+clean_string2 <- function(.data, var) {
+   .data <-
+    transmute(.data, clean = trimws(tolower(textclean::replace_non_ascii({{var}})),
+                              whitespace = "[ \\t\\r\\n\U00A0]"))
+  .data$clean <- gsub("\\s|\\t|\\r|\\n|\U00A0|\\'|\\-|[[:punct:]]|[[:digit:]]", "", .data$clean)
+  return(.data)
+}
+
+mpos <- read_sf("data/dados_crus/BR_Municipios_2020/BR_Municipios_2020.shp")
+mpos <- clean_string(mpos, NM_MUN)
+#los nombres padrao ----
+mpo_shape <-  mpos %>%
+  select(mpo_check, NM_MUN) %>%
+  sf::st_drop_geometry() %>% distinct() %>%
+  rename(municipio_padronizado = NM_MUN)
+mpo_shape
+
+mpos_t20 <-  read_sf("data/dados_crus/Municipios_Territorio_20/Municipios_Territorio_20.shp")
+mpos_t20 <- clean_string(mpos_t20, NM_MUNICIP)
+mpos_t20 <- mpos_t20 %>% left_join(mpo_shape)

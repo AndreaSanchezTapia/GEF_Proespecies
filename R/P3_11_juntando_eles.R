@@ -3,7 +3,14 @@ library(readr)
 library(dplyr)
 
 #
-rtf_o <- readr::read_csv("output/p3/p3_rtf_26MAY.csv", guess_max = 100000)
+rtf_o <- readr::read_csv("output/p3/p3_rtf_27MAY.csv", guess_max = 100000)
+names(rtf_o)
+count(rtf_o, T20)
+rtf_o %>% group_by(etiqueta_duplicaDO) %>%
+filter(rtf_o, T20 == "FICA_ETIQUETA_DUPLICADO_IN_T20") %>% count(municipio_final %in% mpos_t20$municipio_padronizado,
+                                                                 !municipio_final %in% mpos_t20$municipio_padronizado)
+
+
 coord_original <- rtf_o %>% select(id,
                                    especie,
                                    lat_original, long_original,
