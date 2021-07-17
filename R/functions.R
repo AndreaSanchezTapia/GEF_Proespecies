@@ -88,7 +88,7 @@ mpos <- read_sf("data/dados_crus/BR_Municipios_2020/BR_Municipios_2020.shp")
 mpos <- clean_string(mpos, NM_MUN)
 #los nombres padrao ----
 mpo_shape <-  mpos %>%
-  select(mpo_check, NM_MUN) %>%
+  dplyr::select(mpo_check, NM_MUN) %>%
   sf::st_drop_geometry() %>% distinct() %>%
   rename(municipio_padronizado = NM_MUN)
 mpo_shape
