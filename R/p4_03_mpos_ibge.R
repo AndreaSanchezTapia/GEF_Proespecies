@@ -4,7 +4,7 @@ library(readxl)
 #dados_p4 <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1qkaAzzlEM0XlryckvcKFIg37QY1Ng0U-/edit#gid=1564349686", sheet = 3)
 source("R/functions.R")
 registros <- read_excel("data/dados_formatados/p4/PRODUTO 4 - Base de dados - Territorio 20 - São Paulo.xlsx"
-                    , sheet =1)
+                    , sheet = 1)
 write_csv(registros, "output/p4/registros.csv")
 
 cruza_mpos_ibge <- function(csv) {

@@ -1,4 +1,7 @@
 library(sf)
+csv <- "output/p4/p4_conflitos.csv"
+final_sf <- read_sf(csv,
+                    options = c("X_POSSIBLE_NAMES=long_corrigida", "Y_POSSIBLE_NAMES=lat_corrigida"))
 shapes_PMSP <- list.files("data/dados_formatados/veg/IPF_Dados_Espaciais_Produto3/UCs_PMSP_2020/",
                           full.names = T, pattern = "shp$")
 shapes_SPFF <- list.files("data/dados_formatados/veg/IPF_Dados_Espaciais_Produto3/UCs_SP_FF_2021//",
@@ -10,7 +13,7 @@ shapes_veg <- list.files("data/dados_formatados/veg/IPF_Dados_Espaciais_Produto3
 shapes <- c(shapes_PMSP, shapes_SPFF, shapes_SPIBT, shapes_veg)
 SHAPES <- purrr::map(shapes, ~sf::read_sf(.x))
 crs <- purrr::map(SHAPES, ~sf::st_crs(.x))
-wip_sf <- st_set_crs(wip3, st_crs(mposIBGE))
+wip_sf <- st_set_crs(df, st_crs(mposIBGE))
 
 tr <- purrr::map(SHAPES,
                  ~st_transform(wip_sf, st_crs(.x))
@@ -85,8 +88,8 @@ bind_cols(UCS_WDPA) %>% write_csv("output/p3/p3_WDPA.csv")
 
 
 ucs <- list.files("data/dados_crus/UC_TODAS_LEO/", pattern = ".shp$", recursive = T , full.names = T)
-
 ucshape <- read_sf(ucs)
+
 sf::st_crs(ucshape)
 #wip_sf <- st_set_crs(wip3, st_crs(mposIBGE))
 ucshape <- st_set_crs(ucshape, st_crs(wip3))
