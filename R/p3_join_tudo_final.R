@@ -75,7 +75,8 @@ table(sc$situacao_coordenada.x, sc$situacao_coordenada.y)
 filter(situacao_coordenada.x != situacao_coordenada.y) %>%
   View()#no need
 #cob
-pat_cob <- pat %>% select(id, coordenada_original_boa, lat_corrigida, lat_corrigida_centroide, long_corrigida_centroide)
+pat_cob <- pat %>%
+  select(id, coordenada_original_boa, lat_corrigida, lat_corrigida_centroide, long_corrigida_centroide)
 COB_PAT <- merge_cob %>% left_join(pat_cob, by = "id") %>%
 mutate(coordenada_original_boa =
          if_else(
@@ -157,6 +158,8 @@ uc_leo5 <- uc_leo4 %>% mutate(
 source("R/functions.R")
 mpos_t20c <- sf::st_point_on_surface(mpos_t20) %>% mutate(col = "red")
 mm <- mpos_t20c %>% st_as_sf()
+write_csv(mm, "output/p4/03_p4_centroide_municipio.csv")
+mm %>% View()
 library(tmap)
 tmap_mode("view")
 tm_shape(mpos_t20) +
