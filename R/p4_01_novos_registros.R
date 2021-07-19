@@ -1,6 +1,8 @@
 #library("googlesheets4")
 library(dplyr)
 library(readxl)
+library(readr)
+
 #googlesheets4::gs4_browse(ss = )
 #dados_p4 <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1qkaAzzlEM0XlryckvcKFIg37QY1Ng0U-/edit#gid=1564349686", sheet = 3)
 
@@ -25,9 +27,11 @@ notas <- filter(tudo, nome_aceito_correto %in% new_spp) %>%
   select(nome_aceito_correto, apta, fontes, notas) %>%
   rename(especie = nome_aceito_correto)
 dir.create("output/p4")
-left_join(dados, notas) %>% write_csv("output/p4/01_notas_apta.csv")
+dado <- left_join(dados, notas)
+write_csv(dado, "output/p4/01_notas_apta.csv")
 
 
 
 library(flora)
 get.taxa(new_spp , drop = NULL) %>% write_csv("output/p4/02_new_spp_flora.csv")
+
