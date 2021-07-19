@@ -1,7 +1,10 @@
 library(sf)
+source("R/functions.R")
+mposIBGE <- mpos %>% dplyr::select(NM_MUN)
 csv <- "output/p4/p4_conflitos.csv"
 final_sf <- read_sf(csv,
                     options = c("X_POSSIBLE_NAMES=long_corrigida", "Y_POSSIBLE_NAMES=lat_corrigida"))
+
 shapes_PMSP <- list.files("data/dados_formatados/veg/IPF_Dados_Espaciais_Produto3/UCs_PMSP_2020/",
                           full.names = T, pattern = "shp$")
 shapes_SPFF <- list.files("data/dados_formatados/veg/IPF_Dados_Espaciais_Produto3/UCs_SP_FF_2021//",
@@ -13,7 +16,7 @@ shapes_veg <- list.files("data/dados_formatados/veg/IPF_Dados_Espaciais_Produto3
 shapes <- c(shapes_PMSP, shapes_SPFF, shapes_SPIBT, shapes_veg)
 SHAPES <- purrr::map(shapes, ~sf::read_sf(.x))
 crs <- purrr::map(SHAPES, ~sf::st_crs(.x))
-wip_sf <- st_set_crs(df, st_crs(mposIBGE))
+wip_sf <- st_set_crs(final_sf, st_crs(mposIBGE))
 
 tr <- purrr::map(SHAPES,
                  ~st_transform(wip_sf, st_crs(.x))
@@ -21,8 +24,7 @@ tr <- purrr::map(SHAPES,
 jn <- purrr::map2(tr,SHAPES,
                   ~st_join(.x, .y)
 )
-# ucs <- purrr::map(jn,
-#                   ~select(.x, id, NOME) %>% st_drop_geometry())
+
 
 a <- select(jn[[1]], id, NOME) %>% st_drop_geometry()
 b <- select(jn[[2]], id, NOME) %>% st_drop_geometry()
@@ -55,8 +57,13 @@ names(ucs) <- c("id",
                 "Rebio_Paranapiacaba",
                 "RADAM")
 
-write_csv(ucs, "output/p3/p3_cruzamento_shapes.csv")
-f %>% group_by(id) %>% mutate(uc= paste(UC, collapse = "/")) %>% select(-UC) %>% distinct() %>% write_csv("output/p3/p3_ucs.csv")
+write_csv(ucs, "output/p4/p4_cruzamento_shapes.csv")
+f %>%
+  group_by(id) %>%
+  mutate(uc = paste(UC, collapse = "/")) %>%
+  select(-UC) %>%
+  distinct() %>%
+  write_csv("output/p4/p4_ucs.csv")
 jn[[6]] %>% count(Label
 )
 
@@ -66,8 +73,6 @@ shapes_UCWDPA <- list.files("data/dados_crus/WDPA", pattern = ".shp$", recursive
 SHAPES <- purrr::map(shapes_UCWDPA, ~sf::read_sf(.x))
 
 crs <- purrr::map(SHAPES, ~sf::st_crs(.x))
-#wip_sf <- st_set_crs(wip3, st_crs(mposIBGE))
-
 tr <- purrr::map(SHAPES,
                  ~st_transform(wip_sf, st_crs(.x))
 )
@@ -84,7 +89,7 @@ UCS_WDPA <- purrr::map(wdpa, ~.x %>% group_by(id) %>%
                          select(-NAME) %>%
                          distinct())
 }
-bind_cols(UCS_WDPA) %>% write_csv("output/p3/p3_WDPA.csv")
+bind_cols(UCS_WDPA) %>% write_csv("output/p4/4p4_WDPA.csv")
 
 
 ucs <- list.files("data/dados_crus/UC_TODAS_LEO/", pattern = ".shp$", recursive = T , full.names = T)
