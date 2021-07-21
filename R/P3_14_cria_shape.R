@@ -38,14 +38,33 @@ sum(is.na(anexo2$long_corrigida))
 names(anexo2)
 library(readxl)
 readr::write_csv(anexo2, "output/p3/anexo2_14jun.csv")
+anexo2 <- readr::read_csv( "output/p3/anexo2_14jun.csv",
+                           skip = 1,
+                           guess_max = 13000)
 
 library(sf)
+library(dplyr)
 anexo3 <- anexo2[complete.cases(
   anexo2[,c("long_corrigida", "lat_corrigida")]),]
-anexo3 <- janitor::clean_names(anexo3, case = "all_caps" )
-names(anexo3)
+#anexo3 <- janitor::clean_names(anexo3, case = "all_caps" )
+#names(anexo3)
 shape <-  st_as_sf(anexo3, coords = c("long_corrigida", "lat_corrigida"))
-stringr::str_trunc(names(shape), 10, side = c("right", "left", "center"), ellipsis = "")
 names(shape)
-shape %>% select(id) %>%
-write_sf( "output/p3/anexo2_shapefile.shp")
+shape2 <- shape %>% select(
+  id,
+  familia,
+  especie,
+  starts_with("cat_ameaca"),
+  planta_cultivada,
+  duplicata,
+  Nome_coletor_padronizado,
+  numero_coletor,
+  ano_coleta,
+  municipio,
+  localidade
+)
+shape2 %>%
+  dplyr::rename_with(.cols = starts_with("cat_ameaca"),
+                     .fn = function(x) gsub("cat_ameaca_", "CA_", x)) %>% write_sf( "output/p3/anexo3_shapefile_final.gpkg")
+
+write_sf(shape, "output/p3/anexo3_shapefile_completo.gpkg")
