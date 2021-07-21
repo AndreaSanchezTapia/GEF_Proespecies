@@ -190,9 +190,13 @@ final_sf_uc <- final_sf_veg %>%
   select(colss) %>%
   select(-RADAM) %>%
   select(-conflito_3_rodada) %>%
-  rename(conflito = conflito_municipios_new_new_new)
-write_csv(final_sf_veg, "output/p4/p4_updated.csv")
+  rename(conflito = conflito_municipios_new_new_new) %>%
+  left_join(bora) %>%
+  rename(UC_USP = est)
+write_csv(final_sf_uc, "output/p4/p4_updated.csv")
 
 
 
-left_join(final_sf_veg, bora) %>% filter(est == "EBB") %>% View()
+left_join(final_sf_veg, bora) %>% rename(UC_USP = est)
+
+count(final_sf_veg, tipo_veg_RADAM)
